@@ -1,0 +1,28 @@
+{
+  "all_attributes": {
+    "incorporationState": "NSW",
+    "is_registered": "false",
+    "messageType": "getNni",
+    "messageVersion": "3",
+    "numberHeading": "ACN",
+    "previousStateTerritory": {
+      "number": "13849823",
+      "stateTerritoryCode": "NSW"
+    },
+    "regulator": "Australian Securities & Investments Commission",
+    "status_code": "DRGD",
+    "types_class_code": "LMSH",
+    "types_code": "APTY",
+    "types_subclass_code": "PROP",
+    "types_subclass_descr": "Proprietary Company"
+  },
+  "branch": null,
+  "company_number": "000934556",
+  "company_type": "Australian Proprietary Company, Limited By Shares",
+  "current_status": "Deregistered",
+  "dissolution_date": "",
+  "incorporation_date": "",
+  "jurisdiction_code": "au",
+  "name": "TRIO CONSTRUCTIONS PTY LTD",
+  "retrieved_at": "2020-04-23T12:48:14Z"
+}

@@ -1,0 +1,126 @@
+{
+  "all_attributes": {
+    "dateReview": "2021-01-01",
+    "incorporationState": "NSW",
+    "is_registered": "false",
+    "messageType": "getNni",
+    "messageVersion": "3",
+    "numberHeading": "ACN",
+    "previousStateTerritory": {
+      "number": "02780901",
+      "stateTerritoryCode": "NSW"
+    },
+    "regulator": "Australian Securities & Investments Commission",
+    "status_code": "NOAC",
+    "types_class_code": "LMSH",
+    "types_code": "APTY",
+    "types_subclass_code": "PROP",
+    "types_subclass_descr": "Proprietary Company"
+  },
+  "branch": null,
+  "company_number": "000077556",
+  "company_type": "Australian Proprietary Company, Limited By Shares",
+  "current_status": "Non-Active",
+  "dissolution_date": "",
+  "filings": [
+    {
+      "date": "2006-06-13",
+      "filing_type_code": "580",
+      "filing_type_name": "COURT ORDER TO RESTORE COMPANY TO REGISTER",
+      "other_attributes": {
+        "numberOfPages": "1"
+      },
+      "title": "COURT ORDER TO RESTORE COMPANY TO REGISTER",
+      "uid": "019293238"
+    },
+    {
+      "date": "2006-06-27",
+      "filing_type_code": "9204",
+      "filing_type_name": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "other_attributes": {
+        "numberOfPages": "44"
+      },
+      "title": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "uid": "022907240"
+    },
+    {
+      "date": "2006-06-27",
+      "filing_type_code": "9205",
+      "filing_type_name": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS",
+      "other_attributes": {
+        "numberOfPages": "41"
+      },
+      "title": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS",
+      "uid": "022907241"
+    },
+    {
+      "date": "2006-06-27",
+      "filing_type_code": "9206",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "other_attributes": {
+        "numberOfPages": "17"
+      },
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "uid": "022907819"
+    },
+    {
+      "date": "2006-06-27",
+      "filing_type_code": "9206",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "other_attributes": {
+        "numberOfPages": "39"
+      },
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "uid": "022907817"
+    },
+    {
+      "date": "2006-06-27",
+      "filing_type_code": "9206",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "other_attributes": {
+        "numberOfPages": "40"
+      },
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "uid": "022907242"
+    },
+    {
+      "date": "2006-06-27",
+      "filing_type_code": "9206",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "other_attributes": {
+        "numberOfPages": "40"
+      },
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "uid": "022907818"
+    },
+    {
+      "date": "2006-06-27",
+      "filing_type_code": "9207",
+      "filing_type_name": "PRE 1991 MORTGAGES, CHARGES, DEBENTURES RECEIVER APPOINT/",
+      "other_attributes": {
+        "numberOfPages": "2"
+      },
+      "title": "PRE 1991 MORTGAGES, CHARGES, DEBENTURES RECEIVER APPOINT/",
+      "uid": "022907243"
+    },
+    {
+      "date": "2006-06-27",
+      "filing_type_code": "9209",
+      "filing_type_name": "PRE 1991 SECURITY REGISTER RELATING TO COMPANY CHARGES",
+      "other_attributes": {
+        "numberOfPages": "28"
+      },
+      "title": "PRE 1991 SECURITY REGISTER RELATING TO COMPANY CHARGES",
+      "uid": "022907244"
+    }
+  ],
+  "incorporation_date": "",
+  "jurisdiction_code": "au",
+  "name": "HILLSDALE INVESTMENTS PTY LTD",
+  "previous_names": [
+    {
+      "company_name": "DENZIL MACARTHUR ONSLOW PTY LTD"
+    }
+  ],
+  "retrieved_at": "2020-04-23T12:48:09Z"
+}

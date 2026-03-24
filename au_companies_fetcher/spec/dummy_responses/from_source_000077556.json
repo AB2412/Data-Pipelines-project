@@ -1,0 +1,142 @@
+{
+  "Envelope": {
+    "xmlns:env": "http://www.w3.org/2003/05/soap-envelope",
+    "Body": {
+      "reply": {
+        "xmlns:types": "uri:types.asic.gov.au",
+        "xmlns:nni.types": "uri:nni.types.asic.gov.au",
+        "xmlns:external.get.nni": "uri:v3.external.get.nni.asic.gov.au",
+        "xmlns:business.document.header.types": "uri:business.document.header.types.asic.gov.au",
+        "xmlns:bn.types": "uri:bn.types.asic.gov.au",
+        "xmlns:ascot.types": "uri:ascot.types.asic.gov.au",
+        "xmlns:abn.types": "uri:abn.types.asic.gov.au",
+        "businessDocumentHeader": {
+          "messageType": "getNni",
+          "messageReferenceNumber": "ABC",
+          "asicReferenceNumber": "7b690411-5503-4571-97ab-18279aadaefb",
+          "messageVersion": "3",
+          "senderId": "ASIC",
+          "senderType": "GOVT",
+          "softwareInformation": {
+            "organisationalName": "ASIC",
+            "productName": "Business Names",
+            "productVersion": "1"
+          },
+          "messageTimestamps": {
+            "messageTimestamp": {
+              "timestamp": "2017-02-10T01:13:24",
+              "source": "ASIC"
+            }
+          },
+          "result": {
+            "accepted": "true"
+          }
+        },
+        "businessDocumentBody": {
+          "nniEntity": {
+            "identifier": {
+              "numberHeading": "ACN",
+              "number": "77556"
+            },
+            "name": {
+              "name": "HILLSDALE INVESTMENTS PTY LTD"
+            },
+            "type": {
+              "code": "APTY",
+              "description": "Australian Proprietary Company"
+            },
+            "class": {
+              "code": "LMSH",
+              "description": "Limited By Shares"
+            },
+            "subClass": {
+              "code": "PROP",
+              "description": "Proprietary Company"
+            },
+            "status": {
+              "code": "NOAC",
+              "description": "Non-Active",
+              "isRegistered": "false"
+            },
+            "incorporationState": "NSW",
+            "previousStateTerritory": {
+              "number": "02780901",
+              "stateTerritoryCode": "NSW"
+            },
+            "dateRegistered": "1582-01-01",
+            "dateReview": "2018-01-01",
+            "jurisdiction": "Australian Securities & Investments Commission",
+            "formerName": {
+              "organisationName": "DENZIL MACARTHUR ONSLOW PTY LTD"
+            },
+            "recentDocument": [
+              {
+                "documentNumber": "022907817",
+                "dateReceived": "2006-06-27",
+                "formCode": "9206",
+                "numberOfPages": "39",
+                "description": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS"
+              },
+              {
+                "documentNumber": "022907818",
+                "dateReceived": "2006-06-27",
+                "formCode": "9206",
+                "numberOfPages": "40",
+                "description": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS"
+              },
+              {
+                "documentNumber": "022907819",
+                "dateReceived": "2006-06-27",
+                "formCode": "9206",
+                "numberOfPages": "17",
+                "description": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS"
+              },
+              {
+                "documentNumber": "022907240",
+                "dateReceived": "2006-06-27",
+                "formCode": "9204",
+                "numberOfPages": "44",
+                "description": "PRE 1991 MEMORANDUM AND ARTICLES"
+              },
+              {
+                "documentNumber": "022907241",
+                "dateReceived": "2006-06-27",
+                "formCode": "9205",
+                "numberOfPages": "41",
+                "description": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS"
+              },
+              {
+                "documentNumber": "022907242",
+                "dateReceived": "2006-06-27",
+                "formCode": "9206",
+                "numberOfPages": "40",
+                "description": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS"
+              },
+              {
+                "documentNumber": "022907243",
+                "dateReceived": "2006-06-27",
+                "formCode": "9207",
+                "numberOfPages": "2",
+                "description": "PRE 1991 MORTGAGES, CHARGES, DEBENTURES RECEIVER APPOINT/"
+              },
+              {
+                "documentNumber": "022907244",
+                "dateReceived": "2006-06-27",
+                "formCode": "9209",
+                "numberOfPages": "28",
+                "description": "PRE 1991 SECURITY REGISTER RELATING TO COMPANY CHARGES"
+              },
+              {
+                "documentNumber": "019293238",
+                "dateReceived": "2006-06-13",
+                "formCode": "580",
+                "numberOfPages": "1",
+                "description": "COURT ORDER TO RESTORE COMPANY TO REGISTER"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

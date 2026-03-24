@@ -1,0 +1,640 @@
+{
+  "Envelope": {
+    "xmlns:env": "http://www.w3.org/2003/05/soap-envelope",
+    "Body": {
+      "reply": {
+        "xmlns:types": "uri:types.asic.gov.au",
+        "xmlns:nni.types": "uri:nni.types.asic.gov.au",
+        "xmlns:external.get.nni": "uri:v3.external.get.nni.asic.gov.au",
+        "xmlns:business.document.header.types": "uri:business.document.header.types.asic.gov.au",
+        "xmlns:bn.types": "uri:bn.types.asic.gov.au",
+        "xmlns:ascot.types": "uri:ascot.types.asic.gov.au",
+        "xmlns:abn.types": "uri:abn.types.asic.gov.au",
+        "businessDocumentHeader": {
+          "messageType": "getNni",
+          "messageReferenceNumber": "ABC",
+          "asicReferenceNumber": "bbcc6804-8262-45bf-8307-79a7c28ae02e",
+          "messageVersion": "3",
+          "senderId": "ASIC",
+          "senderType": "GOVT",
+          "softwareInformation": {
+            "organisationalName": "ASIC",
+            "productName": "Business Names",
+            "productVersion": "1"
+          },
+          "messageTimestamps": {
+            "messageTimestamp": {
+              "timestamp": "2017-02-09T06:29:18",
+              "source": "ASIC"
+            }
+          },
+          "result": {
+            "accepted": "true"
+          }
+        },
+        "businessDocumentBody": {
+          "nniEntity": {
+            "identifier": {
+              "numberHeading": "ACN",
+              "number": "3047"
+            },
+            "name": {
+              "name": "DARLING IS S'DORING/LIGHTERAGE CO LTD"
+            },
+            "type": {
+              "code": "APUB",
+              "description": "Australian Public Company"
+            },
+            "class": {
+              "code": "LMSH",
+              "description": "Limited By Shares"
+            },
+            "subClass": {
+              "code": "NONE",
+              "description": "Unknown"
+            },
+            "status": {
+              "code": "EXAD",
+              "description": "Externally Administered",
+              "isRegistered": "true"
+            },
+            "incorporationState": "NSW",
+            "previousStateTerritory": {
+              "number": "00245008",
+              "stateTerritoryCode": "NSW"
+            },
+            "dateRegistered": "1905-01-26",
+            "dateReview": "2018-01-26",
+            "jurisdiction": "Australian Securities & Investments Commission",
+            "address": {
+              "type": "RG",
+              "addressLine": "RESTRICTED",
+              "iso3166CountryCode": "AU",
+              "locality": "PYRMONT",
+              "postCode": "2009",
+              "state": "NSW"
+            },
+            "recentDocument": [
+              {
+                "documentNumber": "7E8491276",
+                "dateReceived": "2016-11-03",
+                "formCode": "506",
+                "numberOfPages": "6",
+                "description": "NOTICE OF CHANGE OF ADDRESS BY EXTERNAL ADMINISTRATOR",
+                "additionalDescription": {
+                  "subformCode": "506L",
+                  "subformDescription": "NOTICE OF CHANGE OF ADDRESS OF EXTERNAL ADMINISTRATOR(ELEC)"
+                }
+              },
+              {
+                "documentNumber": "7E8276437",
+                "dateReceived": "2016-08-23",
+                "formCode": "524",
+                "numberOfPages": "10",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524E",
+                  "subformDescription": "ACCOUNTS OF WINDING UP BY COURT"
+                }
+              },
+              {
+                "documentNumber": "7E7743094",
+                "dateReceived": "2016-03-01",
+                "formCode": "524",
+                "numberOfPages": "10",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524E",
+                  "subformDescription": "ACCOUNTS OF WINDING UP BY COURT"
+                }
+              },
+              {
+                "documentNumber": "7E7227958",
+                "dateReceived": "2015-08-19",
+                "formCode": "524",
+                "numberOfPages": "10",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524E",
+                  "subformDescription": "ACCOUNTS OF WINDING UP BY COURT"
+                }
+              },
+              {
+                "documentNumber": "7E6766376",
+                "dateReceived": "2015-03-03",
+                "formCode": "524",
+                "numberOfPages": "10",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524E",
+                  "subformDescription": "ACCOUNTS OF WINDING UP BY COURT"
+                }
+              },
+              {
+                "documentNumber": "7E6356318",
+                "dateReceived": "2014-09-10",
+                "formCode": "524",
+                "numberOfPages": "10",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524E",
+                  "subformDescription": "ACCOUNTS OF WINDING UP BY COURT"
+                }
+              },
+              {
+                "documentNumber": "7E5886993",
+                "dateReceived": "2014-03-06",
+                "formCode": "524",
+                "numberOfPages": "10",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524E",
+                  "subformDescription": "ACCOUNTS OF WINDING UP BY COURT"
+                }
+              },
+              {
+                "documentNumber": "7E5506316",
+                "dateReceived": "2013-09-12",
+                "formCode": "524",
+                "numberOfPages": "10",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524E",
+                  "subformDescription": "ACCOUNTS OF WINDING UP BY COURT"
+                }
+              },
+              {
+                "documentNumber": "7E5030501",
+                "dateReceived": "2013-02-19",
+                "formCode": "524",
+                "numberOfPages": "10",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524E",
+                  "subformDescription": "ACCOUNTS OF WINDING UP BY COURT"
+                }
+              },
+              {
+                "documentNumber": "7E4715147",
+                "dateReceived": "2012-09-12",
+                "formCode": "524",
+                "numberOfPages": "10",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524E",
+                  "subformDescription": "ACCOUNTS OF WINDING UP BY COURT"
+                }
+              },
+              {
+                "documentNumber": "7E4290579",
+                "dateReceived": "2012-02-22",
+                "formCode": "524",
+                "numberOfPages": "10",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524E",
+                  "subformDescription": "ACCOUNTS OF WINDING UP BY COURT"
+                }
+              },
+              {
+                "documentNumber": "7E3900789",
+                "dateReceived": "2011-08-23",
+                "formCode": "524",
+                "numberOfPages": "10",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524E",
+                  "subformDescription": "ACCOUNTS OF WINDING UP BY COURT"
+                }
+              },
+              {
+                "documentNumber": "7E3490843",
+                "dateReceived": "2011-02-22",
+                "formCode": "524",
+                "numberOfPages": "10",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524E",
+                  "subformDescription": "ACCOUNTS OF WINDING UP BY COURT"
+                }
+              },
+              {
+                "documentNumber": "7E3170035",
+                "dateReceived": "2010-09-14",
+                "formCode": "524",
+                "numberOfPages": "10",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524E",
+                  "subformDescription": "ACCOUNTS OF WINDING UP BY COURT"
+                }
+              },
+              {
+                "documentNumber": "7E2791937",
+                "dateReceived": "2010-03-26",
+                "formCode": "506",
+                "numberOfPages": "7",
+                "description": "NOTICE OF CHANGE OF ADDRESS BY EXTERNAL ADMINISTRATOR",
+                "additionalDescription": {
+                  "subformCode": "506L",
+                  "subformDescription": "NOTICE OF CHANGE OF ADDRESS OF EXTERNAL ADMINISTRATOR(ELEC)"
+                }
+              },
+              {
+                "documentNumber": "7E2752553",
+                "dateReceived": "2010-03-08",
+                "formCode": "524",
+                "numberOfPages": "10",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524E",
+                  "subformDescription": "ACCOUNTS OF WINDING UP BY COURT"
+                }
+              },
+              {
+                "documentNumber": "7E2415123",
+                "dateReceived": "2009-09-07",
+                "formCode": "524",
+                "numberOfPages": "10",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524E",
+                  "subformDescription": "ACCOUNTS OF WINDING UP BY COURT"
+                }
+              },
+              {
+                "documentNumber": "7E2079088",
+                "dateReceived": "2009-03-11",
+                "formCode": "524",
+                "numberOfPages": "10",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524E",
+                  "subformDescription": "ACCOUNTS OF WINDING UP BY COURT"
+                }
+              },
+              {
+                "documentNumber": "7E1782472",
+                "dateReceived": "2008-08-29",
+                "formCode": "524",
+                "numberOfPages": "10",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524E",
+                  "subformDescription": "ACCOUNTS OF WINDING UP BY COURT"
+                }
+              },
+              {
+                "documentNumber": "7E1493858",
+                "dateReceived": "2008-02-25",
+                "formCode": "524",
+                "numberOfPages": "10",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524E",
+                  "subformDescription": "ACCOUNTS OF WINDING UP BY COURT"
+                }
+              },
+              {
+                "documentNumber": "7E1260330",
+                "dateReceived": "2007-08-31",
+                "formCode": "524",
+                "numberOfPages": "12",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524E",
+                  "subformDescription": "ACCOUNTS OF WINDING UP BY COURT"
+                }
+              },
+              {
+                "documentNumber": "7E1029938",
+                "dateReceived": "2007-03-06",
+                "formCode": "524",
+                "numberOfPages": "12",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524E",
+                  "subformDescription": "ACCOUNTS OF WINDING UP BY COURT"
+                }
+              },
+              {
+                "documentNumber": "7E0830185",
+                "dateReceived": "2006-08-31",
+                "formCode": "524",
+                "numberOfPages": "12",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524E",
+                  "subformDescription": "ACCOUNTS OF WINDING UP BY COURT"
+                }
+              },
+              {
+                "documentNumber": "7E0637420",
+                "dateReceived": "2006-03-07",
+                "formCode": "524",
+                "numberOfPages": "10",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524E",
+                  "subformDescription": "ACCOUNTS OF WINDING UP BY COURT"
+                }
+              },
+              {
+                "documentNumber": "022398016",
+                "dateReceived": "2005-09-13",
+                "formCode": "524",
+                "numberOfPages": "5",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524A",
+                  "subformDescription": "LIQUIDATOR'S ACCOUNT AND STATEMENT"
+                }
+              },
+              {
+                "documentNumber": "021070455",
+                "dateReceived": "2005-03-10",
+                "formCode": "524",
+                "numberOfPages": "5",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524A",
+                  "subformDescription": "LIQUIDATOR'S ACCOUNT AND STATEMENT"
+                }
+              },
+              {
+                "documentNumber": "019812007",
+                "dateReceived": "2004-09-09",
+                "formCode": "524",
+                "numberOfPages": "7",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524A",
+                  "subformDescription": "LIQUIDATOR'S ACCOUNT AND STATEMENT"
+                }
+              },
+              {
+                "documentNumber": "7E0124764",
+                "dateReceived": "2004-04-07",
+                "formCode": "506",
+                "numberOfPages": "3",
+                "description": "NOTICE OF CHANGE OF ADDRESS BY EXTERNAL ADMINISTRATOR",
+                "additionalDescription": {
+                  "subformCode": "506L",
+                  "subformDescription": "NOTICE OF CHANGE OF ADDRESS OF EXTERNAL ADMINISTRATOR(ELEC)"
+                }
+              },
+              {
+                "documentNumber": "019277224",
+                "dateReceived": "2004-03-12",
+                "formCode": "524",
+                "numberOfPages": "7",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524A",
+                  "subformDescription": "LIQUIDATOR'S ACCOUNT AND STATEMENT"
+                }
+              },
+              {
+                "documentNumber": "019408871",
+                "dateReceived": "2003-08-28",
+                "formCode": "524",
+                "numberOfPages": "5",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524A",
+                  "subformDescription": "LIQUIDATOR'S ACCOUNT AND STATEMENT"
+                }
+              },
+              {
+                "documentNumber": "018583407",
+                "dateReceived": "2003-03-06",
+                "formCode": "524",
+                "numberOfPages": "7",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524A",
+                  "subformDescription": "LIQUIDATOR'S ACCOUNT AND STATEMENT"
+                }
+              },
+              {
+                "documentNumber": "018423780",
+                "dateReceived": "2002-09-04",
+                "formCode": "524",
+                "numberOfPages": "7",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524A",
+                  "subformDescription": "LIQUIDATOR'S ACCOUNT AND STATEMENT"
+                }
+              },
+              {
+                "documentNumber": "018117278",
+                "dateReceived": "2002-03-13",
+                "formCode": "524",
+                "numberOfPages": "7",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524A",
+                  "subformDescription": "LIQUIDATOR'S ACCOUNT AND STATEMENT"
+                }
+              },
+              {
+                "documentNumber": "017424747",
+                "dateReceived": "2001-09-06",
+                "formCode": "524",
+                "numberOfPages": "5",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524A",
+                  "subformDescription": "LIQUIDATOR'S ACCOUNT AND STATEMENT"
+                }
+              },
+              {
+                "documentNumber": "016952574",
+                "dateReceived": "2001-03-12",
+                "formCode": "524",
+                "numberOfPages": "5",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524A",
+                  "subformDescription": "LIQUIDATOR'S ACCOUNT AND STATEMENT"
+                }
+              },
+              {
+                "documentNumber": "016579334",
+                "dateReceived": "2000-08-30",
+                "formCode": "524",
+                "numberOfPages": "5",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524A",
+                  "subformDescription": "LIQUIDATOR'S ACCOUNT AND STATEMENT"
+                }
+              },
+              {
+                "documentNumber": "016236544",
+                "dateReceived": "2000-03-14",
+                "formCode": "524",
+                "numberOfPages": "5",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524A",
+                  "subformDescription": "LIQUIDATOR'S ACCOUNT AND STATEMENT"
+                }
+              },
+              {
+                "documentNumber": "014960752",
+                "dateReceived": "1999-08-27",
+                "formCode": "524",
+                "numberOfPages": "11",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524A",
+                  "subformDescription": "LIQUIDATOR'S ACCOUNT AND STATEMENT"
+                }
+              },
+              {
+                "documentNumber": "015095203",
+                "dateReceived": "1999-03-05",
+                "formCode": "524",
+                "numberOfPages": "11",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524A",
+                  "subformDescription": "LIQUIDATOR'S ACCOUNT AND STATEMENT"
+                }
+              },
+              {
+                "documentNumber": "014516093",
+                "dateReceived": "1998-08-28",
+                "formCode": "524",
+                "numberOfPages": "11",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524A",
+                  "subformDescription": "LIQUIDATOR'S ACCOUNT AND STATEMENT"
+                }
+              },
+              {
+                "documentNumber": "013428493",
+                "dateReceived": "1998-03-03",
+                "formCode": "524",
+                "numberOfPages": "11",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524A",
+                  "subformDescription": "LIQUIDATOR'S ACCOUNT AND STATEMENT"
+                }
+              },
+              {
+                "documentNumber": "013753013",
+                "dateReceived": "1997-10-22",
+                "formCode": "505",
+                "numberOfPages": "3",
+                "description": "NOTICE BY EXTERNAL ADMINISTRATOR OF APPOINTMENT OR CESSATION",
+                "additionalDescription": {
+                  "subformCode": "505G",
+                  "subformDescription": "APPOINTMENT OF LIQUIDATOR (COURT WINDING UP)"
+                }
+              },
+              {
+                "documentNumber": "012977890",
+                "dateReceived": "1997-10-22",
+                "formCode": "505",
+                "numberOfPages": "3",
+                "description": "NOTICE BY EXTERNAL ADMINISTRATOR OF APPOINTMENT OR CESSATION",
+                "additionalDescription": {
+                  "subformCode": "505R",
+                  "subformDescription": "RESIGNATION OR REMOVAL OF LIQUIDATOR/PROVISIONAL LIQUIDATOR"
+                }
+              },
+              {
+                "documentNumber": "012983889",
+                "dateReceived": "1997-08-25",
+                "formCode": "524",
+                "numberOfPages": "11",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524A",
+                  "subformDescription": "LIQUIDATOR'S ACCOUNT AND STATEMENT"
+                }
+              },
+              {
+                "documentNumber": "012739280",
+                "dateReceived": "1997-04-14",
+                "formCode": "506",
+                "numberOfPages": "1",
+                "description": "NOTICE OF CHANGE OF ADDRESS BY EXTERNAL ADMINISTRATOR",
+                "additionalDescription": {
+                  "subformCode": "506E",
+                  "subformDescription": "CHANGE ADDRESS OF LIQUIDATOR"
+                }
+              },
+              {
+                "documentNumber": "012024406",
+                "dateReceived": "1997-03-12",
+                "formCode": "524",
+                "numberOfPages": "11",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524A",
+                  "subformDescription": "LIQUIDATOR'S ACCOUNT AND STATEMENT"
+                }
+              },
+              {
+                "documentNumber": "011579732",
+                "dateReceived": "1996-08-19",
+                "formCode": "524",
+                "numberOfPages": "11",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524A",
+                  "subformDescription": "LIQUIDATOR'S ACCOUNT AND STATEMENT"
+                }
+              },
+              {
+                "documentNumber": "011126090",
+                "dateReceived": "1996-02-15",
+                "formCode": "524",
+                "numberOfPages": "11",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524A",
+                  "subformDescription": "LIQUIDATOR'S ACCOUNT AND STATEMENT"
+                }
+              },
+              {
+                "documentNumber": "010496025",
+                "dateReceived": "1995-09-11",
+                "formCode": "524",
+                "numberOfPages": "11",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524A",
+                  "subformDescription": "LIQUIDATOR'S ACCOUNT AND STATEMENT"
+                }
+              },
+              {
+                "documentNumber": "008523777",
+                "dateReceived": "1995-02-20",
+                "formCode": "524",
+                "numberOfPages": "11",
+                "description": "PRESENTATION OF ACCOUNTS & STATEMENT",
+                "additionalDescription": {
+                  "subformCode": "524A",
+                  "subformDescription": "LIQUIDATOR'S ACCOUNT AND STATEMENT"
+                }
+              }
+            ],
+            "abrEntity": {
+              "abn": "37000003047",
+              "entityName": "DARLING IS S'DORING/LIGHTERAGE CO LTD",
+              "entityType": "PUB",
+              "effectiveDate": "1999-11-01"
+            }
+          }
+        }
+      }
+    }
+  }
+}

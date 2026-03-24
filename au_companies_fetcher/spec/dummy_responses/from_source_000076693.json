@@ -1,0 +1,315 @@
+{
+  "Envelope": {
+    "xmlns:env": "http://www.w3.org/2003/05/soap-envelope",
+    "Body": {
+      "reply": {
+        "xmlns:types": "uri:types.asic.gov.au",
+        "xmlns:nni.types": "uri:nni.types.asic.gov.au",
+        "xmlns:external.get.nni": "uri:v3.external.get.nni.asic.gov.au",
+        "xmlns:business.document.header.types": "uri:business.document.header.types.asic.gov.au",
+        "xmlns:bn.types": "uri:bn.types.asic.gov.au",
+        "xmlns:ascot.types": "uri:ascot.types.asic.gov.au",
+        "xmlns:abn.types": "uri:abn.types.asic.gov.au",
+        "businessDocumentHeader": {
+          "messageType": "getNni",
+          "messageReferenceNumber": "ABC",
+          "asicReferenceNumber": "20c56cef-8d8a-4ce1-9561-abb8d81e706c",
+          "messageVersion": "3",
+          "senderId": "ASIC",
+          "senderType": "GOVT",
+          "softwareInformation": {
+            "organisationalName": "ASIC",
+            "productName": "Business Names",
+            "productVersion": "1"
+          },
+          "messageTimestamps": {
+            "messageTimestamp": {
+              "timestamp": "2017-02-10T01:07:10",
+              "source": "ASIC"
+            }
+          },
+          "result": {
+            "accepted": "true"
+          }
+        },
+        "businessDocumentBody": {
+          "nniEntity": {
+            "identifier": {
+              "numberHeading": "ACN",
+              "number": "76693"
+            },
+            "name": {
+              "name": "PORT JACKSON STEVEDORING PTY LTD"
+            },
+            "type": {
+              "code": "APTY",
+              "description": "Australian Proprietary Company"
+            },
+            "class": {
+              "code": "LMSH",
+              "description": "Limited By Shares"
+            },
+            "subClass": {
+              "code": "PROP",
+              "description": "Proprietary Company"
+            },
+            "status": {
+              "code": "EXAD",
+              "description": "Externally Administered",
+              "isRegistered": "true"
+            },
+            "incorporationState": "NSW",
+            "previousStateTerritory": {
+              "number": "02764848",
+              "stateTerritoryCode": "NSW"
+            },
+            "dateRegistered": "1948-12-07",
+            "dateReview": "2017-12-07",
+            "jurisdiction": "Australian Securities & Investments Commission",
+            "address": [
+              {
+                "type": "RG",
+                "addressLine": "RESTRICTED",
+                "iso3166CountryCode": "AU",
+                "locality": "MOSMAN",
+                "postCode": "2088",
+                "state": "NSW"
+              },
+              {
+                "type": "PA",
+                "addressLine": "RESTRICTED",
+                "iso3166CountryCode": "AU",
+                "locality": "WOOLLOOMOOLOO",
+                "postCode": "2011",
+                "state": "NSW"
+              }
+            ],
+            "recentDocument": [
+              {
+                "documentNumber": "025771696",
+                "dateReceived": "2010-01-19",
+                "formCode": "9206",
+                "numberOfPages": "36",
+                "description": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS"
+              },
+              {
+                "documentNumber": "025771697",
+                "dateReceived": "2010-01-19",
+                "formCode": "9207",
+                "numberOfPages": "55",
+                "description": "PRE 1991 MORTGAGES, CHARGES, DEBENTURES RECEIVER APPOINT/"
+              },
+              {
+                "documentNumber": "025771698",
+                "dateReceived": "2010-01-19",
+                "formCode": "9209",
+                "numberOfPages": "8",
+                "description": "PRE 1991 SECURITY REGISTER RELATING TO COMPANY CHARGES"
+              },
+              {
+                "documentNumber": "025771691",
+                "dateReceived": "2010-01-19",
+                "formCode": "9205",
+                "numberOfPages": "27",
+                "description": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS"
+              },
+              {
+                "documentNumber": "025771692",
+                "dateReceived": "2010-01-19",
+                "formCode": "9206",
+                "numberOfPages": "40",
+                "description": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS"
+              },
+              {
+                "documentNumber": "025771693",
+                "dateReceived": "2010-01-19",
+                "formCode": "9206",
+                "numberOfPages": "40",
+                "description": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS"
+              },
+              {
+                "documentNumber": "025771694",
+                "dateReceived": "2010-01-19",
+                "formCode": "9206",
+                "numberOfPages": "41",
+                "description": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS"
+              },
+              {
+                "documentNumber": "025771695",
+                "dateReceived": "2010-01-19",
+                "formCode": "9206",
+                "numberOfPages": "38",
+                "description": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS"
+              },
+              {
+                "documentNumber": "025771687",
+                "dateReceived": "2010-01-19",
+                "formCode": "9204",
+                "numberOfPages": "35",
+                "description": "PRE 1991 MEMORANDUM AND ARTICLES"
+              },
+              {
+                "documentNumber": "025771688",
+                "dateReceived": "2010-01-19",
+                "formCode": "9205",
+                "numberOfPages": "38",
+                "description": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS"
+              },
+              {
+                "documentNumber": "025771689",
+                "dateReceived": "2010-01-19",
+                "formCode": "9205",
+                "numberOfPages": "28",
+                "description": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS"
+              },
+              {
+                "documentNumber": "025771690",
+                "dateReceived": "2010-01-19",
+                "formCode": "9205",
+                "numberOfPages": "35",
+                "description": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS"
+              },
+              {
+                "documentNumber": "025771686",
+                "dateReceived": "2010-01-19",
+                "formCode": "9204",
+                "numberOfPages": "35",
+                "description": "PRE 1991 MEMORANDUM AND ARTICLES"
+              },
+              {
+                "documentNumber": "023878083",
+                "dateReceived": "2007-06-07",
+                "formCode": "370",
+                "numberOfPages": "3",
+                "description": "NOTIFICATION BY OFFICEHOLDER OF RESIGNATION OR RETIREMENT"
+              },
+              {
+                "documentNumber": "021667174",
+                "dateReceived": "2005-07-25",
+                "formCode": "203",
+                "numberOfPages": "1",
+                "description": "NOTICE OF CHANGE-OFFICE HOURS OR ADDRESS OF 1 OR MORE CORPS",
+                "additionalDescription": {
+                  "subformCode": "203W",
+                  "subformDescription": "WITHDRAWAL OF CONSENT FOR REGISTERED OFFICE"
+                }
+              },
+              {
+                "documentNumber": "017989541",
+                "dateReceived": "2002-04-02",
+                "formCode": "580",
+                "numberOfPages": "2",
+                "description": "COURT ORDER TO RESTORE COMPANY TO REGISTER",
+                "additionalDescription": {
+                  "subformCode": "203W",
+                  "subformDescription": "WITHDRAWAL OF CONSENT FOR REGISTERED OFFICE"
+                }
+              },
+              {
+                "documentNumber": "00007669C",
+                "dateReceived": "1993-02-24",
+                "formCode": "316",
+                "description": "ANNUAL RETURN",
+                "additionalDescription": [
+                  {
+                    "subformCode": "316C",
+                    "subformDescription": "ANNUAL RETURN CHANGE - OFFICEHOLDERS"
+                  },
+                  {
+                    "subformCode": "316L",
+                    "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "00007669B",
+                "dateReceived": "1992-02-28",
+                "formCode": "316",
+                "numberOfPages": "4",
+                "description": "ANNUAL RETURN",
+                "additionalDescription": [
+                  {
+                    "subformCode": "316E",
+                    "subformDescription": "CORRECTIONS"
+                  },
+                  {
+                    "subformCode": "316L",
+                    "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "0007669A",
+                "dateReceived": "1992-02-28",
+                "formCode": "316",
+                "numberOfPages": "4",
+                "description": "ANNUAL RETURN",
+                "additionalDescription": [
+                  {
+                    "subformCode": "316E",
+                    "subformDescription": "CORRECTIONS"
+                  },
+                  {
+                    "subformCode": "316L",
+                    "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "000191689",
+                "dateReceived": "1990-10-23",
+                "formCode": "C1",
+                "numberOfPages": "2",
+                "description": "NOTICE OF CHARGE",
+                "additionalDescription": [
+                  {
+                    "subformCode": "316E",
+                    "subformDescription": "CORRECTIONS"
+                  },
+                  {
+                    "subformCode": "316L",
+                    "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "000191688",
+                "dateReceived": "1990-10-23",
+                "formCode": "C4",
+                "numberOfPages": "1",
+                "description": "RELEASE / SATISFACTION OF CHARGE",
+                "additionalDescription": [
+                  {
+                    "subformCode": "316E",
+                    "subformDescription": "CORRECTIONS"
+                  },
+                  {
+                    "subformCode": "316L",
+                    "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "000191687",
+                "dateReceived": "1990-10-23",
+                "formCode": "C1",
+                "numberOfPages": "2",
+                "description": "NOTICE OF CHARGE",
+                "additionalDescription": [
+                  {
+                    "subformCode": "316E",
+                    "subformDescription": "CORRECTIONS"
+                  },
+                  {
+                    "subformCode": "316L",
+                    "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

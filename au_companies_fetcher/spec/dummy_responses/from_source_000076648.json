@@ -1,0 +1,553 @@
+{
+  "Envelope": {
+    "xmlns:env": "http://www.w3.org/2003/05/soap-envelope",
+    "Body": {
+      "reply": {
+        "xmlns:types": "uri:types.asic.gov.au",
+        "xmlns:nni.types": "uri:nni.types.asic.gov.au",
+        "xmlns:external.get.nni": "uri:v3.external.get.nni.asic.gov.au",
+        "xmlns:business.document.header.types": "uri:business.document.header.types.asic.gov.au",
+        "xmlns:bn.types": "uri:bn.types.asic.gov.au",
+        "xmlns:ascot.types": "uri:ascot.types.asic.gov.au",
+        "xmlns:abn.types": "uri:abn.types.asic.gov.au",
+        "businessDocumentHeader": {
+          "messageType": "getNni",
+          "messageReferenceNumber": "ABC",
+          "asicReferenceNumber": "ef5e7ec0-74fc-40a0-bf8f-686c13c935f4",
+          "messageVersion": "3",
+          "senderId": "ASIC",
+          "senderType": "GOVT",
+          "softwareInformation": {
+            "organisationalName": "ASIC",
+            "productName": "Business Names",
+            "productVersion": "1"
+          },
+          "messageTimestamps": {
+            "messageTimestamp": {
+              "timestamp": "2017-02-10T01:06:45",
+              "source": "ASIC"
+            }
+          },
+          "result": {
+            "accepted": "true"
+          }
+        },
+        "businessDocumentBody": {
+          "nniEntity": {
+            "identifier": {
+              "numberHeading": "ACN",
+              "number": "76648"
+            },
+            "name": {
+              "name": "WOODSON PTY LTD"
+            },
+            "type": {
+              "code": "APTY",
+              "description": "Australian Proprietary Company"
+            },
+            "class": {
+              "code": "LMSH",
+              "description": "Limited By Shares"
+            },
+            "subClass": {
+              "code": "PROP",
+              "description": "Proprietary Company"
+            },
+            "status": {
+              "code": "REGD",
+              "description": "Registered",
+              "isRegistered": "true"
+            },
+            "incorporationState": "NSW",
+            "previousStateTerritory": {
+              "number": "02763312",
+              "stateTerritoryCode": "NSW"
+            },
+            "dateRegistered": "1948-12-07",
+            "dateReview": "2017-12-07",
+            "jurisdiction": "Australian Securities & Investments Commission",
+            "address": [
+              {
+                "type": "RG",
+                "addressLine": "RESTRICTED",
+                "iso3166CountryCode": "AU",
+                "locality": "CROMER",
+                "postCode": "2099",
+                "state": "NSW"
+              },
+              {
+                "type": "PA",
+                "addressLine": "RESTRICTED",
+                "iso3166CountryCode": "AU",
+                "locality": "CROMER",
+                "postCode": "2099",
+                "state": "NSW"
+              }
+            ],
+            "recentDocument": [
+              {
+                "documentNumber": "2E3671885",
+                "dateReceived": "2016-05-10",
+                "formCode": "484",
+                "numberOfPages": "3",
+                "description": "CHANGE TO COMPANY DETAILS",
+                "additionalDescription": {
+                  "subformCode": "484N",
+                  "subformDescription": "CHANGES TO (MEMBERS) SHARE HOLDINGS"
+                }
+              },
+              {
+                "documentNumber": "029525554",
+                "dateReceived": "2016-04-28",
+                "formCode": "2205",
+                "numberOfPages": "7",
+                "description": "NOTIFICATION OF RESOLUTION RELATING TO SHARES",
+                "additionalDescription": {
+                  "subformCode": "2205B",
+                  "subformDescription": "CONVERT SHARES INTO LARGER OR SMALLER NUMBER"
+                }
+              },
+              {
+                "documentNumber": "1F0458247",
+                "dateReceived": "2014-04-04",
+                "formCode": "484",
+                "numberOfPages": "3",
+                "description": "CHANGE TO COMPANY DETAILS",
+                "additionalDescription": {
+                  "subformCode": "484E",
+                  "subformDescription": "APPOINTMENT OR CESSATION OF A COMPANY OFFICEHOLDER"
+                }
+              },
+              {
+                "documentNumber": "7E3375145",
+                "dateReceived": "2010-12-20",
+                "formCode": "484",
+                "numberOfPages": "2",
+                "description": "CHANGE TO COMPANY DETAILS",
+                "additionalDescription": [
+                  {
+                    "subformCode": "484B",
+                    "subformDescription": "CHANGE OF REGISTERED ADDRESS"
+                  },
+                  {
+                    "subformCode": "484C",
+                    "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+                  },
+                  {
+                    "subformCode": "484A2",
+                    "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "7E2728862",
+                "dateReceived": "2010-02-24",
+                "formCode": "484",
+                "numberOfPages": "2",
+                "description": "CHANGE TO COMPANY DETAILS",
+                "additionalDescription": [
+                  {
+                    "subformCode": "484A1",
+                    "subformDescription": "CHANGE OFFICEHOLDER NAME OR ADDRESS"
+                  },
+                  {
+                    "subformCode": "484C",
+                    "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+                  },
+                  {
+                    "subformCode": "484A2",
+                    "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "0E8078231",
+                "dateReceived": "2002-12-09",
+                "formCode": "316",
+                "numberOfPages": "3",
+                "description": "ANNUAL RETURN",
+                "additionalDescription": [
+                  {
+                    "subformCode": "316L",
+                    "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+                  },
+                  {
+                    "subformCode": "484C",
+                    "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+                  },
+                  {
+                    "subformCode": "484A2",
+                    "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "0E6986160",
+                "dateReceived": "2002-01-31",
+                "formCode": "316",
+                "numberOfPages": "3",
+                "description": "ANNUAL RETURN",
+                "additionalDescription": [
+                  {
+                    "subformCode": "316L",
+                    "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+                  },
+                  {
+                    "subformCode": "484C",
+                    "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+                  },
+                  {
+                    "subformCode": "484A2",
+                    "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "0E5974353",
+                "dateReceived": "2001-07-13",
+                "formCode": "304",
+                "numberOfPages": "1",
+                "description": "NOTICE OF CHANGE TO OFFICEHOLDERS",
+                "additionalDescription": [
+                  {
+                    "subformCode": "304A",
+                    "subformDescription": "APPOINT/CEASE DIRECTORS AND SECRETARIES - AUST COY"
+                  },
+                  {
+                    "subformCode": "484C",
+                    "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+                  },
+                  {
+                    "subformCode": "484A2",
+                    "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "0E5878453",
+                "dateReceived": "2001-05-31",
+                "formCode": "902",
+                "numberOfPages": "1",
+                "description": "SUPPLEMENTARY DOCUMENT",
+                "additionalDescription": [
+                  {
+                    "subformCode": "304A",
+                    "subformDescription": "APPOINT/CEASE DIRECTORS AND SECRETARIES - AUST COY"
+                  },
+                  {
+                    "subformCode": "484C",
+                    "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+                  },
+                  {
+                    "subformCode": "484A2",
+                    "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "0E5529562",
+                "dateReceived": "2001-01-25",
+                "formCode": "316",
+                "numberOfPages": "3",
+                "description": "ANNUAL RETURN",
+                "additionalDescription": [
+                  {
+                    "subformCode": "316L",
+                    "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+                  },
+                  {
+                    "subformCode": "484C",
+                    "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+                  },
+                  {
+                    "subformCode": "484A2",
+                    "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "0E3643821",
+                "dateReceived": "1999-11-01",
+                "formCode": "316",
+                "numberOfPages": "3",
+                "description": "ANNUAL RETURN",
+                "additionalDescription": [
+                  {
+                    "subformCode": "316L",
+                    "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+                  },
+                  {
+                    "subformCode": "484C",
+                    "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+                  },
+                  {
+                    "subformCode": "484A2",
+                    "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "00007664I",
+                "dateReceived": "1998-11-06",
+                "formCode": "316",
+                "numberOfPages": "3",
+                "description": "ANNUAL RETURN",
+                "additionalDescription": [
+                  {
+                    "subformCode": "316L",
+                    "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+                  },
+                  {
+                    "subformCode": "484C",
+                    "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+                  },
+                  {
+                    "subformCode": "484A2",
+                    "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "00007664H",
+                "dateReceived": "1997-11-07",
+                "formCode": "316",
+                "numberOfPages": "4",
+                "description": "ANNUAL RETURN",
+                "additionalDescription": [
+                  {
+                    "subformCode": "316L",
+                    "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+                  },
+                  {
+                    "subformCode": "484C",
+                    "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+                  },
+                  {
+                    "subformCode": "484A2",
+                    "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "00007664G",
+                "dateReceived": "1997-03-04",
+                "formCode": "316",
+                "numberOfPages": "4",
+                "description": "ANNUAL RETURN",
+                "additionalDescription": [
+                  {
+                    "subformCode": "316L",
+                    "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+                  },
+                  {
+                    "subformCode": "484C",
+                    "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+                  },
+                  {
+                    "subformCode": "484A2",
+                    "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "00007664F",
+                "dateReceived": "1996-01-08",
+                "formCode": "316",
+                "numberOfPages": "4",
+                "description": "ANNUAL RETURN",
+                "additionalDescription": [
+                  {
+                    "subformCode": "316L",
+                    "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+                  },
+                  {
+                    "subformCode": "484C",
+                    "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+                  },
+                  {
+                    "subformCode": "484A2",
+                    "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "009514292",
+                "dateReceived": "1995-07-03",
+                "formCode": "304",
+                "numberOfPages": "2",
+                "description": "NOTICE OF CHANGE TO OFFICEHOLDERS",
+                "additionalDescription": [
+                  {
+                    "subformCode": "304C",
+                    "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDER - AUST COY"
+                  },
+                  {
+                    "subformCode": "484C",
+                    "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+                  },
+                  {
+                    "subformCode": "484A2",
+                    "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "007170861",
+                "dateReceived": "1995-02-03",
+                "formCode": "316",
+                "numberOfPages": "4",
+                "description": "ANNUAL RETURN",
+                "additionalDescription": [
+                  {
+                    "subformCode": "316L",
+                    "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+                  },
+                  {
+                    "subformCode": "484C",
+                    "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+                  },
+                  {
+                    "subformCode": "484A2",
+                    "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "007479514",
+                "dateReceived": "1994-07-11",
+                "formCode": "304",
+                "numberOfPages": "2",
+                "description": "NOTICE OF CHANGE TO OFFICEHOLDERS",
+                "additionalDescription": [
+                  {
+                    "subformCode": "304A",
+                    "subformDescription": "APPOINT/CEASE DIRECTORS AND SECRETARIES - AUST COY"
+                  },
+                  {
+                    "subformCode": "484C",
+                    "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+                  },
+                  {
+                    "subformCode": "484A2",
+                    "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "00007664D",
+                "dateReceived": "1994-01-20",
+                "formCode": "316",
+                "numberOfPages": "4",
+                "description": "ANNUAL RETURN",
+                "additionalDescription": [
+                  {
+                    "subformCode": "316L",
+                    "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+                  },
+                  {
+                    "subformCode": "484C",
+                    "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+                  },
+                  {
+                    "subformCode": "484A2",
+                    "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "00007664C",
+                "dateReceived": "1993-01-29",
+                "formCode": "316",
+                "numberOfPages": "4",
+                "description": "ANNUAL RETURN",
+                "additionalDescription": [
+                  {
+                    "subformCode": "316L",
+                    "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+                  },
+                  {
+                    "subformCode": "484C",
+                    "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+                  },
+                  {
+                    "subformCode": "484A2",
+                    "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "003520303",
+                "dateReceived": "1992-10-09",
+                "formCode": "203",
+                "numberOfPages": "1",
+                "description": "NOTICE OF CHANGE-OFFICE HOURS OR ADDRESS OF 1 OR MORE CORPS",
+                "additionalDescription": [
+                  {
+                    "subformCode": "203A",
+                    "subformDescription": "CHANGE OF ADDRESS - AUSTRALIAN COMPANY"
+                  },
+                  {
+                    "subformCode": "484C",
+                    "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+                  },
+                  {
+                    "subformCode": "484A2",
+                    "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "00007664B",
+                "dateReceived": "1992-01-13",
+                "formCode": "316",
+                "numberOfPages": "4",
+                "description": "ANNUAL RETURN",
+                "additionalDescription": [
+                  {
+                    "subformCode": "316E",
+                    "subformDescription": "CORRECTIONS"
+                  },
+                  {
+                    "subformCode": "316L",
+                    "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+                  },
+                  {
+                    "subformCode": "484A2",
+                    "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+                  }
+                ]
+              },
+              {
+                "documentNumber": "0007664A",
+                "dateReceived": "1991-01-21",
+                "formCode": "316",
+                "numberOfPages": "4",
+                "description": "ANNUAL RETURN",
+                "additionalDescription": [
+                  {
+                    "subformCode": "316E",
+                    "subformDescription": "CORRECTIONS"
+                  },
+                  {
+                    "subformCode": "316L",
+                    "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+                  },
+                  {
+                    "subformCode": "484A2",
+                    "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+                  }
+                ]
+              }
+            ],
+            "abrEntity": {
+              "abn": "79000076648",
+              "entityName": "WOODSON PTY LTD",
+              "entityType": "PRV",
+              "effectiveDate": "2000-04-06"
+            }
+          }
+        }
+      }
+    }
+  }
+}

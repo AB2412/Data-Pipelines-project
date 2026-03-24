@@ -1,0 +1,105 @@
+{
+  "Envelope": {
+    "xmlns:env": "http://www.w3.org/2003/05/soap-envelope",
+    "Body": {
+      "reply": {
+        "xmlns:types": "uri:types.asic.gov.au",
+        "xmlns:nni.types": "uri:nni.types.asic.gov.au",
+        "xmlns:external.get.nni": "uri:v3.external.get.nni.asic.gov.au",
+        "xmlns:business.document.header.types": "uri:business.document.header.types.asic.gov.au",
+        "xmlns:bn.types": "uri:bn.types.asic.gov.au",
+        "xmlns:ascot.types": "uri:ascot.types.asic.gov.au",
+        "xmlns:abn.types": "uri:abn.types.asic.gov.au",
+        "businessDocumentHeader": {
+          "messageType": "getNni",
+          "messageReferenceNumber": "ABC",
+          "asicReferenceNumber": "7ae4fb79-a54c-4965-9039-91ecbcb619c2",
+          "messageVersion": "3",
+          "senderId": "ASIC",
+          "senderType": "GOVT",
+          "softwareInformation": {
+            "organisationalName": "ASIC",
+            "productName": "Business Names",
+            "productVersion": "1"
+          },
+          "messageTimestamps": {
+            "messageTimestamp": {
+              "timestamp": "2017-03-22T22:31:33",
+              "source": "ASIC"
+            }
+          },
+          "result": {
+            "accepted": "true"
+          }
+        },
+        "businessDocumentBody": {
+          "nniEntity": {
+            "identifier": {
+              "numberHeading": "ACN",
+              "number": "617683780"
+            },
+            "name": {
+              "name": "LOGISTICS PLUS PTY LTD"
+            },
+            "type": {
+              "code": "APTY",
+              "description": "Australian Proprietary Company"
+            },
+            "class": {
+              "code": "LMSH",
+              "description": "Limited By Shares"
+            },
+            "subClass": {
+              "code": "PROP",
+              "description": "Proprietary Company"
+            },
+            "status": {
+              "code": "REGD",
+              "description": "Registered",
+              "isRegistered": "true"
+            },
+            "incorporationState": "SA",
+            "dateRegistered": "2017-02-28",
+            "dateReview": "2018-02-28",
+            "jurisdiction": "Australian Securities & Investments Commission",
+            "address": [
+              {
+                "type": "RG",
+                "addressLine": "RESTRICTED",
+                "iso3166CountryCode": "AU",
+                "locality": "LIGHTSVIEW",
+                "postCode": "5085",
+                "state": "SA"
+              },
+              {
+                "type": "PA",
+                "addressLine": "RESTRICTED",
+                "iso3166CountryCode": "AU",
+                "locality": "LIGHTSVIEW",
+                "postCode": "5085",
+                "state": "SA"
+              }
+            ],
+            "recentDocument": {
+              "documentNumber": "2E9497323",
+              "dateReceived": "2017-02-28",
+              "formCode": "201",
+              "numberOfPages": "3",
+              "description": "APPLICATION FOR INCORPORATION (DIVN 1)",
+              "additionalDescription": {
+                "subformCode": "201C",
+                "subformDescription": "PROPRIETARY COMPANY"
+              }
+            },
+            "abrEntity": {
+              "abn": "50617683780",
+              "entityName": "LOGISTICS PLUS PTY LTD",
+              "entityType": "PRV",
+              "effectiveDate": "2017-03-01"
+            }
+          }
+        }
+      }
+    }
+  }
+}

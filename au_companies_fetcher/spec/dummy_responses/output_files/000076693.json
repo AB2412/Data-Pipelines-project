@@ -1,0 +1,334 @@
+{
+  "all_attributes": {
+    "dateReview": "2020-12-07",
+    "incorporationState": "NSW",
+    "is_registered": "true",
+    "messageType": "getNni",
+    "messageVersion": "3",
+    "numberHeading": "ACN",
+    "previousStateTerritory": {
+      "number": "02764848",
+      "stateTerritoryCode": "NSW"
+    },
+    "regulator": "Australian Securities & Investments Commission",
+    "status_code": "EXAD",
+    "types_class_code": "LMSH",
+    "types_code": "APTY",
+    "types_subclass_code": "PROP",
+    "types_subclass_descr": "Proprietary Company"
+  },
+  "branch": null,
+  "company_number": "000076693",
+  "company_type": "Australian Proprietary Company, Limited By Shares",
+  "current_status": "Externally Administered",
+  "dissolution_date": "",
+  "filings": [
+    {
+      "date": "1990-10-23",
+      "filing_type_code": "C1",
+      "filing_type_name": "NOTICE OF CHARGE",
+      "other_attributes": {
+        "numberOfPages": "2",
+        "subForm": [
+          {
+            "subformCode": "316E",
+            "subformDescription": "CORRECTIONS"
+          },
+          {
+            "subformCode": "316L",
+            "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+          }
+        ]
+      },
+      "title": "NOTICE OF CHARGE",
+      "uid": "000191687"
+    },
+    {
+      "date": "1990-10-23",
+      "filing_type_code": "C1",
+      "filing_type_name": "NOTICE OF CHARGE",
+      "other_attributes": {
+        "numberOfPages": "2",
+        "subForm": [
+          {
+            "subformCode": "316E",
+            "subformDescription": "CORRECTIONS"
+          },
+          {
+            "subformCode": "316L",
+            "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+          }
+        ]
+      },
+      "title": "NOTICE OF CHARGE",
+      "uid": "000191689"
+    },
+    {
+      "date": "1990-10-23",
+      "filing_type_code": "C4",
+      "filing_type_name": "RELEASE / SATISFACTION OF CHARGE",
+      "other_attributes": {
+        "numberOfPages": "1",
+        "subForm": [
+          {
+            "subformCode": "316E",
+            "subformDescription": "CORRECTIONS"
+          },
+          {
+            "subformCode": "316L",
+            "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+          }
+        ]
+      },
+      "title": "RELEASE / SATISFACTION OF CHARGE",
+      "uid": "000191688"
+    },
+    {
+      "date": "1992-02-28",
+      "filing_type_code": "316",
+      "filing_type_name": "ANNUAL RETURN",
+      "other_attributes": {
+        "numberOfPages": "4",
+        "subForm": [
+          {
+            "subformCode": "316E",
+            "subformDescription": "CORRECTIONS"
+          },
+          {
+            "subformCode": "316L",
+            "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+          }
+        ]
+      },
+      "title": "ANNUAL RETURN",
+      "uid": "00007669B"
+    },
+    {
+      "date": "1992-02-28",
+      "filing_type_code": "316",
+      "filing_type_name": "ANNUAL RETURN",
+      "other_attributes": {
+        "numberOfPages": "4",
+        "subForm": [
+          {
+            "subformCode": "316E",
+            "subformDescription": "CORRECTIONS"
+          },
+          {
+            "subformCode": "316L",
+            "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+          }
+        ]
+      },
+      "title": "ANNUAL RETURN",
+      "uid": "0007669A"
+    },
+    {
+      "date": "1993-02-24",
+      "filing_type_code": "316",
+      "filing_type_name": "ANNUAL RETURN",
+      "other_attributes": {
+        "subForm": [
+          {
+            "subformCode": "316C",
+            "subformDescription": "ANNUAL RETURN CHANGE - OFFICEHOLDERS"
+          },
+          {
+            "subformCode": "316L",
+            "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+          }
+        ]
+      },
+      "title": "ANNUAL RETURN",
+      "uid": "00007669C"
+    },
+    {
+      "date": "2002-04-02",
+      "filing_type_code": "580",
+      "filing_type_name": "COURT ORDER TO RESTORE COMPANY TO REGISTER",
+      "other_attributes": {
+        "numberOfPages": "2",
+        "subForm": [
+          {
+            "subformCode": "203W",
+            "subformDescription": "WITHDRAWAL OF CONSENT FOR REGISTERED OFFICE"
+          }
+        ]
+      },
+      "title": "COURT ORDER TO RESTORE COMPANY TO REGISTER",
+      "uid": "017989541"
+    },
+    {
+      "date": "2005-07-25",
+      "filing_type_code": "203",
+      "filing_type_name": "NOTICE OF CHANGE-OFFICE HOURS OR ADDRESS OF 1 OR MORE CORPS",
+      "other_attributes": {
+        "numberOfPages": "1",
+        "subForm": [
+          {
+            "subformCode": "203W",
+            "subformDescription": "WITHDRAWAL OF CONSENT FOR REGISTERED OFFICE"
+          }
+        ]
+      },
+      "title": "NOTICE OF CHANGE-OFFICE HOURS OR ADDRESS OF 1 OR MORE CORPS",
+      "uid": "021667174"
+    },
+    {
+      "date": "2007-06-07",
+      "filing_type_code": "370",
+      "filing_type_name": "NOTIFICATION BY OFFICEHOLDER OF RESIGNATION OR RETIREMENT",
+      "other_attributes": {
+        "numberOfPages": "3"
+      },
+      "title": "NOTIFICATION BY OFFICEHOLDER OF RESIGNATION OR RETIREMENT",
+      "uid": "023878083"
+    },
+    {
+      "date": "2010-01-19",
+      "filing_type_code": "9204",
+      "filing_type_name": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "other_attributes": {
+        "numberOfPages": "35"
+      },
+      "title": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "uid": "025771686"
+    },
+    {
+      "date": "2010-01-19",
+      "filing_type_code": "9204",
+      "filing_type_name": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "other_attributes": {
+        "numberOfPages": "35"
+      },
+      "title": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "uid": "025771687"
+    },
+    {
+      "date": "2010-01-19",
+      "filing_type_code": "9205",
+      "filing_type_name": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS",
+      "other_attributes": {
+        "numberOfPages": "27"
+      },
+      "title": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS",
+      "uid": "025771691"
+    },
+    {
+      "date": "2010-01-19",
+      "filing_type_code": "9205",
+      "filing_type_name": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS",
+      "other_attributes": {
+        "numberOfPages": "28"
+      },
+      "title": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS",
+      "uid": "025771689"
+    },
+    {
+      "date": "2010-01-19",
+      "filing_type_code": "9205",
+      "filing_type_name": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS",
+      "other_attributes": {
+        "numberOfPages": "35"
+      },
+      "title": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS",
+      "uid": "025771690"
+    },
+    {
+      "date": "2010-01-19",
+      "filing_type_code": "9205",
+      "filing_type_name": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS",
+      "other_attributes": {
+        "numberOfPages": "38"
+      },
+      "title": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS",
+      "uid": "025771688"
+    },
+    {
+      "date": "2010-01-19",
+      "filing_type_code": "9206",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "other_attributes": {
+        "numberOfPages": "36"
+      },
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "uid": "025771696"
+    },
+    {
+      "date": "2010-01-19",
+      "filing_type_code": "9206",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "other_attributes": {
+        "numberOfPages": "38"
+      },
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "uid": "025771695"
+    },
+    {
+      "date": "2010-01-19",
+      "filing_type_code": "9206",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "other_attributes": {
+        "numberOfPages": "40"
+      },
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "uid": "025771692"
+    },
+    {
+      "date": "2010-01-19",
+      "filing_type_code": "9206",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "other_attributes": {
+        "numberOfPages": "40"
+      },
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "uid": "025771693"
+    },
+    {
+      "date": "2010-01-19",
+      "filing_type_code": "9206",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "other_attributes": {
+        "numberOfPages": "41"
+      },
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "uid": "025771694"
+    },
+    {
+      "date": "2010-01-19",
+      "filing_type_code": "9207",
+      "filing_type_name": "PRE 1991 MORTGAGES, CHARGES, DEBENTURES RECEIVER APPOINT/",
+      "other_attributes": {
+        "numberOfPages": "55"
+      },
+      "title": "PRE 1991 MORTGAGES, CHARGES, DEBENTURES RECEIVER APPOINT/",
+      "uid": "025771697"
+    },
+    {
+      "date": "2010-01-19",
+      "filing_type_code": "9209",
+      "filing_type_name": "PRE 1991 SECURITY REGISTER RELATING TO COMPANY CHARGES",
+      "other_attributes": {
+        "numberOfPages": "8"
+      },
+      "title": "PRE 1991 SECURITY REGISTER RELATING TO COMPANY CHARGES",
+      "uid": "025771698"
+    }
+  ],
+  "headquarters_address": {
+    "country_code": "AU",
+    "locality": "WOOLLOOMOOLOO",
+    "postal_code": "2011",
+    "region": "New South Wales"
+  },
+  "incorporation_date": "1948-12-07",
+  "jurisdiction_code": "au",
+  "name": "PORT JACKSON STEVEDORING PTY LTD",
+  "registered_address": {
+    "country_code": "AU",
+    "locality": "MOSMAN",
+    "postal_code": "2088",
+    "region": "New South Wales"
+  },
+  "retrieved_at": "2020-04-23T12:48:04Z"
+}

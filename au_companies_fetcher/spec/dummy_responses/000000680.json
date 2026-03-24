@@ -1,0 +1,838 @@
+{
+  "retrieved_at": "2017-02-08T18:36:45Z",
+  "jurisdiction_code": "au",
+  "all_attributes": {
+    "messageType": "getNni",
+    "messageVersion": "3",
+    "numberHeading": "ARBN",
+    "types_code": "FNOS",
+    "status_code": "DRGD",
+    "is_registered": "false",
+    "previousStateTerritory": {
+      "number": "00041912",
+      "stateTerritoryCode": "NSW"
+    },
+    "regulator": "Australian Securities & Investments Commission"
+  },
+  "previous_names": [
+    {
+      "company_name": "THE NATIONAL INSURANCE CO OF NEW ZEALAND LTD",
+      "con_date": "1999-09-26"
+    }
+  ],
+  "filings": [
+    {
+      "other_attributes": {
+        "numberOfPages": "2",
+        "subForm": [
+          {
+            "subformCode": "490A",
+            "subformDescription": "APPOINT/CEASE DIRECTORS - REGISTERED BODY"
+          }
+        ]
+      },
+      "uid": "029238604",
+      "date": "2015-06-17",
+      "filing_type_code": "490",
+      "title": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY",
+      "filing_type_name": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "2",
+        "subForm": [
+          {
+            "subformCode": "407A",
+            "subformDescription": "CESSATION OF BUSINESS"
+          }
+        ]
+      },
+      "uid": "029216194",
+      "date": "2015-03-31",
+      "filing_type_code": "407",
+      "title": "NOTICE CESSATION/LIQN/DISSOLUTION (FOREIGN CO/REG AUS BODY)",
+      "filing_type_name": "NOTICE CESSATION/LIQN/DISSOLUTION (FOREIGN CO/REG AUS BODY)"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "69",
+        "subForm": [
+          {
+            "subformCode": "407A",
+            "subformDescription": "CESSATION OF BUSINESS"
+          }
+        ]
+      },
+      "uid": "029150125",
+      "date": "2015-01-07",
+      "filing_type_code": "405XR",
+      "title": "STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR",
+      "filing_type_name": "STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "6",
+        "subForm": [
+          {
+            "subformCode": "489E",
+            "subformDescription": "CHANGE OF FOREIGN ADDRESS - REGISTERED BODY - XR"
+          }
+        ]
+      },
+      "uid": "029164162",
+      "date": "2014-12-15",
+      "filing_type_code": "489",
+      "title": "CHANGE OF REGISTERED OFFICE OR OFFICE HOURS OF A REGD BODY",
+      "filing_type_name": "CHANGE OF REGISTERED OFFICE OR OFFICE HOURS OF A REGD BODY"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "70",
+        "subForm": [
+          {
+            "subformCode": "489E",
+            "subformDescription": "CHANGE OF FOREIGN ADDRESS - REGISTERED BODY - XR"
+          }
+        ]
+      },
+      "uid": "028866948",
+      "date": "2014-02-19",
+      "filing_type_code": "405XR",
+      "title": "STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR",
+      "filing_type_name": "STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "4",
+        "subForm": [
+          {
+            "subformCode": "490C",
+            "subformDescription": "APPOINT/CEASE DIRECTORS - REGISTERED BODY - XR"
+          }
+        ]
+      },
+      "uid": "028745477",
+      "date": "2014-02-11",
+      "filing_type_code": "490",
+      "title": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY",
+      "filing_type_name": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "4",
+        "subForm": [
+          {
+            "subformCode": "490C",
+            "subformDescription": "APPOINT/CEASE DIRECTORS - REGISTERED BODY - XR"
+          }
+        ]
+      },
+      "uid": "028745476",
+      "date": "2014-02-11",
+      "filing_type_code": "490",
+      "title": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY",
+      "filing_type_name": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "14",
+        "subForm": [
+          {
+            "subformCode": "409E",
+            "subformDescription": "CHANGE IN CONSTITUTION - XR"
+          }
+        ]
+      },
+      "uid": "028634199",
+      "date": "2013-08-08",
+      "filing_type_code": "409",
+      "title": "NOTICE OF CHANGE RE FOREIGN COY OR REGISTRABLE AUST BODY",
+      "filing_type_name": "NOTICE OF CHANGE RE FOREIGN COY OR REGISTRABLE AUST BODY"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "4",
+        "subForm": [
+          {
+            "subformCode": "490C",
+            "subformDescription": "APPOINT/CEASE DIRECTORS - REGISTERED BODY - XR"
+          }
+        ]
+      },
+      "uid": "028634139",
+      "date": "2013-08-07",
+      "filing_type_code": "490",
+      "title": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY",
+      "filing_type_name": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "4",
+        "subForm": [
+          {
+            "subformCode": "490C",
+            "subformDescription": "APPOINT/CEASE DIRECTORS - REGISTERED BODY - XR"
+          }
+        ]
+      },
+      "uid": "028634122",
+      "date": "2013-08-05",
+      "filing_type_code": "490",
+      "title": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY",
+      "filing_type_name": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "4",
+        "subForm": [
+          {
+            "subformCode": "490C",
+            "subformDescription": "APPOINT/CEASE DIRECTORS - REGISTERED BODY - XR"
+          }
+        ]
+      },
+      "uid": "028434892",
+      "date": "2013-07-15",
+      "filing_type_code": "490",
+      "title": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY",
+      "filing_type_name": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "51",
+        "subForm": [
+          {
+            "subformCode": "490C",
+            "subformDescription": "APPOINT/CEASE DIRECTORS - REGISTERED BODY - XR"
+          }
+        ]
+      },
+      "uid": "028434210",
+      "date": "2013-03-28",
+      "filing_type_code": "405XR",
+      "title": "STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR",
+      "filing_type_name": "STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "4",
+        "subForm": [
+          {
+            "subformCode": "490C",
+            "subformDescription": "APPOINT/CEASE DIRECTORS - REGISTERED BODY - XR"
+          }
+        ]
+      },
+      "uid": "028054656",
+      "date": "2012-04-13",
+      "filing_type_code": "902",
+      "title": "SUPPLEMENTARY DOCUMENT",
+      "filing_type_name": "SUPPLEMENTARY DOCUMENT"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "43",
+        "subForm": [
+          {
+            "subformCode": "490C",
+            "subformDescription": "APPOINT/CEASE DIRECTORS - REGISTERED BODY - XR"
+          }
+        ]
+      },
+      "uid": "027756356",
+      "date": "2012-02-27",
+      "filing_type_code": "405XR",
+      "title": "STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR",
+      "filing_type_name": "STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "4",
+        "subForm": [
+          {
+            "subformCode": "490A",
+            "subformDescription": "APPOINT/CEASE DIRECTORS - REGISTERED BODY"
+          }
+        ]
+      },
+      "uid": "027204351",
+      "date": "2011-04-11",
+      "filing_type_code": "490",
+      "title": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY",
+      "filing_type_name": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "4",
+        "subForm": [
+          {
+            "subformCode": "490C",
+            "subformDescription": "APPOINT/CEASE DIRECTORS - REGISTERED BODY - XR"
+          }
+        ]
+      },
+      "uid": "027507679",
+      "date": "2011-03-18",
+      "filing_type_code": "490",
+      "title": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY",
+      "filing_type_name": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "35",
+        "subForm": [
+          {
+            "subformCode": "490C",
+            "subformDescription": "APPOINT/CEASE DIRECTORS - REGISTERED BODY - XR"
+          }
+        ]
+      },
+      "uid": "027327381",
+      "date": "2011-02-14",
+      "filing_type_code": "405XR",
+      "title": "STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR",
+      "filing_type_name": "STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "3",
+        "subForm": [
+          {
+            "subformCode": "490C",
+            "subformDescription": "APPOINT/CEASE DIRECTORS - REGISTERED BODY - XR"
+          }
+        ]
+      },
+      "uid": "027380113",
+      "date": "2010-12-17",
+      "filing_type_code": "490",
+      "title": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY",
+      "filing_type_name": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "3",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "026523431",
+      "date": "2010-05-12",
+      "filing_type_code": "490",
+      "title": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY",
+      "filing_type_name": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "3",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "026523430",
+      "date": "2010-05-12",
+      "filing_type_code": "490",
+      "title": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY",
+      "filing_type_name": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "4",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "026437304",
+      "date": "2010-05-10",
+      "filing_type_code": "490",
+      "title": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY",
+      "filing_type_name": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "4",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "026193618",
+      "date": "2010-01-12",
+      "filing_type_code": "490",
+      "title": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY",
+      "filing_type_name": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "32",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "026193394",
+      "date": "2010-01-06",
+      "filing_type_code": "405XR",
+      "title": "STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR",
+      "filing_type_name": "STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "59",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "025691830",
+      "date": "2009-11-20",
+      "filing_type_code": "9206",
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "55",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "025691831",
+      "date": "2009-11-20",
+      "filing_type_code": "9206",
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "39",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "025691832",
+      "date": "2009-11-20",
+      "filing_type_code": "9206",
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "33",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "025691819",
+      "date": "2009-11-20",
+      "filing_type_code": "9205",
+      "title": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS",
+      "filing_type_name": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "41",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "025691820",
+      "date": "2009-11-20",
+      "filing_type_code": "9206",
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "42",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "025691821",
+      "date": "2009-11-20",
+      "filing_type_code": "9206",
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "41",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "025691822",
+      "date": "2009-11-20",
+      "filing_type_code": "9206",
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "42",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "025691823",
+      "date": "2009-11-20",
+      "filing_type_code": "9206",
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "41",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "025691824",
+      "date": "2009-11-20",
+      "filing_type_code": "9206",
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "37",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "025691825",
+      "date": "2009-11-20",
+      "filing_type_code": "9206",
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "40",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "025691826",
+      "date": "2009-11-20",
+      "filing_type_code": "9206",
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "39",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "025691827",
+      "date": "2009-11-20",
+      "filing_type_code": "9206",
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "39",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "025691828",
+      "date": "2009-11-20",
+      "filing_type_code": "9206",
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "51",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "025691829",
+      "date": "2009-11-20",
+      "filing_type_code": "9206",
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "45",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "025691813",
+      "date": "2009-11-20",
+      "filing_type_code": "9204",
+      "title": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "filing_type_name": "PRE 1991 MEMORANDUM AND ARTICLES"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "43",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "025691814",
+      "date": "2009-11-20",
+      "filing_type_code": "9204",
+      "title": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "filing_type_name": "PRE 1991 MEMORANDUM AND ARTICLES"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "43",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "025691815",
+      "date": "2009-11-20",
+      "filing_type_code": "9204",
+      "title": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "filing_type_name": "PRE 1991 MEMORANDUM AND ARTICLES"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "6",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "025691816",
+      "date": "2009-11-20",
+      "filing_type_code": "9204",
+      "title": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "filing_type_name": "PRE 1991 MEMORANDUM AND ARTICLES"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "42",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "025691817",
+      "date": "2009-11-20",
+      "filing_type_code": "9205",
+      "title": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS",
+      "filing_type_name": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "35",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "025691818",
+      "date": "2009-11-20",
+      "filing_type_code": "9205",
+      "title": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS",
+      "filing_type_name": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "33",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "025543111",
+      "date": "2009-04-08",
+      "filing_type_code": "405XR",
+      "title": "STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR",
+      "filing_type_name": "STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "32",
+        "subForm": [
+          {
+            "subformCode": "490D",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR"
+          }
+        ]
+      },
+      "uid": "025349600",
+      "date": "2009-03-25",
+      "filing_type_code": "405XR",
+      "title": "STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR",
+      "filing_type_name": "STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "4",
+        "subForm": [
+          {
+            "subformCode": "490A",
+            "subformDescription": "APPOINT/CEASE DIRECTORS - REGISTERED BODY"
+          }
+        ]
+      },
+      "uid": "024830980",
+      "date": "2008-08-22",
+      "filing_type_code": "490",
+      "title": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY",
+      "filing_type_name": "CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "31",
+        "subForm": [
+          {
+            "subformCode": "490A",
+            "subformDescription": "APPOINT/CEASE DIRECTORS - REGISTERED BODY"
+          }
+        ]
+      },
+      "uid": "024816405",
+      "date": "2008-06-23",
+      "filing_type_code": "405",
+      "title": "STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY",
+      "filing_type_name": "STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "31",
+        "subForm": [
+          {
+            "subformCode": "490A",
+            "subformDescription": "APPOINT/CEASE DIRECTORS - REGISTERED BODY"
+          }
+        ]
+      },
+      "uid": "024816404",
+      "date": "2008-06-23",
+      "filing_type_code": "405",
+      "title": "STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY",
+      "filing_type_name": "STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "22",
+        "subForm": [
+          {
+            "subformCode": "490A",
+            "subformDescription": "APPOINT/CEASE DIRECTORS - REGISTERED BODY"
+          }
+        ]
+      },
+      "uid": "024816403",
+      "date": "2008-06-23",
+      "filing_type_code": "405",
+      "title": "STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY",
+      "filing_type_name": "STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "3",
+        "subForm": [
+          {
+            "subformCode": "489A",
+            "subformDescription": "CHANGE OF ADDRESS IN AUSTRALIA OF REGISTERED BODY"
+          }
+        ]
+      },
+      "uid": "024816406",
+      "date": "2008-06-23",
+      "filing_type_code": "489",
+      "title": "CHANGE OF REGISTERED OFFICE OR OFFICE HOURS OF A REGD BODY",
+      "filing_type_name": "CHANGE OF REGISTERED OFFICE OR OFFICE HOURS OF A REGD BODY"
+    }
+  ],
+  "company_type": "Foreign Company (Overseas)",
+  "company_number": "000000680",
+  "name": "TOWER INSURANCE LIMITED",
+  "branch": "F",
+  "current_status": "Deregistered",
+  "incorporation_date": "1908-10-27",
+  "dissolution_date": "2015-08-18",
+  "identifiers": [
+    {
+      "uid": "51000000680",
+      "identifier_system_code": "au_bn"
+    }
+  ]
+}

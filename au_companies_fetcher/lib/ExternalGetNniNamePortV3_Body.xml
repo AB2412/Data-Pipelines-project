@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:uri="uri:v3.external.get.nni.asic.gov.au" xmlns:oas="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:uri1="uri:business.document.header.types.asic.gov.au" xmlns:uri2="uri:fss.types.asic.gov.au" xmlns:uri3="uri:types.asic.gov.au" xmlns:uri4="uri:bn.types.asic.gov.au">
+   <soap:Header/>
+   <soap:Body>
+      <uri:request>
+         <uri1:businessDocumentHeader>
+            <uri1:messageType>getNni</uri1:messageType>
+            <uri1:messageReferenceNumber>ABC</uri1:messageReferenceNumber>
+            <uri1:messageVersion>3</uri1:messageVersion>
+            <uri1:senderId>007444723</uri1:senderId>
+            <uri1:senderType>REGA</uri1:senderType>
+         </uri1:businessDocumentHeader>
+         <uri:businessDocumentBody>
+           <uri:nniNumber></uri:nniNumber>
+         </uri:businessDocumentBody>
+      </uri:request>
+   </soap:Body>
+</soap:Envelope>

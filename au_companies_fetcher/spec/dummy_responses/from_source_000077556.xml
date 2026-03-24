@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Body>
+    <external.get.nni:reply xmlns:types="uri:types.asic.gov.au" xmlns:nni.types="uri:nni.types.asic.gov.au" xmlns:external.get.nni="uri:v3.external.get.nni.asic.gov.au" xmlns:business.document.header.types="uri:business.document.header.types.asic.gov.au" xmlns:bn.types="uri:bn.types.asic.gov.au" xmlns:ascot.types="uri:ascot.types.asic.gov.au" xmlns:abn.types="uri:abn.types.asic.gov.au">
+      <business.document.header.types:businessDocumentHeader>
+        <business.document.header.types:messageType>getNni</business.document.header.types:messageType>
+        <business.document.header.types:messageReferenceNumber>ABC</business.document.header.types:messageReferenceNumber>
+        <business.document.header.types:asicReferenceNumber>7b690411-5503-4571-97ab-18279aadaefb</business.document.header.types:asicReferenceNumber>
+        <business.document.header.types:messageVersion>3</business.document.header.types:messageVersion>
+        <business.document.header.types:senderId>ASIC</business.document.header.types:senderId>
+        <business.document.header.types:senderType>GOVT</business.document.header.types:senderType>
+        <business.document.header.types:softwareInformation>
+          <business.document.header.types:organisationalName>ASIC</business.document.header.types:organisationalName>
+          <business.document.header.types:productName>Business Names</business.document.header.types:productName>
+          <business.document.header.types:productVersion>1</business.document.header.types:productVersion>
+        </business.document.header.types:softwareInformation>
+        <business.document.header.types:messageTimestamps>
+          <business.document.header.types:messageTimestamp>
+            <business.document.header.types:timestamp>2017-02-10T01:13:24</business.document.header.types:timestamp>
+            <business.document.header.types:source>ASIC</business.document.header.types:source>
+          </business.document.header.types:messageTimestamp>
+        </business.document.header.types:messageTimestamps>
+        <business.document.header.types:result>
+          <business.document.header.types:accepted>true</business.document.header.types:accepted>
+        </business.document.header.types:result>
+      </business.document.header.types:businessDocumentHeader>
+      <external.get.nni:businessDocumentBody>
+        <external.get.nni:nniEntity>
+          <nni.types:identifier>
+            <nni.types:numberHeading>ACN</nni.types:numberHeading>
+            <nni.types:number>77556</nni.types:number>
+          </nni.types:identifier>
+          <nni.types:name>
+            <types:name>HILLSDALE INVESTMENTS PTY LTD</types:name>
+          </nni.types:name>
+          <nni.types:type>
+            <nni.types:code>APTY</nni.types:code>
+            <nni.types:description>Australian Proprietary Company</nni.types:description>
+          </nni.types:type>
+          <nni.types:class>
+            <nni.types:code>LMSH</nni.types:code>
+            <nni.types:description>Limited By Shares</nni.types:description>
+          </nni.types:class>
+          <nni.types:subClass>
+            <nni.types:code>PROP</nni.types:code>
+            <nni.types:description>Proprietary Company</nni.types:description>
+          </nni.types:subClass>
+          <nni.types:status>
+            <types:code>NOAC</types:code>
+            <types:description>Non-Active</types:description>
+            <types:isRegistered>false</types:isRegistered>
+          </nni.types:status>
+          <nni.types:incorporationState>NSW</nni.types:incorporationState>
+          <nni.types:previousStateTerritory>
+            <bn.types:number>02780901</bn.types:number>
+            <bn.types:stateTerritoryCode>NSW</bn.types:stateTerritoryCode>
+          </nni.types:previousStateTerritory>
+          <nni.types:dateRegistered>1582-01-01</nni.types:dateRegistered>
+          <nni.types:dateReview>2018-01-01</nni.types:dateReview>
+          <nni.types:jurisdiction>Australian Securities &amp; Investments Commission</nni.types:jurisdiction>
+          <nni.types:formerName>
+            <nni.types:organisationName>DENZIL MACARTHUR ONSLOW PTY LTD</nni.types:organisationName>
+          </nni.types:formerName>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>022907817</bn.types:documentNumber>
+            <bn.types:dateReceived>2006-06-27</bn.types:dateReceived>
+            <bn.types:formCode>9206</bn.types:formCode>
+            <bn.types:numberOfPages>39</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>022907818</bn.types:documentNumber>
+            <bn.types:dateReceived>2006-06-27</bn.types:dateReceived>
+            <bn.types:formCode>9206</bn.types:formCode>
+            <bn.types:numberOfPages>40</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>022907819</bn.types:documentNumber>
+            <bn.types:dateReceived>2006-06-27</bn.types:dateReceived>
+            <bn.types:formCode>9206</bn.types:formCode>
+            <bn.types:numberOfPages>17</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>022907240</bn.types:documentNumber>
+            <bn.types:dateReceived>2006-06-27</bn.types:dateReceived>
+            <bn.types:formCode>9204</bn.types:formCode>
+            <bn.types:numberOfPages>44</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 MEMORANDUM AND ARTICLES</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>022907241</bn.types:documentNumber>
+            <bn.types:dateReceived>2006-06-27</bn.types:dateReceived>
+            <bn.types:formCode>9205</bn.types:formCode>
+            <bn.types:numberOfPages>41</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>022907242</bn.types:documentNumber>
+            <bn.types:dateReceived>2006-06-27</bn.types:dateReceived>
+            <bn.types:formCode>9206</bn.types:formCode>
+            <bn.types:numberOfPages>40</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>022907243</bn.types:documentNumber>
+            <bn.types:dateReceived>2006-06-27</bn.types:dateReceived>
+            <bn.types:formCode>9207</bn.types:formCode>
+            <bn.types:numberOfPages>2</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 MORTGAGES, CHARGES, DEBENTURES RECEIVER APPOINT/</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>022907244</bn.types:documentNumber>
+            <bn.types:dateReceived>2006-06-27</bn.types:dateReceived>
+            <bn.types:formCode>9209</bn.types:formCode>
+            <bn.types:numberOfPages>28</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 SECURITY REGISTER RELATING TO COMPANY CHARGES</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>019293238</bn.types:documentNumber>
+            <bn.types:dateReceived>2006-06-13</bn.types:dateReceived>
+            <bn.types:formCode>580</bn.types:formCode>
+            <bn.types:numberOfPages>1</bn.types:numberOfPages>
+            <bn.types:description>COURT ORDER TO RESTORE COMPANY TO REGISTER</bn.types:description>
+          </nni.types:recentDocument>
+        </external.get.nni:nniEntity>
+      </external.get.nni:businessDocumentBody>
+    </external.get.nni:reply>
+  </env:Body>
+</env:Envelope>

@@ -1,0 +1,575 @@
+{
+  "retrieved_at": "2017-02-09T14:06:45Z",
+  "jurisdiction_code": "au",
+  "all_attributes": {
+    "messageType": "getNni",
+    "messageVersion": "3",
+    "numberHeading": "ACN",
+    "types_code": "APTY",
+    "types_class_code": "LMSH",
+    "types_subclass_code": "PROP",
+    "types_subclass_descr": "Proprietary Company",
+    "status_code": "REGD",
+    "is_registered": "true",
+    "incorporationState": "NSW",
+    "previousStateTerritory": {
+      "number": "02763312",
+      "stateTerritoryCode": "NSW"
+    },
+    "dateReview": "2017-12-07",
+    "regulator": "Australian Securities & Investments Commission"
+  },
+  "filings": [
+    {
+      "other_attributes": {
+        "numberOfPages": "3",
+        "subForm": [
+          {
+            "subformCode": "484N",
+            "subformDescription": "CHANGES TO (MEMBERS) SHARE HOLDINGS"
+          }
+        ]
+      },
+      "uid": "2E3671885",
+      "date": "2016-05-10",
+      "filing_type_code": "484",
+      "title": "CHANGE TO COMPANY DETAILS",
+      "filing_type_name": "CHANGE TO COMPANY DETAILS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "7",
+        "subForm": [
+          {
+            "subformCode": "2205B",
+            "subformDescription": "CONVERT SHARES INTO LARGER OR SMALLER NUMBER"
+          }
+        ]
+      },
+      "uid": "029525554",
+      "date": "2016-04-28",
+      "filing_type_code": "2205",
+      "title": "NOTIFICATION OF RESOLUTION RELATING TO SHARES",
+      "filing_type_name": "NOTIFICATION OF RESOLUTION RELATING TO SHARES"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "3",
+        "subForm": [
+          {
+            "subformCode": "484E",
+            "subformDescription": "APPOINTMENT OR CESSATION OF A COMPANY OFFICEHOLDER"
+          }
+        ]
+      },
+      "uid": "1F0458247",
+      "date": "2014-04-04",
+      "filing_type_code": "484",
+      "title": "CHANGE TO COMPANY DETAILS",
+      "filing_type_name": "CHANGE TO COMPANY DETAILS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "2",
+        "subForm": [
+          {
+            "subformCode": "484B",
+            "subformDescription": "CHANGE OF REGISTERED ADDRESS"
+          },
+          {
+            "subformCode": "484C",
+            "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+          },
+          {
+            "subformCode": "484A2",
+            "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+          }
+        ]
+      },
+      "uid": "7E3375145",
+      "date": "2010-12-20",
+      "filing_type_code": "484",
+      "title": "CHANGE TO COMPANY DETAILS",
+      "filing_type_name": "CHANGE TO COMPANY DETAILS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "2",
+        "subForm": [
+          {
+            "subformCode": "484A1",
+            "subformDescription": "CHANGE OFFICEHOLDER NAME OR ADDRESS"
+          },
+          {
+            "subformCode": "484C",
+            "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+          },
+          {
+            "subformCode": "484A2",
+            "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+          }
+        ]
+      },
+      "uid": "7E2728862",
+      "date": "2010-02-24",
+      "filing_type_code": "484",
+      "title": "CHANGE TO COMPANY DETAILS",
+      "filing_type_name": "CHANGE TO COMPANY DETAILS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "3",
+        "subForm": [
+          {
+            "subformCode": "316L",
+            "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+          },
+          {
+            "subformCode": "484C",
+            "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+          },
+          {
+            "subformCode": "484A2",
+            "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+          }
+        ]
+      },
+      "uid": "0E8078231",
+      "date": "2002-12-09",
+      "filing_type_code": "316",
+      "title": "ANNUAL RETURN",
+      "filing_type_name": "ANNUAL RETURN"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "3",
+        "subForm": [
+          {
+            "subformCode": "316L",
+            "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+          },
+          {
+            "subformCode": "484C",
+            "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+          },
+          {
+            "subformCode": "484A2",
+            "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+          }
+        ]
+      },
+      "uid": "0E6986160",
+      "date": "2002-01-31",
+      "filing_type_code": "316",
+      "title": "ANNUAL RETURN",
+      "filing_type_name": "ANNUAL RETURN"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "1",
+        "subForm": [
+          {
+            "subformCode": "304A",
+            "subformDescription": "APPOINT/CEASE DIRECTORS AND SECRETARIES - AUST COY"
+          },
+          {
+            "subformCode": "484C",
+            "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+          },
+          {
+            "subformCode": "484A2",
+            "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+          }
+        ]
+      },
+      "uid": "0E5974353",
+      "date": "2001-07-13",
+      "filing_type_code": "304",
+      "title": "NOTICE OF CHANGE TO OFFICEHOLDERS",
+      "filing_type_name": "NOTICE OF CHANGE TO OFFICEHOLDERS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "1",
+        "subForm": [
+          {
+            "subformCode": "304A",
+            "subformDescription": "APPOINT/CEASE DIRECTORS AND SECRETARIES - AUST COY"
+          },
+          {
+            "subformCode": "484C",
+            "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+          },
+          {
+            "subformCode": "484A2",
+            "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+          }
+        ]
+      },
+      "uid": "0E5878453",
+      "date": "2001-05-31",
+      "filing_type_code": "902",
+      "title": "SUPPLEMENTARY DOCUMENT",
+      "filing_type_name": "SUPPLEMENTARY DOCUMENT"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "3",
+        "subForm": [
+          {
+            "subformCode": "316L",
+            "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+          },
+          {
+            "subformCode": "484C",
+            "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+          },
+          {
+            "subformCode": "484A2",
+            "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+          }
+        ]
+      },
+      "uid": "0E5529562",
+      "date": "2001-01-25",
+      "filing_type_code": "316",
+      "title": "ANNUAL RETURN",
+      "filing_type_name": "ANNUAL RETURN"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "3",
+        "subForm": [
+          {
+            "subformCode": "316L",
+            "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+          },
+          {
+            "subformCode": "484C",
+            "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+          },
+          {
+            "subformCode": "484A2",
+            "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+          }
+        ]
+      },
+      "uid": "0E3643821",
+      "date": "1999-11-01",
+      "filing_type_code": "316",
+      "title": "ANNUAL RETURN",
+      "filing_type_name": "ANNUAL RETURN"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "3",
+        "subForm": [
+          {
+            "subformCode": "316L",
+            "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+          },
+          {
+            "subformCode": "484C",
+            "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+          },
+          {
+            "subformCode": "484A2",
+            "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+          }
+        ]
+      },
+      "uid": "00007664I",
+      "date": "1998-11-06",
+      "filing_type_code": "316",
+      "title": "ANNUAL RETURN",
+      "filing_type_name": "ANNUAL RETURN"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "4",
+        "subForm": [
+          {
+            "subformCode": "316L",
+            "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+          },
+          {
+            "subformCode": "484C",
+            "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+          },
+          {
+            "subformCode": "484A2",
+            "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+          }
+        ]
+      },
+      "uid": "00007664H",
+      "date": "1997-11-07",
+      "filing_type_code": "316",
+      "title": "ANNUAL RETURN",
+      "filing_type_name": "ANNUAL RETURN"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "4",
+        "subForm": [
+          {
+            "subformCode": "316L",
+            "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+          },
+          {
+            "subformCode": "484C",
+            "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+          },
+          {
+            "subformCode": "484A2",
+            "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+          }
+        ]
+      },
+      "uid": "00007664G",
+      "date": "1997-03-04",
+      "filing_type_code": "316",
+      "title": "ANNUAL RETURN",
+      "filing_type_name": "ANNUAL RETURN"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "4",
+        "subForm": [
+          {
+            "subformCode": "316L",
+            "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+          },
+          {
+            "subformCode": "484C",
+            "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+          },
+          {
+            "subformCode": "484A2",
+            "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+          }
+        ]
+      },
+      "uid": "00007664F",
+      "date": "1996-01-08",
+      "filing_type_code": "316",
+      "title": "ANNUAL RETURN",
+      "filing_type_name": "ANNUAL RETURN"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "2",
+        "subForm": [
+          {
+            "subformCode": "304C",
+            "subformDescription": "CHANGE NAME OR ADDRESS OF OFFICEHOLDER - AUST COY"
+          },
+          {
+            "subformCode": "484C",
+            "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+          },
+          {
+            "subformCode": "484A2",
+            "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+          }
+        ]
+      },
+      "uid": "009514292",
+      "date": "1995-07-03",
+      "filing_type_code": "304",
+      "title": "NOTICE OF CHANGE TO OFFICEHOLDERS",
+      "filing_type_name": "NOTICE OF CHANGE TO OFFICEHOLDERS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "4",
+        "subForm": [
+          {
+            "subformCode": "316L",
+            "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+          },
+          {
+            "subformCode": "484C",
+            "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+          },
+          {
+            "subformCode": "484A2",
+            "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+          }
+        ]
+      },
+      "uid": "007170861",
+      "date": "1995-02-03",
+      "filing_type_code": "316",
+      "title": "ANNUAL RETURN",
+      "filing_type_name": "ANNUAL RETURN"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "2",
+        "subForm": [
+          {
+            "subformCode": "304A",
+            "subformDescription": "APPOINT/CEASE DIRECTORS AND SECRETARIES - AUST COY"
+          },
+          {
+            "subformCode": "484C",
+            "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+          },
+          {
+            "subformCode": "484A2",
+            "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+          }
+        ]
+      },
+      "uid": "007479514",
+      "date": "1994-07-11",
+      "filing_type_code": "304",
+      "title": "NOTICE OF CHANGE TO OFFICEHOLDERS",
+      "filing_type_name": "NOTICE OF CHANGE TO OFFICEHOLDERS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "4",
+        "subForm": [
+          {
+            "subformCode": "316L",
+            "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+          },
+          {
+            "subformCode": "484C",
+            "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+          },
+          {
+            "subformCode": "484A2",
+            "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+          }
+        ]
+      },
+      "uid": "00007664D",
+      "date": "1994-01-20",
+      "filing_type_code": "316",
+      "title": "ANNUAL RETURN",
+      "filing_type_name": "ANNUAL RETURN"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "4",
+        "subForm": [
+          {
+            "subformCode": "316L",
+            "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+          },
+          {
+            "subformCode": "484C",
+            "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+          },
+          {
+            "subformCode": "484A2",
+            "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+          }
+        ]
+      },
+      "uid": "00007664C",
+      "date": "1993-01-29",
+      "filing_type_code": "316",
+      "title": "ANNUAL RETURN",
+      "filing_type_name": "ANNUAL RETURN"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "1",
+        "subForm": [
+          {
+            "subformCode": "203A",
+            "subformDescription": "CHANGE OF ADDRESS - AUSTRALIAN COMPANY"
+          },
+          {
+            "subformCode": "484C",
+            "subformDescription": "CHANGE OF PRINCIPAL PLACE OF BUSINESS"
+          },
+          {
+            "subformCode": "484A2",
+            "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+          }
+        ]
+      },
+      "uid": "003520303",
+      "date": "1992-10-09",
+      "filing_type_code": "203",
+      "title": "NOTICE OF CHANGE-OFFICE HOURS OR ADDRESS OF 1 OR MORE CORPS",
+      "filing_type_name": "NOTICE OF CHANGE-OFFICE HOURS OR ADDRESS OF 1 OR MORE CORPS"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "4",
+        "subForm": [
+          {
+            "subformCode": "316E",
+            "subformDescription": "CORRECTIONS"
+          },
+          {
+            "subformCode": "316L",
+            "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+          },
+          {
+            "subformCode": "484A2",
+            "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+          }
+        ]
+      },
+      "uid": "00007664B",
+      "date": "1992-01-13",
+      "filing_type_code": "316",
+      "title": "ANNUAL RETURN",
+      "filing_type_name": "ANNUAL RETURN"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "4",
+        "subForm": [
+          {
+            "subformCode": "316E",
+            "subformDescription": "CORRECTIONS"
+          },
+          {
+            "subformCode": "316L",
+            "subformDescription": "ANNUAL RETURN - PROPRIETARY COMPANY"
+          },
+          {
+            "subformCode": "484A2",
+            "subformDescription": "CHANGE MEMBER NAME OR ADDRESS"
+          }
+        ]
+      },
+      "uid": "0007664A",
+      "date": "1991-01-21",
+      "filing_type_code": "316",
+      "title": "ANNUAL RETURN",
+      "filing_type_name": "ANNUAL RETURN"
+    }
+  ],
+  "company_type": "Australian Proprietary Company, Limited By Shares",
+  "company_number": "000076648",
+  "name": "WOODSON PTY LTD",
+  "current_status": "Registered",
+  "incorporation_date": "1948-12-07",
+  "registered_address": {
+    "country_code": "AU",
+    "locality": "CROMER",
+    "postal_code": "2099",
+    "region": "New South Wales"
+  },
+  "headquarters_address": {
+    "country_code": "AU",
+    "locality": "CROMER",
+    "postal_code": "2099",
+    "region": "New South Wales"
+  },
+  "identifiers": [
+    {
+      "uid": "79000076648",
+      "identifier_system_code": "au_bn"
+    }
+  ]
+}

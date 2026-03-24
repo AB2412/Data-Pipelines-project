@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Body>
+    <external.get.nni:reply xmlns:types="uri:types.asic.gov.au" xmlns:nni.types="uri:nni.types.asic.gov.au" xmlns:external.get.nni="uri:v3.external.get.nni.asic.gov.au" xmlns:business.document.header.types="uri:business.document.header.types.asic.gov.au" xmlns:bn.types="uri:bn.types.asic.gov.au" xmlns:ascot.types="uri:ascot.types.asic.gov.au" xmlns:abn.types="uri:abn.types.asic.gov.au">
+      <business.document.header.types:businessDocumentHeader>
+        <business.document.header.types:messageType>getNni</business.document.header.types:messageType>
+        <business.document.header.types:messageReferenceNumber>ABC</business.document.header.types:messageReferenceNumber>
+        <business.document.header.types:asicReferenceNumber>20c56cef-8d8a-4ce1-9561-abb8d81e706c</business.document.header.types:asicReferenceNumber>
+        <business.document.header.types:messageVersion>3</business.document.header.types:messageVersion>
+        <business.document.header.types:senderId>ASIC</business.document.header.types:senderId>
+        <business.document.header.types:senderType>GOVT</business.document.header.types:senderType>
+        <business.document.header.types:softwareInformation>
+          <business.document.header.types:organisationalName>ASIC</business.document.header.types:organisationalName>
+          <business.document.header.types:productName>Business Names</business.document.header.types:productName>
+          <business.document.header.types:productVersion>1</business.document.header.types:productVersion>
+        </business.document.header.types:softwareInformation>
+        <business.document.header.types:messageTimestamps>
+          <business.document.header.types:messageTimestamp>
+            <business.document.header.types:timestamp>2017-02-10T01:07:10</business.document.header.types:timestamp>
+            <business.document.header.types:source>ASIC</business.document.header.types:source>
+          </business.document.header.types:messageTimestamp>
+        </business.document.header.types:messageTimestamps>
+        <business.document.header.types:result>
+          <business.document.header.types:accepted>true</business.document.header.types:accepted>
+        </business.document.header.types:result>
+      </business.document.header.types:businessDocumentHeader>
+      <external.get.nni:businessDocumentBody>
+        <external.get.nni:nniEntity>
+          <nni.types:identifier>
+            <nni.types:numberHeading>ACN</nni.types:numberHeading>
+            <nni.types:number>76693</nni.types:number>
+          </nni.types:identifier>
+          <nni.types:name>
+            <types:name>PORT JACKSON STEVEDORING PTY LTD</types:name>
+          </nni.types:name>
+          <nni.types:type>
+            <nni.types:code>APTY</nni.types:code>
+            <nni.types:description>Australian Proprietary Company</nni.types:description>
+          </nni.types:type>
+          <nni.types:class>
+            <nni.types:code>LMSH</nni.types:code>
+            <nni.types:description>Limited By Shares</nni.types:description>
+          </nni.types:class>
+          <nni.types:subClass>
+            <nni.types:code>PROP</nni.types:code>
+            <nni.types:description>Proprietary Company</nni.types:description>
+          </nni.types:subClass>
+          <nni.types:status>
+            <types:code>EXAD</types:code>
+            <types:description>Externally Administered</types:description>
+            <types:isRegistered>true</types:isRegistered>
+          </nni.types:status>
+          <nni.types:incorporationState>NSW</nni.types:incorporationState>
+          <nni.types:previousStateTerritory>
+            <bn.types:number>02764848</bn.types:number>
+            <bn.types:stateTerritoryCode>NSW</bn.types:stateTerritoryCode>
+          </nni.types:previousStateTerritory>
+          <nni.types:dateRegistered>1948-12-07</nni.types:dateRegistered>
+          <nni.types:dateReview>2017-12-07</nni.types:dateReview>
+          <nni.types:jurisdiction>Australian Securities &amp; Investments Commission</nni.types:jurisdiction>
+          <nni.types:address>
+            <types:type>RG</types:type>
+            <types:addressLine>RESTRICTED</types:addressLine>
+            <types:iso3166CountryCode>AU</types:iso3166CountryCode>
+            <types:locality>MOSMAN</types:locality>
+            <types:postCode>2088</types:postCode>
+            <types:state>NSW</types:state>
+          </nni.types:address>
+          <nni.types:address>
+            <types:type>PA</types:type>
+            <types:addressLine>RESTRICTED</types:addressLine>
+            <types:iso3166CountryCode>AU</types:iso3166CountryCode>
+            <types:locality>WOOLLOOMOOLOO</types:locality>
+            <types:postCode>2011</types:postCode>
+            <types:state>NSW</types:state>
+          </nni.types:address>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025771696</bn.types:documentNumber>
+            <bn.types:dateReceived>2010-01-19</bn.types:dateReceived>
+            <bn.types:formCode>9206</bn.types:formCode>
+            <bn.types:numberOfPages>36</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025771697</bn.types:documentNumber>
+            <bn.types:dateReceived>2010-01-19</bn.types:dateReceived>
+            <bn.types:formCode>9207</bn.types:formCode>
+            <bn.types:numberOfPages>55</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 MORTGAGES, CHARGES, DEBENTURES RECEIVER APPOINT/</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025771698</bn.types:documentNumber>
+            <bn.types:dateReceived>2010-01-19</bn.types:dateReceived>
+            <bn.types:formCode>9209</bn.types:formCode>
+            <bn.types:numberOfPages>8</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 SECURITY REGISTER RELATING TO COMPANY CHARGES</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025771691</bn.types:documentNumber>
+            <bn.types:dateReceived>2010-01-19</bn.types:dateReceived>
+            <bn.types:formCode>9205</bn.types:formCode>
+            <bn.types:numberOfPages>27</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025771692</bn.types:documentNumber>
+            <bn.types:dateReceived>2010-01-19</bn.types:dateReceived>
+            <bn.types:formCode>9206</bn.types:formCode>
+            <bn.types:numberOfPages>40</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025771693</bn.types:documentNumber>
+            <bn.types:dateReceived>2010-01-19</bn.types:dateReceived>
+            <bn.types:formCode>9206</bn.types:formCode>
+            <bn.types:numberOfPages>40</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025771694</bn.types:documentNumber>
+            <bn.types:dateReceived>2010-01-19</bn.types:dateReceived>
+            <bn.types:formCode>9206</bn.types:formCode>
+            <bn.types:numberOfPages>41</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025771695</bn.types:documentNumber>
+            <bn.types:dateReceived>2010-01-19</bn.types:dateReceived>
+            <bn.types:formCode>9206</bn.types:formCode>
+            <bn.types:numberOfPages>38</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025771687</bn.types:documentNumber>
+            <bn.types:dateReceived>2010-01-19</bn.types:dateReceived>
+            <bn.types:formCode>9204</bn.types:formCode>
+            <bn.types:numberOfPages>35</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 MEMORANDUM AND ARTICLES</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025771688</bn.types:documentNumber>
+            <bn.types:dateReceived>2010-01-19</bn.types:dateReceived>
+            <bn.types:formCode>9205</bn.types:formCode>
+            <bn.types:numberOfPages>38</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025771689</bn.types:documentNumber>
+            <bn.types:dateReceived>2010-01-19</bn.types:dateReceived>
+            <bn.types:formCode>9205</bn.types:formCode>
+            <bn.types:numberOfPages>28</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025771690</bn.types:documentNumber>
+            <bn.types:dateReceived>2010-01-19</bn.types:dateReceived>
+            <bn.types:formCode>9205</bn.types:formCode>
+            <bn.types:numberOfPages>35</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025771686</bn.types:documentNumber>
+            <bn.types:dateReceived>2010-01-19</bn.types:dateReceived>
+            <bn.types:formCode>9204</bn.types:formCode>
+            <bn.types:numberOfPages>35</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 MEMORANDUM AND ARTICLES</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>023878083</bn.types:documentNumber>
+            <bn.types:dateReceived>2007-06-07</bn.types:dateReceived>
+            <bn.types:formCode>370</bn.types:formCode>
+            <bn.types:numberOfPages>3</bn.types:numberOfPages>
+            <bn.types:description>NOTIFICATION BY OFFICEHOLDER OF RESIGNATION OR RETIREMENT</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>021667174</bn.types:documentNumber>
+            <bn.types:dateReceived>2005-07-25</bn.types:dateReceived>
+            <bn.types:formCode>203</bn.types:formCode>
+            <bn.types:numberOfPages>1</bn.types:numberOfPages>
+            <bn.types:description>NOTICE OF CHANGE-OFFICE HOURS OR ADDRESS OF 1 OR MORE CORPS</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>203W</bn.types:subformCode>
+              <bn.types:subformDescription>WITHDRAWAL OF CONSENT FOR REGISTERED OFFICE</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>017989541</bn.types:documentNumber>
+            <bn.types:dateReceived>2002-04-02</bn.types:dateReceived>
+            <bn.types:formCode>580</bn.types:formCode>
+            <bn.types:numberOfPages>2</bn.types:numberOfPages>
+            <bn.types:description>COURT ORDER TO RESTORE COMPANY TO REGISTER</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>203W</bn.types:subformCode>
+              <bn.types:subformDescription>WITHDRAWAL OF CONSENT FOR REGISTERED OFFICE</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>00007669C</bn.types:documentNumber>
+            <bn.types:dateReceived>1993-02-24</bn.types:dateReceived>
+            <bn.types:formCode>316</bn.types:formCode>
+            <bn.types:description>ANNUAL RETURN</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>316C</bn.types:subformCode>
+              <bn.types:subformDescription>ANNUAL RETURN CHANGE - OFFICEHOLDERS</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>316L</bn.types:subformCode>
+              <bn.types:subformDescription>ANNUAL RETURN - PROPRIETARY COMPANY</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>00007669B</bn.types:documentNumber>
+            <bn.types:dateReceived>1992-02-28</bn.types:dateReceived>
+            <bn.types:formCode>316</bn.types:formCode>
+            <bn.types:numberOfPages>4</bn.types:numberOfPages>
+            <bn.types:description>ANNUAL RETURN</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>316E</bn.types:subformCode>
+              <bn.types:subformDescription>CORRECTIONS</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>316L</bn.types:subformCode>
+              <bn.types:subformDescription>ANNUAL RETURN - PROPRIETARY COMPANY</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>0007669A</bn.types:documentNumber>
+            <bn.types:dateReceived>1992-02-28</bn.types:dateReceived>
+            <bn.types:formCode>316</bn.types:formCode>
+            <bn.types:numberOfPages>4</bn.types:numberOfPages>
+            <bn.types:description>ANNUAL RETURN</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>316E</bn.types:subformCode>
+              <bn.types:subformDescription>CORRECTIONS</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>316L</bn.types:subformCode>
+              <bn.types:subformDescription>ANNUAL RETURN - PROPRIETARY COMPANY</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>000191689</bn.types:documentNumber>
+            <bn.types:dateReceived>1990-10-23</bn.types:dateReceived>
+            <bn.types:formCode>C1</bn.types:formCode>
+            <bn.types:numberOfPages>2</bn.types:numberOfPages>
+            <bn.types:description>NOTICE OF CHARGE</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>316E</bn.types:subformCode>
+              <bn.types:subformDescription>CORRECTIONS</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>316L</bn.types:subformCode>
+              <bn.types:subformDescription>ANNUAL RETURN - PROPRIETARY COMPANY</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>000191688</bn.types:documentNumber>
+            <bn.types:dateReceived>1990-10-23</bn.types:dateReceived>
+            <bn.types:formCode>C4</bn.types:formCode>
+            <bn.types:numberOfPages>1</bn.types:numberOfPages>
+            <bn.types:description>RELEASE / SATISFACTION OF CHARGE</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>316E</bn.types:subformCode>
+              <bn.types:subformDescription>CORRECTIONS</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>316L</bn.types:subformCode>
+              <bn.types:subformDescription>ANNUAL RETURN - PROPRIETARY COMPANY</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>000191687</bn.types:documentNumber>
+            <bn.types:dateReceived>1990-10-23</bn.types:dateReceived>
+            <bn.types:formCode>C1</bn.types:formCode>
+            <bn.types:numberOfPages>2</bn.types:numberOfPages>
+            <bn.types:description>NOTICE OF CHARGE</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>316E</bn.types:subformCode>
+              <bn.types:subformDescription>CORRECTIONS</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>316L</bn.types:subformCode>
+              <bn.types:subformDescription>ANNUAL RETURN - PROPRIETARY COMPANY</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+        </external.get.nni:nniEntity>
+      </external.get.nni:businessDocumentBody>
+    </external.get.nni:reply>
+  </env:Body>
+</env:Envelope>

@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Body>
+    <external.get.nni:reply xmlns:types="uri:types.asic.gov.au" xmlns:nni.types="uri:nni.types.asic.gov.au" xmlns:external.get.nni="uri:v3.external.get.nni.asic.gov.au" xmlns:business.document.header.types="uri:business.document.header.types.asic.gov.au" xmlns:bn.types="uri:bn.types.asic.gov.au" xmlns:ascot.types="uri:ascot.types.asic.gov.au" xmlns:abn.types="uri:abn.types.asic.gov.au">
+      <business.document.header.types:businessDocumentHeader>
+        <business.document.header.types:messageType>getNni</business.document.header.types:messageType>
+        <business.document.header.types:messageReferenceNumber>ABC</business.document.header.types:messageReferenceNumber>
+        <business.document.header.types:asicReferenceNumber>0e839d33-6948-4df1-aa05-97f684dcd990</business.document.header.types:asicReferenceNumber>
+        <business.document.header.types:messageVersion>3</business.document.header.types:messageVersion>
+        <business.document.header.types:senderId>ASIC</business.document.header.types:senderId>
+        <business.document.header.types:senderType>GOVT</business.document.header.types:senderType>
+        <business.document.header.types:softwareInformation>
+          <business.document.header.types:organisationalName>ASIC</business.document.header.types:organisationalName>
+          <business.document.header.types:productName>Business Names</business.document.header.types:productName>
+          <business.document.header.types:productVersion>1</business.document.header.types:productVersion>
+        </business.document.header.types:softwareInformation>
+        <business.document.header.types:messageTimestamps>
+          <business.document.header.types:messageTimestamp>
+            <business.document.header.types:timestamp>2017-02-09T05:36:45</business.document.header.types:timestamp>
+            <business.document.header.types:source>ASIC</business.document.header.types:source>
+          </business.document.header.types:messageTimestamp>
+        </business.document.header.types:messageTimestamps>
+        <business.document.header.types:result>
+          <business.document.header.types:accepted>true</business.document.header.types:accepted>
+        </business.document.header.types:result>
+      </business.document.header.types:businessDocumentHeader>
+      <external.get.nni:businessDocumentBody>
+        <external.get.nni:nniEntity>
+          <nni.types:identifier>
+            <nni.types:numberHeading>ARBN</nni.types:numberHeading>
+            <nni.types:number>680</nni.types:number>
+          </nni.types:identifier>
+          <nni.types:name>
+            <types:name>TOWER INSURANCE LIMITED</types:name>
+          </nni.types:name>
+          <nni.types:type>
+            <nni.types:code>FNOS</nni.types:code>
+            <nni.types:description>Foreign Company (Overseas)</nni.types:description>
+          </nni.types:type>
+          <nni.types:class>
+            <nni.types:code>NONE</nni.types:code>
+            <nni.types:description>Does Not Have An Equivalent Australian Liability</nni.types:description>
+          </nni.types:class>
+          <nni.types:subClass>
+            <nni.types:code>NONE</nni.types:code>
+            <nni.types:description>Unknown</nni.types:description>
+          </nni.types:subClass>
+          <nni.types:status>
+            <types:code>DRGD</types:code>
+            <types:description>Deregistered</types:description>
+            <types:isRegistered>false</types:isRegistered>
+          </nni.types:status>
+          <nni.types:previousStateTerritory>
+            <bn.types:number>00041912</bn.types:number>
+            <bn.types:stateTerritoryCode>NSW</bn.types:stateTerritoryCode>
+          </nni.types:previousStateTerritory>
+          <nni.types:dateRegistered>1908-10-27</nni.types:dateRegistered>
+          <nni.types:dateDeregistered>2015-08-18</nni.types:dateDeregistered>
+          <nni.types:jurisdiction>Australian Securities &amp; Investments Commission</nni.types:jurisdiction>
+          <nni.types:formerName>
+            <nni.types:organisationName>THE NATIONAL INSURANCE CO OF NEW ZEALAND LTD</nni.types:organisationName>
+            <nni.types:endDate>1999-09-26</nni.types:endDate>
+          </nni.types:formerName>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>029238604</bn.types:documentNumber>
+            <bn.types:dateReceived>2015-06-17</bn.types:dateReceived>
+            <bn.types:formCode>490</bn.types:formCode>
+            <bn.types:numberOfPages>2</bn.types:numberOfPages>
+            <bn.types:description>CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490A</bn.types:subformCode>
+              <bn.types:subformDescription>APPOINT/CEASE DIRECTORS - REGISTERED BODY</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>029216194</bn.types:documentNumber>
+            <bn.types:dateReceived>2015-03-31</bn.types:dateReceived>
+            <bn.types:formCode>407</bn.types:formCode>
+            <bn.types:numberOfPages>2</bn.types:numberOfPages>
+            <bn.types:description>NOTICE CESSATION/LIQN/DISSOLUTION (FOREIGN CO/REG AUS BODY)</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>407A</bn.types:subformCode>
+              <bn.types:subformDescription>CESSATION OF BUSINESS</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>029150125</bn.types:documentNumber>
+            <bn.types:dateReceived>2015-01-07</bn.types:dateReceived>
+            <bn.types:formCode>405XR</bn.types:formCode>
+            <bn.types:numberOfPages>69</bn.types:numberOfPages>
+            <bn.types:description>STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>407A</bn.types:subformCode>
+              <bn.types:subformDescription>CESSATION OF BUSINESS</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>029164162</bn.types:documentNumber>
+            <bn.types:dateReceived>2014-12-15</bn.types:dateReceived>
+            <bn.types:formCode>489</bn.types:formCode>
+            <bn.types:numberOfPages>6</bn.types:numberOfPages>
+            <bn.types:description>CHANGE OF REGISTERED OFFICE OR OFFICE HOURS OF A REGD BODY</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>489E</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE OF FOREIGN ADDRESS - REGISTERED BODY - XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>028866948</bn.types:documentNumber>
+            <bn.types:dateReceived>2014-02-19</bn.types:dateReceived>
+            <bn.types:formCode>405XR</bn.types:formCode>
+            <bn.types:numberOfPages>70</bn.types:numberOfPages>
+            <bn.types:description>STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>489E</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE OF FOREIGN ADDRESS - REGISTERED BODY - XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>028745477</bn.types:documentNumber>
+            <bn.types:dateReceived>2014-02-11</bn.types:dateReceived>
+            <bn.types:formCode>490</bn.types:formCode>
+            <bn.types:numberOfPages>4</bn.types:numberOfPages>
+            <bn.types:description>CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490C</bn.types:subformCode>
+              <bn.types:subformDescription>APPOINT/CEASE DIRECTORS - REGISTERED BODY - XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>028745476</bn.types:documentNumber>
+            <bn.types:dateReceived>2014-02-11</bn.types:dateReceived>
+            <bn.types:formCode>490</bn.types:formCode>
+            <bn.types:numberOfPages>4</bn.types:numberOfPages>
+            <bn.types:description>CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490C</bn.types:subformCode>
+              <bn.types:subformDescription>APPOINT/CEASE DIRECTORS - REGISTERED BODY - XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>028634199</bn.types:documentNumber>
+            <bn.types:dateReceived>2013-08-08</bn.types:dateReceived>
+            <bn.types:formCode>409</bn.types:formCode>
+            <bn.types:numberOfPages>14</bn.types:numberOfPages>
+            <bn.types:description>NOTICE OF CHANGE RE FOREIGN COY OR REGISTRABLE AUST BODY</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>409E</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE IN CONSTITUTION - XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>028634139</bn.types:documentNumber>
+            <bn.types:dateReceived>2013-08-07</bn.types:dateReceived>
+            <bn.types:formCode>490</bn.types:formCode>
+            <bn.types:numberOfPages>4</bn.types:numberOfPages>
+            <bn.types:description>CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490C</bn.types:subformCode>
+              <bn.types:subformDescription>APPOINT/CEASE DIRECTORS - REGISTERED BODY - XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>028634122</bn.types:documentNumber>
+            <bn.types:dateReceived>2013-08-05</bn.types:dateReceived>
+            <bn.types:formCode>490</bn.types:formCode>
+            <bn.types:numberOfPages>4</bn.types:numberOfPages>
+            <bn.types:description>CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490C</bn.types:subformCode>
+              <bn.types:subformDescription>APPOINT/CEASE DIRECTORS - REGISTERED BODY - XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>028434892</bn.types:documentNumber>
+            <bn.types:dateReceived>2013-07-15</bn.types:dateReceived>
+            <bn.types:formCode>490</bn.types:formCode>
+            <bn.types:numberOfPages>4</bn.types:numberOfPages>
+            <bn.types:description>CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490C</bn.types:subformCode>
+              <bn.types:subformDescription>APPOINT/CEASE DIRECTORS - REGISTERED BODY - XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>028434210</bn.types:documentNumber>
+            <bn.types:dateReceived>2013-03-28</bn.types:dateReceived>
+            <bn.types:formCode>405XR</bn.types:formCode>
+            <bn.types:numberOfPages>51</bn.types:numberOfPages>
+            <bn.types:description>STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490C</bn.types:subformCode>
+              <bn.types:subformDescription>APPOINT/CEASE DIRECTORS - REGISTERED BODY - XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>028054656</bn.types:documentNumber>
+            <bn.types:dateReceived>2012-04-13</bn.types:dateReceived>
+            <bn.types:formCode>902</bn.types:formCode>
+            <bn.types:numberOfPages>4</bn.types:numberOfPages>
+            <bn.types:description>SUPPLEMENTARY DOCUMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490C</bn.types:subformCode>
+              <bn.types:subformDescription>APPOINT/CEASE DIRECTORS - REGISTERED BODY - XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>027756356</bn.types:documentNumber>
+            <bn.types:dateReceived>2012-02-27</bn.types:dateReceived>
+            <bn.types:formCode>405XR</bn.types:formCode>
+            <bn.types:numberOfPages>43</bn.types:numberOfPages>
+            <bn.types:description>STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490C</bn.types:subformCode>
+              <bn.types:subformDescription>APPOINT/CEASE DIRECTORS - REGISTERED BODY - XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>027204351</bn.types:documentNumber>
+            <bn.types:dateReceived>2011-04-11</bn.types:dateReceived>
+            <bn.types:formCode>490</bn.types:formCode>
+            <bn.types:numberOfPages>4</bn.types:numberOfPages>
+            <bn.types:description>CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490A</bn.types:subformCode>
+              <bn.types:subformDescription>APPOINT/CEASE DIRECTORS - REGISTERED BODY</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>027507679</bn.types:documentNumber>
+            <bn.types:dateReceived>2011-03-18</bn.types:dateReceived>
+            <bn.types:formCode>490</bn.types:formCode>
+            <bn.types:numberOfPages>4</bn.types:numberOfPages>
+            <bn.types:description>CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490C</bn.types:subformCode>
+              <bn.types:subformDescription>APPOINT/CEASE DIRECTORS - REGISTERED BODY - XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>027327381</bn.types:documentNumber>
+            <bn.types:dateReceived>2011-02-14</bn.types:dateReceived>
+            <bn.types:formCode>405XR</bn.types:formCode>
+            <bn.types:numberOfPages>35</bn.types:numberOfPages>
+            <bn.types:description>STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490C</bn.types:subformCode>
+              <bn.types:subformDescription>APPOINT/CEASE DIRECTORS - REGISTERED BODY - XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>027380113</bn.types:documentNumber>
+            <bn.types:dateReceived>2010-12-17</bn.types:dateReceived>
+            <bn.types:formCode>490</bn.types:formCode>
+            <bn.types:numberOfPages>3</bn.types:numberOfPages>
+            <bn.types:description>CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490C</bn.types:subformCode>
+              <bn.types:subformDescription>APPOINT/CEASE DIRECTORS - REGISTERED BODY - XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>026523431</bn.types:documentNumber>
+            <bn.types:dateReceived>2010-05-12</bn.types:dateReceived>
+            <bn.types:formCode>490</bn.types:formCode>
+            <bn.types:numberOfPages>3</bn.types:numberOfPages>
+            <bn.types:description>CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>026523430</bn.types:documentNumber>
+            <bn.types:dateReceived>2010-05-12</bn.types:dateReceived>
+            <bn.types:formCode>490</bn.types:formCode>
+            <bn.types:numberOfPages>3</bn.types:numberOfPages>
+            <bn.types:description>CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>026437304</bn.types:documentNumber>
+            <bn.types:dateReceived>2010-05-10</bn.types:dateReceived>
+            <bn.types:formCode>490</bn.types:formCode>
+            <bn.types:numberOfPages>4</bn.types:numberOfPages>
+            <bn.types:description>CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>026193618</bn.types:documentNumber>
+            <bn.types:dateReceived>2010-01-12</bn.types:dateReceived>
+            <bn.types:formCode>490</bn.types:formCode>
+            <bn.types:numberOfPages>4</bn.types:numberOfPages>
+            <bn.types:description>CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>026193394</bn.types:documentNumber>
+            <bn.types:dateReceived>2010-01-06</bn.types:dateReceived>
+            <bn.types:formCode>405XR</bn.types:formCode>
+            <bn.types:numberOfPages>32</bn.types:numberOfPages>
+            <bn.types:description>STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025691830</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-11-20</bn.types:dateReceived>
+            <bn.types:formCode>9206</bn.types:formCode>
+            <bn.types:numberOfPages>59</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025691831</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-11-20</bn.types:dateReceived>
+            <bn.types:formCode>9206</bn.types:formCode>
+            <bn.types:numberOfPages>55</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025691832</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-11-20</bn.types:dateReceived>
+            <bn.types:formCode>9206</bn.types:formCode>
+            <bn.types:numberOfPages>39</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025691819</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-11-20</bn.types:dateReceived>
+            <bn.types:formCode>9205</bn.types:formCode>
+            <bn.types:numberOfPages>33</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025691820</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-11-20</bn.types:dateReceived>
+            <bn.types:formCode>9206</bn.types:formCode>
+            <bn.types:numberOfPages>41</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025691821</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-11-20</bn.types:dateReceived>
+            <bn.types:formCode>9206</bn.types:formCode>
+            <bn.types:numberOfPages>42</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025691822</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-11-20</bn.types:dateReceived>
+            <bn.types:formCode>9206</bn.types:formCode>
+            <bn.types:numberOfPages>41</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025691823</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-11-20</bn.types:dateReceived>
+            <bn.types:formCode>9206</bn.types:formCode>
+            <bn.types:numberOfPages>42</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025691824</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-11-20</bn.types:dateReceived>
+            <bn.types:formCode>9206</bn.types:formCode>
+            <bn.types:numberOfPages>41</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025691825</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-11-20</bn.types:dateReceived>
+            <bn.types:formCode>9206</bn.types:formCode>
+            <bn.types:numberOfPages>37</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025691826</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-11-20</bn.types:dateReceived>
+            <bn.types:formCode>9206</bn.types:formCode>
+            <bn.types:numberOfPages>40</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025691827</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-11-20</bn.types:dateReceived>
+            <bn.types:formCode>9206</bn.types:formCode>
+            <bn.types:numberOfPages>39</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025691828</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-11-20</bn.types:dateReceived>
+            <bn.types:formCode>9206</bn.types:formCode>
+            <bn.types:numberOfPages>39</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025691829</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-11-20</bn.types:dateReceived>
+            <bn.types:formCode>9206</bn.types:formCode>
+            <bn.types:numberOfPages>51</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025691813</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-11-20</bn.types:dateReceived>
+            <bn.types:formCode>9204</bn.types:formCode>
+            <bn.types:numberOfPages>45</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 MEMORANDUM AND ARTICLES</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025691814</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-11-20</bn.types:dateReceived>
+            <bn.types:formCode>9204</bn.types:formCode>
+            <bn.types:numberOfPages>43</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 MEMORANDUM AND ARTICLES</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025691815</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-11-20</bn.types:dateReceived>
+            <bn.types:formCode>9204</bn.types:formCode>
+            <bn.types:numberOfPages>43</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 MEMORANDUM AND ARTICLES</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025691816</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-11-20</bn.types:dateReceived>
+            <bn.types:formCode>9204</bn.types:formCode>
+            <bn.types:numberOfPages>6</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 MEMORANDUM AND ARTICLES</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025691817</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-11-20</bn.types:dateReceived>
+            <bn.types:formCode>9205</bn.types:formCode>
+            <bn.types:numberOfPages>42</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025691818</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-11-20</bn.types:dateReceived>
+            <bn.types:formCode>9205</bn.types:formCode>
+            <bn.types:numberOfPages>35</bn.types:numberOfPages>
+            <bn.types:description>PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025543111</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-04-08</bn.types:dateReceived>
+            <bn.types:formCode>405XR</bn.types:formCode>
+            <bn.types:numberOfPages>33</bn.types:numberOfPages>
+            <bn.types:description>STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>025349600</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-03-25</bn.types:dateReceived>
+            <bn.types:formCode>405XR</bn.types:formCode>
+            <bn.types:numberOfPages>32</bn.types:numberOfPages>
+            <bn.types:description>STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY - XR</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490D</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE NAME OR ADDRESS OF OFFICEHOLDERS - REGISTERED BODY XR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>024830980</bn.types:documentNumber>
+            <bn.types:dateReceived>2008-08-22</bn.types:dateReceived>
+            <bn.types:formCode>490</bn.types:formCode>
+            <bn.types:numberOfPages>4</bn.types:numberOfPages>
+            <bn.types:description>CHANGE TO OFFICEHOLDERS OF A REGISTERED BODY</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490A</bn.types:subformCode>
+              <bn.types:subformDescription>APPOINT/CEASE DIRECTORS - REGISTERED BODY</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>024816405</bn.types:documentNumber>
+            <bn.types:dateReceived>2008-06-23</bn.types:dateReceived>
+            <bn.types:formCode>405</bn.types:formCode>
+            <bn.types:numberOfPages>31</bn.types:numberOfPages>
+            <bn.types:description>STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490A</bn.types:subformCode>
+              <bn.types:subformDescription>APPOINT/CEASE DIRECTORS - REGISTERED BODY</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>024816404</bn.types:documentNumber>
+            <bn.types:dateReceived>2008-06-23</bn.types:dateReceived>
+            <bn.types:formCode>405</bn.types:formCode>
+            <bn.types:numberOfPages>31</bn.types:numberOfPages>
+            <bn.types:description>STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490A</bn.types:subformCode>
+              <bn.types:subformDescription>APPOINT/CEASE DIRECTORS - REGISTERED BODY</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>024816403</bn.types:documentNumber>
+            <bn.types:dateReceived>2008-06-23</bn.types:dateReceived>
+            <bn.types:formCode>405</bn.types:formCode>
+            <bn.types:numberOfPages>22</bn.types:numberOfPages>
+            <bn.types:description>STATEMENT VERIFYING BALANCE SHEET FOREIGN COMPANY</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>490A</bn.types:subformCode>
+              <bn.types:subformDescription>APPOINT/CEASE DIRECTORS - REGISTERED BODY</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>024816406</bn.types:documentNumber>
+            <bn.types:dateReceived>2008-06-23</bn.types:dateReceived>
+            <bn.types:formCode>489</bn.types:formCode>
+            <bn.types:numberOfPages>3</bn.types:numberOfPages>
+            <bn.types:description>CHANGE OF REGISTERED OFFICE OR OFFICE HOURS OF A REGD BODY</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>489A</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE OF ADDRESS IN AUSTRALIA OF REGISTERED BODY</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:abrEntity>
+            <abn.types:abn>51000000680</abn.types:abn>
+            <abn.types:entityName>TOWER INSURANCE LIMITED</abn.types:entityName>
+            <abn.types:entityType>OIE</abn.types:entityType>
+            <abn.types:effectiveDate>1999-11-01</abn.types:effectiveDate>
+          </nni.types:abrEntity>
+        </external.get.nni:nniEntity>
+      </external.get.nni:businessDocumentBody>
+    </external.get.nni:reply>
+  </env:Body>
+</env:Envelope>

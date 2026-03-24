@@ -1,0 +1,41 @@
+{
+  "retrieved_at": "2017-03-22T11:31:33Z",
+  "jurisdiction_code": "au",
+  "all_attributes": {
+    "messageType": "getNni",
+    "messageVersion": "3",
+    "numberHeading": "ACN",
+    "types_code": "APTY",
+    "types_class_code": "LMSH",
+    "types_subclass_code": "PROP",
+    "types_subclass_descr": "Proprietary Company",
+    "status_code": "REGD",
+    "is_registered": "true",
+    "incorporationState": "SA",
+    "dateReview": "2018-02-28",
+    "regulator": "Australian Securities & Investments Commission"
+  },
+  "company_type": "Australian Proprietary Company, Limited By Shares",
+  "company_number": "617683780",
+  "name": "LOGISTICS PLUS PTY LTD",
+  "current_status": "Registered",
+  "incorporation_date": "2017-02-28",
+  "registered_address": {
+    "country_code": "AU",
+    "locality": "LIGHTSVIEW",
+    "postal_code": "5085",
+    "region": "South Australia"
+  },
+  "headquarters_address": {
+    "country_code": "AU",
+    "locality": "LIGHTSVIEW",
+    "postal_code": "5085",
+    "region": "South Australia"
+  },
+  "identifiers": [
+    {
+      "uid": "50617683780",
+      "identifier_system_code": "au_bn"
+    }
+  ]
+}

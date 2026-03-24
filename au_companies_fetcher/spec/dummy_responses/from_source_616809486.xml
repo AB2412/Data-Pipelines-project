@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Body>
+    <external.get.nni:reply xmlns:types="uri:types.asic.gov.au" xmlns:nni.types="uri:nni.types.asic.gov.au" xmlns:external.get.nni="uri:v3.external.get.nni.asic.gov.au" xmlns:business.document.header.types="uri:business.document.header.types.asic.gov.au" xmlns:bn.types="uri:bn.types.asic.gov.au" xmlns:ascot.types="uri:ascot.types.asic.gov.au" xmlns:abn.types="uri:abn.types.asic.gov.au">
+      <business.document.header.types:businessDocumentHeader>
+        <business.document.header.types:messageType>getNni</business.document.header.types:messageType>
+        <business.document.header.types:messageReferenceNumber>ABC</business.document.header.types:messageReferenceNumber>
+        <business.document.header.types:asicReferenceNumber>c170fa83-754c-487d-bdac-3d5945f60d60</business.document.header.types:asicReferenceNumber>
+        <business.document.header.types:messageVersion>3</business.document.header.types:messageVersion>
+        <business.document.header.types:senderId>ASIC</business.document.header.types:senderId>
+        <business.document.header.types:senderType>GOVT</business.document.header.types:senderType>
+        <business.document.header.types:softwareInformation>
+          <business.document.header.types:organisationalName>ASIC</business.document.header.types:organisationalName>
+          <business.document.header.types:productName>Business Names</business.document.header.types:productName>
+          <business.document.header.types:productVersion>1</business.document.header.types:productVersion>
+        </business.document.header.types:softwareInformation>
+        <business.document.header.types:messageTimestamps>
+          <business.document.header.types:messageTimestamp>
+            <business.document.header.types:timestamp>2017-03-22T02:32:33</business.document.header.types:timestamp>
+            <business.document.header.types:source>ASIC</business.document.header.types:source>
+          </business.document.header.types:messageTimestamp>
+        </business.document.header.types:messageTimestamps>
+        <business.document.header.types:result>
+          <business.document.header.types:accepted>true</business.document.header.types:accepted>
+        </business.document.header.types:result>
+      </business.document.header.types:businessDocumentHeader>
+      <external.get.nni:businessDocumentBody>
+        <external.get.nni:nniEntity>
+          <nni.types:identifier>
+            <nni.types:numberHeading>ARBN</nni.types:numberHeading>
+            <nni.types:number>616809486</nni.types:number>
+          </nni.types:identifier>
+          <nni.types:name>
+            <types:name>BALU BLUE FOUNDATION INCORPORATED</types:name>
+          </nni.types:name>
+          <nni.types:type>
+            <nni.types:code>RACN</nni.types:code>
+            <nni.types:description>Registered Australian Body</nni.types:description>
+          </nni.types:type>
+          <nni.types:class>
+            <nni.types:code>NONE</nni.types:code>
+            <nni.types:description>Does Not Have An Equivalent Australian Liability</nni.types:description>
+          </nni.types:class>
+          <nni.types:subClass>
+            <nni.types:code>RACA</nni.types:code>
+            <nni.types:description>Registrable Australian Corporation - Association</nni.types:description>
+          </nni.types:subClass>
+          <nni.types:status>
+            <types:code>REGD</types:code>
+            <types:description>Registered</types:description>
+            <types:isRegistered>true</types:isRegistered>
+          </nni.types:status>
+          <nni.types:incorporationState>SA</nni.types:incorporationState>
+          <nni.types:dateRegistered>2017-02-02</nni.types:dateRegistered>
+          <nni.types:jurisdiction>Australian Securities &amp; Investments Commission</nni.types:jurisdiction>
+          <nni.types:address>
+            <types:type>RP</types:type>
+            <types:addressLine>RESTRICTED</types:addressLine>
+            <types:iso3166CountryCode>AU</types:iso3166CountryCode>
+            <types:locality>PORT LINCOLN</types:locality>
+            <types:postCode>5606</types:postCode>
+            <types:state>SA</types:state>
+          </nni.types:address>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>029965220</bn.types:documentNumber>
+            <bn.types:dateReceived>2017-01-13</bn.types:dateReceived>
+            <bn.types:formCode>412</bn.types:formCode>
+            <bn.types:numberOfPages>8</bn.types:numberOfPages>
+            <bn.types:description>CERT COPY CONSTITUTION (RAC)</bn.types:description>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>029814881</bn.types:documentNumber>
+            <bn.types:dateReceived>2017-01-13</bn.types:dateReceived>
+            <bn.types:formCode>401</bn.types:formCode>
+            <bn.types:numberOfPages>5</bn.types:numberOfPages>
+            <bn.types:description>APPLICATION FOR REGISTRATION AS REGISTRABLE AUSTRALIAN BODY</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>401B</bn.types:subformCode>
+              <bn.types:subformDescription>ASSOCIATION</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:abrEntity>
+            <abn.types:abn>69616809486</abn.types:abn>
+            <abn.types:entityName>BALU BLUE FOUNDATION INCORPORATED</abn.types:entityName>
+            <abn.types:entityType>OIE</abn.types:entityType>
+            <abn.types:effectiveDate>2017-02-14</abn.types:effectiveDate>
+          </nni.types:abrEntity>
+        </external.get.nni:nniEntity>
+      </external.get.nni:businessDocumentBody>
+    </external.get.nni:reply>
+  </env:Body>
+</env:Envelope>

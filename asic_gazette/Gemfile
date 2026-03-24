@@ -1,0 +1,6 @@
+source 'http://rubygems.org'
+
+gem 'openc_bot', :git => 'https://github.com/openc/openc_bot.git'
+gem 'rspec'
+# gem 'byebug'
+

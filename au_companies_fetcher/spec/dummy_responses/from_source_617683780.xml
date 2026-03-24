@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Body>
+    <external.get.nni:reply xmlns:types="uri:types.asic.gov.au" xmlns:nni.types="uri:nni.types.asic.gov.au" xmlns:external.get.nni="uri:v3.external.get.nni.asic.gov.au" xmlns:business.document.header.types="uri:business.document.header.types.asic.gov.au" xmlns:bn.types="uri:bn.types.asic.gov.au" xmlns:ascot.types="uri:ascot.types.asic.gov.au" xmlns:abn.types="uri:abn.types.asic.gov.au">
+      <business.document.header.types:businessDocumentHeader>
+        <business.document.header.types:messageType>getNni</business.document.header.types:messageType>
+        <business.document.header.types:messageReferenceNumber>ABC</business.document.header.types:messageReferenceNumber>
+        <business.document.header.types:asicReferenceNumber>7ae4fb79-a54c-4965-9039-91ecbcb619c2</business.document.header.types:asicReferenceNumber>
+        <business.document.header.types:messageVersion>3</business.document.header.types:messageVersion>
+        <business.document.header.types:senderId>ASIC</business.document.header.types:senderId>
+        <business.document.header.types:senderType>GOVT</business.document.header.types:senderType>
+        <business.document.header.types:softwareInformation>
+          <business.document.header.types:organisationalName>ASIC</business.document.header.types:organisationalName>
+          <business.document.header.types:productName>Business Names</business.document.header.types:productName>
+          <business.document.header.types:productVersion>1</business.document.header.types:productVersion>
+        </business.document.header.types:softwareInformation>
+        <business.document.header.types:messageTimestamps>
+          <business.document.header.types:messageTimestamp>
+            <business.document.header.types:timestamp>2017-03-22T22:31:33</business.document.header.types:timestamp>
+            <business.document.header.types:source>ASIC</business.document.header.types:source>
+          </business.document.header.types:messageTimestamp>
+        </business.document.header.types:messageTimestamps>
+        <business.document.header.types:result>
+          <business.document.header.types:accepted>true</business.document.header.types:accepted>
+        </business.document.header.types:result>
+      </business.document.header.types:businessDocumentHeader>
+      <external.get.nni:businessDocumentBody>
+        <external.get.nni:nniEntity>
+          <nni.types:identifier>
+            <nni.types:numberHeading>ACN</nni.types:numberHeading>
+            <nni.types:number>617683780</nni.types:number>
+          </nni.types:identifier>
+          <nni.types:name>
+            <types:name>LOGISTICS PLUS PTY LTD</types:name>
+          </nni.types:name>
+          <nni.types:type>
+            <nni.types:code>APTY</nni.types:code>
+            <nni.types:description>Australian Proprietary Company</nni.types:description>
+          </nni.types:type>
+          <nni.types:class>
+            <nni.types:code>LMSH</nni.types:code>
+            <nni.types:description>Limited By Shares</nni.types:description>
+          </nni.types:class>
+          <nni.types:subClass>
+            <nni.types:code>PROP</nni.types:code>
+            <nni.types:description>Proprietary Company</nni.types:description>
+          </nni.types:subClass>
+          <nni.types:status>
+            <types:code>REGD</types:code>
+            <types:description>Registered</types:description>
+            <types:isRegistered>true</types:isRegistered>
+          </nni.types:status>
+          <nni.types:incorporationState>SA</nni.types:incorporationState>
+          <nni.types:dateRegistered>2017-02-28</nni.types:dateRegistered>
+          <nni.types:dateReview>2018-02-28</nni.types:dateReview>
+          <nni.types:jurisdiction>Australian Securities &amp; Investments Commission</nni.types:jurisdiction>
+          <nni.types:address>
+            <types:type>RG</types:type>
+            <types:addressLine>RESTRICTED</types:addressLine>
+            <types:iso3166CountryCode>AU</types:iso3166CountryCode>
+            <types:locality>LIGHTSVIEW</types:locality>
+            <types:postCode>5085</types:postCode>
+            <types:state>SA</types:state>
+          </nni.types:address>
+          <nni.types:address>
+            <types:type>PA</types:type>
+            <types:addressLine>RESTRICTED</types:addressLine>
+            <types:iso3166CountryCode>AU</types:iso3166CountryCode>
+            <types:locality>LIGHTSVIEW</types:locality>
+            <types:postCode>5085</types:postCode>
+            <types:state>SA</types:state>
+          </nni.types:address>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>2E9497323</bn.types:documentNumber>
+            <bn.types:dateReceived>2017-02-28</bn.types:dateReceived>
+            <bn.types:formCode>201</bn.types:formCode>
+            <bn.types:numberOfPages>3</bn.types:numberOfPages>
+            <bn.types:description>APPLICATION FOR INCORPORATION (DIVN 1)</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>201C</bn.types:subformCode>
+              <bn.types:subformDescription>PROPRIETARY COMPANY</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:abrEntity>
+            <abn.types:abn>50617683780</abn.types:abn>
+            <abn.types:entityName>LOGISTICS PLUS PTY LTD</abn.types:entityName>
+            <abn.types:entityType>PRV</abn.types:entityType>
+            <abn.types:effectiveDate>2017-03-01</abn.types:effectiveDate>
+          </nni.types:abrEntity>
+        </external.get.nni:nniEntity>
+      </external.get.nni:businessDocumentBody>
+    </external.get.nni:reply>
+  </env:Body>
+</env:Envelope>

@@ -1,0 +1,63 @@
+{
+  "all_attributes": {
+    "incorporationState": "SA",
+    "is_registered": "true",
+    "messageType": "getNni",
+    "messageVersion": "3",
+    "numberHeading": "ARBN",
+    "regulator": "Australian Securities & Investments Commission",
+    "status_code": "REGD",
+    "types_code": "RACN",
+    "types_subclass_code": "RACA",
+    "types_subclass_descr": "Registrable Australian Corporation - Association"
+  },
+  "branch": null,
+  "company_number": "616809486",
+  "company_type": "Registered Australian Body",
+  "current_status": "Registered",
+  "dissolution_date": "",
+  "filings": [
+    {
+      "date": "2017-01-13",
+      "filing_type_code": "401",
+      "filing_type_name": "APPLICATION FOR REGISTRATION AS REGISTRABLE AUSTRALIAN BODY",
+      "other_attributes": {
+        "numberOfPages": "5",
+        "subForm": [
+          {
+            "subformCode": "401B",
+            "subformDescription": "ASSOCIATION"
+          }
+        ]
+      },
+      "title": "APPLICATION FOR REGISTRATION AS REGISTRABLE AUSTRALIAN BODY",
+      "uid": "029814881"
+    },
+    {
+      "date": "2017-01-13",
+      "filing_type_code": "412",
+      "filing_type_name": "CERT COPY CONSTITUTION (RAC)",
+      "other_attributes": {
+        "numberOfPages": "8"
+      },
+      "title": "CERT COPY CONSTITUTION (RAC)",
+      "uid": "029965220"
+    }
+  ],
+  "identifiers": [
+    {
+      "identifier_system_code": "au_bn",
+      "uid": "69616809486"
+    }
+  ],
+  "incorporation_date": "2017-02-02",
+  "jurisdiction_code": "au",
+  "name": "BALU BLUE FOUNDATION INCORPORATED",
+  "registered_address": {
+    "country_code": "AU",
+    "locality": "PORT LINCOLN",
+    "postal_code": "5606",
+    "region": "South Australia"
+  },
+  "retrieved_at": "2020-04-23T12:48:23Z"
+}

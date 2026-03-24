@@ -1,0 +1,61 @@
+{
+  "retrieved_at": "2017-03-21T15:32:33Z",
+  "jurisdiction_code": "au",
+  "all_attributes": {
+    "messageType": "getNni",
+    "messageVersion": "3",
+    "numberHeading": "ARBN",
+    "types_code": "RACN",
+    "types_subclass_code": "RACA",
+    "types_subclass_descr": "Registrable Australian Corporation - Association",
+    "status_code": "REGD",
+    "is_registered": "true",
+    "incorporationState": "SA",
+    "regulator": "Australian Securities & Investments Commission"
+  },
+  "filings": [
+    {
+      "other_attributes": {
+        "numberOfPages": "8"
+      },
+      "uid": "029965220",
+      "date": "2017-01-13",
+      "filing_type_code": "412",
+      "title": "CERT COPY CONSTITUTION (RAC)",
+      "filing_type_name": "CERT COPY CONSTITUTION (RAC)"
+    },
+    {
+      "other_attributes": {
+        "numberOfPages": "5",
+        "subForm": [
+          {
+            "subformCode": "401B",
+            "subformDescription": "ASSOCIATION"
+          }
+        ]
+      },
+      "uid": "029814881",
+      "date": "2017-01-13",
+      "filing_type_code": "401",
+      "title": "APPLICATION FOR REGISTRATION AS REGISTRABLE AUSTRALIAN BODY",
+      "filing_type_name": "APPLICATION FOR REGISTRATION AS REGISTRABLE AUSTRALIAN BODY"
+    }
+  ],
+  "company_type": "Registered Australian Body",
+  "company_number": "616809486",
+  "name": "BALU BLUE FOUNDATION INCORPORATED",
+  "current_status": "Registered",
+  "incorporation_date": "2017-02-02",
+  "registered_address": {
+    "country_code": "AU",
+    "locality": "PORT LINCOLN",
+    "postal_code": "5606",
+    "region": "South Australia"
+  },
+  "identifiers": [
+    {
+      "uid": "69616809486",
+      "identifier_system_code": "au_bn"
+    }
+  ]
+}

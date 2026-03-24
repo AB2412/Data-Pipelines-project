@@ -1,0 +1,124 @@
+{
+  "all_attributes": {
+    "dateReview": "2015-01-01",
+    "incorporationState": "VIC",
+    "is_registered": "false",
+    "messageType": "getNni",
+    "messageVersion": "3",
+    "numberHeading": "ACN",
+    "previousStateTerritory": {
+      "number": "C0035199R",
+      "stateTerritoryCode": "VIC"
+    },
+    "regulator": "Australian Securities & Investments Commission",
+    "status_code": "DRGD",
+    "types_class_code": "LMSH",
+    "types_code": "APUB"
+  },
+  "branch": null,
+  "company_number": "004355499",
+  "company_type": "Australian Public Company, Limited By Shares",
+  "current_status": "Deregistered",
+  "dissolution_date": "2014-07-27",
+  "filings": [
+    {
+      "date": "2004-09-10",
+      "filing_type_code": "580",
+      "filing_type_name": "COURT ORDER TO RESTORE COMPANY TO REGISTER",
+      "other_attributes": {
+        "numberOfPages": "3",
+        "subForm": [
+          {
+            "subformCode": "505G",
+            "subformDescription": "APPOINTMENT OF LIQUIDATOR (COURT WINDING UP)"
+          }
+        ]
+      },
+      "title": "COURT ORDER TO RESTORE COMPANY TO REGISTER",
+      "uid": "020569236"
+    },
+    {
+      "date": "2014-02-28",
+      "filing_type_code": "560",
+      "filing_type_name": "COURT ORDER WIND UP COMPANY AND APPT A LIQUIDATOR",
+      "other_attributes": {
+        "numberOfPages": "3",
+        "subForm": [
+          {
+            "subformCode": "505G",
+            "subformDescription": "APPOINTMENT OF LIQUIDATOR (COURT WINDING UP)"
+          }
+        ]
+      },
+      "title": "COURT ORDER WIND UP COMPANY AND APPT A LIQUIDATOR",
+      "uid": "028868819"
+    },
+    {
+      "date": "2014-02-28",
+      "filing_type_code": "580",
+      "filing_type_name": "COURT ORDER TO RESTORE COMPANY TO REGISTER",
+      "other_attributes": {
+        "numberOfPages": "3",
+        "subForm": [
+          {
+            "subformCode": "505G",
+            "subformDescription": "APPOINTMENT OF LIQUIDATOR (COURT WINDING UP)"
+          }
+        ]
+      },
+      "title": "COURT ORDER TO RESTORE COMPANY TO REGISTER",
+      "uid": "028642827"
+    },
+    {
+      "date": "2014-03-17",
+      "filing_type_code": "505",
+      "filing_type_name": "NOTICE BY EXTERNAL ADMINISTRATOR/CONTROLLER-APPOINT/CEASE",
+      "other_attributes": {
+        "numberOfPages": "2",
+        "subForm": [
+          {
+            "subformCode": "505G",
+            "subformDescription": "APPOINTMENT OF LIQUIDATOR (COURT WINDING UP)"
+          }
+        ]
+      },
+      "title": "NOTICE BY EXTERNAL ADMINISTRATOR/CONTROLLER-APPOINT/CEASE",
+      "uid": "028869201"
+    },
+    {
+      "date": "2014-05-16",
+      "filing_type_code": "524",
+      "filing_type_name": "PRESENTATION OF ACCOUNTS & STATEMENT",
+      "other_attributes": {
+        "numberOfPages": "8",
+        "subForm": [
+          {
+            "subformCode": "524F",
+            "subformDescription": "FINAL ACCOUNTS OF WINDING UP BY COURT"
+          }
+        ]
+      },
+      "title": "PRESENTATION OF ACCOUNTS & STATEMENT",
+      "uid": "7E6054827"
+    },
+    {
+      "date": "2014-05-16",
+      "filing_type_code": "578",
+      "filing_type_name": "DEREGISTRATION REQUEST (LIQ NOT ACTING OR AFFAIRS WOUND UP)",
+      "other_attributes": {
+        "numberOfPages": "1"
+      },
+      "title": "DEREGISTRATION REQUEST (LIQ NOT ACTING OR AFFAIRS WOUND UP)",
+      "uid": "7E6054850"
+    }
+  ],
+  "incorporation_date": "",
+  "jurisdiction_code": "au",
+  "name": "DOWELL INDUSTRIES (AUST) LTD.",
+  "previous_names": [
+    {
+      "company_name": "DOWELL INDUSTRIES (AUST.) PROPRIETARY LIMITED"
+    }
+  ],
+  "retrieved_at": "2020-04-23T12:48:18Z"
+}

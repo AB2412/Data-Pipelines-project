@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+gem 'openc_bot', git: 'https://github.com/openc/openc_bot.git', submodules: true
+gem 'openc_industry_codes', :git => 'git@github.com:openc/openc_industry_codes.git'
+gem 'awesome_print'
+gem 'mechanize'
+gem 'nokogiri', '1.9.1'
+gem 'get_process_mem'
+gem 'tzinfo'
+gem 'csv-diff'
+gem 'deep_sort'
+gem 'public_suffix', '3.0.0'
+gem 'rspec'

@@ -1,0 +1,492 @@
+CodeN1,"Niv. 1 (Domaine d'activité général)",CodeN2,"Niv. 2(précision sur le domaine d'activité)",CodeN3,"Niv. 3(précision du type d'exercice professionnel si besoin)",CodeN4,"Niv. 4(précision détaillée du type de profession si besoin)",Code final
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,01,Culture,01,"Céréales, légumineuses, graine oléagineuse",01010101
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,01,Culture,02,riz,01010102
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,01,Culture,03,"légumes, melons, racines et tubercules",01010103
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,01,Culture,04,canne à sucre,01010104
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,01,Culture,05,tabac,01010105
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,01,Culture,06,plante à fibres,01010106
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,01,Culture,07,autres cultures non permanentes,01010107
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,01,Culture,08,vigne,01010108
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,01,Culture,09,fruit à pépins ou à noyau,01010109
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,01,Culture,10,fruits tropicaux et subtropicaux ,01010110
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,01,Culture,11,agrumes,01010111
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,01,Culture,12,fruits oléagineux ,01010112
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,01,Culture,13,"autres fruits d’arbres ou d’arbustes, fruits à coques",01010113
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,01,Culture,14,plantes à boisson ,01010114
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,01,Culture,15,"plantes à épices aromatiques, médicinales et pharmaceutiques",01010115
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,01,Culture,16,autres cultures permanentes,01010116
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,02,Reproduction de plantes,00,,01010200
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,03,Production animale,01,vaches laitières,01010301
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,03,Production animale,02,autres bovins et buffles,01010302
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,03,Production animale,03,chevaux et autres équidés,01010303
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,03,Production animale,04,chameaux et autres camélidés ,01010304
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,03,Production animale,05,ovins et caprins,01010305
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,03,Production animale,06,porcins ,01010306
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,03,Production animale,07,volailles,01010307
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,03,Production animale,08,autres animaux,01010308
+01,"Agriculture, sylviculture et pêche",01,Culture et élevage,04,Culture et élevage associés,00,,01010400
+01,"Agriculture, sylviculture et pêche",02,Activités de soutien aux cultures ,00,,00,,01020000
+01,"Agriculture, sylviculture et pêche",03,Activités de soutien à la production animale,01,Activités diverses de soutien à la production animale,00,,01030100
+01,"Agriculture, sylviculture et pêche",03,Activités de soutien à la production animale,02,Maréchalerie.,00,,01030200
+01,"Agriculture, sylviculture et pêche",03,Activités de soutien à la production animale,03,Nettoyage de locaux agricoles,00,,01030300
+01,"Agriculture, sylviculture et pêche",03,Activités de soutien à la production animale,04," Prise en pension de chevaux, Services de haras, Centre de remise en forme pour équidés  ",00,,01030400
+01,"Agriculture, sylviculture et pêche",03,Activités de soutien à la production animale,07,Entretien et soins des animaux d'élevage ,00,,01030700
+01,"Agriculture, sylviculture et pêche",09,Traitement primaire des récoltes,00,,00,,01090000
+01,"Agriculture, sylviculture et pêche",04,Traitement des semences,01,amélioration de la qualité des semences ,00,,01040100
+01,"Agriculture, sylviculture et pêche",04,Traitement des semences,02," séchage, nettoyage, triage et traitement des semences",00,,01040200
+01,"Agriculture, sylviculture et pêche",05,"Chasse, piégeage et services annexes",01,Pour la protection des cultures ou des élévages,00,,01050100
+01,"Agriculture, sylviculture et pêche",05,"Chasse, piégeage et services annexes",02,Autre,00,,01050200
+01,"Agriculture, sylviculture et pêche",06,Sylviculture et exploitation forestière,01,Sylviculture,00,,01060100
+01,"Agriculture, sylviculture et pêche",06,Sylviculture et exploitation forestière,02,Exploitation forestière - négoce du bois,00,,01060200
+01,"Agriculture, sylviculture et pêche",06,Sylviculture et exploitation forestière,03,Récolte de produits forestiers non ligneux poussant à l'état sauvage,00,,01060300
+01,"Agriculture, sylviculture et pêche",06,Sylviculture et exploitation forestière,04,Travaux forestiers,00,,01060400
+01,"Agriculture, sylviculture et pêche",06,Sylviculture et exploitation forestière,05,Fourniture de matériel d'exploitation forestière ,00,,01060500
+01,"Agriculture, sylviculture et pêche",06,Sylviculture et exploitation forestière,06,Entreprise de lutte contre les parasites,00,,01060600
+01,"Agriculture, sylviculture et pêche",06,Sylviculture et exploitation forestière,07,"Conseil en gestion et administration de la forêt (technique, économique, juridique)",00,,01060700
+01,"Agriculture, sylviculture et pêche",06,Sylviculture et exploitation forestière,08,"Bureau d""études ",00,,01060800
+01,"Agriculture, sylviculture et pêche",06,Sylviculture et exploitation forestière,09,Défense contre les incendies,00,,01060900
+01,"Agriculture, sylviculture et pêche",06,Sylviculture et exploitation forestière,10,Ingénieur forestier,00,,01061000
+01,"Agriculture, sylviculture et pêche",06,Sylviculture et exploitation forestière,11,production et coupes bois par des particuliers propriétaires forestiers ,00,,01061100
+01,"Agriculture, sylviculture et pêche",07,Pêche,01,Pêche maritime commerciale,00,,01070100
+01,"Agriculture, sylviculture et pêche",07,Pêche,02,pêche maritime pratiquée sur des navires d'une longueur inférieure ou égale à douze mètres ou effectuant habituellement des sorties de moins de 24 heures ,00,,01070200
+01,"Agriculture, sylviculture et pêche",07,Pêche,03,pêcheur maritime à pied professionnel,00,,01070300
+01,"Agriculture, sylviculture et pêche",07,Pêche,04,Pêche en eau douce,01,Avec présence de viviers,01070401
+01,"Agriculture, sylviculture et pêche",07,Pêche,04,Pêche en eau douce,02,Sans présence de viviers,01070402
+01,"Agriculture, sylviculture et pêche",08,Aquaculture,01,Aquaculture en mer,01,Nécessitant d'embarquer sur un navire battant pavillon français,01080101
+01,"Agriculture, sylviculture et pêche",08,Aquaculture,01,Aquaculture en mer,02,Ne nécessitant pas d'embarquer sur un navire battant pavillon français,01080102
+01,"Agriculture, sylviculture et pêche",08,Aquaculture,02,Aquaculture en eau douce,00,,01080200
+02,Industrie et artisanat de fabrication ,01,Industrie extractive,01,"Extraction d'hydrocarbures, de minerais métallique, de houille, de lignite",00,,02010100
+02,Industrie et artisanat de fabrication ,01,Industrie extractive,02,Orpaillage,00,,02010200
+02,Industrie et artisanat de fabrication ,01,Industrie extractive,03,"Extraction de pierres, de sables et d'argiles",00,,02010300
+02,Industrie et artisanat de fabrication ,01,Industrie extractive,04,Extraction des minéraux chimiques et d’engrais minéraux.,00,,02010400
+02,Industrie et artisanat de fabrication ,01,Industrie extractive,05,Extraction de tourbe.,00,,02010500
+02,Industrie et artisanat de fabrication ,01,Industrie extractive,06,Production de sel.,01,En marais salants,02010601
+02,Industrie et artisanat de fabrication ,01,Industrie extractive,06,Production de sel.,02,Hors marais salants,02010602
+02,Industrie et artisanat de fabrication ,01,Industrie extractive,07,Autres activités extractives ,00,,02010700
+02,Industrie et artisanat de fabrication ,01,Industrie extractive,08,Activités de soutien à l'extraction d'hydrocarbures,00,,02010800
+02,Industrie et artisanat de fabrication ,01,Industrie extractive,09,Activités de soutien aux autres industries extractives ,00,,02010900
+02,Industrie et artisanat de fabrication ,01,Industrie extractive,10,Activités de soutien aux autres industries extractives exercées de manière artisanale,00,,02011000
+02,Industrie et artisanat de fabrication ,02,Industrie alimentaire,01,Transformation et conservation de la viande et préparation de produits à base de viande,00,,02020100
+02,Industrie et artisanat de fabrication ,02,Industrie alimentaire,02,"Transformation et conservation de poisson, de crustacés et de mollusques",00,,02020200
+02,Industrie et artisanat de fabrication ,02,Industrie alimentaire,03,Transformation et conservation de fruits et légumes,01,Transformation et conservation de fruits et légumes à titre artisanal,02020301
+02,Industrie et artisanat de fabrication ,02,Industrie alimentaire,03,Transformation et conservation de fruits et légumes,02,préparation d’aliments préparés périssables à base de fruits et légumes (produits de la «4ème gamme»),02020302
+02,Industrie et artisanat de fabrication ,02,Industrie alimentaire,04,Fabrication d’huiles et graisses végétales et animales,00,,02020400
+02,Industrie et artisanat de fabrication ,02,Industrie alimentaire,05,Fabrication de produits laitiers,00,,02020500
+02,Industrie et artisanat de fabrication ,02,Industrie alimentaire,06,Fabrication de glaces et sorbets,01,A titre artisanal,02020601
+02,Industrie et artisanat de fabrication ,02,Industrie alimentaire,06,Fabrication de glaces et sorbets,02,Autre,02020602
+02,Industrie et artisanat de fabrication ,02,Industrie alimentaire,07,Travail des grains ; fabrication de produits amylacés,00,,02020700
+02,Industrie et artisanat de fabrication ,02,Industrie alimentaire,08,Fabrication de produits de boulangerie-pâtisserie (hors cuisson de produits de boulangerie),00,,02020800
+02,Industrie et artisanat de fabrication ,02,Industrie alimentaire,09,Fabrication d'autres produits alimentaires,00,,02020900
+02,Industrie et artisanat de fabrication ,02,Industrie alimentaire,10,Fabrication d'aliments pour animaux,00,,02021000
+02,Industrie et artisanat de fabrication ,02,Industrie alimentaire,11,Fabrication de boissons,00,,02021100
+02,Industrie et artisanat de fabrication ,02,Industrie alimentaire,12,Fabrication de vin,00,,02021200
+02,Industrie et artisanat de fabrication ,03,Industrie du tabac,00,,00,,02030000
+02,Industrie et artisanat de fabrication ,04,"Industrie du textile, du cuir et de l'habillement",00,,00,,02040000
+02,Industrie et artisanat de fabrication ,05,"Industrie du bois, du papier et du carton",01,Sciage et rabotage du bois,00,,02050100
+02,Industrie et artisanat de fabrication ,05,"Industrie du bois, du papier et du carton",02,"Fabrication d'articles en bois, liège, vannerie et sparterie",00,,02050200
+02,Industrie et artisanat de fabrication ,05,"Industrie du bois, du papier et du carton",03,"Fabrication de pâte à papier, de papier et de carton",00,,02050300
+02,Industrie et artisanat de fabrication ,05,"Industrie du bois, du papier et du carton",04,Imprimerie et reproduction d'enregistrements,00,,02050400
+02,Industrie et artisanat de fabrication ,05,"Industrie du bois, du papier et du carton",05,Imprimerie de journaux,00,,02050500
+02,Industrie et artisanat de fabrication ,06,industrie chimique et pharmaceutique ,01,Cokéfaction et raffinage,00,,02060100
+02,Industrie et artisanat de fabrication ,06,industrie chimique et pharmaceutique ,02,Production de brai et de coke de brai.,00,,02060200
+02,Industrie et artisanat de fabrication ,06,industrie chimique et pharmaceutique ,03,Agglomération de la tourbe.,00,,02060300
+02,Industrie et artisanat de fabrication ,06,industrie chimique et pharmaceutique ,04,industrie chimique ,00,,02060400
+02,Industrie et artisanat de fabrication ,06,industrie chimique et pharmaceutique ,05,Industrie pharmaceutique,00,,02060500
+02,Industrie et artisanat de fabrication ,06,industrie chimique et pharmaceutique ,06,Fabrication d’édulcorants de synthèse.,00,,02060600
+02,Industrie et artisanat de fabrication ,06,industrie chimique et pharmaceutique ,07,Fabrication de substances radioactives de diagnostic et de pansements.,00,,02060700
+02,Industrie et artisanat de fabrication ,07,Fabrication de produits divers,01,Produits en caoutchouc et plastique,00,,02070100
+02,Industrie et artisanat de fabrication ,07,Fabrication de produits divers,02,"Produits minéraux non métalliques (verre, céramique, porcelaine…)",00,,02070200
+02,Industrie et artisanat de fabrication ,07,Fabrication de produits divers,03,Métallurgie et produits métalliques,00,,02070300
+02,Industrie et artisanat de fabrication ,07,Fabrication de produits divers,04,"Produits informatiques, électroniques, optiques et équipements électriques",00,,02070400
+02,Industrie et artisanat de fabrication ,07,Fabrication de produits divers,05,Fabrication de machines et autres équipements,00,,02070500
+02,Industrie et artisanat de fabrication ,07,Fabrication de produits divers,06,Fabrication de meubles,00,,02070600
+02,Industrie et artisanat de fabrication ,07,Fabrication de produits divers,07,"Fabrication d’articles de joaillerie, bijouterie, instrument de musique ",00,,02070700
+02,Industrie et artisanat de fabrication ,07,Fabrication de produits divers,08,Autres produits manufacturés,00,,02070800
+02,Industrie et artisanat de fabrication ,07,Fabrication de produits divers,09,Fabrication de prothèses dentaires.,00,,02070900
+02,Industrie et artisanat de fabrication ,07,Fabrication de produits divers,10,Fabrication d'instruments et de fournitures à usage médical et dentaire,00,,02071000
+02,Industrie et artisanat de fabrication ,07,Fabrication de produits divers,11,"Fabrication d’articles ophtalmologiques, lunettes correctrices, lentilles sur
+prescription, verres de contact ",00,,02071100
+02,Industrie et artisanat de fabrication ,07,Fabrication de produits divers,12,Fabrication de montures et lunettes de protection,00,,02071200
+02,Industrie et artisanat de fabrication ,08,"Edition, informatique et télécommunication",01,Édition de livres et périodiques et autres activités d'édition ,00,,02080100
+02,Industrie et artisanat de fabrication ,08,"Edition, informatique et télécommunication",02,Edition de blog,00,,02080200
+02,Industrie et artisanat de fabrication ,08,"Edition, informatique et télécommunication",03,"Edition d’imprimés fiduciaires, imprimés commerciaux, formulaires imprimés.",00,,02080300
+02,Industrie et artisanat de fabrication ,08,"Edition, informatique et télécommunication",04,Édition de logiciels,00,,02080400
+02,Industrie et artisanat de fabrication ,08,"Edition, informatique et télécommunication",05,"Production de films cinématographiques, de vidéo et de programmes de télévision ; enregistrement sonore et édition musicale",00,,02080500
+02,Industrie et artisanat de fabrication ,08,"Edition, informatique et télécommunication",06,"Réalisation technique de films cinématographiques, de vidéo et de programmes de télévision",00,,02080600
+02,Industrie et artisanat de fabrication ,08,"Edition, informatique et télécommunication",07,Programmation et diffusion,00,,02080700
+02,Industrie et artisanat de fabrication ,08,"Edition, informatique et télécommunication",08,Télécommunications,00,,02080800
+02,Industrie et artisanat de fabrication ,08,"Edition, informatique et télécommunication",09,"Programmation, conseil et autres activités informatiques ",01,A titre commercial,02080901
+02,Industrie et artisanat de fabrication ,08,"Edition, informatique et télécommunication",09,"Programmation, conseil et autres activités informatiques ",02,A titre indépendant,02080902
+03,Installation et réparation,01,Réparation et installation de machines et d'équipements ,01,"Réparation d'ouvrages en métaux, de machines et d'équipements divers",00,,03010100
+03,Installation et réparation,01,Réparation et installation de machines et d'équipements ,02,Réparation de machines et équipements mécaniques,01,Réparation et entretien de machines agricoles et forestières ,03010201
+03,Installation et réparation,01,Réparation et installation de machines et d'équipements ,02,Réparation de machines et équipements mécaniques,02,Réparation et entretien de machines pour la construction et l'extraction,03010202
+03,Installation et réparation,01,Réparation et installation de machines et d'équipements ,02,Réparation de machines et équipements mécaniques,03,Réparation d'autres machines et équipements mécaniques,03010203
+03,Installation et réparation,01,Réparation et installation de machines et d'équipements ,03,Réparation d'équipements électriques,01,"Réparation, rembobinage et entretien de transformateurs électriques et de groupes électrogènes à moteur ",03010301
+03,Installation et réparation,01,Réparation et installation de machines et d'équipements ,03,Réparation d'équipements électriques,02,Réparation et entretien de matériel de distribution et de commande,03010302
+03,Installation et réparation,01,Réparation et installation de machines et d'équipements ,03,Réparation d'équipements électriques,03,Réparation et entretien de dispositifs de câblage porteurs et non porteurs de courant pour le câblage d'installation électrique,03010303
+03,Installation et réparation,01,Réparation et installation de machines et d'équipements ,03,Réparation d'équipements électriques,04,Réparation d'autres équipements électriques,03010304
+03,Installation et réparation,01,Réparation et installation de machines et d'équipements ,04,"Installation de structures métalliques, chaudronnées et de tuyauterie.",01,"Installation de générateurs de vapeur, de chaudières et de pompes à chaleur pour le chauffage central",03010401
+03,Installation et réparation,01,Réparation et installation de machines et d'équipements ,04,"Installation de structures métalliques, chaudronnées et de tuyauterie.",02,"Installation et travaux de tuyauterie métallique sur site industriel : chimie, pétrole…",03010402
+03,Installation et réparation,01,Réparation et installation de machines et d'équipements ,04,"Installation de structures métalliques, chaudronnées et de tuyauterie.",03,Installation d'autres structures métalliques,03010403
+03,Installation et réparation,01,Réparation et installation de machines et d'équipements ,05,Installation de machines et équipements mécaniques.,01,"Installation et montage de pompes, compresseurs et systèmes hydrauliques",03010501
+03,Installation et réparation,01,Réparation et installation de machines et d'équipements ,05,Installation de machines et équipements mécaniques.,02,Installation d'articles de robinetterie et similaires ,03010502
+03,Installation et réparation,01,Réparation et installation de machines et d'équipements ,05,Installation de machines et équipements mécaniques.,03,Installation d'autres machines et équipements mécaniques,03010503
+03,Installation et réparation,01,Réparation et installation de machines et d'équipements ,06,Conception d'ensemble et assemblage sur site industriel d'équipements de contrôle des processus industriels,00,,03010600
+03,Installation et réparation,01,Réparation et installation de machines et d'équipements ,07,Installation et montage de matériels électriques divers,00,,03010700
+03,Installation et réparation,01,Réparation et installation de machines et d'équipements ,08,Installation de matériels électroniques et optiques ou d'autres matériels,00,,03010800
+03,Installation et réparation,02,"Entretien, réparation, nettoyage et embellissement de véhicules automobiles",01,Entretien et réparation de véhicules automobiles,00,,03020100
+03,Installation et réparation,02,"Entretien, réparation, nettoyage et embellissement de véhicules automobiles",02,Nettoyage et embellissement de véhicules automobiles,00,,03020200
+03,Installation et réparation,03,Réparation de motocycles.,00, ,00,,03030000
+03,Installation et réparation,04,Réparation de biens personnels et domestiques et d'ordinateurs,00,,00,,03040000
+03,Installation et réparation,05,"Travaux de petit bricolage dits "" homme toutes mains """,00,,00,,03050000
+04,"Réseaux de production, de distribution et de traitement des fluides et des déchets ",01,"Production, transport et distribution d'électricité",01,"Production, transport et distribution d'électricité à titre professionnel",00,,04010100
+04,"Réseaux de production, de distribution et de traitement des fluides et des déchets ",01,"Production, transport et distribution d'électricité",02,Particulier producteur d'électricité,00,,04010200
+04,"Réseaux de production, de distribution et de traitement des fluides et des déchets ",02,Production et distribution de combustibles gazeux,00,,00,,04020000
+04,"Réseaux de production, de distribution et de traitement des fluides et des déchets ",03,Production et distribution de vapeur et d'air conditionné,00,,00,,04030000
+04,"Réseaux de production, de distribution et de traitement des fluides et des déchets ",04,"Captage, traitement et distribution d'eau",00,,00,,04040000
+04,"Réseaux de production, de distribution et de traitement des fluides et des déchets ",05,Collecte et traitement des eaux usées,01,Collecte et traitement des eaux usées,00,,04050100
+04,"Réseaux de production, de distribution et de traitement des fluides et des déchets ",05,Collecte et traitement des eaux usées,02,Entretien de fosses septiques.,00,,04050200
+04,"Réseaux de production, de distribution et de traitement des fluides et des déchets ",06,"Collecte, traitement et élimination des déchets ; récupération",01,Collecte des déchets non dangereux,00,,04060100
+04,"Réseaux de production, de distribution et de traitement des fluides et des déchets ",06,"Collecte, traitement et élimination des déchets ; récupération",02,Collecte des déchets dangereux,00,,04060200
+04,"Réseaux de production, de distribution et de traitement des fluides et des déchets ",06,"Collecte, traitement et élimination des déchets ; récupération",03,Collecte des déchets nucléaires.,00,,04060300
+04,"Réseaux de production, de distribution et de traitement des fluides et des déchets ",06,"Collecte, traitement et élimination des déchets ; récupération",04,Traitement et élimination des déchets non dangereux,01,Au service exclusif des exploitations agricoles,04060401
+04,"Réseaux de production, de distribution et de traitement des fluides et des déchets ",06,"Collecte, traitement et élimination des déchets ; récupération",04,Traitement et élimination des déchets non dangereux,02,Autre,04060402
+04,"Réseaux de production, de distribution et de traitement des fluides et des déchets ",06,"Collecte, traitement et élimination des déchets ; récupération",05,Incinération des déchets non dangereux et production de cendres et scories associée.,00,,04060500
+04,"Réseaux de production, de distribution et de traitement des fluides et des déchets ",06,"Collecte, traitement et élimination des déchets ; récupération",06,Traitement et élimination des déchets dangereux,00,,04060600
+04,"Réseaux de production, de distribution et de traitement des fluides et des déchets ",06,"Collecte, traitement et élimination des déchets ; récupération",07,Traitement et élimination de déchets nucléaires radioactifs.,00,,04060700
+04,"Réseaux de production, de distribution et de traitement des fluides et des déchets ",06,"Collecte, traitement et élimination des déchets ; récupération",08,Démantèlement d'épaves,00,,04060800
+04,"Réseaux de production, de distribution et de traitement des fluides et des déchets ",06,"Collecte, traitement et élimination des déchets ; récupération",09,Récupération de déchets triés,00,,04060900
+04,"Réseaux de production, de distribution et de traitement des fluides et des déchets ",07,Dépollution et autres services de gestion des déchets,00,,00,,04070000
+04,"Réseaux de production, de distribution et de traitement des fluides et des déchets ",08,Désamiantage.,00,,00,,04080000
+05,Construction,01,Promotion immobilière,01,Promotion immobilière de bureaux,00,,05010100
+05,Construction,01,Promotion immobilière,02,Promotion immobilière de logements,00,,05010200
+05,Construction,01,Promotion immobilière,03,Promotion immobilière d'autres bâtiments,00,,05010300
+05,Construction,02,Construction et réhabilitation de bâtiments résidentiels et non résidentiels,00,,00,,05020000
+05,Construction,03,Génie civil,01,Construction de routes et de voies ferrées ,00,,05030100
+05,Construction,03,Génie civil,02,Construction d’installations de réseaux pour fluides.,00,,05030200
+05,Construction,03,Génie civil,03,Forage des puits d’eau.,00,,05030300
+05,Construction,03,Génie civil,04,Construction de centrales électriques.,00,,05030400
+05,Construction,03,Génie civil,05,Construction de lignes électriques et de télécommunication.,00,,05030500
+05,Construction,03,Génie civil,06,Construction d’ouvrages maritimes et fluviaux.,01,Au service exclusif des exploitations agricoles,05030601
+05,Construction,03,Génie civil,06,Construction d’ouvrages maritimes et fluviaux.,02,Autre,05030602
+05,Construction,03,Génie civil,07,Construction d'autres ouvrages de génie civil ,01,Au service exclusif des exploitations agricoles,05030701
+05,Construction,03,Génie civil,07,Construction d'autres ouvrages de génie civil ,02,Autre,05030702
+05,Construction,03,Génie civil,08,Construction d’installations sportives et d’ouvrages industriels ou miniers.,01,Au service exclusif des exploitations agricoles,05030801
+05,Construction,03,Génie civil,08,Construction d’installations sportives et d’ouvrages industriels ou miniers.,02,Autre,05030802
+05,Construction,04,Travaux de construction spécialisés ,01,Démolition et préparation des sites,01,Au service exclusif des exploitations agricoles,05040101
+05,Construction,04,Travaux de construction spécialisés ,01,Démolition et préparation des sites,02,Autre,05040102
+05,Construction,04,Travaux de construction spécialisés ,02,Installation d’antennes.,00,,05040200
+05,Construction,04,Travaux de construction spécialisés ,03,"Travaux d'installation électrique, plomberie et autres travaux d'installation",00,,05040300
+05,Construction,04,Travaux de construction spécialisés ,04,Montage de clôtures et de grilles.,00,,05040400
+05,Construction,04,Travaux de construction spécialisés ,05,"Travaux de plâtrerie, mensuiserie, peinture, vitrerie et de revêtement",00,,05040500
+05,Construction,04,Travaux de construction spécialisés ,06,Agencement de lieux de vente.,00,,05040600
+05,Construction,04,Travaux de construction spécialisés ,07,Autres travaux de finition.,00,,05040700
+05,Construction,04,Travaux de construction spécialisés ,08,Travaux de couverture,00,,05040800
+05,Construction,04,Travaux de construction spécialisés ,09,Travaux d’étanchéification.,00,,05040900
+05,Construction,04,Travaux de construction spécialisés ,10,Travaux de montage de structures métalliques.,00,,05041000
+05,Construction,04,Travaux de construction spécialisés ,11,Travaux de maçonnerie générale et gros œuvre de bâtiment.,00,,05041100
+05,Construction,04,Travaux de construction spécialisés ,12,Installation de piscines de résidence et construction de piscines extérieures.,00,,05041200
+05,Construction,04,Travaux de construction spécialisés ,13,Construction de cheminées et de fours industriels.,00,,05041300
+05,Construction,04,Travaux de construction spécialisés ,14,Autres travaux spéciaux de construction.,00,,05041400
+05,Construction,04,Travaux de construction spécialisés ,15,Location avec opérateur de matériel de construction.,00,,05041500
+06,Commerce et artisanat de détail,01,Commerce de véhicules et équipements automobiles,00,,00,,06010000
+06,Commerce et artisanat de détail,02,Commerce de gros et intermédiaires,01,Agent commercial,00,,06020100
+06,Commerce et artisanat de détail,02,Commerce de gros et intermédiaires,02,Autre,00,,06020200
+06,Commerce et artisanat de détail,03,Vente et Commerce de détail,01,Commerce de détail en magasin,00,,06030100
+06,Commerce et artisanat de détail,03,Vente et Commerce de détail,02,Boucherie.,00,,06030200
+06,Commerce et artisanat de détail,03,Vente et Commerce de détail,03,Boucherie-charcuterie.,00,,06030300
+06,Commerce et artisanat de détail,03,Vente et Commerce de détail,04,Boucherie chevaline.,00,,06030400
+06,Commerce et artisanat de détail,03,Vente et Commerce de détail,05,"Volailles, gibiers.",00,,06030500
+06,Commerce et artisanat de détail,03,Vente et Commerce de détail,06,Triperie.,00,,06030600
+06,Commerce et artisanat de détail,03,Vente et Commerce de détail,07,"Commerce de préparation de poissons, crustacés et mollusques",00,,06030700
+06,Commerce et artisanat de détail,03,Vente et Commerce de détail,08,Crémerie-fromagerie et préparations à base de lait ou de fromage,00,,06030800
+06,Commerce et artisanat de détail,03,Vente et Commerce de détail,09,Officine de pharmacie,00,,06030900
+06,Commerce et artisanat de détail,03,Vente et Commerce de détail,10,Commerce de détail de fleurs.,00,,06031000
+06,Commerce et artisanat de détail,04,Vente et commerce de détail sur éventaires et marchés,01,Commerce de détail sur éventaires et marchés,00,,06040100
+06,Commerce et artisanat de détail,04,Vente et commerce de détail sur éventaires et marchés,02,Boucherie sur éventaires et marchés.,00,,06040200
+06,Commerce et artisanat de détail,04,Vente et commerce de détail sur éventaires et marchés,03,Boucherie-charcuterie sur éventaires et marchés.,00,,06040300
+06,Commerce et artisanat de détail,04,Vente et commerce de détail sur éventaires et marchés,04,Boucherie chevaline sur éventaires et marchés.,00,,06040400
+06,Commerce et artisanat de détail,04,Vente et commerce de détail sur éventaires et marchés,05,"Volailles, gibiers sur éventaires et marchés.",00,,06040500
+06,Commerce et artisanat de détail,04,Vente et commerce de détail sur éventaires et marchés,06,Triperie sur éventaires et marchés.,00,,06040600
+06,Commerce et artisanat de détail,04,Vente et commerce de détail sur éventaires et marchés,07,"Préparation de poissons, crustacés, mollusques sur éventaires, marchés.",00,,06040700
+06,Commerce et artisanat de détail,04,Vente et commerce de détail sur éventaires et marchés,08,"Crémerie-fromagerie et préparations à base de lait ou de fromage sur éventaires, marchés",00,,06040800
+06,Commerce et artisanat de détail,04,Vente et commerce de détail sur éventaires et marchés,09,Commerce de détail de fleurs sur éventaires et marchés.,00,,06040900
+06,Commerce et artisanat de détail,05,Vente à distance,00,,00,,06050000
+06,Commerce et artisanat de détail,06,Vente à domicile,01,vendeur à domicile indépendant inscrit au RCS,00,,06060100
+06,Commerce et artisanat de détail,06,Vente à domicile,02,vendeur à domicile indépendant inscrit au RSAC,00,,06060200
+06,Commerce et artisanat de détail,06,Vente à domicile,03,Vendeur à domicile indépendant non immatriculé,00,,06060300
+06,Commerce et artisanat de détail,07,Vente par automates,00,,00,,06070000
+07,Activités de services,01,"Transport, Fret, Entreposage",01,Transport ferroviaire,00,,07010100
+07,Activités de services,01,"Transport, Fret, Entreposage",02,Taxis,00,,07010200
+07,Activités de services,01,"Transport, Fret, Entreposage",03,Location de voitures avec chauffeur.,00,,07010300
+07,Activités de services,01,"Transport, Fret, Entreposage",04,Transport routier,01, Transport routier motorisé,07010401
+07,Activités de services,01,"Transport, Fret, Entreposage",04,Transport routier,02, Transport routier non-motorisé,07010402
+07,Activités de services,01,"Transport, Fret, Entreposage",05,Téléphériques et remontées mécaniques,00,,07010500
+07,Activités de services,01,"Transport, Fret, Entreposage",06,Services de déménagement.,00,,07010600
+07,Activités de services,01,"Transport, Fret, Entreposage",07,Transport maritime,01,Skippers,07010701
+07,Activités de services,01,"Transport, Fret, Entreposage",07,Transport maritime,02,Autre,07010702
+07,Activités de services,01,"Transport, Fret, Entreposage",07,Transport maritime,03,Activités de transports maritimes côtiers,07010703
+07,Activités de services,01,"Transport, Fret, Entreposage",08,Transport fluvial de passagers,00,,07010800
+07,Activités de services,01,"Transport, Fret, Entreposage",09,Transport fluvial de fret,00,,07010900
+07,Activités de services,01,"Transport, Fret, Entreposage",10,Transport aérien et spatial,00, ,07011000
+07,Activités de services,01,"Transport, Fret, Entreposage",11,Transports par conduites,00,,07011100
+07,Activités de services,01,"Transport, Fret, Entreposage",12,Entreposage et stockage,01,A titre commercial,07011201
+07,Activités de services,01,"Transport, Fret, Entreposage",12,Entreposage et stockage,02,A titre indépendant,07011202
+07,Activités de services,01,"Transport, Fret, Entreposage",13,Services auxilliaires,00,,07011300
+07,Activités de services,01,"Transport, Fret, Entreposage",14,Assistance et remorquage de véhicules automobiles.,00,,07011400
+07,Activités de services,01,"Transport, Fret, Entreposage",15,Conseil en organisation de convoi ,00,,07011500
+07,Activités de services,01,"Transport, Fret, Entreposage",16,Activités de poste et de courrier,00,,07011600
+07,Activités de services,01,"Transport, Fret, Entreposage",17,"livraison à domicile, coursiers",00,,07011700
+07,Activités de services,01,"Transport, Fret, Entreposage",18,Ambulance,00,,07011800
+07,Activités de services,01,"Transport, Fret, Entreposage",19,Services occasionnels de transport routiers à la demande,00,,07011900
+07,Activités de services,02,Hotellerie et restauration,01,Hotellerie et hébergement avec prestations hotellières,00,,07020100
+07,Activités de services,02,Hotellerie et restauration,02,Terrains de camping et parcs pour caravanes ou véhicules de loisirs,00,,07020200
+07,Activités de services,02,Hotellerie et restauration,03,Restauration,00,,07020300
+07,Activités de services,02,Hotellerie et restauration,04,Fabrication culinaire artisanale de plats à consommer sur place,00,,07020400
+07,Activités de services,02,Hotellerie et restauration,06,Fabrication artisanale associée à la vente de plats pour consommation immédiate en magasins sédentaires ou sur éventaires et marchés.,00,,07020600
+07,Activités de services,02,Hotellerie et restauration,07,Fabrication artisanale associée à la vente de plats pour consommation immédiate en véhicules motorisés ou non.,00,,07020700
+07,Activités de services,02,Hotellerie et restauration,08,Traiteurs et autres services de restauration,00,,07020800
+07,Activités de services,02,Hotellerie et restauration,09,Débits de boissons,00,,07020900
+07,Activités de services,03,Services d'information,01,"Traitement de données, hébergement et activités connexes ",00,,07030100
+07,Activités de services,03,Services d'information,02,Exploitation de portails Internet,00,,07030200
+07,Activités de services,03,Services d'information,03,"Community manager, ergonome web, blogueur professionnel, rédacteur web",00,,07030300
+07,Activités de services,03,Services d'information,04,Activités des agences de presse,00,,07030400
+07,Activités de services,03,Services d'information,05,"Relation presse, correspondants locaux de la presse écrite",00,,07030500
+07,Activités de services,03,Services d'information,06,"Rédacteur, attaché de presse, journaliste d'entreprise",00,,07030600
+07,Activités de services,03,Services d'information,07,Autres services d'information ,00,,07030700
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",01,Activités des services financiers,01,Administration de marchés financiers,07040101
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",01,Activités des services financiers,02,Activités diverses des services financiers ,07040102
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",01,Activités des services financiers,03,Courtage de valeurs mobilières et de marchandises,07040103
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",01,Activités des services financiers,04,Trading pour compte propre et gestion de patrimoine personnel ,07040104
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",01,Activités des services financiers,05,Conseil en gestion de patrimoine,07040105
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",01,Activités des services financiers,06,"Autres activités auxiliaires de services financiers, hors assurance et caisses de retraite",07040106
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",01,Activités des services financiers,07,"Conseil en placement et en investissement financier, ingénieur d'affaires",07040107
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",01,Activités des services financiers,08,Gestion de fonds,07040108
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",01,Activités des services financiers,09,Services généraux d'assurances,07040109
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",01,Activités des services financiers,10,Autre,07040110
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",02,Assurances,01,Évaluation des risques et dommages,07040201
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",02,Assurances,02,Expertise automobile,07040202
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",02,Assurances,03,Expertise médicale,07040203
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",02,Assurances,04,Activités des mandataires intermédiaires des sociétés ou caisses locales d'assurances mutuelles agricoles ,07040204
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",02,Assurances,05,Activités des courtiers d'assurances (hors assurances mutuelles agricoles),07040205
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",02,Assurances,06,Agent général d'assurances,07040206
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",02,Assurances,08,"Gestion et administration fonds d'assurance, enquêteur, expert assureur",07040208
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",03,Activités immobilières ,01,Agences immobilières,07040301
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",03,Activités immobilières ,07,Agent commercial en immobilier,07040307
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",03,Activités immobilières ,02,Expertises et conseils en immobilier hors diagnostic et transaction,07040302
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",03,Activités immobilières ,03,Expert foncier,07040303
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",03,Activités immobilières ,04,Administration d'immeubles et autres biens immobiliers,07040304
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",03,Activités immobilières ,05,Conseil en immobilier ou en gestion de patrimoine,07040305
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",03,Activités immobilières ,08,Activités des marchands de biens immobiliers,07040308
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",04,Activités juridiques,02,Greffiers près les tribunaux de commerce ,07040402
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",04,Activités juridiques,03,Administrateurs judiciaires ,07040403
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",04,Activités juridiques,04,Mandataires judiciaires ,07040404
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",04,Activités juridiques,05,Opérateur de ventes volontaires de meubles aux enchères publiques,07040405
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",04,Activités juridiques,06,Expert devant les tribunaux,07040406
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",04,Activités juridiques,07,Mandataires judiciaires à la protection des majeurs,07040407
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",04,Activités juridiques,08,Autres activités juridiques,07040408
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",04,Activités juridiques,09,Avocat,07040409
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",04,Activités juridiques,10,Notaire,07040410
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",04,Activités juridiques,12,Commissaire de justice,07040412
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",05,Activités comptables,01,Expert-comptable,07040501
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",05,Activités comptables,02,Commissaire aux comptes,07040502
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",05,Activités comptables,03,Autres activités comptables,07040503
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",06,Activités des sièges sociaux ,01,Centre de gestion agréé ou association de gestion et de comptabilité composé(e) en majorité de membres désignés par des organisations professionnelles agricoles ou des chambres d'agriculture,07040601
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",06,Activités des sièges sociaux,02,Activités des sièges sociaux et des sièges d'entreprises,07040602
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",07,Conseil en relations publiques et communication,01,"Agence de communication, marketing, Conseil en image",07040701
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",07,Conseil en relations publiques et communication,02,Conseil et accompagnement en communication et relations publiques,07040702
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",08,Conseil pour les affaires et conseil de gestion,01,Conseil commercial,07040801
+07,Activités de services,04,"Activités bancaires, financières, d'assurances, de gestion, comptables et juridiques",08,Conseil pour les affaires et conseil de gestion,02,Autres activités de conseil,07040802
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",01,Activités d'architecture et d'ingénierie,01,"Architecte, architecte d'intérieur, maître d'œuvre ",07050101
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",01,Activités d'architecture et d'ingénierie,02,Autres activités d'architecture,07050102
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",01,Activités d'architecture et d'ingénierie,03,Géomètre,07050103
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",01,Activités d'architecture et d'ingénierie,04,Autres activités de géomètre,07050104
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",01,Activités d'architecture et d'ingénierie,05,"Ingénierie, études techniques en profession libérale",07050105
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",01,Activités d'architecture et d'ingénierie,06,"Ingénierie, études techniques à titre indépendant",07050106
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",02,Contrôle technique automobile,00,,07050200
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",03,"Analyses, essais et inspections techniques",00, ,07050300
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",04,Diagnostic technique immobilier,00,,07050400
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",05,Recherche-développement scientifique,00,,07050500
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",06,Activités des agences de publicité,00,,07050600
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",07,Pose d’affiches.,00,,07050700
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",08,Régie publicitaire de médias,00,,07050800
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",09,Études de marché et sondages,00,,07050900
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",10,Activités spécialisées de design,00,,07051000
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",11,Conception de modèles pour étalages et décoration.,00,,07051100
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",12,Activités photographiques,01,Exploitant de machines automatiques de photographies,07051201
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",13,Activités photographiques,02,Studio de photographie.,07051302
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",13,Activités photographiques,03,"Portrait, reportage.",07051303
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",13,Activités photographiques,04,Photographie industrielle et publicitaire.,07051304
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",13,Activités photographiques,05,Laboratoires techniques de développement et de tirage.,07051305
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",13,Activités photographiques,06,Photojournaliste indépendant,07051306
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",13,Activités photographiques,07,Opérateur de drones réalisant des prises de vues aériennes,07051307
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",14,Traduction et interprétation,00,,07051400
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",15,"Activités spécialisées, scientifiques et techniques diverses",00,,07051500
+07,Activités de services,05,"Activités spécialisées, scientifiques et techniques",16,Activités vétérinaires,00,,07051600
+07,Activités de services,06,Location,01,Location de biens immobiliers,01,Loueur en meublé non professionnel,07060101
+07,Activités de services,06,Location,01,Location de biens immobiliers,04,Location de logements meublés - à titre professionnel,07060104
+07,Activités de services,06,Location,01,Location de biens immobiliers,05,"Location de logements nus, de terrains et autres biens immobiliers - à titre non professionnel",07060105
+07,Activités de services,06,Location,01,Location de biens immobiliers,06,"Location de logements nus, de terrains et autres biens immobiliers - à titre professionnel",07060106
+07,Activités de services,06,Location,01,Location de biens immobiliers,07,Location de locaux nus commerciaux ou professionnels - à titre  non professionnel,07060107
+07,Activités de services,06,Location,01,Location de biens immobiliers,08,Location de locaux nus commerciaux ou professionnels - à titre  professionnel,07060108
+07,Activités de services,06,Location,01,Location de biens immobiliers,09,Location de locaux  équipés commerciaux ou professionnels ,07060109
+07,Activités de services,06,Location,01,Location de biens immobiliers,10,Location de garage,07060110
+07,Activités de services,06,Location,01,Location de biens immobiliers,11,Baux ruraux ,07060111
+07,Activités de services,06,Location,02,Locations de biens mobiliers,07,Location et location-bail de biens mobiliers - à titre professionnel,07060207
+07,Activités de services,06,Location,02,Locations de biens mobiliers,08,Location et location-bail de biens mobiliers - à titre  non professionnel,07060208
+07,Activités de services,06,Location,02,Locations de biens mobiliers,09,Location de fonds de commerce ,07060209
+07,Activités de services,06,Location,02,Locations de biens mobiliers,10,Locations d’autres fonds ,07060210
+07,Activités de services,06,Location,02,Locations de biens mobiliers,11,Location de cheptels,07060211
+07,Activités de services,06,Location,02,Locations de biens mobiliers,12,Location de droit à paiement de base,07060212
+07,Activités de services,06,Location,02,Locations de biens mobiliers,13,"Location-bail de propriété intellectuelle et de produits similaires, à l'exception des œuvres soumises à copyright",07060213
+07,Activités de services,07,Activités liées à l'emploi,01,"Agences de casting, agences de placement, agences de mannequins",00,,07070100
+07,Activités de services,07,Activités liées à l'emploi,02,"Conseil en recrutement et ressources humaines, portage salarial",00,,07070200
+07,Activités de services,07,Activités liées à l'emploi,03,Activités des agences de travail temporaire ,00,,07070300
+07,Activités de services,07,Activités liées à l'emploi,04,Autre mise à disposition de ressources humaines,00,,07070400
+07,Activités de services,08,"Activités des agences de voyage, voyagistes, services de réservation et activités connexes",01,Activités des agences de voyage et voyagistes,00,,07080100
+07,Activités de services,08,"Activités des agences de voyage, voyagistes, services de réservation et activités connexes",02,Autres services de réservation,00,,07080200
+07,Activités de services,08,"Activités des agences de voyage, voyagistes, services de réservation et activités connexes",03,Services d'échanges à temps partagé,00,,07080300
+07,Activités de services,08,"Activités des agences de voyage, voyagistes, services de réservation et activités connexes",04,"Vente de billets pour les spectacles, manifestations sportives et divertissements",00,,07080400
+07,Activités de services,08,"Activités des agences de voyage, voyagistes, services de réservation et activités connexes",05,Guides et assistances touristiques,00,,07080500
+07,Activités de services,08,"Activités des agences de voyage, voyagistes, services de réservation et activités connexes",06,Guides conférenciers,00,,07080600
+07,Activités de services,09,Enquêtes et sécurité,01,Transport de fonds,00,,07090100
+07,Activités de services,09,Enquêtes et sécurité,02,Déchiquetage d'informations ,00,,07090200
+07,Activités de services,09,Enquêtes et sécurité,03,Services de véhicules blindés,00,,07090300
+07,Activités de services,09,Enquêtes et sécurité,04,Garde du corps et agents de protection,00,,07090400
+07,Activités de services,09,Enquêtes et sécurité,05,"Vigile, agent de sécurité, maître-chien",00,,07090500
+07,Activités de services,09,Enquêtes et sécurité,06,services de dactyloscopie,00,,07090600
+07,Activités de services,09,Enquêtes et sécurité,07,Activité de surveillance associée à des systèmes de sécurité ou d'alarme,00,,07090700
+07,Activités de services,09,Enquêtes et sécurité,08,Activité de surveillance associée à l'installation de systèmes d’alarme non dissociées.,00,,07090800
+07,Activités de services,09,Enquêtes et sécurité,09,Activités d'enquête,00,,07090900
+07,Activités de services,10,Services relatifs aux bâtiments et aménagement paysager,01,Activités combinées de soutien lié aux bâtiments ,00,,07100100
+07,Activités de services,10,Services relatifs aux bâtiments et aménagement paysager,02,Nettoyage courant des bâtiments,00,,07100200
+07,Activités de services,10,Services relatifs aux bâtiments et aménagement paysager,03,"Nettoyage spécialisé ou extérieur de bâtiments, nettoyage de machines industriellles",00,,07100300
+07,Activités de services,10,Services relatifs aux bâtiments et aménagement paysager,04,Ramonage,00,,07100400
+07,Activités de services,10,Services relatifs aux bâtiments et aménagement paysager,05,"Désinfection, désinsectisation, dératisation",00,,07100500
+07,Activités de services,10,Services relatifs aux bâtiments et aménagement paysager,06,Balayage des chaussées et déblaiement de la neige,00,,07100600
+07,Activités de services,10,Services relatifs aux bâtiments et aménagement paysager,07,nettoyage et entretien des piscines,00,,07100700
+07,Activités de services,10,Services relatifs aux bâtiments et aménagement paysager,08,nettoyage des moyens de transports,00,,07100800
+07,Activités de services,10,Services relatifs aux bâtiments et aménagement paysager,09,Autres activités de nettoyage,00,,07100900
+07,Activités de services,10,Services relatifs aux bâtiments et aménagement paysager,10,Services d'aménagement paysager ,01,Conception architecturale de parcs et jardins ,07101001
+07,Activités de services,10,Services relatifs aux bâtiments et aménagement paysager,10,Services d'aménagement paysager ,02,"Création, restauration et entretien de parcs et jardins ",07101002
+07,Activités de services,10,Services relatifs aux bâtiments et aménagement paysager,10,Services d'aménagement paysager ,03,"Création, restauration et entretien de parcs et jardins avec travaux de maçonnerie paysagère ",07101003
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",01,Services administratifs combinés de bureau,00,,07120100
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",02,"Secrétariat à façon, duplication (dont photocopie), reproduction et expédition de documents",00,,07120200
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",03,Services de domiciliation,00,,07120300
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",04,"Révision, correction, transcription de documents",00,,07120400
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",05,Documentaliste Généalogiste,00,,07120500
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",06,Activités de centres d'appels,00,,07120600
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",07,"Organisation de foires, salons professionnels et congrès",00,,07120700
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",08,Activités des agences de recouvrement de factures et des sociétés d'information financière sur la clientèle,00,,07120800
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",09,Activités de conditionnement,00,,07120900
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",10,Autres activités commerciales de soutien aux entreprises,00,,07121000
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",11,Autres activités libérales de soutien aux entreprises,00,,07121100
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",12,Agent commercial,01,Secteur agrolimentaire,07121201
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",12,Agent commercial,02,Secteur de la banque ou de l' assurance,07121202
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",12,Agent commercial,03,"Secteur Bois, papier, carton, Imprimerie",07121203
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",12,Agent commercial,04,Secteur du BTP ou des matériaux de construction,07121204
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",12,Agent commercial,05,"Secteur de la Chimie, et de la parachimie",07121205
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",12,Agent commercial,06,"Secteur du commerce ,du négoce et de la distribution",07121206
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",12,Agent commercial,07,"Secteur de l'édition, du multimédia et de la communication",07121207
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",12,Agent commercial,08,Secteur de l'électronique et de l'électricité,07121208
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",12,Agent commercial,09,Secteur des études et conseil,07121209
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",12,Agent commercial,10,Secteur de l'industrie pharmaceutique,07121210
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",12,Agent commercial,11,Secteur de l'informatique et des télécoms,07121211
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",12,Agent commercial,12,"Secteur des machines, des  équipements et de l'automobile",07121212
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",12,Agent commercial,13,Secteur de la métallurgie et du fer,07121213
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",12,Agent commercial,14,Secteur du plastique et du caoutchouc,07121214
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",12,Agent commercial,15,Secteur du services aux entreprises,07121215
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",12,Agent commercial,16,"Secteur du textile, de l'habillement et des chaussures",07121216
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",12,Agent commercial,17,Secteur du transport et de la logistique,07121217
+07,Activités de services,12,"Activités administratives, agents commerciaux et autres activités de soutien aux entreprises",12,Agent commercial,18,Secteur de l’immobilier,07121218
+07,Activités de services,13,Enseignement,01,Enseignement pré-primaire,00,,07130100
+07,Activités de services,13,Enseignement,02,Enseignement primaire,00,,07130200
+07,Activités de services,13,Enseignement,03,Enseignement secondaire général,00,,07130300
+07,Activités de services,13,Enseignement,04,Enseignement secondaire technique ou professionnel,01,Agricole,07130401
+07,Activités de services,13,Enseignement,04,Enseignement secondaire technique ou professionnel,02,Autre,07130402
+07,Activités de services,13,Enseignement,05,Enseignement post-secondaire non supérieur,00,,07130500
+07,Activités de services,13,Enseignement,06,Enseignement supérieur,01,Agricole,07130601
+07,Activités de services,13,Enseignement,06,Enseignement supérieur,02,Autre,07130602
+07,Activités de services,13,Enseignement,07,Enseignement de disciplines sportives et d'activités de loisirs,00,,07130700
+07,Activités de services,13,Enseignement,08,Enseignement culturel,00,,07130800
+07,Activités de services,13,Enseignement,09,Enseignement de la conduite,00,,07130900
+07,Activités de services,13,Enseignement,10,Formation continue d'adultes,01,Agricole,07131001
+07,Activités de services,13,Enseignement,10,Formation continue d'adultes,02,Autre,07131002
+07,Activités de services,13,Enseignement,11,Autres enseignements,00,,07131100
+07,Activités de services,13,Enseignement,12,Activités de soutien à l'enseignement,00,,07131200
+07,Activités de services,14,Social et santé,01,Santé humaine,01,Activités hospitalières,07140101
+07,Activités de services,14,Social et santé,01,Santé humaine,02,Médecin sect 1 généraliste,07140102
+07,Activités de services,14,Social et santé,01,Santé humaine,05,Médecin sect 1 spécialiste,07140105
+07,Activités de services,14,Social et santé,01,Santé humaine,22,Médecin sect 2 régime PAMC,07140122
+07,Activités de services,14,Social et santé,01,Santé humaine,23,Médecin sect 2 régime TI,07140123
+07,Activités de services,14,Social et santé,01,Santé humaine,08,Chirurgien-dentiste et autres pratiques dentaires,07140108
+07,Activités de services,14,Social et santé,01,Santé humaine,10,Infirmier,07140110
+07,Activités de services,14,Social et santé,01,Santé humaine,11,Sage-femme,07140111
+07,Activités de services,14,Social et santé,01,Santé humaine,12,Orthophoniste,07140112
+07,Activités de services,14,Social et santé,01,Santé humaine,13,Orthoptiste,07140113
+07,Activités de services,14,Social et santé,01,Santé humaine,14,Masseur kinésithérapeute,07140114
+07,Activités de services,14,Social et santé,01,Santé humaine,15,Pédicure podologue régime TI,07140115
+07,Activités de services,14,Social et santé,01,Santé humaine,16,Pédicure podologue régime PAMC,07140116
+07,Activités de services,14,Social et santé,01,Santé humaine,17,"Chiropracteur, ergothérapeute, ostéopathe, psychomotricien",07140117
+07,Activités de services,14,Social et santé,01,Santé humaine,18,Autres activités des professionnels de la rééducation et de l’appareillage,07140118
+07,Activités de services,14,Social et santé,01,Santé humaine,19,"Psychologue, psychologue-clinicien, psychothérapeute, diététicien",07140119
+07,Activités de services,14,Social et santé,01,Santé humaine,20,autres activités de santé humaine,07140120
+07,Activités de services,14,Social et santé,01,Santé humaine,24,laboratoire d'analyse médicale dirigé par un médecin,07140124
+07,Activités de services,14,Social et santé,01,Santé humaine,25,laboratoire d'analyse médicale dirigé par un pharmacien,07140125
+07,Activités de services,14,Social et santé,02,Hébergement médico-social et social,01,Hébergement médicalisé,07140201
+07,Activités de services,14,Social et santé,02,Hébergement médico-social et social,02,"Hébergement social pour personnes handicapées mentales, malades mentales et toxicomanes",07140202
+07,Activités de services,14,Social et santé,02,Hébergement médico-social et social,03,Hébergement social pour personnes âgées ou handicapées physiques ,07140203
+07,Activités de services,14,Social et santé,02,Hébergement médico-social et social,04,Hébergement social pour enfants en difficultés ,07140204
+07,Activités de services,14,Social et santé,02,Hébergement médico-social et social,05,Hébergement social pour adultes et familles en difficultés et autre hébergement social ,07140205
+07,Activités de services,14,Social et santé,03,Action sociale sans hébergement,00,,07140300
+07,Activités de services,15,"Arts, culture et divertissement",01,"Activités créatives, artistiques et de spectacle ",01,"Création artistique des céramistes, émailleurs, liciers, vitraillistes et autres métiers d'art",07150101
+07,Activités de services,15,"Arts, culture et divertissement",01,"Activités créatives, artistiques et de spectacle ",02,Création artistique relevant des arts plastiques et graphiques,07150102
+07,Activités de services,15,"Arts, culture et divertissement",01,"Activités créatives, artistiques et de spectacle ",03,"Création artistique audiovisuelle, cinématographique et photographique",07150103
+07,Activités de services,15,"Arts, culture et divertissement",01,"Activités créatives, artistiques et de spectacle ",04,Création d'œuvres littéraires et dramatiques,07150104
+07,Activités de services,15,"Arts, culture et divertissement",01,"Activités créatives, artistiques et de spectacle ",05,Création d'œuvres musicales et chorégraphiques,07150105
+07,Activités de services,15,"Arts, culture et divertissement",01,"Activités créatives, artistiques et de spectacle ",06,Création de jeux et de jeux vidéo,07150106
+07,Activités de services,15,"Arts, culture et divertissement",01,"Activités créatives, artistiques et de spectacle ",07,Auteur de logiciels,07150107
+07,Activités de services,15,"Arts, culture et divertissement",01,"Activités créatives, artistiques et de spectacle ",08,Directeur de collection éditoriale originale,07150108
+07,Activités de services,15,"Arts, culture et divertissement",01,"Activités créatives, artistiques et de spectacle ",09,"Vidéaste, vlogueur, blogueur",07150109
+07,Activités de services,15,"Arts, culture et divertissement",01,"Activités créatives, artistiques et de spectacle ",10,Journaliste - hors critique d'art,07150110
+07,Activités de services,15,"Arts, culture et divertissement",01,"Activités créatives, artistiques et de spectacle ",11,"Critique d'art, de musique, de littérature, de théâtre, de cinéma",07150111
+07,Activités de services,15,"Arts, culture et divertissement",01,"Activités créatives, artistiques et de spectacle ",12,Production de spectacles et de tournées artistiques,07150112
+07,Activités de services,15,"Arts, culture et divertissement",01,"Activités créatives, artistiques et de spectacle ",13,Artiste de spectacle,07150113
+07,Activités de services,15,"Arts, culture et divertissement",01,"Activités créatives, artistiques et de spectacle ",14,Activité de soutien technique au spectable vivant,07150114
+07,Activités de services,15,"Arts, culture et divertissement",01,"Activités créatives, artistiques et de spectacle ",15,"Fabrication de décors, costumes et accessoires de spectacles ",07150115
+07,Activités de services,15,"Arts, culture et divertissement",01,"Activités créatives, artistiques et de spectacle ",16,Autre activité artistique,07150116
+07,Activités de services,15,"Arts, culture et divertissement",02,Spectacles de marionnettes.,00,,07150200
+07,Activités de services,15,"Arts, culture et divertissement",03,Restauration d’objets d’art.,00,,07150300
+07,Activités de services,15,"Arts, culture et divertissement",04,Gestion de salles de spectacles ,00,,07150400
+07,Activités de services,15,"Arts, culture et divertissement",05,Gestion des bibliothèques et des archives,00,,07150500
+07,Activités de services,15,"Arts, culture et divertissement",06,Gestion des musées,00,,07150600
+07,Activités de services,15,"Arts, culture et divertissement",07,Gestion des sites et monuments historiques et des attractions touristiques similaires,00,,07150700
+07,Activités de services,15,"Arts, culture et divertissement",08,Gestion des jardins botaniques et zoologiques et des réserves naturelles,00,,07150800
+07,Activités de services,15,"Arts, culture et divertissement",09,Organisation de jeux de hasard et d'argent,01,"Loterie,casinos, paris, sites inernet de jeux en ligne",07150901
+07,Activités de services,15,"Arts, culture et divertissement",09,Organisation de jeux de hasard et d'argent,02,Joueurs professionnels,07150902
+07,Activités de services,15,"Arts, culture et divertissement",10,"Activités sportives, récréatives et de loisirs",01,Gestion d'installations sportives,07151001
+07,Activités de services,15,"Arts, culture et divertissement",10,"Activités sportives, récréatives et de loisirs",02,Activités de clubs de sports,07151002
+07,Activités de services,15,"Arts, culture et divertissement",10,"Activités sportives, récréatives et de loisirs",03,Activités des centres de culture physique,07151003
+07,Activités de services,15,"Arts, culture et divertissement",10,"Activités sportives, récréatives et de loisirs",04,Promotion d'évènements sportifs,07151004
+07,Activités de services,15,"Arts, culture et divertissement",10,"Activités sportives, récréatives et de loisirs",05,"Guide de haute montagne, accompagnateur de moyenne montagne",07151005
+07,Activités de services,15,"Arts, culture et divertissement",10,"Activités sportives, récréatives et de loisirs",06,"Sportifs, arbitres et juges-arbitres professionnels",07151006
+07,Activités de services,15,"Arts, culture et divertissement",10,"Activités sportives, récréatives et de loisirs",07,Entrainement et dressage d'équidés domestiques,07151007
+07,Activités de services,15,"Arts, culture et divertissement",10,"Activités sportives, récréatives et de loisirs",08,Entrainement et dressage (hors équidés),07151008
+07,Activités de services,15,"Arts, culture et divertissement",10,"Activités sportives, récréatives et de loisirs",09,Activités des parcs d'attractions et parcs à thèmes,07151009
+07,Activités de services,15,"Arts, culture et divertissement",10,"Activités sportives, récréatives et de loisirs",10,"Organisation ou production d'évènement récréatif, Exploitation des zones d'activités récréatives",07151010
+07,Activités de services,15,"Arts, culture et divertissement",10,"Activités sportives, récréatives et de loisirs",11,Animateur et accompagnateur en activités récréatives,07151011
+07,Activités de services,16,Autres services personnels,01,Blanchisserie-teinturerie de gros.,00,,07160100
+07,Activités de services,16,Autres services personnels,02,Laveries automatiques,00,,07160200
+07,Activités de services,16,Autres services personnels,03,"Laveries, blanchisserie et teintureries de détail.",00,,07160300
+07,Activités de services,16,Autres services personnels,04,Pressings.,00,,07160400
+07,Activités de services,16,Autres services personnels,05,Coiffure,00,,07160500
+07,Activités de services,16,Autres services personnels,06,Soins de beauté,01,Soins et modelages esthétiques,07160601
+07,Activités de services,16,Autres services personnels,06,Soins de beauté,02,"Prothésiste ongulaire , extension de cils et autres soins de beauté",07160602
+07,Activités de services,16,Autres services personnels,07,Services funéraires,00,,07160700
+07,Activités de services,16,Autres services personnels,08,"Embaumement, soins mortuaires.",00,,07160800
+07,Activités de services,16,Autres services personnels,09,Entretien corporel,00,,07160900
+07,Activités de services,16,Autres services personnels,10,services personnels divers,00,,07161000
+07,Activités de services,16,Autres services personnels,11,"Dressage, Toilettage, éducation comportementaliste et pension pour animaux de compagnie.",01,Dressage d'animaux de compagnie et de chiens guide d'aveugle,07161101
+07,Activités de services,16,Autres services personnels,11,"Dressage, Toilettage, éducation comportementaliste et pension pour animaux de compagnie.",02,"Toilettage des chiens, chats et autres animaux de compagnie",07161102
+07,Activités de services,16,Autres services personnels,11,"Dressage, Toilettage, éducation comportementaliste et pension pour animaux de compagnie.",03,éducation comportementaliste et pension pour animaux de compagnie,07161103
+08,Collaborateur occasionnel du service public,00,,00,,00,,08000000

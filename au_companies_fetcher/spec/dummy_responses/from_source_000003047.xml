@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Body>
+    <external.get.nni:reply xmlns:types="uri:types.asic.gov.au" xmlns:nni.types="uri:nni.types.asic.gov.au" xmlns:external.get.nni="uri:v3.external.get.nni.asic.gov.au" xmlns:business.document.header.types="uri:business.document.header.types.asic.gov.au" xmlns:bn.types="uri:bn.types.asic.gov.au" xmlns:ascot.types="uri:ascot.types.asic.gov.au" xmlns:abn.types="uri:abn.types.asic.gov.au">
+      <business.document.header.types:businessDocumentHeader>
+        <business.document.header.types:messageType>getNni</business.document.header.types:messageType>
+        <business.document.header.types:messageReferenceNumber>ABC</business.document.header.types:messageReferenceNumber>
+        <business.document.header.types:asicReferenceNumber>bbcc6804-8262-45bf-8307-79a7c28ae02e</business.document.header.types:asicReferenceNumber>
+        <business.document.header.types:messageVersion>3</business.document.header.types:messageVersion>
+        <business.document.header.types:senderId>ASIC</business.document.header.types:senderId>
+        <business.document.header.types:senderType>GOVT</business.document.header.types:senderType>
+        <business.document.header.types:softwareInformation>
+          <business.document.header.types:organisationalName>ASIC</business.document.header.types:organisationalName>
+          <business.document.header.types:productName>Business Names</business.document.header.types:productName>
+          <business.document.header.types:productVersion>1</business.document.header.types:productVersion>
+        </business.document.header.types:softwareInformation>
+        <business.document.header.types:messageTimestamps>
+          <business.document.header.types:messageTimestamp>
+            <business.document.header.types:timestamp>2017-02-09T06:29:18</business.document.header.types:timestamp>
+            <business.document.header.types:source>ASIC</business.document.header.types:source>
+          </business.document.header.types:messageTimestamp>
+        </business.document.header.types:messageTimestamps>
+        <business.document.header.types:result>
+          <business.document.header.types:accepted>true</business.document.header.types:accepted>
+        </business.document.header.types:result>
+      </business.document.header.types:businessDocumentHeader>
+      <external.get.nni:businessDocumentBody>
+        <external.get.nni:nniEntity>
+          <nni.types:identifier>
+            <nni.types:numberHeading>ACN</nni.types:numberHeading>
+            <nni.types:number>3047</nni.types:number>
+          </nni.types:identifier>
+          <nni.types:name>
+            <types:name>DARLING IS S'DORING/LIGHTERAGE CO LTD</types:name>
+          </nni.types:name>
+          <nni.types:type>
+            <nni.types:code>APUB</nni.types:code>
+            <nni.types:description>Australian Public Company</nni.types:description>
+          </nni.types:type>
+          <nni.types:class>
+            <nni.types:code>LMSH</nni.types:code>
+            <nni.types:description>Limited By Shares</nni.types:description>
+          </nni.types:class>
+          <nni.types:subClass>
+            <nni.types:code>NONE</nni.types:code>
+            <nni.types:description>Unknown</nni.types:description>
+          </nni.types:subClass>
+          <nni.types:status>
+            <types:code>EXAD</types:code>
+            <types:description>Externally Administered</types:description>
+            <types:isRegistered>true</types:isRegistered>
+          </nni.types:status>
+          <nni.types:incorporationState>NSW</nni.types:incorporationState>
+          <nni.types:previousStateTerritory>
+            <bn.types:number>00245008</bn.types:number>
+            <bn.types:stateTerritoryCode>NSW</bn.types:stateTerritoryCode>
+          </nni.types:previousStateTerritory>
+          <nni.types:dateRegistered>1905-01-26</nni.types:dateRegistered>
+          <nni.types:dateReview>2018-01-26</nni.types:dateReview>
+          <nni.types:jurisdiction>Australian Securities &amp; Investments Commission</nni.types:jurisdiction>
+          <nni.types:address>
+            <types:type>RG</types:type>
+            <types:addressLine>RESTRICTED</types:addressLine>
+            <types:iso3166CountryCode>AU</types:iso3166CountryCode>
+            <types:locality>PYRMONT</types:locality>
+            <types:postCode>2009</types:postCode>
+            <types:state>NSW</types:state>
+          </nni.types:address>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E8491276</bn.types:documentNumber>
+            <bn.types:dateReceived>2016-11-03</bn.types:dateReceived>
+            <bn.types:formCode>506</bn.types:formCode>
+            <bn.types:numberOfPages>6</bn.types:numberOfPages>
+            <bn.types:description>NOTICE OF CHANGE OF ADDRESS BY EXTERNAL ADMINISTRATOR</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>506L</bn.types:subformCode>
+              <bn.types:subformDescription>NOTICE OF CHANGE OF ADDRESS OF EXTERNAL ADMINISTRATOR(ELEC)</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E8276437</bn.types:documentNumber>
+            <bn.types:dateReceived>2016-08-23</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>10</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524E</bn.types:subformCode>
+              <bn.types:subformDescription>ACCOUNTS OF WINDING UP BY COURT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E7743094</bn.types:documentNumber>
+            <bn.types:dateReceived>2016-03-01</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>10</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524E</bn.types:subformCode>
+              <bn.types:subformDescription>ACCOUNTS OF WINDING UP BY COURT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E7227958</bn.types:documentNumber>
+            <bn.types:dateReceived>2015-08-19</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>10</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524E</bn.types:subformCode>
+              <bn.types:subformDescription>ACCOUNTS OF WINDING UP BY COURT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E6766376</bn.types:documentNumber>
+            <bn.types:dateReceived>2015-03-03</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>10</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524E</bn.types:subformCode>
+              <bn.types:subformDescription>ACCOUNTS OF WINDING UP BY COURT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E6356318</bn.types:documentNumber>
+            <bn.types:dateReceived>2014-09-10</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>10</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524E</bn.types:subformCode>
+              <bn.types:subformDescription>ACCOUNTS OF WINDING UP BY COURT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E5886993</bn.types:documentNumber>
+            <bn.types:dateReceived>2014-03-06</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>10</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524E</bn.types:subformCode>
+              <bn.types:subformDescription>ACCOUNTS OF WINDING UP BY COURT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E5506316</bn.types:documentNumber>
+            <bn.types:dateReceived>2013-09-12</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>10</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524E</bn.types:subformCode>
+              <bn.types:subformDescription>ACCOUNTS OF WINDING UP BY COURT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E5030501</bn.types:documentNumber>
+            <bn.types:dateReceived>2013-02-19</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>10</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524E</bn.types:subformCode>
+              <bn.types:subformDescription>ACCOUNTS OF WINDING UP BY COURT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E4715147</bn.types:documentNumber>
+            <bn.types:dateReceived>2012-09-12</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>10</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524E</bn.types:subformCode>
+              <bn.types:subformDescription>ACCOUNTS OF WINDING UP BY COURT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E4290579</bn.types:documentNumber>
+            <bn.types:dateReceived>2012-02-22</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>10</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524E</bn.types:subformCode>
+              <bn.types:subformDescription>ACCOUNTS OF WINDING UP BY COURT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E3900789</bn.types:documentNumber>
+            <bn.types:dateReceived>2011-08-23</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>10</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524E</bn.types:subformCode>
+              <bn.types:subformDescription>ACCOUNTS OF WINDING UP BY COURT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E3490843</bn.types:documentNumber>
+            <bn.types:dateReceived>2011-02-22</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>10</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524E</bn.types:subformCode>
+              <bn.types:subformDescription>ACCOUNTS OF WINDING UP BY COURT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E3170035</bn.types:documentNumber>
+            <bn.types:dateReceived>2010-09-14</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>10</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524E</bn.types:subformCode>
+              <bn.types:subformDescription>ACCOUNTS OF WINDING UP BY COURT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E2791937</bn.types:documentNumber>
+            <bn.types:dateReceived>2010-03-26</bn.types:dateReceived>
+            <bn.types:formCode>506</bn.types:formCode>
+            <bn.types:numberOfPages>7</bn.types:numberOfPages>
+            <bn.types:description>NOTICE OF CHANGE OF ADDRESS BY EXTERNAL ADMINISTRATOR</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>506L</bn.types:subformCode>
+              <bn.types:subformDescription>NOTICE OF CHANGE OF ADDRESS OF EXTERNAL ADMINISTRATOR(ELEC)</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E2752553</bn.types:documentNumber>
+            <bn.types:dateReceived>2010-03-08</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>10</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524E</bn.types:subformCode>
+              <bn.types:subformDescription>ACCOUNTS OF WINDING UP BY COURT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E2415123</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-09-07</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>10</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524E</bn.types:subformCode>
+              <bn.types:subformDescription>ACCOUNTS OF WINDING UP BY COURT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E2079088</bn.types:documentNumber>
+            <bn.types:dateReceived>2009-03-11</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>10</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524E</bn.types:subformCode>
+              <bn.types:subformDescription>ACCOUNTS OF WINDING UP BY COURT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E1782472</bn.types:documentNumber>
+            <bn.types:dateReceived>2008-08-29</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>10</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524E</bn.types:subformCode>
+              <bn.types:subformDescription>ACCOUNTS OF WINDING UP BY COURT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E1493858</bn.types:documentNumber>
+            <bn.types:dateReceived>2008-02-25</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>10</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524E</bn.types:subformCode>
+              <bn.types:subformDescription>ACCOUNTS OF WINDING UP BY COURT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E1260330</bn.types:documentNumber>
+            <bn.types:dateReceived>2007-08-31</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>12</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524E</bn.types:subformCode>
+              <bn.types:subformDescription>ACCOUNTS OF WINDING UP BY COURT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E1029938</bn.types:documentNumber>
+            <bn.types:dateReceived>2007-03-06</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>12</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524E</bn.types:subformCode>
+              <bn.types:subformDescription>ACCOUNTS OF WINDING UP BY COURT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E0830185</bn.types:documentNumber>
+            <bn.types:dateReceived>2006-08-31</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>12</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524E</bn.types:subformCode>
+              <bn.types:subformDescription>ACCOUNTS OF WINDING UP BY COURT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E0637420</bn.types:documentNumber>
+            <bn.types:dateReceived>2006-03-07</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>10</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524E</bn.types:subformCode>
+              <bn.types:subformDescription>ACCOUNTS OF WINDING UP BY COURT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>022398016</bn.types:documentNumber>
+            <bn.types:dateReceived>2005-09-13</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>5</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524A</bn.types:subformCode>
+              <bn.types:subformDescription>LIQUIDATOR'S ACCOUNT AND STATEMENT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>021070455</bn.types:documentNumber>
+            <bn.types:dateReceived>2005-03-10</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>5</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524A</bn.types:subformCode>
+              <bn.types:subformDescription>LIQUIDATOR'S ACCOUNT AND STATEMENT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>019812007</bn.types:documentNumber>
+            <bn.types:dateReceived>2004-09-09</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>7</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524A</bn.types:subformCode>
+              <bn.types:subformDescription>LIQUIDATOR'S ACCOUNT AND STATEMENT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>7E0124764</bn.types:documentNumber>
+            <bn.types:dateReceived>2004-04-07</bn.types:dateReceived>
+            <bn.types:formCode>506</bn.types:formCode>
+            <bn.types:numberOfPages>3</bn.types:numberOfPages>
+            <bn.types:description>NOTICE OF CHANGE OF ADDRESS BY EXTERNAL ADMINISTRATOR</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>506L</bn.types:subformCode>
+              <bn.types:subformDescription>NOTICE OF CHANGE OF ADDRESS OF EXTERNAL ADMINISTRATOR(ELEC)</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>019277224</bn.types:documentNumber>
+            <bn.types:dateReceived>2004-03-12</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>7</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524A</bn.types:subformCode>
+              <bn.types:subformDescription>LIQUIDATOR'S ACCOUNT AND STATEMENT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>019408871</bn.types:documentNumber>
+            <bn.types:dateReceived>2003-08-28</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>5</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524A</bn.types:subformCode>
+              <bn.types:subformDescription>LIQUIDATOR'S ACCOUNT AND STATEMENT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>018583407</bn.types:documentNumber>
+            <bn.types:dateReceived>2003-03-06</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>7</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524A</bn.types:subformCode>
+              <bn.types:subformDescription>LIQUIDATOR'S ACCOUNT AND STATEMENT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>018423780</bn.types:documentNumber>
+            <bn.types:dateReceived>2002-09-04</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>7</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524A</bn.types:subformCode>
+              <bn.types:subformDescription>LIQUIDATOR'S ACCOUNT AND STATEMENT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>018117278</bn.types:documentNumber>
+            <bn.types:dateReceived>2002-03-13</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>7</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524A</bn.types:subformCode>
+              <bn.types:subformDescription>LIQUIDATOR'S ACCOUNT AND STATEMENT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>017424747</bn.types:documentNumber>
+            <bn.types:dateReceived>2001-09-06</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>5</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524A</bn.types:subformCode>
+              <bn.types:subformDescription>LIQUIDATOR'S ACCOUNT AND STATEMENT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>016952574</bn.types:documentNumber>
+            <bn.types:dateReceived>2001-03-12</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>5</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524A</bn.types:subformCode>
+              <bn.types:subformDescription>LIQUIDATOR'S ACCOUNT AND STATEMENT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>016579334</bn.types:documentNumber>
+            <bn.types:dateReceived>2000-08-30</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>5</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524A</bn.types:subformCode>
+              <bn.types:subformDescription>LIQUIDATOR'S ACCOUNT AND STATEMENT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>016236544</bn.types:documentNumber>
+            <bn.types:dateReceived>2000-03-14</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>5</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524A</bn.types:subformCode>
+              <bn.types:subformDescription>LIQUIDATOR'S ACCOUNT AND STATEMENT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>014960752</bn.types:documentNumber>
+            <bn.types:dateReceived>1999-08-27</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>11</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524A</bn.types:subformCode>
+              <bn.types:subformDescription>LIQUIDATOR'S ACCOUNT AND STATEMENT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>015095203</bn.types:documentNumber>
+            <bn.types:dateReceived>1999-03-05</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>11</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524A</bn.types:subformCode>
+              <bn.types:subformDescription>LIQUIDATOR'S ACCOUNT AND STATEMENT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>014516093</bn.types:documentNumber>
+            <bn.types:dateReceived>1998-08-28</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>11</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524A</bn.types:subformCode>
+              <bn.types:subformDescription>LIQUIDATOR'S ACCOUNT AND STATEMENT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>013428493</bn.types:documentNumber>
+            <bn.types:dateReceived>1998-03-03</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>11</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524A</bn.types:subformCode>
+              <bn.types:subformDescription>LIQUIDATOR'S ACCOUNT AND STATEMENT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>013753013</bn.types:documentNumber>
+            <bn.types:dateReceived>1997-10-22</bn.types:dateReceived>
+            <bn.types:formCode>505</bn.types:formCode>
+            <bn.types:numberOfPages>3</bn.types:numberOfPages>
+            <bn.types:description>NOTICE BY EXTERNAL ADMINISTRATOR OF APPOINTMENT OR CESSATION</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>505G</bn.types:subformCode>
+              <bn.types:subformDescription>APPOINTMENT OF LIQUIDATOR (COURT WINDING UP)</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>012977890</bn.types:documentNumber>
+            <bn.types:dateReceived>1997-10-22</bn.types:dateReceived>
+            <bn.types:formCode>505</bn.types:formCode>
+            <bn.types:numberOfPages>3</bn.types:numberOfPages>
+            <bn.types:description>NOTICE BY EXTERNAL ADMINISTRATOR OF APPOINTMENT OR CESSATION</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>505R</bn.types:subformCode>
+              <bn.types:subformDescription>RESIGNATION OR REMOVAL OF LIQUIDATOR/PROVISIONAL LIQUIDATOR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>012983889</bn.types:documentNumber>
+            <bn.types:dateReceived>1997-08-25</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>11</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524A</bn.types:subformCode>
+              <bn.types:subformDescription>LIQUIDATOR'S ACCOUNT AND STATEMENT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>012739280</bn.types:documentNumber>
+            <bn.types:dateReceived>1997-04-14</bn.types:dateReceived>
+            <bn.types:formCode>506</bn.types:formCode>
+            <bn.types:numberOfPages>1</bn.types:numberOfPages>
+            <bn.types:description>NOTICE OF CHANGE OF ADDRESS BY EXTERNAL ADMINISTRATOR</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>506E</bn.types:subformCode>
+              <bn.types:subformDescription>CHANGE ADDRESS OF LIQUIDATOR</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>012024406</bn.types:documentNumber>
+            <bn.types:dateReceived>1997-03-12</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>11</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524A</bn.types:subformCode>
+              <bn.types:subformDescription>LIQUIDATOR'S ACCOUNT AND STATEMENT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>011579732</bn.types:documentNumber>
+            <bn.types:dateReceived>1996-08-19</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>11</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524A</bn.types:subformCode>
+              <bn.types:subformDescription>LIQUIDATOR'S ACCOUNT AND STATEMENT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>011126090</bn.types:documentNumber>
+            <bn.types:dateReceived>1996-02-15</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>11</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524A</bn.types:subformCode>
+              <bn.types:subformDescription>LIQUIDATOR'S ACCOUNT AND STATEMENT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>010496025</bn.types:documentNumber>
+            <bn.types:dateReceived>1995-09-11</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>11</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524A</bn.types:subformCode>
+              <bn.types:subformDescription>LIQUIDATOR'S ACCOUNT AND STATEMENT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:recentDocument>
+            <bn.types:documentNumber>008523777</bn.types:documentNumber>
+            <bn.types:dateReceived>1995-02-20</bn.types:dateReceived>
+            <bn.types:formCode>524</bn.types:formCode>
+            <bn.types:numberOfPages>11</bn.types:numberOfPages>
+            <bn.types:description>PRESENTATION OF ACCOUNTS &amp; STATEMENT</bn.types:description>
+            <bn.types:additionalDescription>
+              <bn.types:subformCode>524A</bn.types:subformCode>
+              <bn.types:subformDescription>LIQUIDATOR'S ACCOUNT AND STATEMENT</bn.types:subformDescription>
+            </bn.types:additionalDescription>
+          </nni.types:recentDocument>
+          <nni.types:abrEntity>
+            <abn.types:abn>37000003047</abn.types:abn>
+            <abn.types:entityName>DARLING IS S'DORING/LIGHTERAGE CO LTD</abn.types:entityName>
+            <abn.types:entityType>PUB</abn.types:entityType>
+            <abn.types:effectiveDate>1999-11-01</abn.types:effectiveDate>
+          </nni.types:abrEntity>
+        </external.get.nni:nniEntity>
+      </external.get.nni:businessDocumentBody>
+    </external.get.nni:reply>
+  </env:Body>
+</env:Envelope>

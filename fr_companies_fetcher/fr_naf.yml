@@ -1,0 +1,4443 @@
+---
+- :code: 'A'
+  :name: AGRICULTURE, SYLVICULTURE ET PÊCHE
+- :code: '01'
+  :name: Culture et production animale, chasse et services annexes
+- :code: '01.1'
+  :name: Cultures non permanentes
+- :code: '01.11'
+  :name: Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses
+- :code: '01.11Z'
+  :name: Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses
+- :code: '01.12'
+  :name: Culture du riz
+- :code: '01.12Z'
+  :name: Culture du riz
+- :code: '01.13'
+  :name: Culture de légumes, de melons, de racines et de tubercules
+- :code: '01.13Z'
+  :name: Culture de légumes, de melons, de racines et de tubercules
+- :code: '01.14'
+  :name: Culture de la canne à sucre
+- :code: '01.14Z'
+  :name: Culture de la canne à sucre
+- :code: '01.15'
+  :name: Culture du tabac
+- :code: '01.15Z'
+  :name: Culture du tabac
+- :code: '01.16'
+  :name: Culture de plantes à fibres
+- :code: '01.16Z'
+  :name: Culture de plantes à fibres
+- :code: '01.19'
+  :name: Autres cultures non permanentes
+- :code: '01.19Z'
+  :name: Autres cultures non permanentes
+- :code: '01.2'
+  :name: Cultures permanentes
+- :code: '01.21'
+  :name: Culture de la vigne
+- :code: '01.21Z'
+  :name: Culture de la vigne
+- :code: '01.22'
+  :name: Culture de fruits tropicaux et subtropicaux
+- :code: '01.22Z'
+  :name: Culture de fruits tropicaux et subtropicaux
+- :code: '01.23'
+  :name: Culture d'agrumes
+- :code: '01.23Z'
+  :name: Culture d'agrumes
+- :code: '01.24'
+  :name: Culture de fruits à pépins et à noyau
+- :code: '01.24Z'
+  :name: Culture de fruits à pépins et à noyau
+- :code: '01.25'
+  :name: Culture d'autres fruits d'arbres ou d'arbustes et de fruits à coque
+- :code: '01.25Z'
+  :name: Culture d'autres fruits d'arbres ou d'arbustes et de fruits à coque
+- :code: '01.26'
+  :name: Culture de fruits oléagineux
+- :code: '01.26Z'
+  :name: Culture de fruits oléagineux
+- :code: '01.27'
+  :name: Culture de plantes à boissons
+- :code: '01.27Z'
+  :name: Culture de plantes à boissons
+- :code: '01.28'
+  :name: Culture de plantes à épices, aromatiques, médicinales et pharmaceutiques
+- :code: '01.28Z'
+  :name: Culture de plantes à épices, aromatiques, médicinales et pharmaceutiques
+- :code: '01.29'
+  :name: Autres cultures permanentes
+- :code: '01.29Z'
+  :name: Autres cultures permanentes
+- :code: '01.3'
+  :name: Reproduction de plantes
+- :code: '01.30'
+  :name: Reproduction de plantes
+- :code: '01.30Z'
+  :name: Reproduction de plantes
+- :code: '01.4'
+  :name: Production animale
+- :code: '01.41'
+  :name: Élevage de vaches laitières
+- :code: '01.41Z'
+  :name: Élevage de vaches laitières
+- :code: '01.42'
+  :name: Élevage d'autres bovins et de buffles
+- :code: '01.42Z'
+  :name: Élevage d'autres bovins et de buffles
+- :code: '01.43'
+  :name: Élevage de chevaux et d'autres équidés
+- :code: '01.43Z'
+  :name: Élevage de chevaux et d'autres équidés
+- :code: '01.44'
+  :name: Élevage de chameaux et d'autres camélidés
+- :code: '01.44Z'
+  :name: Élevage de chameaux et d'autres camélidés
+- :code: '01.45'
+  :name: Élevage d'ovins et de caprins
+- :code: '01.45Z'
+  :name: Élevage d'ovins et de caprins
+- :code: '01.46'
+  :name: Élevage de porcins
+- :code: '01.46Z'
+  :name: Élevage de porcins
+- :code: '01.47'
+  :name: Élevage de volailles
+- :code: '01.47Z'
+  :name: Élevage de volailles
+- :code: '01.49'
+  :name: Élevage d'autres animaux
+- :code: '01.49Z'
+  :name: Élevage d'autres animaux
+- :code: '01.5'
+  :name: Culture et élevage associés
+- :code: '01.50'
+  :name: Culture et élevage associés
+- :code: '01.50Z'
+  :name: Culture et élevage associés
+- :code: '01.6'
+  :name: Activités de soutien à l'agriculture et traitement primaire des récoltes
+- :code: '01.61'
+  :name: Activités de soutien aux cultures
+- :code: '01.61Z'
+  :name: Activités de soutien aux cultures
+- :code: '01.62'
+  :name: Activités de soutien à la production animale
+- :code: '01.62Z'
+  :name: Activités de soutien à la production animale
+- :code: '01.63'
+  :name: Traitement primaire des récoltes
+- :code: '01.63Z'
+  :name: Traitement primaire des récoltes
+- :code: '01.64'
+  :name: Traitement des semences
+- :code: '01.64Z'
+  :name: Traitement des semences
+- :code: '01.7'
+  :name: Chasse, piégeage et services annexes
+- :code: '01.70'
+  :name: Chasse, piégeage et services annexes
+- :code: '01.70Z'
+  :name: Chasse, piégeage et services annexes
+- :code: '02'
+  :name: Sylviculture et exploitation forestière
+- :code: '02.1'
+  :name: Sylviculture et autres activités forestières
+- :code: '02.10'
+  :name: Sylviculture et autres activités forestières
+- :code: '02.10Z'
+  :name: Sylviculture et autres activités forestières
+- :code: '02.2'
+  :name: Exploitation forestière
+- :code: '02.20'
+  :name: Exploitation forestière
+- :code: '02.20Z'
+  :name: Exploitation forestière
+- :code: '02.3'
+  :name: Récolte de produits forestiers non ligneux poussant à l'état sauvage
+- :code: '02.30'
+  :name: Récolte de produits forestiers non ligneux poussant à l'état sauvage
+- :code: '02.30Z'
+  :name: Récolte de produits forestiers non ligneux poussant à l'état sauvage
+- :code: '02.4'
+  :name: Services de soutien à l'exploitation forestière
+- :code: '02.40'
+  :name: Services de soutien à l'exploitation forestière
+- :code: '02.40Z'
+  :name: Services de soutien à l'exploitation forestière
+- :code: '03'
+  :name: Pêche et aquaculture
+- :code: '03.1'
+  :name: Pêche
+- :code: '03.11'
+  :name: Pêche en mer
+- :code: '03.11Z'
+  :name: Pêche en mer
+- :code: '03.12'
+  :name: Pêche en eau douce
+- :code: '03.12Z'
+  :name: Pêche en eau douce
+- :code: '03.2'
+  :name: Aquaculture
+- :code: '03.21'
+  :name: Aquaculture en mer
+- :code: '03.21Z'
+  :name: Aquaculture en mer
+- :code: '03.22'
+  :name: Aquaculture en eau douce
+- :code: '03.22Z'
+  :name: Aquaculture en eau douce
+- :code: 'B'
+  :name: INDUSTRIES EXTRACTIVES
+- :code: '05'
+  :name: Extraction de houille et de lignite
+- :code: '05.1'
+  :name: Extraction de houille
+- :code: '05.10'
+  :name: Extraction de houille
+- :code: '05.10Z'
+  :name: Extraction de houille
+- :code: '05.2'
+  :name: Extraction de lignite
+- :code: '05.20'
+  :name: Extraction de lignite
+- :code: '05.20Z'
+  :name: Extraction de lignite
+- :code: '06'
+  :name: Extraction d'hydrocarbures
+- :code: '06.1'
+  :name: Extraction de pétrole brut
+- :code: '06.10'
+  :name: Extraction de pétrole brut
+- :code: '06.10Z'
+  :name: Extraction de pétrole brut
+- :code: '06.2'
+  :name: Extraction de gaz naturel
+- :code: '06.20'
+  :name: Extraction de gaz naturel
+- :code: '06.20Z'
+  :name: Extraction de gaz naturel
+- :code: '07'
+  :name: Extraction de minerais métalliques
+- :code: '07.1'
+  :name: Extraction de minerais de fer
+- :code: '07.10'
+  :name: Extraction de minerais de fer
+- :code: '07.10Z'
+  :name: Extraction de minerais de fer
+- :code: '07.2'
+  :name: Extraction de minerais de métaux non ferreux
+- :code: '07.21'
+  :name: Extraction de minerais d'uranium et de thorium
+- :code: '07.21Z'
+  :name: Extraction de minerais d'uranium et de thorium
+- :code: '07.29'
+  :name: Extraction d'autres minerais de métaux non ferreux
+- :code: '07.29Z'
+  :name: Extraction d'autres minerais de métaux non ferreux
+- :code: '08'
+  :name: Autres industries extractives
+- :code: '08.1'
+  :name: Extraction de pierres, de sables et d'argiles
+- :code: '08.11'
+  :name: Extraction de pierres ornementales et de construction, de calcaire industriel, de gypse, de craie et d'ardoise
+- :code: '08.11Z'
+  :name: Extraction de pierres ornementales et de construction, de calcaire industriel, de gypse, de craie et d'ardoise
+- :code: '08.12'
+  :name: Exploitation de gravières et sablières, extraction d'argiles et de kaolin
+- :code: '08.12Z'
+  :name: Exploitation de gravières et sablières, extraction d'argiles et de kaolin
+- :code: '08.9'
+  :name: Activités extractives n.c.a.
+- :code: '08.91'
+  :name: Extraction des minéraux chimiques et d'engrais minéraux
+- :code: '08.91Z'
+  :name: Extraction des minéraux chimiques et d'engrais minéraux
+- :code: '08.92'
+  :name: Extraction de tourbe
+- :code: '08.92Z'
+  :name: Extraction de tourbe
+- :code: '08.93'
+  :name: Production de sel
+- :code: '08.93Z'
+  :name: Production de sel
+- :code: '08.99'
+  :name: Autres activités extractives n.c.a.
+- :code: '08.99Z'
+  :name: Autres activités extractives n.c.a.
+- :code: '09'
+  :name: Services de soutien aux industries extractives
+- :code: '09.1'
+  :name: Activités de soutien à l'extraction d'hydrocarbures
+- :code: '09.10'
+  :name: Activités de soutien à l'extraction d'hydrocarbures
+- :code: '09.10Z'
+  :name: Activités de soutien à l'extraction d'hydrocarbures
+- :code: '09.9'
+  :name: Activités de soutien aux autres industries extractives
+- :code: '09.90'
+  :name: Activités de soutien aux autres industries extractives
+- :code: '09.90Z'
+  :name: Activités de soutien aux autres industries extractives
+- :code: 'C'
+  :name: INDUSTRIE MANUFACTURIÈRE
+- :code: '10'
+  :name: Industries alimentaires
+- :code: '10.1'
+  :name: Transformation et conservation de la viande et préparation de produits à base de viande
+- :code: '10.11'
+  :name: Transformation et conservation de la viande de boucherie
+- :code: '10.11Z'
+  :name: Transformation et conservation de la viande de boucherie
+- :code: '10.12'
+  :name: Transformation et conservation de la viande de volaille
+- :code: '10.12Z'
+  :name: Transformation et conservation de la viande de volaille
+- :code: '10.13'
+  :name: Préparation de produits à base de viande
+- :code: '10.13A'
+  :name: Préparation industrielle de produits à base de viande
+- :code: '10.13B'
+  :name: Charcuterie
+- :code: '10.2'
+  :name: Transformation et conservation de poisson, de crustacés et de mollusques
+- :code: '10.20'
+  :name: Transformation et conservation de poisson, de crustacés et de mollusques
+- :code: '10.20Z'
+  :name: Transformation et conservation de poisson, de crustacés et de mollusques
+- :code: '10.3'
+  :name: Transformation et conservation de fruits et légumes
+- :code: '10.31'
+  :name: Transformation et conservation de pommes de terre
+- :code: '10.31Z'
+  :name: Transformation et conservation de pommes de terre
+- :code: '10.32'
+  :name: Préparation de jus de fruits et légumes
+- :code: '10.32Z'
+  :name: Préparation de jus de fruits et légumes
+- :code: '10.39'
+  :name: Autre transformation et conservation de fruits et légumes
+- :code: '10.39A'
+  :name: Autre transformation et conservation de légumes
+- :code: '10.39B'
+  :name: Transformation et conservation de fruits
+- :code: '10.4'
+  :name: Fabrication d'huiles et graisses végétales et animales
+- :code: '10.41'
+  :name: Fabrication d'huiles et graisses
+- :code: '10.41A'
+  :name: Fabrication d'huiles et graisses brutes
+- :code: '10.41B'
+  :name: Fabrication d'huiles et graisses raffinées
+- :code: '10.42'
+  :name: Fabrication de margarine et graisses comestibles similaires
+- :code: '10.42Z'
+  :name: Fabrication de margarine et graisses comestibles similaires
+- :code: '10.5'
+  :name: Fabrication de produits laitiers
+- :code: '10.51'
+  :name: Exploitation de laiteries et fabrication de fromage
+- :code: '10.51A'
+  :name: Fabrication de lait liquide et de produits frais
+- :code: '10.51B'
+  :name: Fabrication de beurre
+- :code: '10.51C'
+  :name: Fabrication de fromage
+- :code: '10.51D'
+  :name: Fabrication d'autres produits laitiers
+- :code: '10.52'
+  :name: Fabrication de glaces et sorbets
+- :code: '10.52Z'
+  :name: Fabrication de glaces et sorbets
+- :code: '10.6'
+  :name: Travail des grains ; fabrication de produits amylacés
+- :code: '10.61'
+  :name: Travail des grains
+- :code: '10.61A'
+  :name: Meunerie
+- :code: '10.61B'
+  :name: Autres activités du travail des grains
+- :code: '10.62'
+  :name: Fabrication de produits amylacés
+- :code: '10.62Z'
+  :name: Fabrication de produits amylacés
+- :code: '10.7'
+  :name: Fabrication de produits de boulangerie-pâtisserie et de pâtes alimentaires
+- :code: '10.71'
+  :name: Fabrication de pain et de pâtisserie fraîche
+- :code: '10.71A'
+  :name: Fabrication industrielle de pain et de pâtisserie fraîche
+- :code: '10.71B'
+  :name: Cuisson de produits de boulangerie
+- :code: '10.71C'
+  :name: Boulangerie et boulangerie-pâtisserie
+- :code: '10.71D'
+  :name: Pâtisserie
+- :code: '10.72'
+  :name: Fabrication de biscuits, biscottes et pâtisseries de conservation
+- :code: '10.72Z'
+  :name: Fabrication de biscuits, biscottes et pâtisseries de conservation
+- :code: '10.73'
+  :name: Fabrication de pâtes alimentaires
+- :code: '10.73Z'
+  :name: Fabrication de pâtes alimentaires
+- :code: '10.8'
+  :name: Fabrication d'autres produits alimentaires
+- :code: '10.81'
+  :name: Fabrication de sucre
+- :code: '10.81Z'
+  :name: Fabrication de sucre
+- :code: '10.82'
+  :name: Fabrication de cacao, chocolat et de produits de confiserie
+- :code: '10.82Z'
+  :name: Fabrication de cacao, chocolat et de produits de confiserie
+- :code: '10.83'
+  :name: Transformation du thé et du café
+- :code: '10.83Z'
+  :name: Transformation du thé et du café
+- :code: '10.84'
+  :name: Fabrication de condiments et assaisonnements
+- :code: '10.84Z'
+  :name: Fabrication de condiments et assaisonnements
+- :code: '10.85'
+  :name: Fabrication de plats préparés
+- :code: '10.85Z'
+  :name: Fabrication de plats préparés
+- :code: '10.86'
+  :name: Fabrication d'aliments homogénéisés et diététiques
+- :code: '10.86Z'
+  :name: Fabrication d'aliments homogénéisés et diététiques
+- :code: '10.89'
+  :name: Fabrication d'autres produits alimentaires n.c.a.
+- :code: '10.89Z'
+  :name: Fabrication d'autres produits alimentaires n.c.a.
+- :code: '10.9'
+  :name: Fabrication d'aliments pour animaux
+- :code: '10.91'
+  :name: Fabrication d'aliments pour animaux de ferme
+- :code: '10.91Z'
+  :name: Fabrication d'aliments pour animaux de ferme
+- :code: '10.92'
+  :name: Fabrication d'aliments pour animaux de compagnie
+- :code: '10.92Z'
+  :name: Fabrication d'aliments pour animaux de compagnie
+- :code: '11'
+  :name: Fabrication de boissons
+- :code: '11.0'
+  :name: Fabrication de boissons
+- :code: '11.01'
+  :name: Production de boissons alcooliques distillées
+- :code: '11.01Z'
+  :name: Production de boissons alcooliques distillées
+- :code: '11.02'
+  :name: Production de vin (de raisin)
+- :code: '11.02A'
+  :name: Fabrication de vins effervescents
+- :code: '11.02B'
+  :name: Vinification
+- :code: '11.03'
+  :name: Fabrication de cidre et de vins de fruits
+- :code: '11.03Z'
+  :name: Fabrication de cidre et de vins de fruits
+- :code: '11.04'
+  :name: Production d'autres boissons fermentées non distillées
+- :code: '11.04Z'
+  :name: Production d'autres boissons fermentées non distillées
+- :code: '11.05'
+  :name: Fabrication de bière
+- :code: '11.05Z'
+  :name: Fabrication de bière
+- :code: '11.06'
+  :name: Fabrication de malt
+- :code: '11.06Z'
+  :name: Fabrication de malt
+- :code: '11.07'
+  :name: Industrie des eaux minérales et autres eaux embouteillées et des boissons rafraîchissantes
+- :code: '11.07A'
+  :name: Industrie des eaux de table
+- :code: '11.07B'
+  :name: Production de boissons rafraîchissantes
+- :code: '12'
+  :name: Fabrication de produits à base de tabac
+- :code: '12.0'
+  :name: Fabrication de produits à base de tabac
+- :code: '12.00'
+  :name: Fabrication de produits à base de tabac
+- :code: '12.00Z'
+  :name: Fabrication de produits à base de tabac
+- :code: '13'
+  :name: Fabrication de textiles
+- :code: '13.1'
+  :name: Préparation de fibres textiles et filature
+- :code: '13.10'
+  :name: Préparation de fibres textiles et filature
+- :code: '13.10Z'
+  :name: Préparation de fibres textiles et filature
+- :code: '13.2'
+  :name: Tissage
+- :code: '13.20'
+  :name: Tissage
+- :code: '13.20Z'
+  :name: Tissage
+- :code: '13.3'
+  :name: Ennoblissement textile
+- :code: '13.30'
+  :name: Ennoblissement textile
+- :code: '13.30Z'
+  :name: Ennoblissement textile
+- :code: '13.9'
+  :name: Fabrication d'autres textiles
+- :code: '13.91'
+  :name: Fabrication d'étoffes à mailles
+- :code: '13.91Z'
+  :name: Fabrication d'étoffes à mailles
+- :code: '13.92'
+  :name: Fabrication d'articles textiles, sauf habillement
+- :code: '13.92Z'
+  :name: Fabrication d'articles textiles, sauf habillement
+- :code: '13.93'
+  :name: Fabrication de tapis et moquettes
+- :code: '13.93Z'
+  :name: Fabrication de tapis et moquettes
+- :code: '13.94'
+  :name: Fabrication de ficelles, cordes et filets
+- :code: '13.94Z'
+  :name: Fabrication de ficelles, cordes et filets
+- :code: '13.95'
+  :name: Fabrication de non-tissés, sauf habillement
+- :code: '13.95Z'
+  :name: Fabrication de non-tissés, sauf habillement
+- :code: '13.96'
+  :name: Fabrication d'autres textiles techniques et industriels
+- :code: '13.96Z'
+  :name: Fabrication d'autres textiles techniques et industriels
+- :code: '13.99'
+  :name: Fabrication d'autres textiles n.c.a.
+- :code: '13.99Z'
+  :name: Fabrication d'autres textiles n.c.a.
+- :code: '14'
+  :name: Industrie de l'habillement
+- :code: '14.1'
+  :name: Fabrication de vêtements, autres qu'en fourrure
+- :code: '14.11'
+  :name: Fabrication de vêtements en cuir
+- :code: '14.11Z'
+  :name: Fabrication de vêtements en cuir
+- :code: '14.12'
+  :name: Fabrication de vêtements de travail
+- :code: '14.12Z'
+  :name: Fabrication de vêtements de travail
+- :code: '14.13'
+  :name: Fabrication de vêtements de dessus
+- :code: '14.13Z'
+  :name: Fabrication de vêtements de dessus
+- :code: '14.14'
+  :name: Fabrication de vêtements de dessous
+- :code: '14.14Z'
+  :name: Fabrication de vêtements de dessous
+- :code: '14.19'
+  :name: Fabrication d'autres vêtements et accessoires
+- :code: '14.19Z'
+  :name: Fabrication d'autres vêtements et accessoires
+- :code: '14.2'
+  :name: Fabrication d'articles en fourrure
+- :code: '14.20'
+  :name: Fabrication d'articles en fourrure
+- :code: '14.20Z'
+  :name: Fabrication d'articles en fourrure
+- :code: '14.3'
+  :name: Fabrication d'articles à mailles
+- :code: '14.31'
+  :name: Fabrication d'articles chaussants à mailles
+- :code: '14.31Z'
+  :name: Fabrication d'articles chaussants à mailles
+- :code: '14.39'
+  :name: Fabrication d'autres articles à mailles
+- :code: '14.39Z'
+  :name: Fabrication d'autres articles à mailles
+- :code: '15'
+  :name: Industrie du cuir et de la chaussure
+- :code: '15.1'
+  :name: Apprêt et tannage des cuirs ; préparation et teinture des fourrures ; fabrication d'articles de voyage, de maroquinerie et de sellerie
+- :code: '15.11'
+  :name: Apprêt et tannage des cuirs ; préparation et teinture des fourrures
+- :code: '15.11Z'
+  :name: Apprêt et tannage des cuirs ; préparation et teinture des fourrures
+- :code: '15.12'
+  :name: Fabrication d'articles de voyage, de maroquinerie et de sellerie
+- :code: '15.12Z'
+  :name: Fabrication d'articles de voyage, de maroquinerie et de sellerie
+- :code: '15.2'
+  :name: Fabrication de chaussures
+- :code: '15.20'
+  :name: Fabrication de chaussures
+- :code: '15.20Z'
+  :name: Fabrication de chaussures
+- :code: '16'
+  :name: Travail du bois et fabrication d'articles en bois et en liège, à l'exception des meubles ; fabrication d'articles en vannerie et sparterie
+- :code: '16.1'
+  :name: Sciage et rabotage du bois
+- :code: '16.10'
+  :name: Sciage et rabotage du bois
+- :code: '16.10A'
+  :name: Sciage et rabotage du bois, hors imprégnation
+- :code: '16.10B'
+  :name: Imprégnation du bois
+- :code: '16.2'
+  :name: Fabrication d'articles en bois, liège, vannerie et sparterie
+- :code: '16.21'
+  :name: Fabrication de placage et de panneaux de bois
+- :code: '16.21Z'
+  :name: Fabrication de placage et de panneaux de bois
+- :code: '16.22'
+  :name: Fabrication de parquets assemblés
+- :code: '16.22Z'
+  :name: Fabrication de parquets assemblés
+- :code: '16.23'
+  :name: Fabrication de charpentes et d'autres menuiseries
+- :code: '16.23Z'
+  :name: Fabrication de charpentes et d'autres menuiseries
+- :code: '16.24'
+  :name: Fabrication d'emballages en bois
+- :code: '16.24Z'
+  :name: Fabrication d'emballages en bois
+- :code: '16.29'
+  :name: Fabrication d'objets divers en bois ; fabrication d'objets en liège, vannerie et sparterie
+- :code: '16.29Z'
+  :name: Fabrication d'objets divers en bois ; fabrication d'objets en liège, vannerie et sparterie
+- :code: '17'
+  :name: Industrie du papier et du carton
+- :code: '17.1'
+  :name: Fabrication de pâte à papier, de papier et de carton
+- :code: '17.11'
+  :name: Fabrication de pâte à papier
+- :code: '17.11Z'
+  :name: Fabrication de pâte à papier
+- :code: '17.12'
+  :name: Fabrication de papier et de carton
+- :code: '17.12Z'
+  :name: Fabrication de papier et de carton
+- :code: '17.2'
+  :name: Fabrication d'articles en papier ou en carton
+- :code: '17.21'
+  :name: Fabrication de papier et carton ondulés et d'emballages en papier ou en carton
+- :code: '17.21A'
+  :name: Fabrication de carton ondulé
+- :code: '17.21B'
+  :name: Fabrication de cartonnages
+- :code: '17.21C'
+  :name: Fabrication d'emballages en papier
+- :code: '17.22'
+  :name: Fabrication d'articles en papier à usage sanitaire ou domestique
+- :code: '17.22Z'
+  :name: Fabrication d'articles en papier à usage sanitaire ou domestique
+- :code: '17.23'
+  :name: Fabrication d'articles de papeterie
+- :code: '17.23Z'
+  :name: Fabrication d'articles de papeterie
+- :code: '17.24'
+  :name: Fabrication de papiers peints
+- :code: '17.24Z'
+  :name: Fabrication de papiers peints
+- :code: '17.29'
+  :name: Fabrication d'autres articles en papier ou en carton
+- :code: '17.29Z'
+  :name: Fabrication d'autres articles en papier ou en carton
+- :code: '18'
+  :name: Imprimerie et reproduction d'enregistrements
+- :code: '18.1'
+  :name: Imprimerie et services annexes
+- :code: '18.11'
+  :name: Imprimerie de journaux
+- :code: '18.11Z'
+  :name: Imprimerie de journaux
+- :code: '18.12'
+  :name: Autre imprimerie (labeur)
+- :code: '18.12Z'
+  :name: Autre imprimerie (labeur)
+- :code: '18.13'
+  :name: Activités de pré-presse
+- :code: '18.13Z'
+  :name: Activités de pré-presse
+- :code: '18.14'
+  :name: Reliure et activités connexes
+- :code: '18.14Z'
+  :name: Reliure et activités connexes
+- :code: '18.2'
+  :name: Reproduction d'enregistrements
+- :code: '18.20'
+  :name: Reproduction d'enregistrements
+- :code: '18.20Z'
+  :name: Reproduction d'enregistrements
+- :code: '19'
+  :name: Cokéfaction et raffinage
+- :code: '19.1'
+  :name: Cokéfaction
+- :code: '19.10'
+  :name: Cokéfaction
+- :code: '19.10Z'
+  :name: Cokéfaction
+- :code: '19.2'
+  :name: Raffinage du pétrole
+- :code: '19.20'
+  :name: Raffinage du pétrole
+- :code: '19.20Z'
+  :name: Raffinage du pétrole
+- :code: '20'
+  :name: Industrie chimique
+- :code: '20.1'
+  :name: Fabrication de produits chimiques de base, de produits azotés et d'engrais, de matières plastiques de base et de caoutchouc synthétique
+- :code: '20.11'
+  :name: Fabrication de gaz industriels
+- :code: '20.11Z'
+  :name: Fabrication de gaz industriels
+- :code: '20.12'
+  :name: Fabrication de colorants et de pigments
+- :code: '20.12Z'
+  :name: Fabrication de colorants et de pigments
+- :code: '20.13'
+  :name: Fabrication d'autres produits chimiques inorganiques de base
+- :code: '20.13A'
+  :name: Enrichissement et retraitement de matières nucléaires
+- :code: '20.13B'
+  :name: Fabrication d'autres produits chimiques inorganiques de base n.c.a.
+- :code: '20.14'
+  :name: Fabrication d'autres produits chimiques organiques de base
+- :code: '20.14Z'
+  :name: Fabrication d'autres produits chimiques organiques de base
+- :code: '20.15'
+  :name: Fabrication de produits azotés et d'engrais
+- :code: '20.15Z'
+  :name: Fabrication de produits azotés et d'engrais
+- :code: '20.16'
+  :name: Fabrication de matières plastiques de base
+- :code: '20.16Z'
+  :name: Fabrication de matières plastiques de base
+- :code: '20.17'
+  :name: Fabrication de caoutchouc synthétique
+- :code: '20.17Z'
+  :name: Fabrication de caoutchouc synthétique
+- :code: '20.2'
+  :name: Fabrication de pesticides et d'autres produits agrochimiques
+- :code: '20.20'
+  :name: Fabrication de pesticides et d'autres produits agrochimiques
+- :code: '20.20Z'
+  :name: Fabrication de pesticides et d'autres produits agrochimiques
+- :code: '20.3'
+  :name: Fabrication de peintures, vernis, encres et mastics
+- :code: '20.30'
+  :name: Fabrication de peintures, vernis, encres et mastics
+- :code: '20.30Z'
+  :name: Fabrication de peintures, vernis, encres et mastics
+- :code: '20.4'
+  :name: Fabrication de savons, de produits d'entretien et de parfums
+- :code: '20.41'
+  :name: Fabrication de savons, détergents et produits d'entretien
+- :code: '20.41Z'
+  :name: Fabrication de savons, détergents et produits d'entretien
+- :code: '20.42'
+  :name: Fabrication de parfums et de produits pour la toilette
+- :code: '20.42Z'
+  :name: Fabrication de parfums et de produits pour la toilette
+- :code: '20.5'
+  :name: Fabrication d'autres produits chimiques
+- :code: '20.51'
+  :name: Fabrication de produits explosifs
+- :code: '20.51Z'
+  :name: Fabrication de produits explosifs
+- :code: '20.52'
+  :name: Fabrication de colles
+- :code: '20.52Z'
+  :name: Fabrication de colles
+- :code: '20.53'
+  :name: Fabrication d'huiles essentielles
+- :code: '20.53Z'
+  :name: Fabrication d'huiles essentielles
+- :code: '20.59'
+  :name: Fabrication d'autres produits chimiques n.c.a.
+- :code: '20.59Z'
+  :name: Fabrication d'autres produits chimiques n.c.a.
+- :code: '20.6'
+  :name: Fabrication de fibres artificielles ou synthétiques
+- :code: '20.60'
+  :name: Fabrication de fibres artificielles ou synthétiques
+- :code: '20.60Z'
+  :name: Fabrication de fibres artificielles ou synthétiques
+- :code: '21'
+  :name: Industrie pharmaceutique
+- :code: '21.1'
+  :name: Fabrication de produits pharmaceutiques de base
+- :code: '21.10'
+  :name: Fabrication de produits pharmaceutiques de base
+- :code: '21.10Z'
+  :name: Fabrication de produits pharmaceutiques de base
+- :code: '21.2'
+  :name: Fabrication de préparations pharmaceutiques
+- :code: '21.20'
+  :name: Fabrication de préparations pharmaceutiques
+- :code: '21.20Z'
+  :name: Fabrication de préparations pharmaceutiques
+- :code: '22'
+  :name: Fabrication de produits en caoutchouc et en plastique
+- :code: '22.1'
+  :name: Fabrication de produits en caoutchouc
+- :code: '22.11'
+  :name: Fabrication et rechapage de pneumatiques
+- :code: '22.11Z'
+  :name: Fabrication et rechapage de pneumatiques
+- :code: '22.19'
+  :name: Fabrication d'autres articles en caoutchouc
+- :code: '22.19Z'
+  :name: Fabrication d'autres articles en caoutchouc
+- :code: '22.2'
+  :name: Fabrication de produits en plastique
+- :code: '22.21'
+  :name: Fabrication de plaques, feuilles, tubes et profilés en matières plastiques
+- :code: '22.21Z'
+  :name: Fabrication de plaques, feuilles, tubes et profilés en matières plastiques
+- :code: '22.22'
+  :name: Fabrication d'emballages en matières plastiques
+- :code: '22.22Z'
+  :name: Fabrication d'emballages en matières plastiques
+- :code: '22.23'
+  :name: Fabrication d'éléments en matières plastiques pour la construction
+- :code: '22.23Z'
+  :name: Fabrication d'éléments en matières plastiques pour la construction
+- :code: '22.29'
+  :name: Fabrication d'autres articles en matières plastiques
+- :code: '22.29A'
+  :name: Fabrication de pièces techniques à base de matières plastiques
+- :code: '22.29B'
+  :name: Fabrication de produits de consommation courante en matières plastiques
+- :code: '23'
+  :name: Fabrication d'autres produits minéraux non métalliques
+- :code: '23.1'
+  :name: Fabrication de verre et d'articles en verre
+- :code: '23.11'
+  :name: Fabrication de verre plat
+- :code: '23.11Z'
+  :name: Fabrication de verre plat
+- :code: '23.12'
+  :name: Façonnage et transformation du verre plat
+- :code: '23.12Z'
+  :name: Façonnage et transformation du verre plat
+- :code: '23.13'
+  :name: Fabrication de verre creux
+- :code: '23.13Z'
+  :name: Fabrication de verre creux
+- :code: '23.14'
+  :name: Fabrication de fibres de verre
+- :code: '23.14Z'
+  :name: Fabrication de fibres de verre
+- :code: '23.19'
+  :name: Fabrication et façonnage d'autres articles en verre, y compris verre technique
+- :code: '23.19Z'
+  :name: Fabrication et façonnage d'autres articles en verre, y compris verre technique
+- :code: '23.2'
+  :name: Fabrication de produits réfractaires
+- :code: '23.20'
+  :name: Fabrication de produits réfractaires
+- :code: '23.20Z'
+  :name: Fabrication de produits réfractaires
+- :code: '23.3'
+  :name: Fabrication de matériaux de construction en terre cuite
+- :code: '23.31'
+  :name: Fabrication de carreaux en céramique
+- :code: '23.31Z'
+  :name: Fabrication de carreaux en céramique
+- :code: '23.32'
+  :name: Fabrication de briques, tuiles et produits de construction, en terre cuite
+- :code: '23.32Z'
+  :name: Fabrication de briques, tuiles et produits de construction, en terre cuite
+- :code: '23.4'
+  :name: Fabrication d'autres produits en céramique et en porcelaine
+- :code: '23.41'
+  :name: Fabrication d'articles céramiques à usage domestique ou ornemental
+- :code: '23.41Z'
+  :name: Fabrication d'articles céramiques à usage domestique ou ornemental
+- :code: '23.42'
+  :name: Fabrication d'appareils sanitaires en céramique
+- :code: '23.42Z'
+  :name: Fabrication d'appareils sanitaires en céramique
+- :code: '23.43'
+  :name: Fabrication d'isolateurs et pièces isolantes en céramique
+- :code: '23.43Z'
+  :name: Fabrication d'isolateurs et pièces isolantes en céramique
+- :code: '23.44'
+  :name: Fabrication d'autres produits céramiques à usage technique
+- :code: '23.44Z'
+  :name: Fabrication d'autres produits céramiques à usage technique
+- :code: '23.49'
+  :name: Fabrication d'autres produits céramiques
+- :code: '23.49Z'
+  :name: Fabrication d'autres produits céramiques
+- :code: '23.5'
+  :name: Fabrication de ciment, chaux et plâtre
+- :code: '23.51'
+  :name: Fabrication de ciment
+- :code: '23.51Z'
+  :name: Fabrication de ciment
+- :code: '23.52'
+  :name: Fabrication de chaux et plâtre
+- :code: '23.52Z'
+  :name: Fabrication de chaux et plâtre
+- :code: '23.6'
+  :name: Fabrication d'ouvrages en béton, en ciment ou en plâtre
+- :code: '23.61'
+  :name: Fabrication d'éléments en béton pour la construction
+- :code: '23.61Z'
+  :name: Fabrication d'éléments en béton pour la construction
+- :code: '23.62'
+  :name: Fabrication d'éléments en plâtre pour la construction
+- :code: '23.62Z'
+  :name: Fabrication d'éléments en plâtre pour la construction
+- :code: '23.63'
+  :name: Fabrication de béton prêt à l'emploi
+- :code: '23.63Z'
+  :name: Fabrication de béton prêt à l'emploi
+- :code: '23.64'
+  :name: Fabrication de mortiers et bétons secs
+- :code: '23.64Z'
+  :name: Fabrication de mortiers et bétons secs
+- :code: '23.65'
+  :name: Fabrication d'ouvrages en fibre-ciment
+- :code: '23.65Z'
+  :name: Fabrication d'ouvrages en fibre-ciment
+- :code: '23.69'
+  :name: Fabrication d'autres ouvrages en béton, en ciment ou en plâtre
+- :code: '23.69Z'
+  :name: Fabrication d'autres ouvrages en béton, en ciment ou en plâtre
+- :code: '23.7'
+  :name: Taille, façonnage et finissage de pierres
+- :code: '23.70'
+  :name: Taille, façonnage et finissage de pierres
+- :code: '23.70Z'
+  :name: Taille, façonnage et finissage de pierres
+- :code: '23.9'
+  :name: Fabrication de produits abrasifs et de produits minéraux non métalliques n.c.a.
+- :code: '23.91'
+  :name: Fabrication de produits abrasifs
+- :code: '23.91Z'
+  :name: Fabrication de produits abrasifs
+- :code: '23.99'
+  :name: Fabrication d'autres produits minéraux non métalliques n.c.a.
+- :code: '23.99Z'
+  :name: Fabrication d'autres produits minéraux non métalliques n.c.a.
+- :code: '24'
+  :name: Métallurgie
+- :code: '24.1'
+  :name: Sidérurgie
+- :code: '24.10'
+  :name: Sidérurgie
+- :code: '24.10Z'
+  :name: Sidérurgie
+- :code: '24.2'
+  :name: Fabrication de tubes, tuyaux, profilés creux et accessoires correspondants en acier
+- :code: '24.20'
+  :name: Fabrication de tubes, tuyaux, profilés creux et accessoires correspondants en acier
+- :code: '24.20Z'
+  :name: Fabrication de tubes, tuyaux, profilés creux et accessoires correspondants en acier
+- :code: '24.3'
+  :name: Fabrication d'autres produits de première transformation de l'acier
+- :code: '24.31'
+  :name: Étirage à froid de barres
+- :code: '24.31Z'
+  :name: Étirage à froid de barres
+- :code: '24.32'
+  :name: Laminage à froid de feuillards
+- :code: '24.32Z'
+  :name: Laminage à froid de feuillards
+- :code: '24.33'
+  :name: Profilage à froid par formage ou pliage
+- :code: '24.33Z'
+  :name: Profilage à froid par formage ou pliage
+- :code: '24.34'
+  :name: Tréfilage à froid
+- :code: '24.34Z'
+  :name: Tréfilage à froid
+- :code: '24.4'
+  :name: Production de métaux précieux et d'autres métaux non ferreux
+- :code: '24.41'
+  :name: Production de métaux précieux
+- :code: '24.41Z'
+  :name: Production de métaux précieux
+- :code: '24.42'
+  :name: Métallurgie de l'aluminium
+- :code: '24.42Z'
+  :name: Métallurgie de l'aluminium
+- :code: '24.43'
+  :name: Métallurgie du plomb, du zinc ou de l'étain
+- :code: '24.43Z'
+  :name: Métallurgie du plomb, du zinc ou de l'étain
+- :code: '24.44'
+  :name: Métallurgie du cuivre
+- :code: '24.44Z'
+  :name: Métallurgie du cuivre
+- :code: '24.45'
+  :name: Métallurgie des autres métaux non ferreux
+- :code: '24.45Z'
+  :name: Métallurgie des autres métaux non ferreux
+- :code: '24.46'
+  :name: Élaboration et transformation de matières nucléaires
+- :code: '24.46Z'
+  :name: Élaboration et transformation de matières nucléaires
+- :code: '24.5'
+  :name: Fonderie
+- :code: '24.51'
+  :name: Fonderie de fonte
+- :code: '24.51Z'
+  :name: Fonderie de fonte
+- :code: '24.52'
+  :name: Fonderie d'acier
+- :code: '24.52Z'
+  :name: Fonderie d'acier
+- :code: '24.53'
+  :name: Fonderie de métaux légers
+- :code: '24.53Z'
+  :name: Fonderie de métaux légers
+- :code: '24.54'
+  :name: Fonderie d'autres métaux non ferreux
+- :code: '24.54Z'
+  :name: Fonderie d'autres métaux non ferreux
+- :code: '25'
+  :name: Fabrication de produits métalliques, à l'exception des machines et des équipements
+- :code: '25.1'
+  :name: Fabrication d'éléments en métal pour la construction
+- :code: '25.11'
+  :name: Fabrication de structures métalliques et de parties de structures
+- :code: '25.11Z'
+  :name: Fabrication de structures métalliques et de parties de structures
+- :code: '25.12'
+  :name: Fabrication de portes et fenêtres en métal
+- :code: '25.12Z'
+  :name: Fabrication de portes et fenêtres en métal
+- :code: '25.2'
+  :name: Fabrication de réservoirs, citernes et conteneurs métalliques
+- :code: '25.21'
+  :name: Fabrication de radiateurs et de chaudières pour le chauffage central
+- :code: '25.21Z'
+  :name: Fabrication de radiateurs et de chaudières pour le chauffage central
+- :code: '25.29'
+  :name: Fabrication d'autres réservoirs, citernes et conteneurs métalliques
+- :code: '25.29Z'
+  :name: Fabrication d'autres réservoirs, citernes et conteneurs métalliques
+- :code: '25.3'
+  :name: Fabrication de générateurs de vapeur, à l'exception des chaudières pour le chauffage central
+- :code: '25.30'
+  :name: Fabrication de générateurs de vapeur, à l'exception des chaudières pour le chauffage central
+- :code: '25.30Z'
+  :name: Fabrication de générateurs de vapeur, à l'exception des chaudières pour le chauffage central
+- :code: '25.4'
+  :name: Fabrication d'armes et de munitions
+- :code: '25.40'
+  :name: Fabrication d'armes et de munitions
+- :code: '25.40Z'
+  :name: Fabrication d'armes et de munitions
+- :code: '25.5'
+  :name: Forge, emboutissage, estampage; métallurgie des poudres
+- :code: '25.50'
+  :name: Forge, emboutissage, estampage; métallurgie des poudres
+- :code: '25.50A'
+  :name: Forge, estampage, matriçage; métallurgie des poudres
+- :code: '25.50B'
+  :name: Découpage, emboutissage
+- :code: '25.6'
+  :name: Traitement et revêtement des métaux; usinage
+- :code: '25.61'
+  :name: Traitement et revêtement des métaux
+- :code: '25.61Z'
+  :name: Traitement et revêtement des métaux
+- :code: '25.62'
+  :name: Usinage
+- :code: '25.62A'
+  :name: Décolletage
+- :code: '25.62B'
+  :name: Mécanique industrielle
+- :code: '25.7'
+  :name: Fabrication de coutellerie, d'outillage et de quincaillerie
+- :code: '25.71'
+  :name: Fabrication de coutellerie
+- :code: '25.71Z'
+  :name: Fabrication de coutellerie
+- :code: '25.72'
+  :name: Fabrication de serrures et de ferrures
+- :code: '25.72Z'
+  :name: Fabrication de serrures et de ferrures
+- :code: '25.73'
+  :name: Fabrication d'outillage
+- :code: '25.73A'
+  :name: Fabrication de moules et modèles
+- :code: '25.73B'
+  :name: Fabrication d'autres outillages
+- :code: '25.9'
+  :name: Fabrication d'autres ouvrages en métaux
+- :code: '25.91'
+  :name: Fabrication de fûts et emballages métalliques similaires
+- :code: '25.91Z'
+  :name: Fabrication de fûts et emballages métalliques similaires
+- :code: '25.92'
+  :name: Fabrication d'emballages métalliques légers
+- :code: '25.92Z'
+  :name: Fabrication d'emballages métalliques légers
+- :code: '25.93'
+  :name: Fabrication d'articles en fils métalliques, de chaînes et de ressorts
+- :code: '25.93Z'
+  :name: Fabrication d'articles en fils métalliques, de chaînes et de ressorts
+- :code: '25.94'
+  :name: Fabrication de vis et de boulons
+- :code: '25.94Z'
+  :name: Fabrication de vis et de boulons
+- :code: '25.99'
+  :name: Fabrication d'autres produits métalliques n.c.a.
+- :code: '25.99A'
+  :name: Fabrication d'articles métalliques ménagers
+- :code: '25.99B'
+  :name: Fabrication d'autres articles métalliques
+- :code: '26'
+  :name: Fabrication de produits informatiques, électroniques et optiques
+- :code: '26.1'
+  :name: Fabrication de composants et cartes électroniques
+- :code: '26.11'
+  :name: Fabrication de composants électroniques
+- :code: '26.11Z'
+  :name: Fabrication de composants électroniques
+- :code: '26.12'
+  :name: Fabrication de cartes électroniques assemblées
+- :code: '26.12Z'
+  :name: Fabrication de cartes électroniques assemblées
+- :code: '26.2'
+  :name: Fabrication d'ordinateurs et d'équipements périphériques
+- :code: '26.20'
+  :name: Fabrication d'ordinateurs et d'équipements périphériques
+- :code: '26.20Z'
+  :name: Fabrication d'ordinateurs et d'équipements périphériques
+- :code: '26.3'
+  :name: Fabrication d'équipements de communication
+- :code: '26.30'
+  :name: Fabrication d'équipements de communication
+- :code: '26.30Z'
+  :name: Fabrication d'équipements de communication
+- :code: '26.4'
+  :name: Fabrication de produits électroniques grand public
+- :code: '26.40'
+  :name: Fabrication de produits électroniques grand public
+- :code: '26.40Z'
+  :name: Fabrication de produits électroniques grand public
+- :code: '26.5'
+  :name: Fabrication d'instruments et d'appareils de mesure, d'essai et de navigation; horlogerie
+- :code: '26.51'
+  :name: Fabrication d'instruments et d'appareils de mesure, d'essai et de navigation
+- :code: '26.51A'
+  :name: Fabrication d'équipements d'aide à la navigation
+- :code: '26.51B'
+  :name: Fabrication d'instrumentation scientifique et technique
+- :code: '26.52'
+  :name: Horlogerie
+- :code: '26.52Z'
+  :name: Horlogerie
+- :code: '26.6'
+  :name: Fabrication d'équipements d'irradiation médicale, d'équipements électromédicaux et électrothérapeutiques
+- :code: '26.60'
+  :name: Fabrication d'équipements d'irradiation médicale, d'équipements électromédicaux et électrothérapeutiques
+- :code: '26.60Z'
+  :name: Fabrication d'équipements d'irradiation médicale, d'équipements électromédicaux et électrothérapeutiques
+- :code: '26.7'
+  :name: Fabrication de matériels optique et photographique
+- :code: '26.70'
+  :name: Fabrication de matériels optique et photographique
+- :code: '26.70Z'
+  :name: Fabrication de matériels optique et photographique
+- :code: '26.8'
+  :name: Fabrication de supports magnétiques et optiques
+- :code: '26.80'
+  :name: Fabrication de supports magnétiques et optiques
+- :code: '26.80Z'
+  :name: Fabrication de supports magnétiques et optiques
+- :code: '27'
+  :name: Fabrication d'équipements électriques
+- :code: '27.1'
+  :name: Fabrication de moteurs, génératrices et transformateurs électriques et de matériel de distribution et de commande électrique
+- :code: '27.11'
+  :name: Fabrication de moteurs, génératrices et transformateurs électriques
+- :code: '27.11Z'
+  :name: Fabrication de moteurs, génératrices et transformateurs électriques
+- :code: '27.12'
+  :name: Fabrication de matériel de distribution et de commande électrique
+- :code: '27.12Z'
+  :name: Fabrication de matériel de distribution et de commande électrique
+- :code: '27.2'
+  :name: Fabrication de piles et d'accumulateurs électriques
+- :code: '27.20'
+  :name: Fabrication de piles et d'accumulateurs électriques
+- :code: '27.20Z'
+  :name: Fabrication de piles et d'accumulateurs électriques
+- :code: '27.3'
+  :name: Fabrication de fils et câbles et de matériel d'installation électrique
+- :code: '27.31'
+  :name: Fabrication de câbles de fibres optiques
+- :code: '27.31Z'
+  :name: Fabrication de câbles de fibres optiques
+- :code: '27.32'
+  :name: Fabrication d'autres fils et câbles électroniques ou électriques
+- :code: '27.32Z'
+  :name: Fabrication d'autres fils et câbles électroniques ou électriques
+- :code: '27.33'
+  :name: Fabrication de matériel d'installation électrique
+- :code: '27.33Z'
+  :name: Fabrication de matériel d'installation électrique
+- :code: '27.4'
+  :name: Fabrication d'appareils d'éclairage électrique
+- :code: '27.40'
+  :name: Fabrication d'appareils d'éclairage électrique
+- :code: '27.40Z'
+  :name: Fabrication d'appareils d'éclairage électrique
+- :code: '27.5'
+  :name: Fabrication d'appareils ménagers
+- :code: '27.51'
+  :name: Fabrication d'appareils électroménagers
+- :code: '27.51Z'
+  :name: Fabrication d'appareils électroménagers
+- :code: '27.52'
+  :name: Fabrication d'appareils ménagers non électriques
+- :code: '27.52Z'
+  :name: Fabrication d'appareils ménagers non électriques
+- :code: '27.9'
+  :name: Fabrication d'autres matériels électriques
+- :code: '27.90'
+  :name: Fabrication d'autres matériels électriques
+- :code: '27.90Z'
+  :name: Fabrication d'autres matériels électriques
+- :code: '28'
+  :name: Fabrication de machines et équipements n.c.a.
+- :code: '28.1'
+  :name: Fabrication de machines d'usage général
+- :code: '28.11'
+  :name: Fabrication de moteurs et turbines, à l'exception des moteurs d'avions et de véhicules
+- :code: '28.11Z'
+  :name: Fabrication de moteurs et turbines, à l'exception des moteurs d'avions et de véhicules
+- :code: '28.12'
+  :name: Fabrication d'équipements hydrauliques et pneumatiques
+- :code: '28.12Z'
+  :name: Fabrication d'équipements hydrauliques et pneumatiques
+- :code: '28.13'
+  :name: Fabrication d'autres pompes et compresseurs
+- :code: '28.13Z'
+  :name: Fabrication d'autres pompes et compresseurs
+- :code: '28.14'
+  :name: Fabrication d'autres articles de robinetterie
+- :code: '28.14Z'
+  :name: Fabrication d'autres articles de robinetterie
+- :code: '28.15'
+  :name: Fabrication d'engrenages et d'organes mécaniques de transmission
+- :code: '28.15Z'
+  :name: Fabrication d'engrenages et d'organes mécaniques de transmission
+- :code: '28.2'
+  :name: Fabrication d'autres machines d'usage général
+- :code: '28.21'
+  :name: Fabrication de fours et brûleurs
+- :code: '28.21Z'
+  :name: Fabrication de fours et brûleurs
+- :code: '28.22'
+  :name: Fabrication de matériel de levage et de manutention
+- :code: '28.22Z'
+  :name: Fabrication de matériel de levage et de manutention
+- :code: '28.23'
+  :name: Fabrication de machines et d'équipements de bureau (à l'exception des ordinateurs et équipements périphériques)
+- :code: '28.23Z'
+  :name: Fabrication de machines et d'équipements de bureau (à l'exception des ordinateurs et équipements périphériques)
+- :code: '28.24'
+  :name: Fabrication d'outillage portatif à moteur incorporé
+- :code: '28.24Z'
+  :name: Fabrication d'outillage portatif à moteur incorporé
+- :code: '28.25'
+  :name: Fabrication d'équipements aérauliques et frigorifiques industriels
+- :code: '28.25Z'
+  :name: Fabrication d'équipements aérauliques et frigorifiques industriels
+- :code: '28.29'
+  :name: Fabrication de machines diverses d'usage général
+- :code: '28.29A'
+  :name: Fabrication d'équipements d'emballage, de conditionnement et de pesage
+- :code: '28.29B'
+  :name: Fabrication d'autres machines d'usage général
+- :code: '28.3'
+  :name: Fabrication de machines agricoles et forestières
+- :code: '28.30'
+  :name: Fabrication de machines agricoles et forestières
+- :code: '28.30Z'
+  :name: Fabrication de machines agricoles et forestières
+- :code: '28.4'
+  :name: Fabrication de machines de formage des métaux et de machines-outils
+- :code: '28.41'
+  :name: Fabrication de machines de formage des métaux
+- :code: '28.41Z'
+  :name: Fabrication de machines-outils pour le travail des métaux
+- :code: '28.49'
+  :name: Fabrication d'autres machines-outils
+- :code: '28.49Z'
+  :name: Fabrication d'autres machines-outils
+- :code: '28.9'
+  :name: Fabrication d'autres machines d'usage spécifique
+- :code: '28.91'
+  :name: Fabrication de machines pour la métallurgie
+- :code: '28.91Z'
+  :name: Fabrication de machines pour la métallurgie
+- :code: '28.92'
+  :name: Fabrication de machines pour l'extraction ou la construction
+- :code: '28.92Z'
+  :name: Fabrication de machines pour l'extraction ou la construction
+- :code: '28.93'
+  :name: Fabrication de machines pour l'industrie agro-alimentaire
+- :code: '28.93Z'
+  :name: Fabrication de machines pour l'industrie agro-alimentaire
+- :code: '28.94'
+  :name: Fabrication de machines pour les industries textiles
+- :code: '28.94Z'
+  :name: Fabrication de machines pour les industries textiles
+- :code: '28.95'
+  :name: Fabrication de machines pour les industries du papier et du carton
+- :code: '28.95Z'
+  :name: Fabrication de machines pour les industries du papier et du carton
+- :code: '28.96'
+  :name: Fabrication de machines pour le travail du caoutchouc ou des plastiques
+- :code: '28.96Z'
+  :name: Fabrication de machines pour le travail du caoutchouc ou des plastiques
+- :code: '28.99'
+  :name: Fabrication d'autres machines d'usage spécifique n.c.a.
+- :code: '28.99A'
+  :name: Fabrication de machines d'imprimerie
+- :code: '28.99B'
+  :name: Fabrication d'autres machines spécialisées
+- :code: '29'
+  :name: Industrie automobile
+- :code: '29.1'
+  :name: Construction de véhicules automobiles
+- :code: '29.10'
+  :name: Construction de véhicules automobiles
+- :code: '29.10Z'
+  :name: Construction de véhicules automobiles
+- :code: '29.2'
+  :name: Fabrication de carrosseries et remorques
+- :code: '29.20'
+  :name: Fabrication de carrosseries et remorques
+- :code: '29.20Z'
+  :name: Fabrication de carrosseries et remorques
+- :code: '29.3'
+  :name: Fabrication d'équipements automobiles
+- :code: '29.31'
+  :name: Fabrication d'équipements électriques et électroniques automobiles
+- :code: '29.31Z'
+  :name: Fabrication d'équipements électriques et électroniques automobiles
+- :code: '29.32'
+  :name: Fabrication d'autres équipements automobiles
+- :code: '29.32Z'
+  :name: Fabrication d'autres équipements automobiles
+- :code: '30'
+  :name: Fabrication d'autres matériels de transport
+- :code: '30.1'
+  :name: Construction navale
+- :code: '30.11'
+  :name: Construction de navires et de structures flottantes
+- :code: '30.11Z'
+  :name: Construction de navires et de structures flottantes
+- :code: '30.12'
+  :name: Construction de bateaux de plaisance
+- :code: '30.12Z'
+  :name: Construction de bateaux de plaisance
+- :code: '30.2'
+  :name: Construction de locomotives et d'autre matériel ferroviaire roulant
+- :code: '30.20'
+  :name: Construction de locomotives et d'autre matériel ferroviaire roulant
+- :code: '30.20Z'
+  :name: Construction de locomotives et d'autre matériel ferroviaire roulant
+- :code: '30.3'
+  :name: Construction aéronautique et spatiale
+- :code: '30.30'
+  :name: Construction aéronautique et spatiale
+- :code: '30.30Z'
+  :name: Construction aéronautique et spatiale
+- :code: '30.4'
+  :name: Construction de véhicules militaires de combat
+- :code: '30.40'
+  :name: Construction de véhicules militaires de combat
+- :code: '30.40Z'
+  :name: Construction de véhicules militaires de combat
+- :code: '30.9'
+  :name: Fabrication de matériels de transport n.c.a.
+- :code: '30.91'
+  :name: Fabrication de motocycles
+- :code: '30.91Z'
+  :name: Fabrication de motocycles
+- :code: '30.92'
+  :name: Fabrication de bicyclettes et de véhicules pour invalides
+- :code: '30.92Z'
+  :name: Fabrication de bicyclettes et de véhicules pour invalides
+- :code: '30.99'
+  :name: Fabrication d'autres équipements de transport n.c.a.
+- :code: '30.99Z'
+  :name: Fabrication d'autres équipements de transport n.c.a.
+- :code: '31'
+  :name: Fabrication de meubles
+- :code: '31.0'
+  :name: Fabrication de meubles
+- :code: '31.01'
+  :name: Fabrication de meubles de bureau et de magasin
+- :code: '31.01Z'
+  :name: Fabrication de meubles de bureau et de magasin
+- :code: '31.02'
+  :name: Fabrication de meubles de cuisine
+- :code: '31.02Z'
+  :name: Fabrication de meubles de cuisine
+- :code: '31.03'
+  :name: Fabrication de matelas
+- :code: '31.03Z'
+  :name: Fabrication de matelas
+- :code: '31.09'
+  :name: Fabrication d'autres meubles
+- :code: '31.09A'
+  :name: Fabrication de sièges d'ameublement d'intérieur
+- :code: '31.09B'
+  :name: Fabrication d'autres meubles et industries connexes de l'ameublement
+- :code: '32'
+  :name: Autres industries manufacturières
+- :code: '32.1'
+  :name: Fabrication d'articles de joaillerie, bijouterie et articles similaires
+- :code: '32.11'
+  :name: Frappe de monnaie
+- :code: '32.11Z'
+  :name: Frappe de monnaie
+- :code: '32.12'
+  :name: Fabrication d'articles de joaillerie et bijouterie
+- :code: '32.12Z'
+  :name: Fabrication d'articles de joaillerie et bijouterie
+- :code: '32.13'
+  :name: Fabrication d'articles de bijouterie fantaisie et articles similaires
+- :code: '32.13Z'
+  :name: Fabrication d'articles de bijouterie fantaisie et articles similaires
+- :code: '32.2'
+  :name: Fabrication d'instruments de musique
+- :code: '32.20'
+  :name: Fabrication d'instruments de musique
+- :code: '32.20Z'
+  :name: Fabrication d'instruments de musique
+- :code: '32.3'
+  :name: Fabrication d'articles de sport
+- :code: '32.30'
+  :name: Fabrication d'articles de sport
+- :code: '32.30Z'
+  :name: Fabrication d'articles de sport
+- :code: '32.4'
+  :name: Fabrication de jeux et jouets
+- :code: '32.40'
+  :name: Fabrication de jeux et jouets
+- :code: '32.40Z'
+  :name: Fabrication de jeux et jouets
+- :code: '32.5'
+  :name: Fabrication d'instruments et de fournitures à usage médical et dentaire
+- :code: '32.50'
+  :name: Fabrication d'instruments et de fournitures à usage médical et dentaire
+- :code: '32.50A'
+  :name: Fabrication de matériel médico-chirurgical et dentaire
+- :code: '32.50B'
+  :name: Fabrication de lunettes
+- :code: '32.9'
+  :name: Activités manufacturières n.c.a.
+- :code: '32.91'
+  :name: Fabrication d'articles de brosserie
+- :code: '32.91Z'
+  :name: Fabrication d'articles de brosserie
+- :code: '32.99'
+  :name: Autres activités manufacturières n.c.a.
+- :code: '32.99Z'
+  :name: Autres activités manufacturières n.c.a.
+- :code: '33'
+  :name: Réparation et installation de machines et d'équipements
+- :code: '33.1'
+  :name: Réparation d'ouvrages en métaux, de machines et d'équipements
+- :code: '33.11'
+  :name: Réparation d'ouvrages en métaux
+- :code: '33.11Z'
+  :name: Réparation d'ouvrages en métaux
+- :code: '33.12'
+  :name: Réparation de machines et équipements mécaniques
+- :code: '33.12Z'
+  :name: Réparation de machines et équipements mécaniques
+- :code: '33.13'
+  :name: Réparation de matériels électroniques et optiques
+- :code: '33.13Z'
+  :name: Réparation de matériels électroniques et optiques
+- :code: '33.14'
+  :name: Réparation d'équipements électriques
+- :code: '33.14Z'
+  :name: Réparation d'équipements électriques
+- :code: '33.15'
+  :name: Réparation et maintenance navale
+- :code: '33.15Z'
+  :name: Réparation et maintenance navale
+- :code: '33.16'
+  :name: Réparation et maintenance d'aéronefs et d'engins spatiaux
+- :code: '33.16Z'
+  :name: Réparation et maintenance d'aéronefs et d'engins spatiaux
+- :code: '33.17'
+  :name: Réparation et maintenance d'autres équipements de transport
+- :code: '33.17Z'
+  :name: Réparation et maintenance d'autres équipements de transport
+- :code: '33.19'
+  :name: Réparation d'autres équipements
+- :code: '33.19Z'
+  :name: Réparation d'autres équipements
+- :code: '33.2'
+  :name: Installation de machines et d'équipements industriels
+- :code: '33.20'
+  :name: Installation de machines et d'équipements industriels
+- :code: '33.20A'
+  :name: Installation de structures métalliques, chaudronnées et de tuyauterie
+- :code: '33.20B'
+  :name: Installation de machines et équipements mécaniques
+- :code: '33.20C'
+  :name: Conception d'ensemble et assemblage sur site industriel d'équipements de contrôle des processus industriels
+- :code: '33.20D'
+  :name: Installation d'équipements électriques, de matériels électroniques et optiques ou d'autres matériels
+- :code: 'D'
+  :name: PRODUCTION ET DISTRIBUTION D'ÉLECTRICITÉ, DE GAZ, DE VAPEUR ET D'AIR CONDITIONNÉ
+- :code: '35'
+  :name: Production et distribution d'électricité, de gaz, de vapeur et d'air conditionné
+- :code: '35.1'
+  :name: Production, transport et distribution d'électricité
+- :code: '35.11'
+  :name: Production d'électricité
+- :code: '35.11Z'
+  :name: Production d'électricité
+- :code: '35.12'
+  :name: Transport d'électricité
+- :code: '35.12Z'
+  :name: Transport d'électricité
+- :code: '35.13'
+  :name: Distribution d'électricité
+- :code: '35.13Z'
+  :name: Distribution d'électricité
+- :code: '35.14'
+  :name: Commerce d'électricité
+- :code: '35.14Z'
+  :name: Commerce d'électricité
+- :code: '35.2'
+  :name: Production et distribution de combustibles gazeux
+- :code: '35.21'
+  :name: Production de combustibles gazeux
+- :code: '35.21Z'
+  :name: Production de combustibles gazeux
+- :code: '35.22'
+  :name: Distribution de combustibles gazeux par conduites
+- :code: '35.22Z'
+  :name: Distribution de combustibles gazeux par conduites
+- :code: '35.23'
+  :name: Commerce de combustibles gazeux par conduites
+- :code: '35.23Z'
+  :name: Commerce de combustibles gazeux par conduites
+- :code: '35.3'
+  :name: Production et distribution de vapeur et d'air conditionné
+- :code: '35.30'
+  :name: Production et distribution de vapeur et d'air conditionné
+- :code: '35.30Z'
+  :name: Production et distribution de vapeur et d'air conditionné
+- :code: 'E'
+  :name: PRODUCTION ET DISTRIBUTION D'EAU ; ASSAINISSEMENT, GESTION DES DÉCHETS ET DÉPOLLUTION
+- :code: '36'
+  :name: Captage, traitement et distribution d'eau
+- :code: '36.0'
+  :name: Captage, traitement et distribution d'eau
+- :code: '36.00'
+  :name: Captage, traitement et distribution d'eau
+- :code: '36.00Z'
+  :name: Captage, traitement et distribution d'eau
+- :code: '37'
+  :name: Collecte et traitement des eaux usées
+- :code: '37.0'
+  :name: Collecte et traitement des eaux usées
+- :code: '37.00'
+  :name: Collecte et traitement des eaux usées
+- :code: '37.00Z'
+  :name: Collecte et traitement des eaux usées
+- :code: '38'
+  :name: Collecte, traitement et élimination des déchets ; récupération
+- :code: '38.1'
+  :name: Collecte des déchets
+- :code: '38.11'
+  :name: Collecte des déchets non dangereux
+- :code: '38.11Z'
+  :name: Collecte des déchets non dangereux
+- :code: '38.12'
+  :name: Collecte des déchets dangereux
+- :code: '38.12Z'
+  :name: Collecte des déchets dangereux
+- :code: '38.2'
+  :name: Traitement et élimination des déchets
+- :code: '38.21'
+  :name: Traitement et élimination des déchets non dangereux
+- :code: '38.21Z'
+  :name: Traitement et élimination des déchets non dangereux
+- :code: '38.22'
+  :name: Traitement et élimination des déchets dangereux
+- :code: '38.22Z'
+  :name: Traitement et élimination des déchets dangereux
+- :code: '38.3'
+  :name: Récupération
+- :code: '38.31'
+  :name: Démantèlement d'épaves
+- :code: '38.31Z'
+  :name: Démantèlement d'épaves
+- :code: '38.32'
+  :name: Récupération de déchets triés
+- :code: '38.32Z'
+  :name: Récupération de déchets triés
+- :code: '39'
+  :name: Dépollution et autres services de gestion des déchets
+- :code: '39.0'
+  :name: Dépollution et autres services de gestion des déchets
+- :code: '39.00'
+  :name: Dépollution et autres services de gestion des déchets
+- :code: '39.00Z'
+  :name: Dépollution et autres services de gestion des déchets
+- :code: 'F'
+  :name: CONSTRUCTION
+- :code: '41'
+  :name: Construction de bâtiments
+- :code: '41.1'
+  :name: Promotion immobilière
+- :code: '41.10'
+  :name: Promotion immobilière
+- :code: '41.10A'
+  :name: Promotion immobilière de logements
+- :code: '41.10B'
+  :name: Promotion immobilière de bureaux
+- :code: '41.10C'
+  :name: Promotion immobilière d'autres bâtiments
+- :code: '41.10D'
+  :name: Supports juridiques de programmes
+- :code: '41.2'
+  :name: Construction de bâtiments résidentiels et non résidentiels
+- :code: '41.20'
+  :name: Construction de bâtiments résidentiels et non résidentiels
+- :code: '41.20A'
+  :name: Construction de maisons individuelles
+- :code: '41.20B'
+  :name: Construction d'autres bâtiments
+- :code: '42'
+  :name: Génie civil
+- :code: '42.1'
+  :name: Construction de routes et de voies ferrées
+- :code: '42.11'
+  :name: Construction de routes et autoroutes
+- :code: '42.11Z'
+  :name: Construction de routes et autoroutes
+- :code: '42.12'
+  :name: Construction de voies ferrées de surface et souterraines
+- :code: '42.12Z'
+  :name: Construction de voies ferrées de surface et souterraines
+- :code: '42.13'
+  :name: Construction de ponts et tunnels
+- :code: '42.13A'
+  :name: Construction d'ouvrages d'art
+- :code: '42.13B'
+  :name: Construction et entretien de tunnels
+- :code: '42.2'
+  :name: Construction de réseaux et de lignes
+- :code: '42.21'
+  :name: Construction de réseaux pour fluides
+- :code: '42.21Z'
+  :name: Construction de réseaux pour fluides
+- :code: '42.22'
+  :name: Construction de réseaux électriques et de télécommunications
+- :code: '42.22Z'
+  :name: Construction de réseaux électriques et de télécommunications
+- :code: '42.9'
+  :name: Construction d'autres ouvrages de génie civil
+- :code: '42.91'
+  :name: Construction d'ouvrages maritimes et fluviaux
+- :code: '42.91Z'
+  :name: Construction d'ouvrages maritimes et fluviaux
+- :code: '42.99'
+  :name: Construction d'autres ouvrages de génie civil n.c.a.
+- :code: '42.99Z'
+  :name: Construction d'autres ouvrages de génie civil n.c.a.
+- :code: '43'
+  :name: Travaux de construction spécialisés
+- :code: '43.1'
+  :name: Démolition et préparation des sites
+- :code: '43.11'
+  :name: Travaux de démolition
+- :code: '43.11Z'
+  :name: Travaux de démolition
+- :code: '43.12'
+  :name: Travaux de préparation des sites
+- :code: '43.12A'
+  :name: Travaux de terrassement courants et travaux préparatoires
+- :code: '43.12B'
+  :name: Travaux de terrassement spécialisés ou de grande masse
+- :code: '43.13'
+  :name: Forages et sondages
+- :code: '43.13Z'
+  :name: Forages et sondages
+- :code: '43.2'
+  :name: Travaux d'installation électrique, plomberie et autres travaux d'installation
+- :code: '43.21'
+  :name: Installation électrique
+- :code: '43.21A'
+  :name: Travaux d'installation électrique dans tous locaux
+- :code: '43.21B'
+  :name: Travaux d'installation électrique sur la voie publique
+- :code: '43.22'
+  :name: Travaux de plomberie et installation de chauffage et de conditionnement d'air
+- :code: '43.22A'
+  :name: Travaux d'installation d'eau et de gaz en tous locaux
+- :code: '43.22B'
+  :name: Travaux d'installation d'équipements thermiques et de climatisation
+- :code: '43.29'
+  :name: Autres travaux d'installation
+- :code: '43.29A'
+  :name: Travaux d'isolation
+- :code: '43.29B'
+  :name: Autres travaux d'installation n.c.a.
+- :code: '43.3'
+  :name: Travaux de finition
+- :code: '43.31'
+  :name: Travaux de plâtrerie
+- :code: '43.31Z'
+  :name: Travaux de plâtrerie
+- :code: '43.32'
+  :name: Travaux de menuiserie
+- :code: '43.32A'
+  :name: Travaux de menuiserie bois et PVC
+- :code: '43.32B'
+  :name: Travaux de menuiserie métallique et serrurerie
+- :code: '43.32C'
+  :name: Agencement de lieux de vente
+- :code: '43.33'
+  :name: Travaux de revêtement des sols et des murs
+- :code: '43.33Z'
+  :name: Travaux de revêtement des sols et des murs
+- :code: '43.34'
+  :name: Travaux de peinture et vitrerie
+- :code: '43.34Z'
+  :name: Travaux de peinture et vitrerie
+- :code: '43.39'
+  :name: Autres travaux de finition
+- :code: '43.39Z'
+  :name: Autres travaux de finition
+- :code: '43.9'
+  :name: Autres travaux de construction spécialisés
+- :code: '43.91'
+  :name: Travaux de couverture
+- :code: '43.91A'
+  :name: Travaux de charpente
+- :code: '43.91B'
+  :name: Travaux de couverture par éléments
+- :code: '43.99'
+  :name: Autres travaux de construction spécialisés n.c.a.
+- :code: '43.99A'
+  :name: Travaux d'étanchéification
+- :code: '43.99B'
+  :name: Travaux de montage de structures métalliques
+- :code: '43.99C'
+  :name: Travaux de maçonnerie générale et gros œuvre de bâtiment
+- :code: '43.99D'
+  :name: Autres travaux spécialisés de construction
+- :code: '43.99E'
+  :name: Location avec opérateur de matériel de construction
+- :code: 'G'
+  :name: COMMERCE ; RÉPARATION D'AUTOMOBILES ET DE MOTOCYCLES
+- :code: '45'
+  :name: Commerce et réparation d'automobiles et de motocycles
+- :code: '45.1'
+  :name: Commerce de véhicules automobiles
+- :code: '45.11'
+  :name: Commerce de voitures et de véhicules automobiles légers
+- :code: '45.11Z'
+  :name: Commerce de voitures et de véhicules automobiles légers
+- :code: '45.19'
+  :name: Commerce d'autres véhicules automobiles
+- :code: '45.19Z'
+  :name: Commerce d'autres véhicules automobiles
+- :code: '45.2'
+  :name: Entretien et réparation de véhicules automobiles
+- :code: '45.20'
+  :name: Entretien et réparation de véhicules automobiles
+- :code: '45.20A'
+  :name: Entretien et réparation de véhicules automobiles légers
+- :code: '45.20B'
+  :name: Entretien et réparation d'autres véhicules automobiles
+- :code: '45.3'
+  :name: Commerce d'équipements automobiles
+- :code: '45.31'
+  :name: Commerce de gros d'équipements automobiles
+- :code: '45.31Z'
+  :name: Commerce de gros d'équipements automobiles
+- :code: '45.32'
+  :name: Commerce de détail d'équipements automobiles
+- :code: '45.32Z'
+  :name: Commerce de détail d'équipements automobiles
+- :code: '45.4'
+  :name: Commerce et réparation de motocycles
+- :code: '45.40'
+  :name: Commerce et réparation de motocycles
+- :code: '45.40Z'
+  :name: Commerce et réparation de motocycles
+- :code: '46'
+  :name: Commerce de gros, à l'exception des automobiles et des motocycles
+- :code: '46.1'
+  :name: Intermédiaires du commerce de gros
+- :code: '46.11'
+  :name: Intermédiaires du commerce en matières premières agricoles, animaux vivants, matières premières textiles et produits semi-finis
+- :code: '46.11Z'
+  :name: Intermédiaires du commerce en matières premières agricoles, animaux vivants, matières premières textiles et produits semi-finis
+- :code: '46.12'
+  :name: Intermédiaires du commerce en combustibles, métaux, minéraux et produits chimiques
+- :code: '46.12A'
+  :name: Centrales d'achat de carburant
+- :code: '46.12B'
+  :name: Autres intermédiaires du commerce en combustibles, métaux, minéraux et produits chimiques
+- :code: '46.13'
+  :name: Intermédiaires du commerce en bois et matériaux de construction
+- :code: '46.13Z'
+  :name: Intermédiaires du commerce en bois et matériaux de construction
+- :code: '46.14'
+  :name: Intermédiaires du commerce en machines, équipements industriels, navires et avions
+- :code: '46.14Z'
+  :name: Intermédiaires du commerce en machines, équipements industriels, navires et avions
+- :code: '46.15'
+  :name: Intermédiaires du commerce en meubles, articles de ménage et quincaillerie
+- :code: '46.15Z'
+  :name: Intermédiaires du commerce en meubles, articles de ménage et quincaillerie
+- :code: '46.16'
+  :name: Intermédiaires du commerce en textiles, habillement, fourrures, chaussures et articles en cuir
+- :code: '46.16Z'
+  :name: Intermédiaires du commerce en textiles, habillement, fourrures, chaussures et articles en cuir
+- :code: '46.17'
+  :name: Intermédiaires du commerce en denrées, boissons et tabac
+- :code: '46.17A'
+  :name: Centrales d'achat alimentaires
+- :code: '46.17B'
+  :name: Autres intermédiaires du commerce en denrées, boissons et tabac
+- :code: '46.18'
+  :name: Intermédiaires spécialisés dans le commerce d'autres produits spécifiques
+- :code: '46.18Z'
+  :name: Intermédiaires spécialisés dans le commerce d'autres produits spécifiques
+- :code: '46.19'
+  :name: Intermédiaires du commerce en produits divers
+- :code: '46.19A'
+  :name: Centrales d'achat non alimentaires
+- :code: '46.19B'
+  :name: Autres intermédiaires du commerce en produits divers
+- :code: '46.2'
+  :name: Commerce de gros de produits agricoles bruts et d'animaux vivants
+- :code: '46.21'
+  :name: Commerce de gros de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail
+- :code: '46.21Z'
+  :name: Commerce de gros (commerce interentreprises) de céréales, de tabac non manufacturé, de semences et d'aliments pour le bétail
+- :code: '46.22'
+  :name: Commerce de gros de fleurs et plantes
+- :code: '46.22Z'
+  :name: Commerce de gros (commerce interentreprises) de fleurs et plantes
+- :code: '46.23'
+  :name: Commerce de gros d'animaux vivants
+- :code: '46.23Z'
+  :name: Commerce de gros (commerce interentreprises) d'animaux vivants
+- :code: '46.24'
+  :name: Commerce de gros de cuirs et peaux
+- :code: '46.24Z'
+  :name: Commerce de gros (commerce interentreprises) de cuirs et peaux
+- :code: '46.3'
+  :name: Commerce de gros de produits alimentaires, de boissons et de tabac
+- :code: '46.31'
+  :name: Commerce de gros de fruits et légumes
+- :code: '46.31Z'
+  :name: Commerce de gros (commerce interentreprises) de fruits et légumes
+- :code: '46.32'
+  :name: Commerce de gros de viandes et de produits à base de viande
+- :code: '46.32A'
+  :name: Commerce de gros (commerce interentreprises) de viandes de boucherie
+- :code: '46.32B'
+  :name: Commerce de gros (commerce interentreprises) de produits à base de viande
+- :code: '46.32C'
+  :name: Commerce de gros (commerce interentreprises) de volailles et gibier
+- :code: '46.33'
+  :name: Commerce de gros de produits laitiers, œufs, huiles et matières grasses comestibles
+- :code: '46.33Z'
+  :name: Commerce de gros (commerce interentreprises) de produits laitiers, œufs, huiles et matières grasses comestibles
+- :code: '46.34'
+  :name: Commerce de gros de boissons
+- :code: '46.34Z'
+  :name: Commerce de gros (commerce interentreprises) de boissons
+- :code: '46.35'
+  :name: Commerce de gros de produits à base de tabac
+- :code: '46.35Z'
+  :name: Commerce de gros (commerce interentreprises) de produits à base de tabac
+- :code: '46.36'
+  :name: Commerce de gros de sucre, chocolat et confiserie
+- :code: '46.36Z'
+  :name: Commerce de gros (commerce interentreprises) de sucre, chocolat et confiserie
+- :code: '46.37'
+  :name: Commerce de gros de café, thé, cacao et épices
+- :code: '46.37Z'
+  :name: Commerce de gros (commerce interentreprises) de café, thé, cacao et épices
+- :code: '46.38'
+  :name: Commerce de gros d'autres produits alimentaires, y compris poissons, crustacés et mollusques
+- :code: '46.38A'
+  :name: Commerce de gros (commerce interentreprises) de poissons, crustacés et mollusques
+- :code: '46.38B'
+  :name: Commerce de gros (commerce interentreprises) alimentaire spécialisé divers
+- :code: '46.39'
+  :name: Commerce de gros non spécialisé de denrées, boissons et tabac
+- :code: '46.39A'
+  :name: Commerce de gros (commerce interentreprises) de produits surgelés
+- :code: '46.39B'
+  :name: Commerce de gros (commerce interentreprises) alimentaire non spécialisé
+- :code: '46.4'
+  :name: Commerce de gros de biens domestiques
+- :code: '46.41'
+  :name: Commerce de gros de textiles
+- :code: '46.41Z'
+  :name: Commerce de gros (commerce interentreprises) de textiles
+- :code: '46.42'
+  :name: Commerce de gros d'habillement et de chaussures
+- :code: '46.42Z'
+  :name: Commerce de gros (commerce interentreprises) d'habillement et de chaussures
+- :code: '46.43'
+  :name: Commerce de gros d'appareils électroménagers
+- :code: '46.43Z'
+  :name: Commerce de gros (commerce interentreprises) d'appareils électroménagers
+- :code: '46.44'
+  :name: Commerce de gros de vaisselle, verrerie et produits d'entretien
+- :code: '46.44Z'
+  :name: Commerce de gros (commerce interentreprises) de vaisselle, verrerie et produits d'entretien
+- :code: '46.45'
+  :name: Commerce de gros de parfumerie et de produits de beauté
+- :code: '46.45Z'
+  :name: Commerce de gros (commerce interentreprises) de parfumerie et de produits de beauté
+- :code: '46.46'
+  :name: Commerce de gros de produits pharmaceutiques
+- :code: '46.46Z'
+  :name: Commerce de gros (commerce interentreprises) de produits pharmaceutiques
+- :code: '46.47'
+  :name: Commerce de gros de meubles, de tapis et d'appareils d'éclairage
+- :code: '46.47Z'
+  :name: Commerce de gros (commerce interentreprises) de meubles, de tapis et d'appareils d'éclairage
+- :code: '46.48'
+  :name: Commerce de gros d'articles d'horlogerie et de bijouterie
+- :code: '46.48Z'
+  :name: Commerce de gros (commerce interentreprises) d'articles d'horlogerie et de bijouterie
+- :code: '46.49'
+  :name: Commerce de gros d'autres biens domestiques
+- :code: '46.49Z'
+  :name: Commerce de gros (commerce interentreprises) d'autres biens domestiques
+- :code: '46.5'
+  :name: Commerce de gros d'équipements de l'information et de la communication
+- :code: '46.51'
+  :name: Commerce de gros d'ordinateurs, d'équipements informatiques périphériques et de logiciels
+- :code: '46.51Z'
+  :name: Commerce de gros (commerce interentreprises) d'ordinateurs, d'équipements informatiques périphériques et de logiciels
+- :code: '46.52'
+  :name: Commerce de gros de composants et d'équipements électroniques et de télécommunication
+- :code: '46.52Z'
+  :name: Commerce de gros (commerce interentreprises) de composants et d'équipements électroniques et de télécommunication
+- :code: '46.6'
+  :name: Commerce de gros d'autres équipements industriels
+- :code: '46.61'
+  :name: Commerce de gros de matériel agricole
+- :code: '46.61Z'
+  :name: Commerce de gros (commerce interentreprises) de matériel agricole
+- :code: '46.62'
+  :name: Commerce de gros de machines-outils
+- :code: '46.62Z'
+  :name: Commerce de gros (commerce interentreprises) de machines-outils
+- :code: '46.63'
+  :name: Commerce de gros de machines pour l'extraction, la construction et le génie civil
+- :code: '46.63Z'
+  :name: Commerce de gros (commerce interentreprises) de machines pour l'extraction, la construction et le génie civil
+- :code: '46.64'
+  :name: Commerce de gros de machines pour l'industrie textile et l'habillement
+- :code: '46.64Z'
+  :name: Commerce de gros (commerce interentreprises) de machines pour l'industrie textile et l'habillement
+- :code: '46.65'
+  :name: Commerce de gros de mobilier de bureau
+- :code: '46.65Z'
+  :name: Commerce de gros (commerce interentreprises) de mobilier de bureau
+- :code: '46.66'
+  :name: Commerce de gros d'autres machines et équipements de bureau
+- :code: '46.66Z'
+  :name: Commerce de gros (commerce interentreprises) d'autres machines et équipements de bureau
+- :code: '46.69'
+  :name: Commerce de gros d'autres machines et équipements
+- :code: '46.69A'
+  :name: Commerce de gros (commerce interentreprises) de matériel électrique
+- :code: '46.69B'
+  :name: Commerce de gros (commerce interentreprises) de fournitures et équipements industriels divers
+- :code: '46.69C'
+  :name: Commerce de gros (commerce interentreprises) de fournitures et équipements divers pour le commerce et les services
+- :code: '46.7'
+  :name: Autres commerces de gros spécialisés
+- :code: '46.71'
+  :name: Commerce de gros de combustibles et de produits annexes
+- :code: '46.71Z'
+  :name: Commerce de gros (commerce interentreprises) de combustibles et de produits annexes
+- :code: '46.72'
+  :name: Commerce de gros de minerais et métaux
+- :code: '46.72Z'
+  :name: Commerce de gros (commerce interentreprises) de minerais et métaux
+- :code: '46.73'
+  :name: Commerce de gros de bois, de matériaux de construction et d'appareils sanitaires
+- :code: '46.73A'
+  :name: Commerce de gros (commerce interentreprises) de bois et de matériaux de construction
+- :code: '46.73B'
+  :name: Commerce de gros (commerce interentreprises) d'appareils sanitaires et de produits de décoration
+- :code: '46.74'
+  :name: Commerce de gros de quincaillerie et fournitures pour plomberie et chauffage
+- :code: '46.74A'
+  :name: Commerce de gros (commerce interentreprises) de quincaillerie
+- :code: '46.74B'
+  :name: Commerce de gros (commerce interentreprises) de fournitures pour la plomberie et le chauffage
+- :code: '46.75'
+  :name: Commerce de gros de produits chimiques
+- :code: '46.75Z'
+  :name: Commerce de gros (commerce interentreprises) de produits chimiques
+- :code: '46.76'
+  :name: Commerce de gros d'autres produits intermédiaires
+- :code: '46.76Z'
+  :name: Commerce de gros (commerce interentreprises) d'autres produits intermédiaires
+- :code: '46.77'
+  :name: Commerce de gros de déchets et débris
+- :code: '46.77Z'
+  :name: Commerce de gros (commerce interentreprises) de déchets et débris
+- :code: '46.9'
+  :name: Commerce de gros non spécialisé
+- :code: '46.90'
+  :name: Commerce de gros non spécialisé
+- :code: '46.90Z'
+  :name: Commerce de gros (commerce interentreprises) non spécialisé
+- :code: '47'
+  :name: Commerce de détail, à l'exception des automobiles et des motocycles
+- :code: '47.1'
+  :name: Commerce de détail en magasin non spécialisé
+- :code: '47.11'
+  :name: Commerce de détail en magasin non spécialisé à prédominance alimentaire
+- :code: '47.11A'
+  :name: Commerce de détail de produits surgelés
+- :code: '47.11B'
+  :name: Commerce d'alimentation générale
+- :code: '47.11C'
+  :name: Supérettes
+- :code: '47.11D'
+  :name: Supermarchés
+- :code: '47.11E'
+  :name: Magasins multi-commerces
+- :code: '47.11F'
+  :name: Hypermarchés
+- :code: '47.19'
+  :name: Autre commerce de détail en magasin non spécialisé
+- :code: '47.19A'
+  :name: Grands magasins
+- :code: '47.19B'
+  :name: Autres commerces de détail en magasin non spécialisé
+- :code: '47.2'
+  :name: Commerce de détail alimentaire en magasin spécialisé
+- :code: '47.21'
+  :name: Commerce de détail de fruits et légumes en magasin spécialisé
+- :code: '47.21Z'
+  :name: Commerce de détail de fruits et légumes en magasin spécialisé
+- :code: '47.22'
+  :name: Commerce de détail de viandes et de produits à base de viande en magasin spécialisé
+- :code: '47.22Z'
+  :name: Commerce de détail de viandes et de produits à base de viande en magasin spécialisé
+- :code: '47.23'
+  :name: Commerce de détail de poissons, crustacés et mollusques en magasin spécialisé
+- :code: '47.23Z'
+  :name: Commerce de détail de poissons, crustacés et mollusques en magasin spécialisé
+- :code: '47.24'
+  :name: Commerce de détail de pain, pâtisserie et confiserie en magasin spécialisé
+- :code: '47.24Z'
+  :name: Commerce de détail de pain, pâtisserie et confiserie en magasin spécialisé
+- :code: '47.25'
+  :name: Commerce de détail de boissons en magasin spécialisé
+- :code: '47.25Z'
+  :name: Commerce de détail de boissons en magasin spécialisé
+- :code: '47.26'
+  :name: Commerce de détail de produits à base de tabac en magasin spécialisé
+- :code: '47.26Z'
+  :name: Commerce de détail de produits à base de tabac en magasin spécialisé
+- :code: '47.29'
+  :name: Autres commerces de détail alimentaires en magasin spécialisé
+- :code: '47.29Z'
+  :name: Autres commerces de détail alimentaires en magasin spécialisé
+- :code: '47.3'
+  :name: Commerce de détail de carburants en magasin spécialisé
+- :code: '47.30'
+  :name: Commerce de détail de carburants en magasin spécialisé
+- :code: '47.30Z'
+  :name: Commerce de détail de carburants en magasin spécialisé
+- :code: '47.4'
+  :name: Commerce de détail d'équipements de l'information et de la communication en magasin spécialisé
+- :code: '47.41'
+  :name: Commerce de détail d'ordinateurs, d'unités périphériques et de logiciels en magasin spécialisé
+- :code: '47.41Z'
+  :name: Commerce de détail d'ordinateurs, d'unités périphériques et de logiciels en magasin spécialisé
+- :code: '47.42'
+  :name: Commerce de détail de matériels de télécommunication en magasin spécialisé
+- :code: '47.42Z'
+  :name: Commerce de détail de matériels de télécommunication en magasin spécialisé
+- :code: '47.43'
+  :name: Commerce de détail de matériels audio/vidéo en magasin spécialisé
+- :code: '47.43Z'
+  :name: Commerce de détail de matériels audio et vidéo en magasin spécialisé
+- :code: '47.5'
+  :name: Commerce de détail d'autres équipements du foyer en magasin spécialisé
+- :code: '47.51'
+  :name: Commerce de détail de textiles en magasin spécialisé
+- :code: '47.51Z'
+  :name: Commerce de détail de textiles en magasin spécialisé
+- :code: '47.52'
+  :name: Commerce de détail de quincaillerie, peintures et verres en magasin spécialisé
+- :code: '47.52A'
+  :name: Commerce de détail de quincaillerie, peintures et verres en petites surfaces (moins de 400 m2)
+- :code: '47.52B'
+  :name: Commerce de détail de quincaillerie, peintures et verres en grandes surfaces (400 m2et plus)
+- :code: '47.53'
+  :name: Commerce de détail de tapis, moquettes et revêtements de murs et de sols en magasin spécialisé
+- :code: '47.53Z'
+  :name: Commerce de détail de tapis, moquettes et revêtements de murs et de sols en magasin spécialisé
+- :code: '47.54'
+  :name: Commerce de détail d'appareils électroménagers en magasin spécialisé
+- :code: '47.54Z'
+  :name: Commerce de détail d'appareils électroménagers en magasin spécialisé
+- :code: '47.59'
+  :name: Commerce de détail de meubles, appareils d'éclairage et autres articles de ménage en magasin spécialisé
+- :code: '47.59A'
+  :name: Commerce de détail de meubles
+- :code: '47.59B'
+  :name: Commerce de détail d'autres équipements du foyer
+- :code: '47.6'
+  :name: Commerce de détail de biens culturels et de loisirs en magasin spécialisé
+- :code: '47.61'
+  :name: Commerce de détail de livres en magasin spécialisé
+- :code: '47.61Z'
+  :name: Commerce de détail de livres en magasin spécialisé
+- :code: '47.62'
+  :name: Commerce de détail de journaux et papeterie en magasin spécialisé
+- :code: '47.62Z'
+  :name: Commerce de détail de journaux et papeterie en magasin spécialisé
+- :code: '47.63'
+  :name: Commerce de détail d'enregistrements musicaux et vidéo en magasin spécialisé
+- :code: '47.63Z'
+  :name: Commerce de détail d'enregistrements musicaux et vidéo en magasin spécialisé
+- :code: '47.64'
+  :name: Commerce de détail d'articles de sport en magasin spécialisé
+- :code: '47.64Z'
+  :name: Commerce de détail d'articles de sport en magasin spécialisé
+- :code: '47.65'
+  :name: Commerce de détail de jeux et jouets en magasin spécialisé
+- :code: '47.65Z'
+  :name: Commerce de détail de jeux et jouets en magasin spécialisé
+- :code: '47.7'
+  :name: Autres commerces de détail en magasin spécialisé
+- :code: '47.71'
+  :name: Commerce de détail d'habillement en magasin spécialisé
+- :code: '47.71Z'
+  :name: Commerce de détail d'habillement en magasin spécialisé
+- :code: '47.72'
+  :name: Commerce de détail de chaussures et d'articles en cuir en magasin spécialisé
+- :code: '47.72A'
+  :name: Commerce de détail de la chaussure
+- :code: '47.72B'
+  :name: Commerce de détail de maroquinerie et d'articles de voyage
+- :code: '47.73'
+  :name: Commerce de détail de produits pharmaceutiques en magasin spécialisé
+- :code: '47.73Z'
+  :name: Commerce de détail de produits pharmaceutiques en magasin spécialisé
+- :code: '47.74'
+  :name: Commerce de détail d'articles médicaux et orthopédiques en magasin spécialisé
+- :code: '47.74Z'
+  :name: Commerce de détail d'articles médicaux et orthopédiques en magasin spécialisé
+- :code: '47.75'
+  :name: Commerce de détail de parfumerie et de produits de beauté en magasin spécialisé
+- :code: '47.75Z'
+  :name: Commerce de détail de parfumerie et de produits de beauté en magasin spécialisé
+- :code: '47.76'
+  :name: Commerce de détail de fleurs, plantes, graines, engrais, animaux de compagnie et aliments pour ces animaux en magasin spécialisé
+- :code: '47.76Z'
+  :name: Commerce de détail de fleurs, plantes, graines, engrais, animaux de compagnie et aliments pour ces animaux en magasin spécialisé
+- :code: '47.77'
+  :name: Commerce de détail d'articles d'horlogerie et de bijouterie en magasin spécialisé
+- :code: '47.77Z'
+  :name: Commerce de détail d'articles d'horlogerie et de bijouterie en magasin spécialisé
+- :code: '47.78'
+  :name: Autre commerce de détail de biens neufs en magasin spécialisé
+- :code: '47.78A'
+  :name: Commerces de détail d'optique
+- :code: '47.78B'
+  :name: Commerces de détail de charbons et combustibles
+- :code: '47.78C'
+  :name: Autres commerces de détail spécialisés divers
+- :code: '47.79'
+  :name: Commerce de détail de biens d'occasion en magasin
+- :code: '47.79Z'
+  :name: Commerce de détail de biens d'occasion en magasin
+- :code: '47.8'
+  :name: Commerce de détail sur éventaires et marchés
+- :code: '47.81'
+  :name: Commerce de détail alimentaire sur éventaires et marchés
+- :code: '47.81Z'
+  :name: Commerce de détail alimentaire sur éventaires et marchés
+- :code: '47.82'
+  :name: Commerce de détail de textiles, d'habillement et de chaussures sur éventaires et marchés
+- :code: '47.82Z'
+  :name: Commerce de détail de textiles, d'habillement et de chaussures sur éventaires et marchés
+- :code: '47.89'
+  :name: Autres commerces de détail sur éventaires et marchés
+- :code: '47.89Z'
+  :name: Autres commerces de détail sur éventaires et marchés
+- :code: '47.9'
+  :name: Commerce de détail hors magasin, éventaires ou marchés
+- :code: '47.91'
+  :name: Vente à distance
+- :code: '47.91A'
+  :name: Vente à distance sur catalogue général
+- :code: '47.91B'
+  :name: Vente à distance sur catalogue spécialisé
+- :code: '47.99'
+  :name: Autres commerces de détail hors magasin, éventaires ou marchés
+- :code: '47.99A'
+  :name: Vente à domicile
+- :code: '47.99B'
+  :name: Vente par automates et autres commerces de détail hors magasin, éventaires ou marchés n.c.a.
+- :code: 'H'
+  :name: TRANSPORTS ET ENTREPOSAGE
+- :code: '49'
+  :name: Transports terrestres et transport par conduites
+- :code: '49.1'
+  :name: Transport ferroviaire interurbain de voyageurs
+- :code: '49.10'
+  :name: Transport ferroviaire interurbain de voyageurs
+- :code: '49.10Z'
+  :name: Transport ferroviaire interurbain de voyageurs
+- :code: '49.2'
+  :name: Transports ferroviaires de fret
+- :code: '49.20'
+  :name: Transports ferroviaires de fret
+- :code: '49.20Z'
+  :name: Transports ferroviaires de fret
+- :code: '49.3'
+  :name: Autres transports terrestres de voyageurs
+- :code: '49.31'
+  :name: Transports urbains et suburbains de voyageurs
+- :code: '49.31Z'
+  :name: Transports urbains et suburbains de voyageurs
+- :code: '49.32'
+  :name: Transports de voyageurs par taxis
+- :code: '49.32Z'
+  :name: Transports de voyageurs par taxis
+- :code: '49.39'
+  :name: Autres transports terrestres de voyageurs n.c.a.
+- :code: '49.39A'
+  :name: Transports routiers réguliers de voyageurs
+- :code: '49.39B'
+  :name: Autres transports routiers de voyageurs
+- :code: '49.39C'
+  :name: Téléphériques et remontées mécaniques
+- :code: '49.4'
+  :name: Transports routiers de fret et services de déménagement
+- :code: '49.41'
+  :name: Transports routiers de fret
+- :code: '49.41A'
+  :name: Transports routiers de fret interurbains
+- :code: '49.41B'
+  :name: Transports routiers de fret de proximité
+- :code: '49.41C'
+  :name: Location de camions avec chauffeur
+- :code: '49.42'
+  :name: Services de déménagement
+- :code: '49.42Z'
+  :name: Services de déménagement
+- :code: '49.5'
+  :name: Transports par conduites
+- :code: '49.50'
+  :name: Transports par conduites
+- :code: '49.50Z'
+  :name: Transports par conduites
+- :code: '50'
+  :name: Transports par eau
+- :code: '50.1'
+  :name: Transports maritimes et côtiers de passagers
+- :code: '50.10'
+  :name: Transports maritimes et côtiers de passagers
+- :code: '50.10Z'
+  :name: Transports maritimes et côtiers de passagers
+- :code: '50.2'
+  :name: Transports maritimes et côtiers de fret
+- :code: '50.20'
+  :name: Transports maritimes et côtiers de fret
+- :code: '50.20Z'
+  :name: Transports maritimes et côtiers de fret
+- :code: '50.3'
+  :name: Transports fluviaux de passagers
+- :code: '50.30'
+  :name: Transports fluviaux de passagers
+- :code: '50.30Z'
+  :name: Transports fluviaux de passagers
+- :code: '50.4'
+  :name: Transports fluviaux de fret
+- :code: '50.40'
+  :name: Transports fluviaux de fret
+- :code: '50.40Z'
+  :name: Transports fluviaux de fret
+- :code: '51'
+  :name: Transports aériens
+- :code: '51.1'
+  :name: Transports aériens de passagers
+- :code: '51.10'
+  :name: Transports aériens de passagers
+- :code: '51.10Z'
+  :name: Transports aériens de passagers
+- :code: '51.2'
+  :name: Transports aériens de fret et transports spatiaux
+- :code: '51.21'
+  :name: Transports aériens de fret
+- :code: '51.21Z'
+  :name: Transports aériens de fret
+- :code: '51.22'
+  :name: Transports spatiaux
+- :code: '51.22Z'
+  :name: Transports spatiaux
+- :code: '52'
+  :name: Entreposage et services auxiliaires des transports
+- :code: '52.1'
+  :name: Entreposage et stockage
+- :code: '52.10'
+  :name: Entreposage et stockage
+- :code: '52.10A'
+  :name: Entreposage et stockage frigorifique
+- :code: '52.10B'
+  :name: Entreposage et stockage non frigorifique
+- :code: '52.2'
+  :name: Services auxiliaires des transports
+- :code: '52.21'
+  :name: Services auxiliaires des transports terrestres
+- :code: '52.21Z'
+  :name: Services auxiliaires des transports terrestres
+- :code: '52.22'
+  :name: Services auxiliaires des transports par eau
+- :code: '52.22Z'
+  :name: Services auxiliaires des transports par eau
+- :code: '52.23'
+  :name: Services auxiliaires des transports aériens
+- :code: '52.23Z'
+  :name: Services auxiliaires des transports aériens
+- :code: '52.24'
+  :name: Manutention
+- :code: '52.24A'
+  :name: Manutention portuaire
+- :code: '52.24B'
+  :name: Manutention non portuaire
+- :code: '52.29'
+  :name: Autres services auxiliaires des transports
+- :code: '52.29A'
+  :name: Messagerie, fret express
+- :code: '52.29B'
+  :name: Affrètement et organisation des transports
+- :code: '53'
+  :name: Activités de poste et de courrier
+- :code: '53.1'
+  :name: Activités de poste dans le cadre d'une obligation de service universel
+- :code: '53.10'
+  :name: Activités de poste dans le cadre d'une obligation de service universel
+- :code: '53.10Z'
+  :name: Activités de poste dans le cadre d'une obligation de service universel
+- :code: '53.2'
+  :name: Autres activités de poste et de courrier
+- :code: '53.20'
+  :name: Autres activités de poste et de courrier
+- :code: '53.20Z'
+  :name: Autres activités de poste et de courrier
+- :code: 'I'
+  :name: HÉBERGEMENT ET RESTAURATION
+- :code: '55'
+  :name: Hébergement
+- :code: '55.1'
+  :name: Hôtels et hébergement similaire
+- :code: '55.10'
+  :name: Hôtels et hébergement similaire
+- :code: '55.10Z'
+  :name: Hôtels et hébergement similaire
+- :code: '55.2'
+  :name: Hébergement touristique et autre hébergement de courte durée
+- :code: '55.20'
+  :name: Hébergement touristique et autre hébergement de courte durée
+- :code: '55.20Z'
+  :name: Hébergement touristique et autre hébergement de courte durée
+- :code: '55.3'
+  :name: Terrains de camping et parcs pour caravanes ou véhicules de loisirs
+- :code: '55.30'
+  :name: Terrains de camping et parcs pour caravanes ou véhicules de loisirs
+- :code: '55.30Z'
+  :name: Terrains de camping et parcs pour caravanes ou véhicules de loisirs
+- :code: '55.9'
+  :name: Autres hébergements
+- :code: '55.90'
+  :name: Autres hébergements
+- :code: '55.90Z'
+  :name: Autres hébergements
+- :code: '56'
+  :name: Restauration
+- :code: '56.1'
+  :name: Restaurants et services de restauration mobile
+- :code: '56.10'
+  :name: Restaurants et services de restauration mobile
+- :code: '56.10A'
+  :name: Restauration traditionnelle
+- :code: '56.10B'
+  :name: Cafétérias et autres libres-services
+- :code: '56.10C'
+  :name: Restauration de type rapide
+- :code: '56.2'
+  :name: Traiteurs et autres services de restauration
+- :code: '56.21'
+  :name: Services des traiteurs
+- :code: '56.21Z'
+  :name: Services des traiteurs
+- :code: '56.29'
+  :name: Autres services de restauration
+- :code: '56.29A'
+  :name: Restauration collective sous contrat
+- :code: '56.29B'
+  :name: Autres services de restauration n.c.a.
+- :code: '56.3'
+  :name: Débits de boissons
+- :code: '56.30'
+  :name: Débits de boissons
+- :code: '56.30Z'
+  :name: Débits de boissons
+- :code: 'J'
+  :name: INFORMATION ET COMMUNICATION
+- :code: '58'
+  :name: Édition
+- :code: '58.1'
+  :name: Édition de livres et périodiques et autres activités d'édition
+- :code: '58.11'
+  :name: Édition de livres
+- :code: '58.11Z'
+  :name: Édition de livres
+- :code: '58.12'
+  :name: Édition de répertoires et de fichiers d'adresses
+- :code: '58.12Z'
+  :name: Édition de répertoires et de fichiers d'adresses
+- :code: '58.13'
+  :name: Édition de journaux
+- :code: '58.13Z'
+  :name: Édition de journaux
+- :code: '58.14'
+  :name: Édition de revues et périodiques
+- :code: '58.14Z'
+  :name: Édition de revues et périodiques
+- :code: '58.19'
+  :name: Autres activités d'édition
+- :code: '58.19Z'
+  :name: Autres activités d'édition
+- :code: '58.2'
+  :name: Édition de logiciels
+- :code: '58.21'
+  :name: Édition de jeux électroniques
+- :code: '58.21Z'
+  :name: Édition de jeux électroniques
+- :code: '58.29'
+  :name: Édition d'autres logiciels
+- :code: '58.29A'
+  :name: Édition de logiciels système et de réseau
+- :code: '58.29B'
+  :name: Edition de logiciels outils de développement et de langages
+- :code: '58.29C'
+  :name: Edition de logiciels applicatifs
+- :code: '59'
+  :name: Production de films cinématographiques, de vidéo et de programmes de télévision ; enregistrement sonore et édition musicale
+- :code: '59.1'
+  :name: Activités cinématographiques, vidéo et de télévision
+- :code: '59.11'
+  :name: Production de films cinématographiques, de vidéo et de programmes de télévision
+- :code: '59.11A'
+  :name: Production de films et de programmes pour la télévision
+- :code: '59.11B'
+  :name: Production de films institutionnels et publicitaires
+- :code: '59.11C'
+  :name: Production de films pour le cinéma
+- :code: '59.12'
+  :name: Post-production de films cinématographiques, de vidéo et de programmes de télévision
+- :code: '59.12Z'
+  :name: Post-production de films cinématographiques, de vidéo et de programmes de télévision
+- :code: '59.13'
+  :name: Distribution de films cinématographiques, de vidéo et de programmes de télévision
+- :code: '59.13A'
+  :name: Distribution de films cinématographiques
+- :code: '59.13B'
+  :name: Edition et distribution vidéo
+- :code: '59.14'
+  :name: Projection de films cinématographiques
+- :code: '59.14Z'
+  :name: Projection de films cinématographiques
+- :code: '59.2'
+  :name: Enregistrement sonore et édition musicale
+- :code: '59.20'
+  :name: Enregistrement sonore et édition musicale
+- :code: '59.20Z'
+  :name: Enregistrement sonore et édition musicale
+- :code: '60'
+  :name: Programmation et diffusion
+- :code: '60.1'
+  :name: Édition et diffusion de programmes radio
+- :code: '60.10'
+  :name: Édition et diffusion de programmes radio
+- :code: '60.10Z'
+  :name: Édition et diffusion de programmes radio
+- :code: '60.2'
+  :name: Programmation de télévision et télédiffusion
+- :code: '60.20'
+  :name: Programmation de télévision et télédiffusion
+- :code: '60.20A'
+  :name: Edition de chaînes généralistes
+- :code: '60.20B'
+  :name: Edition de chaînes thématiques
+- :code: '61'
+  :name: Télécommunications
+- :code: '61.1'
+  :name: Télécommunications filaires
+- :code: '61.10'
+  :name: Télécommunications filaires
+- :code: '61.10Z'
+  :name: Télécommunications filaires
+- :code: '61.2'
+  :name: Télécommunications sans fil
+- :code: '61.20'
+  :name: Télécommunications sans fil
+- :code: '61.20Z'
+  :name: Télécommunications sans fil
+- :code: '61.3'
+  :name: Télécommunications par satellite
+- :code: '61.30'
+  :name: Télécommunications par satellite
+- :code: '61.30Z'
+  :name: Télécommunications par satellite
+- :code: '61.9'
+  :name: Autres activités de télécommunication
+- :code: '61.90'
+  :name: Autres activités de télécommunication
+- :code: '61.90Z'
+  :name: Autres activités de télécommunication
+- :code: '62'
+  :name: Programmation, conseil et autres activités informatiques
+- :code: '62.0'
+  :name: Programmation, conseil et autres activités informatiques
+- :code: '62.01'
+  :name: Programmation informatique
+- :code: '62.01Z'
+  :name: Programmation informatique
+- :code: '62.02'
+  :name: Conseil informatique
+- :code: '62.02A'
+  :name: Conseil en systèmes et logiciels informatiques
+- :code: '62.02B'
+  :name: Tierce maintenance de systèmes et d'applications informatiques
+- :code: '62.03'
+  :name: Gestion d'installations informatiques
+- :code: '62.03Z'
+  :name: Gestion d'installations informatiques
+- :code: '62.09'
+  :name: Autres activités informatiques
+- :code: '62.09Z'
+  :name: Autres activités informatiques
+- :code: '63'
+  :name: Services d'information
+- :code: '63.1'
+  :name: Traitement de données, hébergement et activités connexes ; portails Internet
+- :code: '63.11'
+  :name: Traitement de données, hébergement et activités connexes
+- :code: '63.11Z'
+  :name: Traitement de données, hébergement et activités connexes
+- :code: '63.12'
+  :name: Portails Internet
+- :code: '63.12Z'
+  :name: Portails Internet
+- :code: '63.9'
+  :name: Autres services d'information
+- :code: '63.91'
+  :name: Activités des agences de presse
+- :code: '63.91Z'
+  :name: Activités des agences de presse
+- :code: '63.99'
+  :name: Autres services d'information n.c.a.
+- :code: '63.99Z'
+  :name: Autres services d'information n.c.a.
+- :code: 'K'
+  :name: ACTIVITÉS FINANCIÈRES ET D'ASSURANCE
+- :code: '64'
+  :name: Activités des services financiers, hors assurance et caisses de retraite
+- :code: '64.1'
+  :name: Intermédiation monétaire
+- :code: '64.11'
+  :name: Activités de banque centrale
+- :code: '64.11Z'
+  :name: Activités de banque centrale
+- :code: '64.19'
+  :name: Autres intermédiations monétaires
+- :code: '64.19Z'
+  :name: Autres intermédiations monétaires
+- :code: '64.2'
+  :name: Activités des sociétés holding
+- :code: '64.20'
+  :name: Activités des sociétés holding
+- :code: '64.20Z'
+  :name: Activités des sociétés holding
+- :code: '64.3'
+  :name: Fonds de placement et entités financières similaires
+- :code: '64.30'
+  :name: Fonds de placement et entités financières similaires
+- :code: '64.30Z'
+  :name: Fonds de placement et entités financières similaires
+- :code: '64.9'
+  :name: Autres activités des services financiers, hors assurance et caisses de retraite
+- :code: '64.91'
+  :name: Crédit-bail
+- :code: '64.91Z'
+  :name: Crédit-bail
+- :code: '64.92'
+  :name: Autre distribution de crédit
+- :code: '64.92Z'
+  :name: Autre distribution de crédit
+- :code: '64.99'
+  :name: Autres activités des services financiers, hors assurance et caisses de retraite, n.c.a.
+- :code: '64.99Z'
+  :name: Autres activités des services financiers, hors assurance et caisses de retraite, n.c.a.
+- :code: '65'
+  :name: Assurance
+- :code: '65.1'
+  :name: Assurance
+- :code: '65.11'
+  :name: Assurance vie
+- :code: '65.11Z'
+  :name: Assurance vie
+- :code: '65.12'
+  :name: Autres assurances
+- :code: '65.12Z'
+  :name: Autres assurances
+- :code: '65.2'
+  :name: Réassurance
+- :code: '65.20'
+  :name: Réassurance
+- :code: '65.20Z'
+  :name: Réassurance
+- :code: '65.3'
+  :name: Caisses de retraite
+- :code: '65.30'
+  :name: Caisses de retraite
+- :code: '65.30Z'
+  :name: Caisses de retraite
+- :code: '66'
+  :name: Activités auxiliaires de services financiers et d'assurance
+- :code: '66.1'
+  :name: Activités auxiliaires de services financiers, hors assurance et caisses de retraite
+- :code: '66.11'
+  :name: Administration de marchés financiers
+- :code: '66.11Z'
+  :name: Administration de marchés financiers
+- :code: '66.12'
+  :name: Courtage de valeurs mobilières et de marchandises
+- :code: '66.12Z'
+  :name: Courtage de valeurs mobilières et de marchandises
+- :code: '66.19'
+  :name: Autres activités auxiliaires de services financiers, hors assurance et caisses de retraite
+- :code: '66.19A'
+  :name: Supports juridiques de gestion de patrimoine mobilier
+- :code: '66.19B'
+  :name: Autres activités auxiliaires de services financiers, hors assurance et caisses de retraite, n.c.a.
+- :code: '66.2'
+  :name: Activités auxiliaires d'assurance et de caisses de retraite
+- :code: '66.21'
+  :name: Évaluation des risques et dommages
+- :code: '66.21Z'
+  :name: Évaluation des risques et dommages
+- :code: '66.22'
+  :name: Activités des agents et courtiers d'assurances
+- :code: '66.22Z'
+  :name: Activités des agents et courtiers d'assurances
+- :code: '66.29'
+  :name: Autres activités auxiliaires d'assurance et de caisses de retraite
+- :code: '66.29Z'
+  :name: Autres activités auxiliaires d'assurance et de caisses de retraite
+- :code: '66.3'
+  :name: Gestion de fonds
+- :code: '66.30'
+  :name: Gestion de fonds
+- :code: '66.30Z'
+  :name: Gestion de fonds
+- :code: 'L'
+  :name: ACTIVITÉS IMMOBILIÈRES
+- :code: '68'
+  :name: Activités immobilières
+- :code: '68.1'
+  :name: Activités des marchands de biens immobiliers
+- :code: '68.10'
+  :name: Activités des marchands de biens immobiliers
+- :code: '68.10Z'
+  :name: Activités des marchands de biens immobiliers
+- :code: '68.2'
+  :name: Location et exploitation de biens immobiliers propres ou loués
+- :code: '68.20'
+  :name: Location et exploitation de biens immobiliers propres ou loués
+- :code: '68.20A'
+  :name: Location de logements
+- :code: '68.20B'
+  :name: Location de terrains et d'autres biens immobiliers
+- :code: '68.3'
+  :name: Activités immobilières pour compte de tiers
+- :code: '68.31'
+  :name: Agences immobilières
+- :code: '68.31Z'
+  :name: Agences immobilières
+- :code: '68.32'
+  :name: Administration de biens immobiliers
+- :code: '68.32A'
+  :name: Administration d'immeubles et autres biens immobiliers
+- :code: '68.32B'
+  :name: Supports juridiques de gestion de patrimoine immobilier
+- :code: 'M'
+  :name: ACTIVITÉS SPÉCIALISÉES, SCIENTIFIQUES ET TECHNIQUES
+- :code: '69'
+  :name: Activités juridiques et comptables
+- :code: '69.1'
+  :name: Activités juridiques
+- :code: '69.10'
+  :name: Activités juridiques
+- :code: '69.10Z'
+  :name: Activités juridiques
+- :code: '69.2'
+  :name: Activités comptables
+- :code: '69.20'
+  :name: Activités comptables
+- :code: '69.20Z'
+  :name: Activités comptables
+- :code: '70'
+  :name: Activités des sièges sociaux ; conseil de gestion
+- :code: '70.1'
+  :name: Activités des sièges sociaux
+- :code: '70.10'
+  :name: Activités des sièges sociaux
+- :code: '70.10Z'
+  :name: Activités des sièges sociaux
+- :code: '70.2'
+  :name: Conseil de gestion
+- :code: '70.21'
+  :name: Conseil en relations publiques et communication
+- :code: '70.21Z'
+  :name: Conseil en relations publiques et communication
+- :code: '70.22'
+  :name: Conseil pour les affaires et autres conseils de gestion
+- :code: '70.22Z'
+  :name: Conseil pour les affaires et autres conseils de gestion
+- :code: '71'
+  :name: Activités d'architecture et d'ingénierie ; activités de contrôle et analyses techniques
+- :code: '71.1'
+  :name: Activités d'architecture et d'ingénierie
+- :code: '71.11'
+  :name: Activités d'architecture
+- :code: '71.11Z'
+  :name: Activités d'architecture
+- :code: '71.12'
+  :name: Activités d'ingénierie
+- :code: '71.12A'
+  :name: Activité des géomètres
+- :code: '71.12B'
+  :name: Ingénierie, études techniques
+- :code: '71.2'
+  :name: Activités de contrôle et analyses techniques
+- :code: '71.20'
+  :name: Activités de contrôle et analyses techniques
+- :code: '71.20A'
+  :name: Contrôle technique automobile
+- :code: '71.20B'
+  :name: Analyses, essais et inspections techniques
+- :code: '72'
+  :name: Recherche-développement scientifique
+- :code: '72.1'
+  :name: Recherche-développement en sciences physiques et naturelles
+- :code: '72.11'
+  :name: Recherche-développement en biotechnologie
+- :code: '72.11Z'
+  :name: Recherche-développement en biotechnologie
+- :code: '72.19'
+  :name: Recherche-développement en autres sciences physiques et naturelles
+- :code: '72.19Z'
+  :name: Recherche-développement en autres sciences physiques et naturelles
+- :code: '72.2'
+  :name: Recherche-développement en sciences humaines et sociales
+- :code: '72.20'
+  :name: Recherche-développement en sciences humaines et sociales
+- :code: '72.20Z'
+  :name: Recherche-développement en sciences humaines et sociales
+- :code: '73'
+  :name: Publicité et études de marché
+- :code: '73.1'
+  :name: Publicité
+- :code: '73.11'
+  :name: Activités des agences de publicité
+- :code: '73.11Z'
+  :name: Activités des agences de publicité
+- :code: '73.12'
+  :name: Régie publicitaire de médias
+- :code: '73.12Z'
+  :name: Régie publicitaire de médias
+- :code: '73.2'
+  :name: Études de marché et sondages
+- :code: '73.20'
+  :name: Études de marché et sondages
+- :code: '73.20Z'
+  :name: Études de marché et sondages
+- :code: '74'
+  :name: Autres activités spécialisées, scientifiques et techniques
+- :code: '74.1'
+  :name: Activités spécialisées de design
+- :code: '74.10'
+  :name: Activités spécialisées de design
+- :code: '74.10Z'
+  :name: Activités spécialisées de design
+- :code: '74.2'
+  :name: Activités photographiques
+- :code: '74.20'
+  :name: Activités photographiques
+- :code: '74.20Z'
+  :name: Activités photographiques
+- :code: '74.3'
+  :name: Traduction et interprétation
+- :code: '74.30'
+  :name: Traduction et interprétation
+- :code: '74.30Z'
+  :name: Traduction et interprétation
+- :code: '74.9'
+  :name: Autres activités spécialisées, scientifiques et techniques n.c.a.
+- :code: '74.90'
+  :name: Autres activités spécialisées, scientifiques et techniques n.c.a.
+- :code: '74.90A'
+  :name: Activité des économistes de la construction
+- :code: '74.90B'
+  :name: Activités spécialisées, scientifiques et techniques diverses
+- :code: '75'
+  :name: Activités vétérinaires
+- :code: '75.0'
+  :name: Activités vétérinaires
+- :code: '75.00'
+  :name: Activités vétérinaires
+- :code: '75.00Z'
+  :name: Activités vétérinaires
+- :code: 'N'
+  :name: ACTIVITÉS DE SERVICES ADMINISTRATIFS ET DE SOUTIEN
+- :code: '77'
+  :name: Activités de location et location-bail
+- :code: '77.1'
+  :name: Location et location-bail de véhicules automobiles
+- :code: '77.11'
+  :name: Location et location-bail de voitures et de véhicules automobiles légers
+- :code: '77.11A'
+  :name: Location de courte durée de voitures et de véhicules automobiles légers
+- :code: '77.11B'
+  :name: Location de longue durée de voitures et de véhicules automobiles légers
+- :code: '77.12'
+  :name: Location et location-bail de camions
+- :code: '77.12Z'
+  :name: Location et location-bail de camions
+- :code: '77.2'
+  :name: Location et location-bail de biens personnels et domestiques
+- :code: '77.21'
+  :name: Location et location-bail d'articles de loisirs et de sport
+- :code: '77.21Z'
+  :name: Location et location-bail d'articles de loisirs et de sport
+- :code: '77.22'
+  :name: Location de vidéocassettes et disques vidéo
+- :code: '77.22Z'
+  :name: Location de vidéocassettes et disques vidéo
+- :code: '77.29'
+  :name: Location et location-bail d'autres biens personnels et domestiques
+- :code: '77.29Z'
+  :name: Location et location-bail d'autres biens personnels et domestiques
+- :code: '77.3'
+  :name: Location et location-bail d'autres machines, équipements et biens
+- :code: '77.31'
+  :name: Location et location-bail de machines et équipements agricoles
+- :code: '77.31Z'
+  :name: Location et location-bail de machines et équipements agricoles
+- :code: '77.32'
+  :name: Location et location-bail de machines et équipements pour la construction
+- :code: '77.32Z'
+  :name: Location et location-bail de machines et équipements pour la construction
+- :code: '77.33'
+  :name: Location et location-bail de machines de bureau et de matériel informatique
+- :code: '77.33Z'
+  :name: Location et location-bail de machines de bureau et de matériel informatique
+- :code: '77.34'
+  :name: Location et location-bail de matériels de transport par eau
+- :code: '77.34Z'
+  :name: Location et location-bail de matériels de transport par eau
+- :code: '77.35'
+  :name: Location et location-bail de matériels de transport aérien
+- :code: '77.35Z'
+  :name: Location et location-bail de matériels de transport aérien
+- :code: '77.39'
+  :name: Location et location-bail d'autres machines, équipements et biens matériels n.c.a.
+- :code: '77.39Z'
+  :name: Location et location-bail d'autres machines, équipements et biens matériels n.c.a.
+- :code: '77.4'
+  :name: Location-bail de propriété intellectuelle et de produits similaires, à l'exception des œuvres soumises à copyright
+- :code: '77.40'
+  :name: Location-bail de propriété intellectuelle et de produits similaires, à l'exception des œuvres soumises à copyright
+- :code: '77.40Z'
+  :name: Location-bail de propriété intellectuelle et de produits similaires, à l'exception des œuvres soumises à copyright
+- :code: '78'
+  :name: Activités liées à l'emploi
+- :code: '78.1'
+  :name: Activités des agences de placement de main-d'œuvre
+- :code: '78.10'
+  :name: Activités des agences de placement de main-d'œuvre
+- :code: '78.10Z'
+  :name: Activités des agences de placement de main-d'œuvre
+- :code: '78.2'
+  :name: Activités des agences de travail temporaire
+- :code: '78.20'
+  :name: Activités des agences de travail temporaire
+- :code: '78.20Z'
+  :name: Activités des agences de travail temporaire
+- :code: '78.3'
+  :name: Autre mise à disposition de ressources humaines
+- :code: '78.30'
+  :name: Autre mise à disposition de ressources humaines
+- :code: '78.30Z'
+  :name: Autre mise à disposition de ressources humaines
+- :code: '79'
+  :name: Activités des agences de voyage, voyagistes, services de réservation et activités connexes
+- :code: '79.1'
+  :name: Activités des agences de voyage et voyagistes
+- :code: '79.11'
+  :name: Activités des agences de voyage
+- :code: '79.11Z'
+  :name: Activités des agences de voyage
+- :code: '79.12'
+  :name: Activités des voyagistes
+- :code: '79.12Z'
+  :name: Activités des voyagistes
+- :code: '79.9'
+  :name: Autres services de réservation et activités connexes
+- :code: '79.90'
+  :name: Autres services de réservation et activités connexes
+- :code: '79.90Z'
+  :name: Autres services de réservation et activités connexes
+- :code: '80'
+  :name: Enquêtes et sécurité
+- :code: '80.1'
+  :name: Activités de sécurité privée
+- :code: '80.10'
+  :name: Activités de sécurité privée
+- :code: '80.10Z'
+  :name: Activités de sécurité privée
+- :code: '80.2'
+  :name: Activités liées aux systèmes de sécurité
+- :code: '80.20'
+  :name: Activités liées aux systèmes de sécurité
+- :code: '80.20Z'
+  :name: Activités liées aux systèmes de sécurité
+- :code: '80.3'
+  :name: Activités d'enquête
+- :code: '80.30'
+  :name: Activités d'enquête
+- :code: '80.30Z'
+  :name: Activités d'enquête
+- :code: '81'
+  :name: Services relatifs aux bâtiments et aménagement paysager
+- :code: '81.1'
+  :name: Activités combinées de soutien lié aux bâtiments
+- :code: '81.10'
+  :name: Activités combinées de soutien lié aux bâtiments
+- :code: '81.10Z'
+  :name: Activités combinées de soutien lié aux bâtiments
+- :code: '81.2'
+  :name: Activités de nettoyage
+- :code: '81.21'
+  :name: Nettoyage courant des bâtiments
+- :code: '81.21Z'
+  :name: Nettoyage courant des bâtiments
+- :code: '81.22'
+  :name: Autres activités de nettoyage des bâtiments et nettoyage industriel
+- :code: '81.22Z'
+  :name: Autres activités de nettoyage des bâtiments et nettoyage industriel
+- :code: '81.29'
+  :name: Autres activités de nettoyage
+- :code: '81.29A'
+  :name: Désinfection, désinsectisation, dératisation
+- :code: '81.29B'
+  :name: Autres activités de nettoyage n.c.a.
+- :code: '81.3'
+  :name: Services d'aménagement paysager
+- :code: '81.30'
+  :name: Services d'aménagement paysager
+- :code: '81.30Z'
+  :name: Services d'aménagement paysager
+- :code: '82'
+  :name: Activités administratives et autres activités de soutien aux entreprises
+- :code: '82.1'
+  :name: Activités administratives
+- :code: '82.11'
+  :name: Services administratifs combinés de bureau
+- :code: '82.11Z'
+  :name: Services administratifs combinés de bureau
+- :code: '82.19'
+  :name: Photocopie, préparation de documents et autres activités spécialisées de soutien de bureau
+- :code: '82.19Z'
+  :name: Photocopie, préparation de documents et autres activités spécialisées de soutien de bureau
+- :code: '82.2'
+  :name: Activités de centres d'appels
+- :code: '82.20'
+  :name: Activités de centres d'appels
+- :code: '82.20Z'
+  :name: Activités de centres d'appels
+- :code: '82.3'
+  :name: Organisation de salons professionnels et congrès
+- :code: '82.30'
+  :name: Organisation de salons professionnels et congrès
+- :code: '82.30Z'
+  :name: Organisation de foires, salons professionnels et congrès
+- :code: '82.9'
+  :name: Activités de soutien aux entreprises n.c.a.
+- :code: '82.91'
+  :name: Activités des agences de recouvrement de factures et des sociétés d'information financière sur la clientèle
+- :code: '82.91Z'
+  :name: Activités des agences de recouvrement de factures et des sociétés d'information financière sur la clientèle
+- :code: '82.92'
+  :name: Activités de conditionnement
+- :code: '82.92Z'
+  :name: Activités de conditionnement
+- :code: '82.99'
+  :name: Autres activités de soutien aux entreprises n.c.a.
+- :code: '82.99Z'
+  :name: Autres activités de soutien aux entreprises n.c.a.
+- :code: 'O'
+  :name: ADMINISTRATION PUBLIQUE
+- :code: '84'
+  :name: Administration publique et défense ; sécurité sociale obligatoire
+- :code: '84.1'
+  :name: Administration générale, économique et sociale
+- :code: '84.11'
+  :name: Administration publique générale
+- :code: '84.11Z'
+  :name: Administration publique générale
+- :code: '84.12'
+  :name: Administration publique (tutelle) de la santé, de la formation, de la culture et des services sociaux, autre que sécurité sociale
+- :code: '84.12Z'
+  :name: Administration publique (tutelle) de la santé, de la formation, de la culture et des services sociaux, autre que sécurité sociale
+- :code: '84.13'
+  :name: Administration publique (tutelle) des activités économiques
+- :code: '84.13Z'
+  :name: Administration publique (tutelle) des activités économiques
+- :code: '84.2'
+  :name: Services de prérogative publique
+- :code: '84.21'
+  :name: Affaires étrangères
+- :code: '84.21Z'
+  :name: Affaires étrangères
+- :code: '84.22'
+  :name: Défense
+- :code: '84.22Z'
+  :name: Défense
+- :code: '84.23'
+  :name: Justice
+- :code: '84.23Z'
+  :name: Justice
+- :code: '84.24'
+  :name: Activités d'ordre public et de sécurité
+- :code: '84.24Z'
+  :name: Activités d'ordre public et de sécurité
+- :code: '84.25'
+  :name: Services du feu et de secours
+- :code: '84.25Z'
+  :name: Services du feu et de secours
+- :code: '84.3'
+  :name: Sécurité sociale obligatoire
+- :code: '84.30'
+  :name: Sécurité sociale obligatoire
+- :code: '84.30A'
+  :name: Activités générales de sécurité sociale
+- :code: '84.30B'
+  :name: Gestion des retraites complémentaires
+- :code: '84.30C'
+  :name: Distribution sociale de revenus
+- :code: 'P'
+  :name: ENSEIGNEMENT
+- :code: '85'
+  :name: Enseignement
+- :code: '85.1'
+  :name: Enseignement pré-primaire
+- :code: '85.10'
+  :name: Enseignement pré-primaire
+- :code: '85.10Z'
+  :name: Enseignement pré-primaire
+- :code: '85.2'
+  :name: Enseignement primaire
+- :code: '85.20'
+  :name: Enseignement primaire
+- :code: '85.20Z'
+  :name: Enseignement primaire
+- :code: '85.3'
+  :name: Enseignement secondaire
+- :code: '85.31'
+  :name: Enseignement secondaire général
+- :code: '85.31Z'
+  :name: Enseignement secondaire général
+- :code: '85.32'
+  :name: Enseignement secondaire technique ou professionnel
+- :code: '85.32Z'
+  :name: Enseignement secondaire technique ou professionnel
+- :code: '85.4'
+  :name: Enseignement supérieur et post-secondaire non supérieur
+- :code: '85.41'
+  :name: Enseignement post-secondaire non supérieur
+- :code: '85.41Z'
+  :name: Enseignement post-secondaire non supérieur
+- :code: '85.42'
+  :name: Enseignement supérieur
+- :code: '85.42Z'
+  :name: Enseignement supérieur
+- :code: '85.5'
+  :name: Autres activités d'enseignement
+- :code: '85.51'
+  :name: Enseignement de disciplines sportives et d'activités de loisirs
+- :code: '85.51Z'
+  :name: Enseignement de disciplines sportives et d'activités de loisirs
+- :code: '85.52'
+  :name: Enseignement culturel
+- :code: '85.52Z'
+  :name: Enseignement culturel
+- :code: '85.53'
+  :name: Enseignement de la conduite
+- :code: '85.53Z'
+  :name: Enseignement de la conduite
+- :code: '85.59'
+  :name: Enseignements divers
+- :code: '85.59A'
+  :name: Formation continue d'adultes
+- :code: '85.59B'
+  :name: Autres enseignements
+- :code: '85.6'
+  :name: Activités de soutien à l'enseignement
+- :code: '85.60'
+  :name: Activités de soutien à l'enseignement
+- :code: '85.60Z'
+  :name: Activités de soutien à l'enseignement
+- :code: 'Q'
+  :name: SANTÉ HUMAINE ET ACTION SOCIALE
+- :code: '86'
+  :name: Activités pour la santé humaine
+- :code: '86.1'
+  :name: Activités hospitalières
+- :code: '86.10'
+  :name: Activités hospitalières
+- :code: '86.10Z'
+  :name: Activités hospitalières
+- :code: '86.2'
+  :name: Activité des médecins et des dentistes
+- :code: '86.21'
+  :name: Activité des médecins généralistes
+- :code: '86.21Z'
+  :name: Activité des médecins généralistes
+- :code: '86.22'
+  :name: Activité des médecins spécialistes
+- :code: '86.22A'
+  :name: Activités de radiodiagnostic et de radiothérapie
+- :code: '86.22B'
+  :name: Activités chirurgicales
+- :code: '86.22C'
+  :name: Autres activités des médecins spécialistes
+- :code: '86.23'
+  :name: Pratique dentaire
+- :code: '86.23Z'
+  :name: Pratique dentaire
+- :code: '86.9'
+  :name: Autres activités pour la santé humaine
+- :code: '86.90'
+  :name: Autres activités pour la santé humaine
+- :code: '86.90A'
+  :name: Ambulances
+- :code: '86.90B'
+  :name: Laboratoires d'analyses médicales
+- :code: '86.90C'
+  :name: Centres de collecte et banques d'organes
+- :code: '86.90D'
+  :name: Activités des infirmiers et des sages-femmes
+- :code: '86.90E'
+  :name: Activités des professionnels de la rééducation, de l'appareillage et des pédicures-podologues
+- :code: '86.90F'
+  :name: Activités de santé humaine non classées ailleurs
+- :code: '87'
+  :name: Hébergement médico-social et social
+- :code: '87.1'
+  :name: Hébergement médicalisé
+- :code: '87.10'
+  :name: Hébergement médicalisé
+- :code: '87.10A'
+  :name: Hébergement médicalisé pour personnes âgées
+- :code: '87.10B'
+  :name: Hébergement médicalisé pour enfants handicapés
+- :code: '87.10C'
+  :name: Hébergement médicalisé pour adultes handicapés et autre hébergement médicalisé
+- :code: '87.2'
+  :name: Hébergement social pour personnes handicapées mentales, malades mentales et toxicomanes
+- :code: '87.20'
+  :name: Hébergement social pour personnes handicapées mentales, malades mentales et toxicomanes
+- :code: '87.20A'
+  :name: Hébergement social pour handicapés mentaux et malades mentaux
+- :code: '87.20B'
+  :name: Hébergement social pour toxicomanes
+- :code: '87.3'
+  :name: Hébergement social pour personnes âgées ou handicapées physiques
+- :code: '87.30'
+  :name: Hébergement social pour personnes âgées ou handicapées physiques
+- :code: '87.30A'
+  :name: Hébergement social pour personnes âgées
+- :code: '87.30B'
+  :name: Hébergement social pour handicapés  physiques
+- :code: '87.9'
+  :name: Autres activités d'hébergement social
+- :code: '87.90'
+  :name: Autres activités d'hébergement social
+- :code: '87.90A'
+  :name: Hébergement social pour enfants en difficultés
+- :code: '87.90B'
+  :name: Hébergement social pour adultes et familles en difficultés et autre hébergement social
+- :code: '88'
+  :name: Action sociale sans hébergement
+- :code: '88.1'
+  :name: Action sociale sans hébergement pour personnes âgées et pour personnes handicapées
+- :code: '88.10'
+  :name: Action sociale sans hébergement pour personnes âgées et pour personnes handicapées
+- :code: '88.10A'
+  :name: Aide à domicile
+- :code: '88.10B'
+  :name: Accueil ou accompagnement sans hébergement d'adultes handicapés ou de personnes âgées
+- :code: '88.10C'
+  :name: Aide par le travail
+- :code: '88.9'
+  :name: Autre action sociale sans hébergement
+- :code: '88.91'
+  :name: Action sociale sans hébergement pour jeunes enfants
+- :code: '88.91A'
+  :name: Accueil de jeunes enfants
+- :code: '88.91B'
+  :name: Accueil ou accompagnement sans hébergement d'enfants handicapés
+- :code: '88.99'
+  :name: Autre action sociale sans hébergement n.c.a.
+- :code: '88.99A'
+  :name: Autre accueil ou accompagnement sans hébergement d'enfants et d'adolescents
+- :code: '88.99B'
+  :name: Action sociale sans hébergement n.c.a.
+- :code: 'R'
+  :name: ARTS, SPECTACLES ET ACTIVITÉS RÉCRÉATIVES
+- :code: '90'
+  :name: Activités créatives, artistiques et de spectacle
+- :code: '90.0'
+  :name: Activités créatives, artistiques et de spectacle
+- :code: '90.01'
+  :name: Arts du spectacle vivant
+- :code: '90.01Z'
+  :name: Arts du spectacle vivant
+- :code: '90.02'
+  :name: Activités de soutien au spectacle vivant
+- :code: '90.02Z'
+  :name: Activités de soutien au spectacle vivant
+- :code: '90.03'
+  :name: Création artistique
+- :code: '90.03A'
+  :name: Création artistique relevant des arts plastiques
+- :code: '90.03B'
+  :name: Autre création artistique
+- :code: '90.04'
+  :name: Gestion de salles de spectacles
+- :code: '90.04Z'
+  :name: Gestion de salles de spectacles
+- :code: '91'
+  :name: Bibliothèques, archives, musées et autres activités culturelles
+- :code: '91.0'
+  :name: Bibliothèques, archives, musées et autres activités culturelles
+- :code: '91.01'
+  :name: Gestion des bibliothèques et des archives
+- :code: '91.01Z'
+  :name: Gestion des bibliothèques et des archives
+- :code: '91.02'
+  :name: Gestion des musées
+- :code: '91.02Z'
+  :name: Gestion des musées
+- :code: '91.03'
+  :name: Gestion des sites et monuments historiques et des attractions touristiques similaires
+- :code: '91.03Z'
+  :name: Gestion des sites et monuments historiques et des attractions touristiques similaires
+- :code: '91.04'
+  :name: Gestion des jardins botaniques et zoologiques et des réserves naturelles
+- :code: '91.04Z'
+  :name: Gestion des jardins botaniques et zoologiques et des réserves naturelles
+- :code: '92'
+  :name: Organisation de jeux de hasard et d'argent
+- :code: '92.0'
+  :name: Organisation de jeux de hasard et d'argent
+- :code: '92.00'
+  :name: Organisation de jeux de hasard et d'argent
+- :code: '92.00Z'
+  :name: Organisation de jeux de hasard et d'argent
+- :code: '93'
+  :name: Activités sportives, récréatives et de loisirs
+- :code: '93.1'
+  :name: Activités liées au sport
+- :code: '93.11'
+  :name: Gestion d'installations sportives
+- :code: '93.11Z'
+  :name: Gestion d'installations sportives
+- :code: '93.12'
+  :name: Activités de clubs de sports
+- :code: '93.12Z'
+  :name: Activités de clubs de sports
+- :code: '93.13'
+  :name: Activités des centres de culture physique
+- :code: '93.13Z'
+  :name: Activités des centres de culture physique
+- :code: '93.19'
+  :name: Autres activités liées au sport
+- :code: '93.19Z'
+  :name: Autres activités liées au sport
+- :code: '93.2'
+  :name: Activités récréatives et de loisirs
+- :code: '93.21'
+  :name: Activités des parcs d'attractions et parcs à thèmes
+- :code: '93.21Z'
+  :name: Activités des parcs d'attractions et parcs à thèmes
+- :code: '93.29'
+  :name: Autres activités récréatives et de loisirs
+- :code: '93.29Z'
+  :name: Autres activités récréatives et de loisirs
+- :code: 'S'
+  :name: AUTRES ACTIVITÉS DE SERVICES
+- :code: '94'
+  :name: Activités des organisations associatives
+- :code: '94.1'
+  :name: Activités des organisations économiques, patronales et professionnelles
+- :code: '94.11'
+  :name: Activités des organisations patronales et consulaires
+- :code: '94.11Z'
+  :name: Activités des organisations patronales et consulaires
+- :code: '94.12'
+  :name: Activités des organisations professionnelles
+- :code: '94.12Z'
+  :name: Activités des organisations professionnelles
+- :code: '94.2'
+  :name: Activités des syndicats de salariés
+- :code: '94.20'
+  :name: Activités des syndicats de salariés
+- :code: '94.20Z'
+  :name: Activités des syndicats de salariés
+- :code: '94.9'
+  :name: Activités des autres organisations associatives
+- :code: '94.91'
+  :name: Activités des organisations religieuses
+- :code: '94.91Z'
+  :name: Activités des organisations religieuses
+- :code: '94.92'
+  :name: Activités des organisations politiques
+- :code: '94.92Z'
+  :name: Activités des organisations politiques
+- :code: '94.99'
+  :name: Activités des organisations associatives n.c.a.
+- :code: '94.99Z'
+  :name: Autres organisations fonctionnant par adhésion volontaire
+- :code: '95'
+  :name: Réparation d'ordinateurs et de biens personnels et domestiques
+- :code: '95.1'
+  :name: Réparation d'ordinateurs et d'équipements de communication
+- :code: '95.11'
+  :name: Réparation d'ordinateurs et d'équipements périphériques
+- :code: '95.11Z'
+  :name: Réparation d'ordinateurs et d'équipements périphériques
+- :code: '95.12'
+  :name: Réparation d'équipements de communication
+- :code: '95.12Z'
+  :name: Réparation d'équipements de communication
+- :code: '95.2'
+  :name: Réparation de biens personnels et domestiques
+- :code: '95.21'
+  :name: Réparation de produits électroniques grand public
+- :code: '95.21Z'
+  :name: Réparation de produits électroniques grand public
+- :code: '95.22'
+  :name: Réparation d'appareils électroménagers et d'équipements pour la maison et le jardin
+- :code: '95.22Z'
+  :name: Réparation d'appareils électroménagers et d'équipements pour la maison et le jardin
+- :code: '95.23'
+  :name: Réparation de chaussures et d'articles en cuir
+- :code: '95.23Z'
+  :name: Réparation de chaussures et d'articles en cuir
+- :code: '95.24'
+  :name: Réparation de meubles et d'équipements du foyer
+- :code: '95.24Z'
+  :name: Réparation de meubles et d'équipements du foyer
+- :code: '95.25'
+  :name: Réparation d'articles d'horlogerie et de bijouterie
+- :code: '95.25Z'
+  :name: Réparation d'articles d'horlogerie et de bijouterie
+- :code: '95.29'
+  :name: Réparation d'autres biens personnels et domestiques
+- :code: '95.29Z'
+  :name: Réparation d'autres biens personnels et domestiques
+- :code: '96'
+  :name: Autres services personnels
+- :code: '96.0'
+  :name: Autres services personnels
+- :code: '96.01'
+  :name: Blanchisserie-teinturerie
+- :code: '96.01A'
+  :name: Blanchisserie-teinturerie de gros
+- :code: '96.01B'
+  :name: Blanchisserie-teinturerie de détail
+- :code: '96.02'
+  :name: Coiffure et soins de beauté
+- :code: '96.02A'
+  :name: Coiffure
+- :code: '96.02B'
+  :name: Soins de beauté
+- :code: '96.03'
+  :name: Services funéraires
+- :code: '96.03Z'
+  :name: Services funéraires
+- :code: '96.04'
+  :name: Entretien corporel
+- :code: '96.04Z'
+  :name: Entretien corporel
+- :code: '96.09'
+  :name: Autres services personnels n.c.a.
+- :code: '96.09Z'
+  :name: Autres services personnels n.c.a.
+- :code: 'T'
+  :name: ACTIVITÉS DES MÉNAGES EN TANT QU'EMPLOYEURS ; ACTIVITÉS INDIFFÉRENCIÉES DES MÉNAGES EN TANT QUE PRODUCTEURS DE BIENS ET SERVICES POUR USAGE PROPRE
+- :code: '97'
+  :name: Activités des ménages en tant qu'employeurs de personnel domestique
+- :code: '97.0'
+  :name: Activités des ménages en tant qu'employeurs de personnel domestique
+- :code: '97.00'
+  :name: Activités des ménages en tant qu'employeurs de personnel domestique
+- :code: '97.00Z'
+  :name: Activités des ménages en tant qu'employeurs de personnel domestique
+- :code: '98'
+  :name: Activités indifférenciées des ménages en tant que producteurs de biens et services pour usage propre
+- :code: '98.1'
+  :name: Activités indifférenciées des ménages en tant que producteurs de biens pour usage propre
+- :code: '98.10'
+  :name: Activités indifférenciées des ménages en tant que producteurs de biens pour usage propre
+- :code: '98.10Z'
+  :name: Activités indifférenciées des ménages en tant que producteurs de biens pour usage propre
+- :code: '98.2'
+  :name: Activités indifférenciées des ménages en tant que producteurs de services pour usage propre
+- :code: '98.20'
+  :name: Activités indifférenciées des ménages en tant que producteurs de services pour usage propre
+- :code: '98.20Z'
+  :name: Activités indifférenciées des ménages en tant que producteurs de services pour usage propre
+- :code: 'U'
+  :name: ACTIVITÉS EXTRA-TERRITORIALES
+- :code: '99'
+  :name: Activités des organisations et organismes extraterritoriaux
+- :code: '99.0'
+  :name: Activités des organisations et organismes extraterritoriaux
+- :code: '99.00'
+  :name: Activités des organisations et organismes extraterritoriaux
+- :code: '99.00Z'
+  :name: Activités des organisations et organismes extraterritoriaux
+- :code: '95.29Z-E'
+  :name: Accordeurs de piano et restauration d'autres instruments de musique
+- :code: '80.20Z-P'
+  :name: Activité de surveillance et installation de systèmes d'alarme non dissociées
+- :code: '82.92Z-Z'
+  :name: Activités de conditionnement
+- :code: '09.90Z-P'
+  :name: Activités de soutien aux autres industries extractives
+- :code: '18.13Z-C'
+  :name: Activités graphiques n.c.a.
+- :code: '43.32C-Z'
+  :name: Agencement de lieux de vente
+- :code: '19.20Z-P'
+  :name: Agglomération de la tourbe
+- :code: '95.29Z-A'
+  :name: Aiguisage de coutellerie
+- :code: '86.90A-Z'
+  :name: Ambulances
+- :code: '42.11Z-B'
+  :name: Aménagement de chaussées
+- :code: '29.20Z-B'
+  :name: Aménagement de véhicules
+- :code: '15.11Z-Z'
+  :name: Apprêt et tannage des cuirs; préparation et teinture des fourrures
+- :code: '43.12B-B'
+  :name: Artificiers
+- :code: '52.21Z-P'
+  :name: Assistance et remorquage de véhicules automobiles
+- :code: '95.29Z-C'
+  :name: Atelier de retouches
+- :code: '10.39A-P'
+  :name: Autre transformation et conservation de longue durée de légumes
+- :code: '81.22Z-Z'
+  :name: Autres activités de nettoyage des bâtiments et nettoyage industriel
+- :code: '58.19Z-P'
+  :name: Autres activités d'édition Edition d'imprimés fiduciaires, imprimés commerciaux, formulaires imprimés
+- :code: '10.61B-Z'
+  :name: Autres activités du travail des grains
+- :code: '08.99Z-Z'
+  :name: Autres activités extractives n.c.a.
+- :code: '25.99A-B'
+  :name: Autres fabrications d'articles de ménage
+- :code: '81.29B-P'
+  :name: Autres services de nettoyage
+- :code: '43.39Z-Z'
+  :name: Autres travaux de finition
+- :code: '43.29B-D'
+  :name: Autres travaux d'installation divers
+- :code: '43.99D-C'
+  :name: Autres travaux spéciaux de construction
+- :code: '96.01A-Z'
+  :name: Blanchisserie-teinturerie de gros
+- :code: '47.22Z-A'
+  :name: Boucherie
+- :code: '47.22Z-B'
+  :name: Boucherie charcuterie
+- :code: '47.81Z-R'
+  :name: Boucherie charcuterie sur éventaires et marchés
+- :code: '47.22Z-C'
+  :name: Boucherie chevaline
+- :code: '47.81Z-S'
+  :name: Boucherie chevaline sur éventaires et marchés
+- :code: '47.81Z-Q'
+  :name: Boucherie sur éventaires et marchés
+- :code: '10.71C-A'
+  :name: Boulangerie
+- :code: '10.71C-B'
+  :name: Boulangerie-pâtisserie
+- :code: '15.12Z-D'
+  :name: Bourrellerie
+- :code: '10.13B-Z'
+  :name: Charcuterie
+- :code: '25.30Z-B'
+  :name: Chaudronnerie nucléaire
+- :code: '14.13Z-D'
+  :name: Chemiserie sur mesure
+- :code: '96.02A-A'
+  :name: Coiffure en salon
+- :code: '96.02A-B'
+  :name: Coiffure hors salon
+- :code: '38.12Z-P'
+  :name: Collecte des déchets nucléaires
+- :code: '47.76Z-P'
+  :name: Commerce de détail de fleurs
+- :code: '47.89Z-P'
+  :name: Commerce de détail de fleurs sur éventaires et marchés
+- :code: '74.10Z-P'
+  :name: Conception de modèles pour étalages et décoration
+- :code: '33.20C-Z'
+  :name: Conception d'ensemble et assemblage sur site industriel d'équipements de contrôle des processus industriels
+- :code: '29.10Z-B'
+  :name: Construction d'autres véhicules automobiles
+- :code: '30.12Z-Z'
+  :name: Construction de bateaux de plaisance
+- :code: '41.20B-A'
+  :name: Construction de bâtiments
+- :code: '30.92Z-A'
+  :name: Construction de bicyclettes
+- :code: '30.30Z-B'
+  :name: Construction de cellules d'aéronefs
+- :code: '42.22Z-A'
+  :name: Construction de centrales électriques
+- :code: '43.99D-B'
+  :name: Construction de cheminées et de fours industriels
+- :code: '30.30Z-C'
+  :name: Construction de lanceurs et engins spatiaux
+- :code: '42.22Z-B'
+  :name: Construction de lignes électriques et de télécommunication
+- :code: '30.20Z-Z'
+  :name: Construction de locomotives et d'autre matériel ferroviaire roulant
+- :code: '41.20A-Z'
+  :name: Construction de maisons individuelles
+- :code: '30.30Z-A'
+  :name: Construction de moteurs pour aéronefs
+- :code: '30.91Z-A'
+  :name: Construction de motocycles
+- :code: '30.11Z-A'
+  :name: Construction de navires
+- :code: '30.40Z-Z'
+  :name: Construction de véhicules militaires de combat
+- :code: '42.12Z-Z'
+  :name: Construction de voies ferrées de surface et souterraines
+- :code: '29.10Z-A'
+  :name: Construction de voiturettes
+- :code: '42.21Z-A'
+  :name: Construction d'installations de réseaux pour fluides
+- :code: '42.99Z-P'
+  :name: Construction d'installations sportives et d'ouvrages industriels ou miniers
+- :code: '42.13A-Z'
+  :name: Construction d'ouvrages d'art
+- :code: '42.91Z-Z'
+  :name: Construction d'ouvrages maritimes et fluviaux
+- :code: '42.13B-Z'
+  :name: Construction et entretien de tunnels
+- :code: '71.20A-Z'
+  :name: Contrôle technique automobile
+- :code: '25.62A-Z'
+  :name: Décolletage
+- :code: '25.50B-Z'
+  :name: Découpage, emboutissage
+- :code: '38.31Z-A'
+  :name: Démantèlement d'épaves en vue de la récupération de matières métalliques
+- :code: '38.31Z-B'
+  :name: Démantèlement d'épaves en vue de la récupération de matières non métalliques
+- :code: '39.00Z-P'
+  :name: Désamiantage
+- :code: '81.29A-Z'
+  :name: Désinfection, désinsectisation, dératisation
+- :code: '25.99A-A'
+  :name: Dinanderie
+- :code: '24.46Z-Z'
+  :name: Elaboration et transformation de matières nucléaires
+- :code: '96.03Z-P'
+  :name: Embaumement, soins mortuaires
+- :code: '13.30Z-Z'
+  :name: Ennoblissement textile
+- :code: '20.13A-Z'
+  :name: Enrichissement et retraitement de matières nucléaires
+- :code: '43.22B-C'
+  :name: Entretien de chaudières domestiques
+- :code: '37.00Z-P'
+  :name: Entretien de fosses septiques
+- :code: '24.31Z-Z'
+  :name: Etirage à froid de barres
+- :code: '08.12Z-Z'
+  :name: Exploitation de gravières et sablières, extraction d’argiles et de kaolin
+- :code: '08.11Z-B'
+  :name: Extraction de calcaire industriel, de gypse et de craie
+- :code: '08.11Z-A'
+  :name: Extraction de pierres ornementales et de construction et d'ardoise
+- :code: '08.92Z-Z'
+  :name: Extraction de tourbe
+- :code: '08.91Z-Z'
+  :name: Extraction des minéraux chimiques et d'engrais minéraux
+- :code: '56.10C-Q'
+  :name: Fabrication artisanale associée à la vente de plats pour consommation immédiate en magasins sédentaires ou sur éventaires et marchés
+- :code: '56.10C-R'
+  :name: Fabrication artisanale associée à la vente de plats pour consommation immédiate en véhicules motorisés ou non
+- :code: '27.40Z-C'
+  :name: Fabrication d'abat-jour
+- :code: '32.99Z-B'
+  :name: Fabrication d'accessoires du vêtements
+- :code: '14.19Z-F'
+  :name: Fabrication d'accessoires en cuir
+- :code: '10.86Z-Z'
+  :name: Fabrication d'aliments homogénéisés et diététiques
+- :code: '10.92Z-Z'
+  :name: Fabrication d'aliments pour animaux de compagnie
+- :code: '10.91Z-Z'
+  :name: Fabrication d'aliments pour animaux de ferme
+- :code: '28.29A-B'
+  :name: Fabrication d'appareils de pesage
+- :code: '27.51Z-Z'
+  :name: Fabrication d'appareils électroménagers
+- :code: '27.52Z-Z'
+  :name: Fabrication d'appareils ménagers non électriques
+- :code: '23.42Z-Z'
+  :name: Fabrication d'appareils sanitaires en céramique
+- :code: '25.40Z-Z'
+  :name: Fabrication d'armes et de munitions
+- :code: '23.41Z-Z'
+  :name: Fabrication d'articles céramiques à usage domestique ou ornemental
+- :code: '14.31Z-Z'
+  :name: Fabrication d'articles chaussants à mailles
+- :code: '32.13Z-Z'
+  :name: Fabrication d'articles de bijouterie fantaisie et articles similaires
+- :code: '32.91Z-Z'
+  :name: Fabrication d'articles de brosserie
+- :code: '13.92Z-E'
+  :name: Fabrication d'articles de campement en textile
+- :code: '32.99Z-D'
+  :name: Fabrication d'articles de fumeurs
+- :code: '32.12Z-Z'
+  :name: Fabrication d'articles de joaillerie et de bijouterie
+- :code: '15.12Z-A'
+  :name: Fabrication d'articles de maroquinerie
+- :code: '17.23Z-Z'
+  :name: Fabrication d'articles de papeterie
+- :code: '32.99Z-C'
+  :name: Fabrication d'articles de Paris, d'arts ou religieux
+- :code: '32.30Z-Z'
+  :name: Fabrication d'articles de sport
+- :code: '25.93Z-A'
+  :name: Fabrication d'articles en fils métalliques et de chaînes
+- :code: '14.20Z-Z'
+  :name: Fabrication d'articles en fourrure
+- :code: '17.22Z-Z'
+  :name: Fabrication d'articles en papier à usage sanitaire ou domestique
+- :code: '23.19Z-B'
+  :name: Fabrication d'articles techniques en verre
+- :code: '28.22Z-A'
+  :name: Fabrication d'ascenseurs, monte-charges et escaliers mécaniques
+- :code: '27.40Z-D'
+  :name: Fabrication d'autres appareils d'éclairage
+- :code: '28.14Z-Z'
+  :name: Fabrication d'autres articles de robinetterie
+- :code: '22.19Z-Z'
+  :name: Fabrication d'autres articles en caoutchouc
+- :code: '17.29Z-Z'
+  :name: Fabrication d'autres articles en papier ou en carton
+- :code: '25.99B-C'
+  :name: Fabrication d'autres articles métalliques n.c.a.
+- :code: '29.32Z-Z'
+  :name: Fabrication d'autres équipements automobiles
+- :code: '30.99Z-Z'
+  :name: Fabrication d'autres équipements de transport n.c.a.
+- :code: '27.32Z-Z'
+  :name: Fabrication d'autres fils et câbles électroniques ou électriques
+- :code: '32.20Z-C'
+  :name: Fabrication d'autres instruments de musique
+- :code: '28.29B-Z'
+  :name: Fabrication d'autres machines d'usage général
+- :code: '28.99B-Z'
+  :name: Fabrication d'autres machines spécialisées
+- :code: '28.49Z-Z'
+  :name: Fabrication d'autres machines-outils
+- :code: '27.90Z-Z'
+  :name: Fabrication d'autres matériels électriques
+- :code: '10.89Z-Z'
+  :name: Fabrication d'autres produits alimentaires n.c.a.
+- :code: '23.49Z-Z'
+  :name: Fabrication d'autres produits céramiques
+- :code: '23.44Z-Z'
+  :name: Fabrication d'autres produits céramiques à usage technique
+- :code: '20.13B-Z'
+  :name: Fabrication d'autres produits chimiques inorganiques de base n.c.a.
+- :code: '20.59Z-Z'
+  :name: Fabrication d'autres produits chimiques n.c.a.
+- :code: '10.51D-Z'
+  :name: Fabrication d'autres produits laitiers
+- :code: '23.99Z-Z'
+  :name: Fabrication d'autres produits minéraux non métalliques n.c.a.
+- :code: '20.14Z-A'
+  :name: Fabrication d'autres produits organiques de base
+- :code: '25.29Z-Z'
+  :name: Fabrication d'autres réservoirs, citernes et conteneurs métalliques
+- :code: '14.19Z-E'
+  :name: Fabrication d'autres vêtements et accessoires
+- :code: '13.92Z-F'
+  :name: Fabrication de bâches, lambrequins et autres articles en textile
+- :code: '23.63Z-Z'
+  :name: Fabrication de béton prêt à l'emploi
+- :code: '10.51B-Z'
+  :name: Fabrication de beurre
+- :code: '11.05Z-Z'
+  :name: Fabrication de bière
+- :code: '10.72Z-Z'
+  :name: Fabrication de biscuits, biscottes et pâtisseries de conservation
+- :code: '32.99Z-A'
+  :name: Fabrication de bougies
+- :code: '23.32Z-A'
+  :name: Fabrication de briques
+- :code: '27.31Z-Z'
+  :name: Fabrication de câbles de fibres optiques
+- :code: '10.82Z-Z'
+  :name: Fabrication de cacao, chocolat et de produits de confiserie
+- :code: '16.24Z-A'
+  :name: Fabrication de caisses et de palettes en bois
+- :code: '20.17Z-Z'
+  :name: Fabrication de caoutchouc synthétique
+- :code: '26.11Z-B'
+  :name: Fabrication de capteurs solaires photovoltaïques
+- :code: '23.31Z-Z'
+  :name: Fabrication de carreaux en céramique
+- :code: '29.20Z-A'
+  :name: Fabrication de carrosseries
+- :code: '26.12Z-Z'
+  :name: Fabrication de cartes électroniques assemblées
+- :code: '17.21A-Z'
+  :name: Fabrication de carton ondulé
+- :code: '17.21B-Z'
+  :name: Fabrication de cartonnages
+- :code: '14.19Z-B'
+  :name: Fabrication de chapellerie
+- :code: '16.23Z-Z'
+  :name: Fabrication de charpentes et d'autres menuiseries
+- :code: '28.21Z-B'
+  :name: Fabrication de chauffages solaires
+- :code: '15.20Z-B'
+  :name: Fabrication de chaussures et de bottes
+- :code: '15.20Z-C'
+  :name: Fabrication de chaussures et de bottes sur mesure
+- :code: '23.52Z-Z'
+  :name: Fabrication de chaux et plâtre.
+- :code: '23.69Z-A'
+  :name: Fabrication de cheminée décoratives
+- :code: '11.03Z-Z'
+  :name: Fabrication de cidre et de vins de fruits
+- :code: '23.51Z-Z'
+  :name: Fabrication de ciment céramiques
+- :code: '25.99B-B'
+  :name: Fabrication de coffres-forts
+- :code: '20.52Z-Z'
+  :name: Fabrication de colles
+- :code: '20.12Z-Z'
+  :name: Fabrication de colorants et de pigments
+- :code: '26.11Z-A'
+  :name: Fabrication de composants électroniques (hors capteurs solaires)
+- :code: '28.13Z-B'
+  :name: Fabrication de compresseurs
+- :code: '10.84Z-Z'
+  :name: Fabrication de condiments et assaisonnements
+- :code: '13.92Z-C'
+  :name: Fabrication de coussins et petits articles textiles divers
+- :code: '25.71Z-Z'
+  :name: Fabrication de coutellerie
+- :code: '13.99Z-A'
+  :name: Fabrication de feutres
+- :code: '20.60Z-Z'
+  :name: Fabrication de fibres artificielles ou synthétiques
+- :code: '23.14Z-Z'
+  :name: Fabrication de fibres de verre
+- :code: '13.94Z-Z'
+  :name: Fabrication de ficelles, cordes et filets
+- :code: '28.21Z-A'
+  :name: Fabrication de fours et brûleurs non solaires
+- :code: '10.51C-Z'
+  :name: Fabrication de fromage
+- :code: '25.91Z-Z'
+  :name: Fabrication de fûts et emballages métalliques similaires
+- :code: '14.13Z-E'
+  :name: Fabrication de gaines, corsets et autres vêtements sur mesure
+- :code: '20.11Z-Z'
+  :name: Fabrication de gaz industriels
+- :code: '25.30Z-A'
+  :name: Fabrication de générateurs de vapeur
+- :code: '10.52Z-Z'
+  :name: Fabrication de glaces et sorbets
+- :code: '27.11Z-C'
+  :name: Fabrication de groupes électrogènes
+- :code: '32.40Z-Z'
+  :name: Fabrication de jeux et jouets
+- :code: '14.39Z-B'
+  :name: Fabrication de lainages à la machine
+- :code: '14.39Z-A'
+  :name: Fabrication de lainages à la main
+- :code: '10.51A-Z'
+  :name: Fabrication de lait liquide et de produits frais
+- :code: '27.40Z-A'
+  :name: Fabrication de lampes
+- :code: '14.19Z-A'
+  :name: Fabrication de layette
+- :code: '13.92Z-A'
+  :name: Fabrication de linge de maison et d'articles d'ameublement
+- :code: '27.40Z-B'
+  :name: Fabrication de luminaires
+- :code: '32.50B-P'
+  :name: Fabrication de lunettes de protection
+- :code: '28.30Z-Z'
+  :name: Fabrication de machines agricoles et forestières
+- :code: '28.23Z-Z'
+  :name: Fabrication de machines de bureau (à l'exception des ordinateurs et équipements périphériques)
+- :code: '28.99A-Z'
+  :name: Fabrication de machines d'imprimerie
+- :code: '28.91Z-Z'
+  :name: Fabrication de machines pour la métallurgie
+- :code: '28.96Z-Z'
+  :name: Fabrication de machines pour le travail du caoutchouc ou des plastiques
+- :code: '28.95Z-Z'
+  :name: Fabrication de machines pour les industries du papier et du carton
+- :code: '28.94Z-Z'
+  :name: Fabrication de machines pour les industries textiles
+- :code: '28.93Z-Z'
+  :name: Fabrication de machines pour l'industrie agro-alimentaire
+- :code: '28.41Z-Z'
+  :name: Fabrication de machines-outils pour le travail des métaux
+- :code: '11.06Z-Z'
+  :name: Fabrication de malt
+- :code: '10.42Z-Z'
+  :name: Fabrication de margarine et graisses comestibles similaires
+- :code: '31.03Z-Z'
+  :name: Fabrication de matelas
+- :code: '27.12Z-Z'
+  :name: Fabrication de matériel de distribution et de commande électrique
+- :code: '27.33Z-Z'
+  :name: Fabrication de matériel d'installation électrique
+- :code: '28.92Z-A'
+  :name: Fabrication de matériels de mines pour l'extraction
+- :code: '28.92Z-B'
+  :name: Fabrication de matériels de travaux publics
+- :code: '29.31Z-Z'
+  :name: Fabrication de matériels électriques et électroniques automobiles
+- :code: '26.70Z-A'
+  :name: Fabrication de matériels photographiques et cinématographiques
+- :code: '20.16Z-Z'
+  :name: Fabrication de matières plastiques de base
+- :code: '31.01Z-Z'
+  :name: Fabrication de meubles de bureau et de magasin
+- :code: '31.02Z-Z'
+  :name: Fabrication de meubles de cuisine
+- :code: '31.09B-B'
+  :name: Fabrication de meubles de jardin et d'extérieur
+- :code: '31.09B-C'
+  :name: Fabrication de meubles en rotin
+- :code: '23.64Z-Z'
+  :name: Fabrication de mortiers et bétons secs
+- :code: '27.11Z-A'
+  :name: Fabrication de moteurs électriques
+- :code: '28.11Z-A'
+  :name: Fabrication de moteurs et turbines, à l'exception des moteurs d'avion et de véhicules
+- :code: '25.73A-Z'
+  :name: Fabrication de moules et modèles ferrures
+- :code: '13.95Z-Z'
+  :name: Fabrication de non-tissés, sauf habillement
+- :code: '17.12Z-Z'
+  :name: Fabrication de papier et de carton
+- :code: '17.24Z-Z'
+  :name: Fabrication de papiers peints
+- :code: '20.42Z-Z'
+  :name: Fabrication de parfums et de produits pour la toilette
+- :code: '16.22Z-Z'
+  :name: Fabrication de parquets assemblés
+- :code: '16.10A-R'
+  :name: Fabrication de parquets, moulures et baguettes
+- :code: '17.11Z-Z'
+  :name: Fabrication de pâte à papier
+- :code: '10.73Z-Z'
+  :name: Fabrication de pâtes alimentaires
+- :code: '20.30Z-Z'
+  :name: Fabrication de peintures, vernis, encres et mastics
+- :code: '20.20Z-Z'
+  :name: Fabrication de pesticides et d'autres produits agrochimiques
+- :code: '25.99B-A'
+  :name: Fabrication de petits articles métalliques
+- :code: '22.29A-Z'
+  :name: Fabrication de pièces techniques à base de matières plastiques
+- :code: '27.20Z-Z'
+  :name: Fabrication de piles et d'accumulateurs électriques
+- :code: '16.21Z-Z'
+  :name: Fabrication de placage et de panneaux de bois
+- :code: '22.21Z-Z'
+  :name: Fabrication de plaques, feuilles, tubes et profilés en matières plastiques
+- :code: '10.85Z-Z'
+  :name: Fabrication de plats préparés
+- :code: '28.13Z-A'
+  :name: Fabrication de pompes
+- :code: '25.12Z-Z'
+  :name: Fabrication de portes et fenêtres en métal
+- :code: '23.91Z-Z'
+  :name: Fabrication de produits abrasifs
+- :code: '10.62Z-Z'
+  :name: Fabrication de produits amylacés
+- :code: '20.15Z-Z'
+  :name: Fabrication de produits azotés et d'engrais
+- :code: '20.14Z-B'
+  :name: Fabrication de produits de la distillation du bois
+- :code: '23.32Z-C'
+  :name: Fabrication de produits divers en terre cuite
+- :code: '26.40Z-Z'
+  :name: Fabrication de produits électroniques grand public
+- :code: '20.51Z-Z'
+  :name: Fabrication de produits explosifs
+- :code: '32.99Z-G'
+  :name: Fabrication de produits manufacturés non classés ailleurs
+- :code: '23.20Z-Z'
+  :name: Fabrication de produits réfractaires
+- :code: '32.50A-A'
+  :name: Fabrication de prothèses dentaires
+- :code: '32.50A-C'
+  :name: Fabrication de prothèses et orthèses diverses
+- :code: '32.50A-B'
+  :name: Fabrication de prothèses et orthèses podales
+- :code: '25.21Z-Z'
+  :name: Fabrication de radiateurs et de chaudières pour le chauffage central
+- :code: '29.20Z-C'
+  :name: Fabrication de remorques et de semi-remorques
+- :code: '25.93Z-B'
+  :name: Fabrication de ressorts
+- :code: '15.20Z-A'
+  :name: Fabrication de sabots
+- :code: '20.41Z-Z'
+  :name: Fabrication de savons, détergents et produits d'entretien
+- :code: '25.72Z-Z'
+  :name: Fabrication de serrures et de ferrures
+- :code: '31.09A-Z'
+  :name: Fabrication de sièges d'ameublement d'intérieur
+- :code: '11.01Z-R'
+  :name: Fabrication de spiritueux
+- :code: '25.11Z-Z'
+  :name: Fabrication de structures métalliques et de parties de structures
+- :code: '21.20Z-P'
+  :name: Fabrication de substances radioactives de diagnostic et de pansements
+- :code: '10.81Z-Z'
+  :name: Fabrication de sucre
+- :code: '26.80Z-Z'
+  :name: Fabrication de supports magnétiques et optiques
+- :code: '13.93Z-Z'
+  :name: Fabrication de tapis et moquettes
+- :code: '13.92Z-B'
+  :name: Fabrication de tapisserie à la main
+- :code: '13.96Z-Z'
+  :name: Fabrication de textiles techniques et industriels
+- :code: '27.11Z-B'
+  :name: Fabrication de transformateurs électriques
+- :code: '24.20Z-Z'
+  :name: Fabrication de tubes, tuyaux, profilés creux et accessoires correspondants en acier
+- :code: '23.32Z-B'
+  :name: Fabrication de tuiles
+- :code: '13.99Z-B'
+  :name: Fabrication de tulles, lacets et autres textiles n.c.a.
+- :code: '28.11Z-B'
+  :name: Fabrication de turbines éoliennes
+- :code: '30.92Z-C'
+  :name: Fabrication de véhicules pour invalides et enfants
+- :code: '23.13Z-A'
+  :name: Fabrication de verre creux ou autres verres
+- :code: '23.11Z-Z'
+  :name: Fabrication de verre plat
+- :code: '14.14Z-Z'
+  :name: Fabrication de vêtements de dessous
+- :code: '14.13Z-G'
+  :name: Fabrication de vêtements de dessus pour femmes et fillettes
+- :code: '14.13Z-F'
+  :name: Fabrication de vêtements de dessus pour hommes et garçonnets
+- :code: '14.12Z-Z'
+  :name: Fabrication de vêtements de travail
+- :code: '14.11Z-Z'
+  :name: Fabrication de vêtements en cuir
+- :code: '14.13Z-B'
+  :name: Fabrication de vêtements féminins sur mesure
+- :code: '14.13Z-C'
+  :name: Fabrication de vêtements masculins sur mesure
+- :code: '11.02A-P'
+  :name: Fabrication de vins effervescents selon la méthode champenoise ou autres méthodes
+- :code: '25.94Z-Z'
+  :name: Fabrication de vis et de boulons
+- :code: '23.19Z-A'
+  :name: Fabrication de vitraux
+- :code: '14.19Z-D'
+  :name: Fabrication d'écharpes, cravates, foulards
+- :code: '21.10Z-P'
+  :name: Fabrication d'édulcorants de synthèse
+- :code: '23.69Z-B'
+  :name: Fabrication d'éléments décoratifs en béton ou en plâtre
+- :code: '22.29B-Z'
+  :name: Fabrication d'éléments divers en matières plastiques
+- :code: '23.61Z-Z'
+  :name: Fabrication d'éléments en béton pour la construction
+- :code: '22.23Z-Z'
+  :name: Fabrication d'éléments en matières plastiques pour la construction
+- :code: '23.62Z-Z'
+  :name: Fabrication d'éléments en plâtre pour la construction
+- :code: '22.22Z-Z'
+  :name: Fabrication d'emballages en matières plastiques
+- :code: '17.21C-Z'
+  :name: Fabrication d'emballages en papier
+- :code: '25.92Z-Z'
+  :name: Fabrication d'emballages métalliques légers
+- :code: '28.15Z-Z'
+  :name: Fabrication d'engrenages et d'organes mécaniques de transmission
+- :code: '28.25Z-C'
+  :name: Fabrication d'équipements aérauliques
+- :code: '26.51A-Z'
+  :name: Fabrication d'équipements d'aide à la navigation
+- :code: '26.30Z-Z'
+  :name: Fabrication d'équipements de communication
+- :code: '28.22Z-B'
+  :name: Fabrication d'équipements de levage et de manutention
+- :code: '32.99Z-F'
+  :name: Fabrication d'équipements de protection et de sécurité
+- :code: '28.25Z-A'
+  :name: Fabrication de capteur solaire à effet de serre
+- :code: '28.25Z-B'
+  :name: Fabrication d'équipements de réfrigération industrielle
+- :code: '28.29A-A'
+  :name: Fabrication d'équipements d'emballage et de conditionnement
+- :code: '26.60Z-Z'
+  :name: Fabrication d'équipements d'irradiation médicale, d'équipements électromédicaux et électrothérapeutiques
+- :code: '28.12Z-Z'
+  :name: Fabrication d'équipements hydrauliques et pneumatiques
+- :code: '32.50A-D'
+  :name: Fabrication d'équipements médico-chirurgicaux
+- :code: '30.92Z-B'
+  :name: Fabrication d'équipements pour bicyclettes
+- :code: '30.91Z-B'
+  :name: Fabrication d'équipements pour motocycles
+- :code: '13.91Z-Z'
+  :name: Fabrication d'étoffes à mailles
+- :code: '20.53Z-Z'
+  :name: Fabrication d'huiles essentielles
+- :code: '10.41A-Z'
+  :name: Fabrication d'huiles et graisses brutes
+- :code: '10.41B-Z'
+  :name: Fabrication d'huiles et graisses raffinées
+- :code: '26.51B-Z'
+  :name: Fabrication d'instrumentation scientifique et technique
+- :code: '26.70Z-B'
+  :name: Fabrication d'instruments d'optique
+- :code: '23.43Z-Z'
+  :name: Fabrication d'isolateurs et pièces isolantes en céramique
+- :code: '16.29Z-A'
+  :name: Fabrication d'objets divers en bois
+- :code: '16.29Z-C'
+  :name: Fabrication d'objets en liège
+- :code: '26.20Z-Z'
+  :name: Fabrication d'ordinateurs et d'autres équipements informatiques
+- :code: '25.73B-A'
+  :name: Fabrication d'outillage à main
+- :code: '25.73B-B'
+  :name: Fabrication d'outillage mécanique
+- :code: '28.24Z-Z'
+  :name: Fabrication d'outillage portatif à moteur incorporé
+- :code: '23.65Z-Z'
+  :name: Fabrication d'ouvrages en fibre-ciment
+- :code: '31.09B-A'
+  :name: Fabrication et finissage de meubles divers
+- :code: '22.11Z-Z'
+  :name: Fabrication et rechapage de pneumatiques
+- :code: '10.71A-A'
+  :name: Fabrication industrielle de pain
+- :code: '10.71A-B'
+  :name: Fabrication industrielle de pâtisserie fraîche
+- :code: '23.13Z-C'
+  :name: Façonnage de verre et de cristal
+- :code: '23.12Z-Z'
+  :name: Façonnage et transformation du verre plat
+- :code: '32.20Z-B'
+  :name: Facteur d'orgues
+- :code: '13.10Z-A'
+  :name: Filature et préparation de la laine
+- :code: '24.52Z-Z'
+  :name: Fonderie d'acier
+- :code: '24.54Z-Z'
+  :name: Fonderie d'autres métaux non ferreux
+- :code: '24.51Z-Z'
+  :name: Fonderie de fonte
+- :code: '24.53Z-Z'
+  :name: Fonderie de métaux légers
+- :code: '42.21Z-B'
+  :name: Forage des puits d'eau
+- :code: '43.13Z-Z'
+  :name: Forages et sondages
+- :code: '25.50A-Z'
+  :name: Forge, estampage, matriçage, métallurgie des poudres
+- :code: '32.11Z-Z'
+  :name: Frappe de monnaies
+- :code: '15.12Z-B'
+  :name: Gainerie
+- :code: '18.13Z-B'
+  :name: Graphisme-décoration
+- :code: '26.52Z-Z'
+  :name: Horlogerie
+- :code: '16.10B-Z'
+  :name: Imprégnation du bois
+- :code: '18.12Z-A'
+  :name: Imprimerie de labeur
+- :code: '38.21Z-P'
+  :name: Incinération des déchets non dangereux et production de cendres et scories associée
+- :code: '11.07A-Z'
+  :name: Industrie des eaux de table
+- :code: '43.21A-A'
+  :name: Installation d'antennes
+- :code: '43.29B-A'
+  :name: Installation d'ascenseurs
+- :code: '43.22B-B'
+  :name: Installation de chauffage individuel
+- :code: '33.20B-Z'
+  :name: Installation de machines et équipements mécaniques
+- :code: '43.99D-A'
+  :name: Installation de piscines de résidence et construction de piscines extérieures
+- :code: '43.32B-A'
+  :name: Installation de serres et de vérandas
+- :code: '43.29B-C'
+  :name: Installation de stores et bannes
+- :code: '33.20A-Z'
+  :name: Installation de structures métalliques, chaudronnées et de tuyauterie
+- :code: '33.20D-Z'
+  :name: Installation d'équipements électriques, de matériels électroniques et optiques ou d'autres matériels
+- :code: '43.21A-B'
+  :name: Installation électrique
+- :code: '43.22B-A'
+  :name: Installation et entretien de climatisation et chaufferie
+- :code: '74.20Z-T'
+  :name: Laboratoires techniques de développement et de tirage
+- :code: '24.32Z-Z'
+  :name: Laminage à froid de feuillards
+- :code: '96.01B-Q'
+  :name: Laveries, blanchisseries et teintureries de détail
+- :code: '43.99E-Z'
+  :name: Location avec opérateur de matériel de construction
+- :code: '49.32Z-B'
+  :name: Location de voitures avec chauffeur
+- :code: '32.20Z-A'
+  :name: Lutherie
+- :code: '01.62Z-P'
+  :name: Maréchalerie
+- :code: '25.62B-Z'
+  :name: Mécanique industrielle
+- :code: '43.32A-A'
+  :name: Menuiserie bois
+- :code: '43.32A-B'
+  :name: Menuiserie PVC
+- :code: '43.32B-B'
+  :name: Métallerie, serrurerie
+- :code: '24.45Z-Z'
+  :name: Métallurgie des autres métaux non ferreux
+- :code: '24.44Z-Z'
+  :name: Métallurgie du cuivre
+- :code: '24.43Z-Z'
+  :name: Métallurgie du plomb, du zinc ou de l'étain
+- :code: '10.61A-Z'
+  :name: Meunerie
+- :code: '14.13Z-A'
+  :name: Modéliste-styliste
+- :code: '14.19Z-C'
+  :name: Modiste
+- :code: '43.29B-B'
+  :name: Montage de clôtures et de grilles
+- :code: '13.10Z-B'
+  :name: Moulinage et texturation de la soie et des textiles artificiels ou synthétiques
+- :code: '81.21Z-Z'
+  :name: Nettoyage courant des bâtiments
+- :code: '07.29Z-P'
+  :name: Orpaillage
+- :code: '10.71D-Z'
+  :name: Pâtisserie
+- :code: '74.20Z-S'
+  :name: Photographie industrielle et publicitaire
+- :code: '74.20Z-R'
+  :name: Portrait, reportage
+- :code: '73.11Z-P'
+  :name: Pose d'affiches
+- :code: '42.11Z-A'
+  :name: Pose de signalisation routière verticale
+- :code: '24.42Z-B'
+  :name: Première transformation de l'aluminium
+- :code: '10.32Z-Z'
+  :name: Préparation de jus de fruits et légumes
+- :code: '47.23Z-P'
+  :name: Préparation de poissons, crustacés et mollusques
+- :code: '47.81Z-V'
+  :name: Préparation de poissons, crustacés, mollusques sur éventaires, marchés
+- :code: '13.10Z-C'
+  :name: Préparation et filature d'autres fibres
+- :code: '10.13A-Z'
+  :name: Préparation industrielle de produits à base de viande
+- :code: '96.01B-R'
+  :name: Pressings
+- :code: '24.42Z-A'
+  :name: Production d'aluminium
+- :code: '11.04Z-Z'
+  :name: Production d'autres boissons fermentées non distillées
+- :code: '11.07B-Z'
+  :name: Production de boissons rafraîchissantes
+- :code: '19.10Z-P'
+  :name: Production de brai et de coke de brai
+- :code: '24.41Z-Z'
+  :name: Production de métaux précieux
+- :code: '08.93Z-Z'
+  :name: Production de sel
+- :code: '11.01Z-Q'
+  :name: Production d'eaux de vie naturelles
+- :code: '24.33Z-Z'
+  :name: Profilage à froid par formage ou pliage
+- :code: '41.20B-B'
+  :name: Réhabilitation de bâtiments
+- :code: '18.14Z-Z'
+  :name: Reliure et activités connexes
+- :code: '45.20B-D'
+  :name: "Réparation automobile d'autres véhicules automobiles: carrosserie"
+- :code: '45.20B-C'
+  :name: "Réparation automobile d'autres véhicules automobiles: diesel"
+- :code: '45.20B-E'
+  :name: "Réparation automobile d'autres véhicules automobiles: électricité, électronique"
+- :code: '45.20B-A'
+  :name: "Réparation automobile d'autres véhicules automobiles: entretien courant"
+- :code: '45.20B-B'
+  :name: "Réparation automobile d'autres véhicules automobiles: mécanique"
+- :code: '45.20A-C'
+  :name: "Réparation automobile de véhicules automobiles légers: carrosserie"
+- :code: '45.20A-D'
+  :name: "Réparation automobile de véhicules automobiles légers: électricité, électronique"
+- :code: '45.20A-A'
+  :name: "Réparation automobile de véhicules automobiles légers: entretien courant"
+- :code: '45.20A-B'
+  :name: "Réparation automobile de véhicules automobiles légers: mécanique"
+- :code: '95.22Z-B'
+  :name: Réparation d'appareils électroménagers
+- :code: '95.29Z-D'
+  :name: Réparation d'articles de sport et de campement
+- :code: '95.25Z-Z'
+  :name: Réparation d'articles d'horlogerie et de bijouterie
+- :code: '33.19Z-Z'
+  :name: Réparation d'autres équipements
+- :code: '33.12Z-B'
+  :name: Réparation d'autres machines
+- :code: '95.23Z-Z'
+  :name: Réparation de chaussures et d'articles en cuir
+- :code: '95.29Z-B'
+  :name: Réparation de cycles
+- :code: '33.12Z-A'
+  :name: Réparation de matériel agricole
+- :code: '33.13Z-Z'
+  :name: Réparation de matériels électroniques et optiques
+- :code: '95.24Z-Z'
+  :name: Réparation de meubles et d'équipements du foyer
+- :code: '45.40Z-P'
+  :name: Réparation de motocycles
+- :code: '95.21Z-Z'
+  :name: Réparation de produits électroniques grand public
+- :code: '95.22Z-A'
+  :name: Réparation de tondeuses à gazon
+- :code: '95.12Z-Z'
+  :name: Réparation d'équipements de communication
+- :code: '33.14Z-Z'
+  :name: Réparation d'équipements électriques
+- :code: '95.11Z-Z'
+  :name: Réparation d'ordinateurs et d'équipements périphériques
+- :code: '33.11Z-Z'
+  :name: Réparation d'ouvrages en métaux
+- :code: '33.16Z-Z'
+  :name: Réparation et maintenance d'aéronefs et d'engins spatiaux
+- :code: '33.17Z-Z'
+  :name: Réparation et maintenance d'autres équipements de transport
+- :code: '33.15Z-Z'
+  :name: Réparation et maintenance navale
+- :code: '95.29Z-F'
+  :name: Réparation non classées ailleurs
+- :code: '18.20Z-Z'
+  :name: Reproduction d'enregistrements
+- :code: '90.03A-P'
+  :name: Restauration d'objets d'art
+- :code: '16.10A-Q'
+  :name: Sciage et rabotage du bois
+- :code: '15.12Z-C'
+  :name: Sellerie
+- :code: '18.12Z-B'
+  :name: Sérigraphie de type imprimerie
+- :code: '25.61Z-A'
+  :name: Sérigraphie de type marquage
+- :code: '82.11Z-P'
+  :name: Services administratifs divers
+- :code: '49.42Z-Z'
+  :name: Services de déménagement
+- :code: '24.10Z-Z'
+  :name: Sidérurgie
+- :code: '96.02B-A'
+  :name: Soins de beauté en salon
+- :code: '96.02B-B'
+  :name: Soins de beauté hors salon
+- :code: '23.13Z-B'
+  :name: Soufflage de verre
+- :code: '90.01Z-P'
+  :name: Spectacles de marionnettes
+- :code: '74.20Z-Q'
+  :name: Studio de photographie
+- :code: '23.70Z-Z'
+  :name: Taille, façonnage et finissage de pierres
+- :code: '32.99Z-E'
+  :name: Taxidermie
+- :code: '49.32Z-A'
+  :name: Taxis
+- :code: '43.12B-A'
+  :name: Terrassements
+- :code: '13.20Z-D'
+  :name: Tissage d'autres textiles
+- :code: '13.20Z-A'
+  :name: Tissage de l'industrie cotonnière
+- :code: '13.20Z-B'
+  :name: Tissage de l'industrie lainière
+- :code: '13.20Z-C'
+  :name: Tissage de soieries
+- :code: '96.09Z-P'
+  :name: Toilettage d'animaux de compagnie
+- :code: '16.24Z-B'
+  :name: Tonnellerie
+- :code: '38.32Z-A'
+  :name: Traitement de matières métalliques recyclables
+- :code: '38.32Z-B'
+  :name: Traitement de matières non métalliques recyclables
+- :code: '38.22Z-P'
+  :name: Traitement et élimination de déchets nucléaires radioactifs
+- :code: '25.61Z-B'
+  :name: Traitement et revêtement des métaux
+- :code: '10.83Z-Z'
+  :name: Transformation du thé et du café
+- :code: '10.39B-P'
+  :name: Transformation et conservation de fruits
+- :code: '10.11Z-Z'
+  :name: Transformation et conservation de la viande de boucherie
+- :code: '10.12Z-Z'
+  :name: Transformation et conservation de la viande de volaille
+- :code: '10.20Z-Z'
+  :name: Transformation et conservation de poisson, de crustacés et de mollusques
+- :code: '10.31Z-Z'
+  :name: Transformation et conservation de pommes de terre
+- :code: '30.11Z-B'
+  :name: Transformation et équipement des navires
+- :code: '82.19Z-P'
+  :name: Travaux à façon divers
+- :code: '43.91A-Z'
+  :name: Travaux de charpente
+- :code: '43.91B-Z'
+  :name: Travaux de couverture par éléments
+- :code: '43.11Z-Z'
+  :name: Travaux de démolition
+- :code: '43.99C-Z'
+  :name: Travaux de maçonnerie générale et gros œuvre de bâtiment
+- :code: '43.34Z-A'
+  :name: Travaux de miroiterie de bâtiment, vitrerie
+- :code: '43.99B-Z'
+  :name: Travaux de montage de structures métalliques
+- :code: '43.34Z-D'
+  :name: Travaux de peinture en lettres sur bâtiments
+- :code: '43.34Z-B'
+  :name: Travaux de peinture extérieure
+- :code: '43.34Z-C'
+  :name: Travaux de peinture intérieure et peinture plâtrerie
+- :code: '43.31Z-A'
+  :name: Travaux de plâtrerie d'extérieur
+- :code: '43.31Z-B'
+  :name: Travaux de plâtrerie d'intérieur
+- :code: '18.13Z-A'
+  :name: Travaux de préparation d'impression
+- :code: '43.33Z-Z'
+  :name: Travaux de revêtement des sols et des murs
+- :code: '43.12A-Z'
+  :name: Travaux de terrassement courants et travaux préparatoires
+- :code: '43.99A-Z'
+  :name: Travaux d'étanchéification
+- :code: '43.22A-Z'
+  :name: Travaux d'installation d'eau et de gaz en tous locaux
+- :code: '43.21B-Z'
+  :name: Travaux d'installation électrique sur la voie publique
+- :code: '43.29A-Z'
+  :name: Travaux d'isolation
+- :code: '24.34Z-Z'
+  :name: Tréfilage à froid
+- :code: '47.22Z-E'
+  :name: Triperie
+- :code: '47.81Z-U'
+  :name: Triperie sur éventaires et marchés
+- :code: '16.29Z-B'
+  :name: Vannerie, sparterie, travail de la paille
+- :code: '13.92Z-D'
+  :name: Voilerie
+- :code: '47.22Z-D'
+  :name: Volailles, gibiers
+- :code: '47.81Z-T'
+  :name: Volailles, gibiers  sur éventaires et marchés
+- :code: '47.29Z-P'
+  :name: Crèmerie-fromagerie et préparations à base de lait ou de fromage
+- :code: '47.81Z-W'
+  :name: Crèmerie-fromagerie et préparations à base de lait ou de fromage sur éventaires, marchés
+- :code: '56.10A-P'
+  :name: Fabrication culinaire artisanale de plats à consommer sur place

@@ -1,0 +1,193 @@
+{
+  "all_attributes": {
+    "incorporationState": "NSW",
+    "is_registered": "false",
+    "messageType": "getNni",
+    "messageVersion": "3",
+    "numberHeading": "ACN",
+    "previousStateTerritory": {
+      "number": "00008221",
+      "stateTerritoryCode": "NSW"
+    },
+    "regulator": "Australian Securities & Investments Commission",
+    "status_code": "DRGD",
+    "types_class_code": "LMSH",
+    "types_code": "APUB"
+  },
+  "branch": null,
+  "company_number": "000000199",
+  "company_type": "Australian Public Company, Limited By Shares",
+  "current_status": "Deregistered",
+  "dissolution_date": "1979-04-06",
+  "filings": [
+    {
+      "date": "2009-11-20",
+      "filing_type_code": "9204",
+      "filing_type_name": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "other_attributes": {
+        "numberOfPages": "13"
+      },
+      "title": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "uid": "025696006"
+    },
+    {
+      "date": "2009-11-20",
+      "filing_type_code": "9204",
+      "filing_type_name": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "other_attributes": {
+        "numberOfPages": "45"
+      },
+      "title": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "uid": "025696001"
+    },
+    {
+      "date": "2009-11-20",
+      "filing_type_code": "9204",
+      "filing_type_name": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "other_attributes": {
+        "numberOfPages": "45"
+      },
+      "title": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "uid": "025696005"
+    },
+    {
+      "date": "2009-11-20",
+      "filing_type_code": "9204",
+      "filing_type_name": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "other_attributes": {
+        "numberOfPages": "46"
+      },
+      "title": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "uid": "025691997"
+    },
+    {
+      "date": "2009-11-20",
+      "filing_type_code": "9204",
+      "filing_type_name": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "other_attributes": {
+        "numberOfPages": "46"
+      },
+      "title": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "uid": "025691999"
+    },
+    {
+      "date": "2009-11-20",
+      "filing_type_code": "9204",
+      "filing_type_name": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "other_attributes": {
+        "numberOfPages": "46"
+      },
+      "title": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "uid": "025696002"
+    },
+    {
+      "date": "2009-11-20",
+      "filing_type_code": "9204",
+      "filing_type_name": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "other_attributes": {
+        "numberOfPages": "46"
+      },
+      "title": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "uid": "025696004"
+    },
+    {
+      "date": "2009-11-20",
+      "filing_type_code": "9204",
+      "filing_type_name": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "other_attributes": {
+        "numberOfPages": "47"
+      },
+      "title": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "uid": "025696003"
+    },
+    {
+      "date": "2009-11-20",
+      "filing_type_code": "9204",
+      "filing_type_name": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "other_attributes": {
+        "numberOfPages": "48"
+      },
+      "title": "PRE 1991 MEMORANDUM AND ARTICLES",
+      "uid": "025691998"
+    },
+    {
+      "date": "2009-11-20",
+      "filing_type_code": "9205",
+      "filing_type_name": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS",
+      "other_attributes": {
+        "numberOfPages": "18"
+      },
+      "title": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS",
+      "uid": "025696009"
+    },
+    {
+      "date": "2009-11-20",
+      "filing_type_code": "9205",
+      "filing_type_name": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS",
+      "other_attributes": {
+        "numberOfPages": "19"
+      },
+      "title": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS",
+      "uid": "025696008"
+    },
+    {
+      "date": "2009-11-20",
+      "filing_type_code": "9205",
+      "filing_type_name": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS",
+      "other_attributes": {
+        "numberOfPages": "43"
+      },
+      "title": "PRE 1991 REGD OFFICE/PLACE OF BUSINESS, AGENT,OFFICEHOLDERS",
+      "uid": "025696007"
+    },
+    {
+      "date": "2009-11-20",
+      "filing_type_code": "9206",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "other_attributes": {
+        "numberOfPages": "23"
+      },
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "uid": "025696013"
+    },
+    {
+      "date": "2009-11-20",
+      "filing_type_code": "9206",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "other_attributes": {
+        "numberOfPages": "43"
+      },
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "uid": "025696012"
+    },
+    {
+      "date": "2009-11-20",
+      "filing_type_code": "9206",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "other_attributes": {
+        "numberOfPages": "44"
+      },
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "uid": "025696011"
+    },
+    {
+      "date": "2009-11-20",
+      "filing_type_code": "9206",
+      "filing_type_name": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "other_attributes": {
+        "numberOfPages": "45"
+      },
+      "title": "PRE 1991 ANNUAL RETURN AND OTHER DOCUMENTS",
+      "uid": "025696010"
+    }
+  ],
+  "incorporation_date": "",
+  "jurisdiction_code": "au",
+  "name": "GOODE DURRANT & MURRAY GROUP LTD",
+  "previous_names": [
+    {
+      "company_name": "D. & W. MURRAY LTD"
+    }
+  ],
+  "retrieved_at": "2020-04-23T12:47:43Z"
+}

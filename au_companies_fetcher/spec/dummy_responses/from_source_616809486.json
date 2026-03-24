@@ -1,0 +1,103 @@
+{
+  "Envelope": {
+    "xmlns:env": "http://www.w3.org/2003/05/soap-envelope",
+    "Body": {
+      "reply": {
+        "xmlns:types": "uri:types.asic.gov.au",
+        "xmlns:nni.types": "uri:nni.types.asic.gov.au",
+        "xmlns:external.get.nni": "uri:v3.external.get.nni.asic.gov.au",
+        "xmlns:business.document.header.types": "uri:business.document.header.types.asic.gov.au",
+        "xmlns:bn.types": "uri:bn.types.asic.gov.au",
+        "xmlns:ascot.types": "uri:ascot.types.asic.gov.au",
+        "xmlns:abn.types": "uri:abn.types.asic.gov.au",
+        "businessDocumentHeader": {
+          "messageType": "getNni",
+          "messageReferenceNumber": "ABC",
+          "asicReferenceNumber": "c170fa83-754c-487d-bdac-3d5945f60d60",
+          "messageVersion": "3",
+          "senderId": "ASIC",
+          "senderType": "GOVT",
+          "softwareInformation": {
+            "organisationalName": "ASIC",
+            "productName": "Business Names",
+            "productVersion": "1"
+          },
+          "messageTimestamps": {
+            "messageTimestamp": {
+              "timestamp": "2017-03-22T02:32:33",
+              "source": "ASIC"
+            }
+          },
+          "result": {
+            "accepted": "true"
+          }
+        },
+        "businessDocumentBody": {
+          "nniEntity": {
+            "identifier": {
+              "numberHeading": "ARBN",
+              "number": "616809486"
+            },
+            "name": {
+              "name": "BALU BLUE FOUNDATION INCORPORATED"
+            },
+            "type": {
+              "code": "RACN",
+              "description": "Registered Australian Body"
+            },
+            "class": {
+              "code": "NONE",
+              "description": "Does Not Have An Equivalent Australian Liability"
+            },
+            "subClass": {
+              "code": "RACA",
+              "description": "Registrable Australian Corporation - Association"
+            },
+            "status": {
+              "code": "REGD",
+              "description": "Registered",
+              "isRegistered": "true"
+            },
+            "incorporationState": "SA",
+            "dateRegistered": "2017-02-02",
+            "jurisdiction": "Australian Securities & Investments Commission",
+            "address": {
+              "type": "RP",
+              "addressLine": "RESTRICTED",
+              "iso3166CountryCode": "AU",
+              "locality": "PORT LINCOLN",
+              "postCode": "5606",
+              "state": "SA"
+            },
+            "recentDocument": [
+              {
+                "documentNumber": "029965220",
+                "dateReceived": "2017-01-13",
+                "formCode": "412",
+                "numberOfPages": "8",
+                "description": "CERT COPY CONSTITUTION (RAC)"
+              },
+              {
+                "documentNumber": "029814881",
+                "dateReceived": "2017-01-13",
+                "formCode": "401",
+                "numberOfPages": "5",
+                "description": "APPLICATION FOR REGISTRATION AS REGISTRABLE AUSTRALIAN BODY",
+                "additionalDescription": {
+                  "subformCode": "401B",
+                  "subformDescription": "ASSOCIATION"
+                }
+              }
+            ],
+            "abrEntity": {
+              "abn": "69616809486",
+              "entityName": "BALU BLUE FOUNDATION INCORPORATED",
+              "entityType": "OIE",
+              "effectiveDate": "2017-02-14"
+            }
+          }
+        }
+      }
+    }
+  }
+}
