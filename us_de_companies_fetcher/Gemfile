@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'awesome_print'
+gem 'rspec'
+gem 'openc_bot', git: 'https://github.com/openc/openc_bot.git', submodules: true
+gem 'openc_industry_codes', :git => 'git@github.com:openc/openc_industry_codes.git'
+gem 'net-sftp'
+gem 'ed25519', '>= 1.2', '< 2.0'
+gem 'bcrypt_pbkdf', '>= 1.0', '< 2.0'

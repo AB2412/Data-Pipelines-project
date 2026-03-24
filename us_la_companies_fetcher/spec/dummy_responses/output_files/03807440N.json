@@ -1,0 +1,42 @@
+{
+  "all_attributes": {
+    "File Date": "10/8/1968",
+    "Inactive Reason": "Action by Secretary of State",
+    "domicile_address": "N. O. LAKEFRONT, NEW ORLEANS, LA 70112",
+    "is_unmatched_legacy_company": false
+  },
+  "company_number": "03807440N",
+  "company_type": "Non-Profit Corporation",
+  "current_status": "Inactive - Action by Secretary of State",
+  "filings": [
+    {
+      "date": "1998-02-18",
+      "title": "Revoked"
+    }
+  ],
+  "headquarters_address": null,
+  "incorporation_date": "1968-10-08",
+  "jurisdiction_code": "us_la",
+  "mailing_address": "N. O. LAKEFRONT, NEW ORLEANS, LA 70112",
+  "name": "LSUNO RELIGIOUS COUNCIL, INCORPORATED",
+  "officers": [
+    {
+      "name": "DR. JOHN A. REINECKE",
+      "other_attributes": {
+        "address": "113 EDUCATION & BUS, NEW ORLEANS, LA 70112"
+      },
+      "position": "agent",
+      "start_date": "1968-10-08"
+    },
+    {
+      "name": "MRS. MARTHA D. WICKETT",
+      "other_attributes": {
+        "address": "262 UNIV. CENTER, NEW ORLEANS, LA 70112"
+      },
+      "position": "agent",
+      "start_date": "1968-10-08"
+    }
+  ],
+  "registered_address": null,
+  "retrieved_at": "2020-04-23 13:16:06 UTC"
+}

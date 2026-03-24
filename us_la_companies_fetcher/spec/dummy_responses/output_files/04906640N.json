@@ -1,0 +1,63 @@
+{
+  "all_attributes": {
+    "File Date": "6/1/1979",
+    "Inactive Reason": "Action by Secretary of State",
+    "domicile_address": "RT. 5, BOX 351, BASTROP, LA 71220",
+    "is_unmatched_legacy_company": false
+  },
+  "company_number": "04906640N",
+  "company_type": "Non-Profit Corporation",
+  "current_status": "Inactive - Action by Secretary of State",
+  "filings": [
+    {
+      "date": "1998-08-18",
+      "title": "Revoked"
+    }
+  ],
+  "headquarters_address": null,
+  "incorporation_date": "1979-06-01",
+  "jurisdiction_code": "us_la",
+  "mailing_address": "RT. 5, BOX 351, BASTROP, LA 71220",
+  "name": "MOREHOUSE CHRISTIAN ACADEMY",
+  "officers": [
+    {
+      "name": "BERNICE CROOK",
+      "other_attributes": {
+        "address": "603 GORDON, BASTROP, LA 71220"
+      },
+      "position": "Director"
+    },
+    {
+      "name": "LEONARD ANTHONY",
+      "other_attributes": {
+        "address": "RT. 5, BOX 351, BASTROP, LA 71220"
+      },
+      "position": "Director"
+    },
+    {
+      "name": "LEONARD ANTHONY",
+      "other_attributes": {
+        "address": "RT. 5, BOX 351, BASTROP, LA 71220"
+      },
+      "position": "agent",
+      "start_date": "1979-06-01"
+    },
+    {
+      "name": "RON CLAUSING",
+      "other_attributes": {
+        "address": "1130 HUEY, BASTROP, LA 71220"
+      },
+      "position": "Director"
+    },
+    {
+      "name": "TINA BABB",
+      "other_attributes": {
+        "address": "1000 EAST HICKORY, BASTROP, LA 71220"
+      },
+      "position": "agent",
+      "start_date": "1979-06-01"
+    }
+  ],
+  "registered_address": null,
+  "retrieved_at": "2020-04-23 13:16:24 UTC"
+}

@@ -1,0 +1,77 @@
+{
+  "all_attributes": {
+    "Inactive Reason": "WITHDREW",
+    "Qualified": "9/10/1971",
+    "domicile_address": "4800 WEST 34TH STREET, HOUSTON, TX 77035",
+    "is_unmatched_legacy_company": false,
+    "jurisdiction_of_origin": "tx"
+  },
+  "branch": "F",
+  "company_number": "29530900F",
+  "company_type": "Business Corporation (Non-Louisiana)",
+  "current_status": "Inactive - WITHDREW",
+  "filings": [
+    {
+      "date": "1975-05-12",
+      "title": "Stmt of Chg or Chg Prin Bus Off"
+    },
+    {
+      "date": "1976-05-04",
+      "title": "Withdrawal Pending"
+    },
+    {
+      "date": "1985-02-22",
+      "title": "Stmt of Chg or Chg Prin Bus Off"
+    },
+    {
+      "date": "1986-04-01",
+      "title": "Stmt of Chg or Chg Prin Bus Off"
+    },
+    {
+      "date": "1993-02-01",
+      "title": "Stmt of Chg or Chg Prin Bus Off"
+    },
+    {
+      "date": "1997-09-03",
+      "title": "Withdrawal"
+    }
+  ],
+  "headquarters_address": "4800 WEST 34TH ST.\nHOUSTON, TX 77018",
+  "incorporation_date": "1971-09-10",
+  "jurisdiction_code": "us_la",
+  "mailing_address": "4800 WEST 34TH ST., HOUSTON, TX 77018",
+  "name": "COMPRESSION EQUIPMENT LEASING CORPORATION",
+  "officers": [
+    {
+      "name": "HYDROTECH INTERNATIONAL INC.",
+      "other_attributes": {
+        "address": "4800 W. 34TH ST., HOUSTON, TX 77092"
+      },
+      "position": "agent",
+      "start_date": "1997-09-03"
+    },
+    {
+      "name": "JAMES R. ARNOLD",
+      "other_attributes": {
+        "address": "P.O. BOX 55364, HOUSTON, TX 77055"
+      },
+      "position": "Secretary"
+    },
+    {
+      "name": "JERRY D. DUMAS",
+      "other_attributes": {
+        "address": "P.O. BOX 55364, HOUSTON, TX 77055"
+      },
+      "position": "Executive Vice-President"
+    },
+    {
+      "name": "WILLIAM E. WHITE, JR.",
+      "other_attributes": {
+        "address": "P.O. BOX 55364, HOUSTON, TX 77055"
+      },
+      "position": "President"
+    }
+  ],
+  "registered_address": "8550 UNITED PLAZA BLVD.\nBATON ROUGE, LA 70809",
+  "retrieved_at": "2020-04-23 13:18:07 UTC"
+}

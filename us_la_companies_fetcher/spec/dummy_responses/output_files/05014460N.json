@@ -1,0 +1,95 @@
+{
+  "all_attributes": {
+    "File Date": "10/20/1980",
+    "Inactive Reason": "Action by Secretary of State",
+    "Last Report Filed": "5/18/2004",
+    "domicile_address": "4440 MAGNOLIA ST., SUITE 416, NEW ORLEANS, LA 70115",
+    "is_unmatched_legacy_company": false
+  },
+  "company_number": "05014460N",
+  "company_type": "Non-Profit Corporation",
+  "current_status": "Inactive - Action by Secretary of State",
+  "filings": [
+    {
+      "date": "1998-02-18",
+      "title": "Revoked"
+    },
+    {
+      "date": "2000-04-18",
+      "title": "Name Change"
+    },
+    {
+      "date": "2000-04-18",
+      "title": "Reinstatement"
+    },
+    {
+      "date": "2007-02-15",
+      "title": "Revoked"
+    }
+  ],
+  "headquarters_address": null,
+  "incorporation_date": "1980-10-20",
+  "jurisdiction_code": "us_la",
+  "mailing_address": "4440 MAGNOLIA ST., SUITE 416, NEW ORLEANS, LA 70115",
+  "name": "CITIZENS CARE: ADVOCATE FOR QUALITY AND CHOICE IN LONG-TERM CARE",
+  "officers": [
+    {
+      "name": "ALICE LOWERY",
+      "other_attributes": {
+        "address": "46 TERN, NEW ORLEANS, LA 70124"
+      },
+      "position": "agent",
+      "start_date": "2000-04-18"
+    },
+    {
+      "name": "DIANNE BOAZMAN",
+      "other_attributes": {
+        "address": "1016 ST. JULIEN DR., UNIT 204, KENNER, LA 70065"
+      },
+      "position": "Director"
+    },
+    {
+      "name": "DIANNE BOAZMAN",
+      "other_attributes": {
+        "address": "1016 ST. JULIEN DR., UNIT 204, KENNER, LA 70065"
+      },
+      "position": "President"
+    },
+    {
+      "name": "DORI WHITE",
+      "other_attributes": {
+        "address": "7060 READ LN, STE. 200, NEW ORLEANS, LA 70127"
+      },
+      "position": "Director"
+    },
+    {
+      "name": "DORI WHITE",
+      "other_attributes": {
+        "address": "7060 READ LN, STE. 200, NEW ORLEANS, LA 70127"
+      },
+      "position": "Treasurer"
+    },
+    {
+      "name": "NORMA BORDELON",
+      "other_attributes": {
+        "address": "1321 EIGHTH ST., NEW ORLEANS, LA 70115"
+      },
+      "position": "Director"
+    },
+    {
+      "name": "NORMA BORDELON",
+      "other_attributes": {
+        "address": "1321 EIGHTH ST., NEW ORLEANS, LA 70115"
+      },
+      "position": "Vice-President"
+    }
+  ],
+  "previous_names": [
+    {
+      "company_name": "CITIZENS FOR QUALITY NURSING HOME CARE",
+      "con_date": "2000-04-18"
+    }
+  ],
+  "registered_address": null,
+  "retrieved_at": "2020-04-23 13:16:29 UTC"
+}

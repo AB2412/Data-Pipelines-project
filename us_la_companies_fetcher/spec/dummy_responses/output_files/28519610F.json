@@ -1,0 +1,34 @@
+{
+  "all_attributes": {
+    "Inactive Reason": "WITHDREW",
+    "Qualified": "3/19/1969",
+    "domicile_address": "229 SOUTH STATE STREET, DOVER, DE 19901",
+    "is_unmatched_legacy_company": false,
+    "jurisdiction_of_origin": "de"
+  },
+  "branch": "F",
+  "company_number": "28519610F",
+  "company_type": "Business Corporation (Non-Louisiana)",
+  "current_status": "Inactive - WITHDREW",
+  "filings": [
+    {
+      "date": "1979-11-20",
+      "title": "Withdrawal Pending"
+    },
+    {
+      "date": "1981-07-23",
+      "title": "Stmt of Chg or Chg Prin Bus Off"
+    },
+    {
+      "date": "1981-09-03",
+      "title": "Withdrawal"
+    }
+  ],
+  "headquarters_address": null,
+  "incorporation_date": "1969-03-19",
+  "jurisdiction_code": "us_la",
+  "mailing_address": null,
+  "name": "VOLT TECHNICAL CORP.",
+  "registered_address": null,
+  "retrieved_at": "2020-04-23 13:17:41 UTC"
+}

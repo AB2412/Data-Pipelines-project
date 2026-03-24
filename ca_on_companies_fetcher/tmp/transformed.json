@@ -1,0 +1,23 @@
+{
+  "jurisdiction_code": "ca_on",
+  "all_attributes": {
+    "Governing_Jurisdiction": "Canada - Federal"
+  },
+  "company_number": "1001452626",
+  "name": "17308591 CANADA INC.",
+  "incorporation_date": "2025-09-10",
+  "company_type": "Extra-Provincial Federal Corporation with Share",
+  "current_status": "Refer to Home Jurisdiction",
+  "registered_address": {
+    "locality": "Etobicoke",
+    "region": "Ontario",
+    "country": "Canada"
+  },
+  "headquarters_address": {
+    "locality": "Etobicoke",
+    "region": "Ontario",
+    "country": "Canada"
+  },
+  "branch": "F",
+  "retrieved_at": "2026-01-06T19:00:00Z"
+}

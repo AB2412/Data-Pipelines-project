@@ -1,0 +1,2 @@
+{"jurisdiction_code":"ca_on","all_attributes":{"Governing_Jurisdiction":"Canada - Ontario"},"company_number":"1001138006","company_type":"Ontario Limited Partnership","current_status":"Active","dissolution_date":""}
+{"jurisdiction_code":"ca_on","all_attributes":{"Governing_Jurisdiction":"Canada - Ontario"},"company_number":"1001138006","company_type":"Ontario Limited Partnership","current_status":"Active","dissolution_date":""}

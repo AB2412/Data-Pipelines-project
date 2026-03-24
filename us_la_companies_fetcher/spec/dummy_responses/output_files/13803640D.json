@@ -1,0 +1,23 @@
+{
+  "all_attributes": {
+    "File Date": "6/23/1932",
+    "domicile_address": "SHREVEPORT, LA 71102",
+    "is_unmatched_legacy_company": false
+  },
+  "company_number": "13803640D",
+  "company_type": "Business Corporation",
+  "current_status": "Active",
+  "filings": [
+    {
+      "date": "1942-02-24",
+      "title": "Notice of Dissolution"
+    }
+  ],
+  "headquarters_address": null,
+  "incorporation_date": "1932-06-23",
+  "jurisdiction_code": "us_la",
+  "mailing_address": "SHREVEPORT, LA 71102",
+  "name": "ACME SAND & GRAVEL COMPANY, INC.",
+  "registered_address": null,
+  "retrieved_at": "2020-04-23 13:17:02 UTC"
+}

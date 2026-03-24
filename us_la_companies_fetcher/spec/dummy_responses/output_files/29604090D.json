@@ -1,0 +1,63 @@
+{
+  "all_attributes": {
+    "File Date": "10/14/1971",
+    "Inactive Reason": "Voluntary Action",
+    "Last Report Filed": "9/20/2004",
+    "domicile_address": "2298 FAIRVIEW DR., PINEVILLE, LA 71360",
+    "is_unmatched_legacy_company": false
+  },
+  "company_number": "29604090D",
+  "company_type": "Business Corporation",
+  "current_status": "Inactive - Voluntary Action",
+  "filings": [
+    {
+      "date": "2005-02-02",
+      "title": "Affidavit to Dissolve"
+    }
+  ],
+  "headquarters_address": null,
+  "incorporation_date": "1971-10-14",
+  "jurisdiction_code": "us_la",
+  "mailing_address": "C/O GEORGE GRIFFING, 2298 FAIRVIEW DR., PINEVILLE, LA 71360",
+  "name": "THE BLACK RIVER CO., INC.",
+  "officers": [
+    {
+      "name": "DOROTHY U. COTTON",
+      "other_attributes": {
+        "address": "HC 69, BOX 64, JONESVILLE, LA 71343"
+      },
+      "position": "Director"
+    },
+    {
+      "name": "GEORGE GRIFFING",
+      "other_attributes": {
+        "address": "2298 FAIRVIEW DR., PINEVILLE, LA 71360"
+      },
+      "position": "agent",
+      "start_date": "1983-03-14"
+    },
+    {
+      "name": "GEORGE GRIFFING",
+      "other_attributes": {
+        "address": "818 FIRST ST., JONESVILLE, LA 71343"
+      },
+      "position": "Secretary"
+    },
+    {
+      "name": "GEORGE GRIFFING",
+      "other_attributes": {
+        "address": "818 FIRST ST., JONESVILLE, LA 71343"
+      },
+      "position": "Treasurer"
+    },
+    {
+      "name": "JAMES H. TERRY",
+      "other_attributes": {
+        "address": "1201 FOURTH ST., JONESVILLE, LA 71343"
+      },
+      "position": "President"
+    }
+  ],
+  "registered_address": null,
+  "retrieved_at": "2020-04-23 13:18:11 UTC"
+}

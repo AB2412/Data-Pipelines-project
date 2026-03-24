@@ -1,0 +1,40 @@
+{
+  "all_attributes": {
+    "Inactive Reason": "Action by Secretary of State",
+    "Registered": "6/18/1981",
+    "domicile_address": "8 NORTH OAK STREET, VIDALIA, LA 71373",
+    "is_unmatched_legacy_company": false
+  },
+  "company_number": "08112740J",
+  "company_type": "Partnership",
+  "current_status": "Inactive - Action by Secretary of State",
+  "filings": [
+    {
+      "date": "1986-05-09",
+      "title": "Termination"
+    }
+  ],
+  "headquarters_address": null,
+  "incorporation_date": "1981-06-18",
+  "jurisdiction_code": "us_la",
+  "mailing_address": "8 NORTH OAK STREET, VIDALIA, LA 71373",
+  "name": "B & F CONSTRUCTION COMPANY",
+  "officers": [
+    {
+      "name": "ROBERT BRYANT, JR.",
+      "other_attributes": {
+        "address": "1003 NORTH MADISON, TALLULAH, LA 71282"
+      },
+      "position": "Partner"
+    },
+    {
+      "name": "WILLIE PETERSON FAULKNER",
+      "other_attributes": {
+        "address": "135 CRESTVIEW DRIVE, FERRIDAY, LA 71334"
+      },
+      "position": "Partner"
+    }
+  ],
+  "registered_address": null,
+  "retrieved_at": "2020-04-23 13:16:34 UTC"
+}

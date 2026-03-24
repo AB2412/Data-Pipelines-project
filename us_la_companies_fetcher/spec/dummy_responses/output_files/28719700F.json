@@ -1,0 +1,130 @@
+{
+  "all_attributes": {
+    "Inactive Reason": "Action by Secretary of State",
+    "Last Report Filed": "10/21/2016",
+    "Qualified": "9/15/1969",
+    "domicile_address": "879 W 190TH STREET, SUITE 1120, GARDENA, CA 90248",
+    "is_unmatched_legacy_company": false,
+    "jurisdiction_of_origin": "ca",
+    "mergers": [
+      {
+        "Charter Name": "CONSERVATEK INDUSTRIES, INC.",
+        "Charter#": "34211520F",
+        "Effective Date:": null,
+        "Filed Date": null,
+        "Role": "NON-SURVIVOR",
+        "Type": null
+      },
+      {
+        "Charter Name": "CST POWER AND CONSTRUCTION, INC.",
+        "Charter#": "28719700F",
+        "Effective Date:": "2/6/2012",
+        "Filed Date": "2/6/2012",
+        "Role": "SURVIVOR",
+        "Type": "MERGE"
+      }
+    ]
+  },
+  "branch": "F",
+  "company_number": "28719700F",
+  "company_type": "Business Corporation (Non-Louisiana)",
+  "current_status": "Inactive - Action by Secretary of State",
+  "filings": [
+    {
+      "date": "1993-04-02",
+      "title": "Stmt of Chg or Chg Prin Bus Off"
+    },
+    {
+      "date": "2000-09-20",
+      "title": "Stmt of Chg or Chg Prin Bus Off"
+    },
+    {
+      "date": "2012-02-01",
+      "title": "Name Change"
+    },
+    {
+      "date": "2012-02-06",
+      "title": "Merger"
+    },
+    {
+      "date": "2013-03-04",
+      "title": "Name Change"
+    }
+  ],
+  "headquarters_address": "879 W 190TH STREET\nSUITE 1120\nGARDENA, CA 90248",
+  "incorporation_date": "1969-09-15",
+  "jurisdiction_code": "us_la",
+  "mailing_address": "879 W 190TH STREET, SUITE 1120, GARDENA, CA 90248",
+  "name": "CST POWER AND CONSTRUCTION, INC.",
+  "officers": [
+    {
+      "name": "CHRIS BRIDGNELL",
+      "other_attributes": {
+        "address": "879 WEST 190TH STREET, SUITE 1120, GARDENA, CA 90248"
+      },
+      "position": "Director"
+    },
+    {
+      "name": "CHRIS BRIDGNELL",
+      "other_attributes": {
+        "address": "879 WEST 190TH STREET, SUITE 1120, GARDENA, CA 90248"
+      },
+      "position": "Secretary"
+    },
+    {
+      "name": "CHRIS BRIDGNELL",
+      "other_attributes": {
+        "address": "879 WEST 190TH STREET, SUITE 1120, GARDENA, CA 90248"
+      },
+      "position": "Treasurer"
+    },
+    {
+      "name": "CORPORATION SERVICE COMPANY",
+      "other_attributes": {
+        "address": "501 LOUISIANA AVENUE, BATON ROUGE, LA 70802"
+      },
+      "position": "agent",
+      "start_date": "2000-09-20"
+    },
+    {
+      "name": "FRANCIS CARR",
+      "other_attributes": {
+        "address": "879 WEST 190TH STREET, SUITE 1120, GARDENA, CA 90248"
+      },
+      "position": "Director"
+    },
+    {
+      "name": "FRANCIS CARR",
+      "other_attributes": {
+        "address": "879 WEST 190TH STREET, SUITE 1120, GARDENA, CA 90248"
+      },
+      "position": "Secretary"
+    },
+    {
+      "name": "LAURIE SZOGAS",
+      "other_attributes": {
+        "address": "879 WEST 190TH STREET, SUITE 1120, GARDENA, CA 90248"
+      },
+      "position": "Director"
+    },
+    {
+      "name": "LAURIE SZOGAS",
+      "other_attributes": {
+        "address": "879 WEST 190TH STREET, SUITE 1120, GARDENA, CA 90248"
+      },
+      "position": "President"
+    }
+  ],
+  "previous_names": [
+    {
+      "company_name": "CST COVERS INDUSTRIES, INC.",
+      "con_date": "2013-03-04"
+    },
+    {
+      "company_name": "TEMCOR, INC.",
+      "con_date": "2012-02-01"
+    }
+  ],
+  "registered_address": "501 LOUISIANA AVENUE\nBATON ROUGE, LA 70802",
+  "retrieved_at": "2020-04-23 13:17:46 UTC"
+}

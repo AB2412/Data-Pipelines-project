@@ -1,0 +1,42 @@
+{
+  "all_attributes": {
+    "File Date": "8/24/1966",
+    "Inactive Reason": "Action by Secretary of State",
+    "domicile_address": "LACOMBE, LA 70445",
+    "is_unmatched_legacy_company": false
+  },
+  "company_number": "03605340N",
+  "company_type": "Non-Profit Corporation",
+  "current_status": "Inactive - Action by Secretary of State",
+  "filings": [
+    {
+      "date": "1997-11-17",
+      "title": "Revoked"
+    }
+  ],
+  "headquarters_address": null,
+  "incorporation_date": "1966-08-24",
+  "jurisdiction_code": "us_la",
+  "mailing_address": "C/O CURLEYS D. PELTIER, , LACOMBE, LA 70445",
+  "name": "BAYOU LACOMBE BASEBALL BOOSTERS, INCORPORATED",
+  "officers": [
+    {
+      "name": "CURLEYS D. PELTIER",
+      "other_attributes": {
+        "address": "LACOMBE, LA 70445"
+      },
+      "position": "agent",
+      "start_date": "1966-08-24"
+    },
+    {
+      "name": "MRS. VINCENT BURKE",
+      "other_attributes": {
+        "address": "LACOMBE, LA 70445"
+      },
+      "position": "agent",
+      "start_date": "1966-08-24"
+    }
+  ],
+  "registered_address": null,
+  "retrieved_at": "2020-04-23 13:15:54 UTC"
+}
