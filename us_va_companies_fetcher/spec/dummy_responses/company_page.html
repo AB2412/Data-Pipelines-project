@@ -1,0 +1,976 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>
+        
+Business Entity Details
+
+    </title>
+    <link href="/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="/Styles/scc_main.css" rel="stylesheet" type="text/css" />
+    <link href="/Scripts/Datatables-1.9.1/media/css/demo_table.css" rel="stylesheet" type="text/css" />
+    <link href="/Styles/Menu/accordion_menu.css" rel="stylesheet" type="text/css" />
+    <link href="/Styles/scc_content_pg.css" rel="stylesheet" type="text/css" />
+    <link href="/Styles/jquery-ui-1.7.1.custom.css" rel="stylesheet" type="text/css" />
+    <link href="/Scripts/jquery.alerts/jquery.alerts.css" rel="stylesheet" type="text/css" />
+    <link href="/Styles/gridview.css" rel="stylesheet" type="text/css" />
+    <link href="/Styles/modalpopup.css" rel="stylesheet" type="text/css" />
+    <link href="/Scripts/jquery.alerts/jquery.alerts.css" rel="stylesheet" type="text/css" />
+    <link href="/Scripts/jquery-tooltip/jquery.tooltip.css" rel="stylesheet" type="text/css" />
+    
+    <script src="/Scripts/jquery-1.4.2.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery-ui-1.8.5.min.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.bgiframe.min.js" type="text/javascript"></script>
+    <script src="/Scripts/Datatables-1.9.1/media/js/jquery.dataTables.js" type="text/javascript"></script>
+    <script src="/Scripts/efile/topmenu.js" type="text/javascript"></script>
+    <script src="/Scripts/efile/Site.Master.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.tmpl.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.formwizard/js/bbq.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.formwizard/js/jquery-ui-1.8.5.custom.min.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.formwizard/js/jquery.form.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.formwizard/js/jquery.form.wizard.js" type="text/javascript"></script>
+    <script src="/Scripts/MicrosoftAjax.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery-validate/jquery.validate.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery-validate/lib/jquery.metadata.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery-validate/additional-methods.js" type="text/javascript"></script>
+    <script src="/Scripts/MicrosoftMvcAjax.js" type="text/javascript"></script>
+    <script src="/Scripts/MicrosoftMvcValidation.js" type="text/javascript"></script>
+    <script src="/Scripts/MicrosoftMvcJQueryValidation.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery-tooltip/jquery.tooltip.js" type="text/javascript"></script>
+    <script src="/Scripts/CustomValidationjQuery.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.template.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.alerts/jquery.alerts.js" type="text/javascript"></script>
+    <script src="/Scripts/CustomJqueryValidationMethods.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.caret.1.02.min.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.meio.mask.js" type="text/javascript"></script>
+    <script src="/Scripts/CommonUtils.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.validate.unobtrusive.js" type="text/javascript"></script>
+    <script src="/Scripts/PdfFilingFeeServiceScript.js" type="text/javascript"></script>
+    <script src="/Scripts/unobtrusiveValidationsIntialization.js" type="text/javascript"></script>
+    <script src="/Scripts/autoLoader.js" type="text/javascript"></script>
+    <script src="/Scripts/autoNumeric-1.6.2.js" type="text/javascript"></script>
+    
+<script type="text/javascript">
+    var efile_authentication = {
+        doLogin: function (username, password, onSuccess,onFailure) {
+            $.ajax({
+                type: "Post",
+                cache: false,
+                url: this.efile_routes.ajax_login,
+                data: { username: username, password: password },
+                dataType: "json",
+                success: function (msg) {
+                    if (msg != null) {
+                        if (msg.loginValid == true) {
+                                if (onSuccess) 
+                                    {   
+                                        onSuccess(msg.isProfileComplete, msg.isAdmin);
+                                    }
+                        }
+                        else if (msg.IsLockedOut == true) {
+                            window.location = efile_authentication.efile_routes.account_locked+"/"+username;
+                        }
+                        else if (msg.isApproved == false) {
+                            window.location = efile_authentication.efile_routes.account_activate+"/"+username;
+                        }
+                        else {
+                            if (onFailure) {
+                                onFailure(msg.errorMessage);
+                            }
+                        }
+                    }
+                }
+            });
+        },
+        efile_routes: {
+            ajax_login: '/WidgetLogin',
+            account_locked: '/Account/Locked',
+            account_activate: '/Activate',
+            manage_profile: '/Profile'+"?returnUrl="+'/Business/0542251',
+            home: '/'
+        }
+    };
+
+    // set your timeout period in seconds
+    var timeoutPeriod = (60 - 1) * 60000;
+
+    // declare global variables to track the timeout
+    // and interval timers;
+    // this allows Javascript to cancel them as necessary
+    var intervalCountdown;
+    var timeoutWarning;
+
+    $(document).ready(function() {
+        $("#timeoutMain").dialog({
+            autoOpen: false,
+            height: '350',
+            modal: true,
+            position: "absolute",
+            overflow: "hidden",
+            zIndex: "1000",
+            title: "Timeout Alert",
+            buttons: {
+                Ok: function() {
+                    refreshPage();
+                }
+            }
+        });
+    });
+
+    function showWarning() 
+    {
+        //show the warning divs 
+        $(document).ready(function() {
+            $("#timeoutMain").dialog('open', 'position', 'center');
+            return false;
+        });
+    
+        window.focus();
+
+        intervalCountdown = setInterval(countDown, 1000);
+        // start the countdown
+    }
+    
+    function countDown() 
+    {
+        var divCountDown = document.getElementById('divCountDown');
+        var intCount = parseInt(divCountDown.innerHTML) - 1;
+        // get remaining countdown time, minus 1 second
+
+        if (intCount <= 10)
+        { divCountDown.style.color = '#ff0000'; }
+        // show red text when only 10 seconds remain
+        if (intCount >= 0)
+        { divCountDown.innerHTML = intCount.toString(); }
+            // update the countdown div
+        else // logout user after the timeout period
+        {
+            window.location = '/Timeout';
+        }
+    }
+    
+    function refreshPage() 
+    {
+        clearInterval(intervalCountdown); // stop countdown
+        clearTimeout(timeoutWarning);
+
+        // reset timeout warning to original timeout period
+        timeoutWarning = setTimeout(showWarning, timeoutPeriod);
+
+        var divCountDown = document.getElementById('divCountDown');
+    
+        divCountDown.style.color = '#000000';
+        divCountDown.innerHTML = '60'; // reset countdown to 60
+
+        $(document).ready(function() {
+            $("#timeoutMain").dialog('close');
+            return false;
+        });
+       
+        $.ajax({
+            type: "GET", 
+            cache: false,
+            url: '/KeepAlive'
+        });
+    }
+
+    function ScrollToElement(theElement) 
+    {
+        var selectedPosX = 0;
+        var selectedPosY = 0;
+
+        while (theElement != null) {
+            selectedPosX += theElement.offsetLeft;
+            selectedPosY += theElement.offsetTop;
+            theElement = theElement.offsetParent;
+        }
+
+        window.scrollTo(selectedPosX, selectedPosY);
+
+    }
+</script>
+</head>
+<body>
+    <div id="timeoutMain" style="display: none;">
+        <p>
+            <span class="ui-icon ui-icon-alert" style="float: left; margin: 1px 10px 30px 0;">
+            </span>For your safety and protection, your SCC eFile session is about to expire.
+        </p>
+        <p style="height: 18px;">
+            If you wish to continue your session. Please click the <b>OK</b> button.
+        </p>
+        <div style="height: 18px; padding-top: 10px;">
+            Logging out in:
+            <div id="divCountDown" style="font-size: 20px;">
+                60</div>
+            seconds
+        </div>
+    </div>
+<style>
+    #notify {
+        background-color: #FFFFCC;
+        width: 100%;
+        min-width: 1142px;
+        text-align: center;
+        /*        height: 2.5em;*/
+        height: auto;
+        display: none;
+        padding-top: 1em;
+        z-index: 200;
+    }
+
+    table#msg {
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+<div id="notify"></div>
+
+<script type="text/javascript">    
+
+    
+        var message = '';
+
+    $(document).ready(function () {
+        $.ajax({
+            url: '/Notify',
+            success: function (data) {
+                if (data != null) {
+                    message += data.toString();
+                }
+            },
+            complete: function () {
+                if (message.toString() != "") {
+                    $('#notify').html(message);
+                    $('#notify').slideToggle('slow');
+                }
+            }
+        });
+    });
+</script>
+
+    <div id="maincontainer">
+        <div id="topsection">
+            <div class="innertube">
+<div id="siteLogo">
+    <a href="http://www.scc.virginia.gov"> </a>
+</div>
+<div class="sccBuilding">
+    <img src="/Images/tyler_building_drawing.jpg" width="84" height="100"
+        alt="SCC Tyler Building drawing" />
+</div>
+ 
+<div id="tiptopNavLinks">
+    <!-- don't reduce margin for IE6 - bug doubles margin in float when margin is same side as float -->
+    <a href="http://www.scc.virginia.gov/index.aspx" title="Home page link">Home</a>
+    | <a href="http://www.scc.virginia.gov/site_map.aspx" title="Site Map link">Site Map</a>
+    | <a href="http://www.scc.virginia.gov/comm/index.aspx" title="About SCC link">About
+        SCC</a> | <a href="http://www.scc.virginia.gov/contact.aspx" title="Contact SCC link">
+            Contact SCC</a> | <a href="http://www.scc.virginia.gov/privacy.aspx" title="Privacy Policy link">
+                Privacy Policy</a>
+</div>            </div>
+        </div>
+        <div id="searchbread" >
+            <div class="breadCrumb">
+                
+    <a href="/">SCC eFile</a>
+
+    
+        &gt;
+    
+    <a href="/Find/Business">Entity Search</a>
+
+    
+        &gt;
+    Entity Details
+
+    
+            </div>
+
+<div class="accountsQuickLink">
+<a href="" id="quick-links-login-link" title="Login">Login</a>
+<div id="quick-links-login-panel">
+    <div id="quick-links-error-message" class="validation-summary-errors"></div>
+    <div id="quick-login">
+        <div>
+            <div><strong>Email Address</strong></div>
+            <input type="text" id="quick-links-user-name" />
+        </div>
+        <div>
+            <div><strong>Password</strong></div>
+            <input type="password" id="quick-links-password" style="font-family: Verdana" autocomplete="off" />
+        </div>
+        <div>
+            <a href="/ForgotPassword">Forgot Password?</a>
+        </div>
+    </div>
+</div>
+<div id="incompleteProfile-prompt" align='center'>
+    <p>SCC eFile requires updates to your account to continue.<br/> Once you have completed the updates, you will be returned to your transaction.</p> 
+</div>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $('#quick-links-login-panel').dialog({
+            autoOpen: false,
+            stack: true,
+            height: "auto",
+            width: "280px",
+            modal: false,
+            draggable: false,
+            title: 'Log In',
+            resizable: false,
+            position: {
+                my: 'right top',
+                at: 'bottom',
+                of: $('#quick-links-login-link')
+            },
+            close: function () {
+                $("#quick-links-error-message").text('');
+                $("#quick-links-user-name").val('');
+                $("#quick-links-password").val('');
+            }
+        }).parent().css({ position: 'fixed' });
+
+        $("#incompleteProfile-prompt").dialog({
+            autoOpen: false,
+            height: "auto",
+            width: "500px",
+            title: "Account Update Required",
+            modal: true,
+            draggable: false,
+            overflow: "hidden",
+            zIndex: "2000",
+            dialogClass: "ui-dialog-centered",
+            resizable: false,
+            close: function () {
+                window.location = efile_authentication.efile_routes.manage_profile;
+            },
+            buttons: {
+                "Continue": function () {
+                    window.location = efile_authentication.efile_routes.manage_profile;
+                }
+            }
+
+        });
+
+        var loginSuccess = function (isProfileComplete, isAdmin) {
+            if (isProfileComplete == false) {
+                $('#quick-login-or-register').dialog("close");
+                window.location = efile_authentication.efile_routes.manage_profile;
+            }
+            else if (isAdmin) {
+                window.location = '/Admin/Activities';
+            } else {
+                if (window.location.pathname.indexOf('http://sccefile.scc.virginia.gov' + "/AccountConfirmation") != -1)
+                { window.location = window.location.pathname; }
+                else {
+                    window.location = '/';
+                }
+            }
+        };
+        var loginFailure = function (errorMessage) {
+            $("#quick-links-error-message").text(errorMessage);
+            $("#quick-links-error-message").show();
+        };
+        $('#quick-links-login-panel').dialog({
+            buttons: [
+                {
+                    id: "quick-links-login-submit",
+                    text: "Log In",
+                    click: function () {
+                        var username = $("#quick-links-user-name").val();
+                        var password = $("#quick-links-password").val();
+                        efile_authentication.doLogin(username, password, function (isProfileCompleteMsg, isAdminMsg) {
+                            if (!isProfileCompleteMsg) {
+                                $('#quick-links-login-panel').dialog("close");
+                                // $("#incompleteProfile-prompt").dialog("open");
+                                window.location = efile_authentication.efile_routes.manage_profile;
+                            }
+                            else if (isAdminMsg) {
+                                window.location = '/Admin/Activities';
+                            } else {
+                                if (window.location.pathname.indexOf('http://sccefile.scc.virginia.gov' + "/AccountConfirmation") != -1)
+                                { window.location = window.location.pathname; }
+                                else {
+                                    window.location = '/';
+                                }
+                            }
+                        }, loginFailure);
+                    }
+                },
+                {
+                    id: "quick-links-login-cancel",
+                    text: "Cancel",
+                    click: function () { $(this).dialog("close"); }
+                }
+            ]
+        });
+
+        $('#quick-links-login-link').click(function () {
+            $('#quick-links-login-panel').dialog("open");
+            return false;
+        });
+
+        $('#quick-links-login-panel').keyup(function (e) {
+            if (e.keyCode == 13) {
+                $("#quick-links-login-submit").trigger("click");
+            }
+        });
+    });
+</script>
+         | <a href="/Register">Create an Account</a>    </div>
+
+
+<style type="text/css">
+.accountsQuickLink
+{
+    float: right;
+    margin-right: 20px; 
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+.accountsQuickLink label
+{
+    font-size: 0.875em;
+}
+.accountsQuickLink input[type=text]
+{
+    background-color: LightGoldenrodYellow;
+}
+
+</style>        </div>
+        <div style="clear: both;">
+        </div>
+        <div id="contentwrapper" dir="ltr">
+            <div id="leftcolumn">
+                <div id="logo" class="logo-container">
+                    <a href='/'>
+                        <img src="/Images/ecomm_logo.jpg" align="middle" border="0" alt="scc_efile_logo" />
+                    </a>
+                </div>
+                <div class="innertubeLeft">
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#mainMenu").addClass("accordionMenu")
+            .find("h3").addClass("menuheader").end()
+            .find("div").addClass("categoryitems").end()
+            .accordion({ autoHeight: false });
+        $("#mainMenu").accordion("option", "collapsible", true);
+    });
+    
+</script>
+<div id="mainMenu" class="accordionMenu">
+    <h3 class="menuheader">
+        SCC eFile</h3>
+    <div>
+        <ul>
+            <li><a href='/'>SCC eFile Home Page</a></li>
+            <li><a href="/NameAvailability">Check Name Distinguishability</a></li>
+            <li><a href="/Find/Business">Business Entity Search</a></li>
+            <li><a href="/Verify/Certificate">Certificate Verification</a></li>
+            <li><a href="http://www.scc.virginia.gov/clk/faq.aspx" target="_blank">FAQs</a></li>
+            <li><a href='/ContactUs'>Contact Us</a></li>
+            <li><a href="http://www.surveymonkey.com/s.aspx?sm=PeGQSQzY_2b8QkZ04ynpHnmA_3d_3d"
+                target="_blank">Give Us Feedback</a></li>
+        </ul>
+    </div>
+    <h3 class="menuheader">
+        Business Entities</h3>
+    <div class="categoryitems">
+        <ul>
+            <li><a href="http://www.scc.virginia.gov/clk/bussrch.aspx">Entity Search</a></li>
+            <li><a href="http://www.scc.virginia.gov/clk/formfee.aspx">Forms and Fees</a></li>
+            <li><a href="http://www.scc.virginia.gov/clk/expsvc.aspx">Expedited Services</a></li>
+            <li><a href="http://www.scc.virginia.gov/clk/annual.aspx">Corporate Annual Reports</a></li>
+            <li><a href="http://www.scc.virginia.gov/clk/begin.aspx">Entity Formation</a></li>
+            <li><a href="http://www.scc.virginia.gov/clk/rein.aspx">Reinstatements</a></li>
+            <li><a href="http://www.scc.virginia.gov/clk/copy.aspx">Copies/Certificates</a></li>
+        </ul>
+    </div>
+    <h3>
+        UCC or Tax Liens</h3>
+    <div>
+        <ul>
+            <li><a href="http://www.scc.virginia.gov/clk/uccsrch.aspx">UCC/Tax Lien Search</a></li>
+            <li><a href="http://www.scc.virginia.gov/clk/uccfile.aspx">UCC Forms and Fees</a></li>
+            <li><a href="http://www.scc.virginia.gov/clk/uccrules.aspx">Rules and Guidelines</a></li>
+            <li><a href="http://www.scc.virginia.gov/clk/fed.aspx">Federal Tax Liens</a></li>
+            <li><a href="http://www.scc.virginia.gov/clk/ufcopy.aspx">Copies/Certificates</a></li>
+        </ul>
+    </div>
+    <h3>
+        Court Services</h3>
+    <div>
+        <ul>
+            <li><a href="http://www.scc.virginia.gov/clk/casefile.aspx">Case Information</a></li>
+            <li><a href="http://www.scc.virginia.gov/clk/casefile.aspx">Electronic Filing</a></li>
+            <li><a href="http://www.scc.virginia.gov/clk/case.aspx">Document Control Center</a></li>
+            <li><a href="http://www.scc.virginia.gov/clk/case.aspx">Public Witnesses</a></li>
+            <li><a href="http://www.scc.virginia.gov/clk/case.aspx">Copies/Certificates</a></li>
+        </ul>
+    </div>
+    <h3>
+        Additional Services</h3>
+    <div>
+        <ul>
+            <li><a href="http://www.scc.virginia.gov/clk/purch.aspx">Purchase Database</a></li>
+            <li><a href="http://www.scc.virginia.gov/clk/music.aspx">Music Associations</a></li>
+            <li><a href="http://www.scc.virginia.gov/clk/garn.aspx">Garnishment Designees</a></li>
+            <li><a href="http://www.scc.virginia.gov/clk/svcproc.aspx">Service of Process</a></li>
+        </ul>
+    </div>
+</div>
+                </div>
+            </div>
+            <div id="contentcolumn">
+                <div class="headerAndHelp">
+                    <div class="welcome-scc">
+                        SCC eFile
+                    </div>
+                    <div id="titleAndHelp">
+                        <div id="titleText" class="welcome-scc">
+                            
+  Business Entity Details
+    <div class="welcome-scc">
+      
+    </div>
+
+                        </div>
+                        <div id="helpSpan">
+                            <img class="helpImg" alt="Help" src="/Images/Help3.bmp"/>
+                            <a id="helpLink" class="pageHelp" href="http://www.scc.virginia.gov/ecHelp.aspx#
+e1000
+" target="_blank">
+                                Help</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="innertubeCenterCol">
+                    
+                    
+
+
+
+<style type="text/css">
+    fieldset legend 
+    {
+    }
+    .entity-detail {
+        float: left;
+        width: 380px;
+    }
+    .entity-actions
+    {
+        float: left;
+        width: 420px;
+        margin-left: 30px;
+    }
+    .entity-detail fieldset, .entity-actions fieldset
+    {
+        padding-bottom: 20px;
+    }
+    .entity-detail fieldset div, .entity-actions fieldset div
+    {
+        padding-left: 30px;
+    }
+    .innertubeCenterCol
+    {
+        min-width: 830px;
+    }
+    #contentcolumn
+    {
+        margin-right: 30px;
+    }
+    #detail-entity-name {
+        padding-left: 1em;
+    }
+</style>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#favoriteButton').click(function () {
+            $.ajax({
+                type: 'POST',
+                url: '/Favorites/Add',
+                success: function (data) {
+                    if (data.success)
+                        jAlert("Successfully added to My Favorites.", "Confirmation");
+                    else
+                        jAlert("There was an error adding to favorites.", "Error");
+                },
+                data: {
+                    sccId: "05422514",
+                    name: "1 AAAA Aaron&#39;s Quality Traffic School, Inc.",
+                    status: "Active"
+                },
+                dataType: "json"
+            });
+        });
+        $('#newSearchButton').click(function () {
+            window.location = '/Find/Business';
+        });
+        $('#homeButton').click(function () {
+            window.location = '/';
+        });
+    });
+</script>
+<div >
+    <h3 id="detail-entity-name">1 AAAA Aaron's Quality Traffic School, Inc.</h3>
+    <div class="entity-detail">
+        
+        <fieldset>
+            <legend>General</legend>
+            <div>
+                <label for="Entity_SccId">SCC ID</label>: 05422514
+            </div>
+            <div>
+               <label for="Entity_EntityType">Entity Type</label>: Corporation
+            </div>
+            <div>
+                <label for="Entity_FormationState">Jurisdiction of Formation</label>: VA
+            </div>
+            <div>
+                <label for="Entity_FormationDate">Date of Formation/Registration</label>: 6/23/2000
+            </div>
+            <div>
+                <label for="Entity_Status">Status</label>: Active
+            </div>
+            <div>
+                <label for="Entity_SharesAuthorized">Shares Authorized</label>: 5000
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Principal Office</legend>
+            <div>2685 LACYWOOD LANE</div>
+            <div></div>
+            <div>
+                <span>
+                SANDSTON
+VA23150                </span>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Registered Agent/Registered Office</legend>
+            <div>DARRYL C GEORGE</div>
+            <div>2685 LACYWOOD LANE</div>
+            <div></div>
+            <div>
+            <span>
+                SANDSTON
+                VA
+                23150
+            </span>
+            </div>
+            <div>
+                <span>
+                HENRICO COUNTY
+                </span>
+                <span style="margin-left:30px">
+                143
+                </span>
+                
+            </div>
+            
+            <div>
+                <label for="Entity_RegisteredAgent_Status">Status</label>:
+                Active
+            </div>
+            <div>
+                <label for="Entity_RegisteredAgent_EffectiveDate">Effective Date</label>:
+                6/25/2012
+            </div>
+        </fieldset>
+    </div>
+    <div class="entity-actions">
+        <fieldset>
+            <legend>Select an action</legend>
+        
+            <!--right-->
+            <div>
+                <a class="req-auth-true" href="/05422514/ChangeRegisteredAgent">File a registered agent change</a>
+            </div>
+            <div>
+                <a class="req-auth-true" href="/05422514/ChangeRegisteredOffice">File a registered office address change</a>
+            </div>
+            <div>
+                <a class="req-auth-true" href="/05422514/ResignRegisteredAgent">Resign as registered agent</a>
+            </div>
+                <div>
+                <a class="req-auth-true" href="/05422514/AnnualReport">File an annual report</a>    
+                </div>
+                <div>
+                    <a class="req-auth-true" href="/05422514/Assessment">Pay annual registration fee</a>
+                </div>
+                <div>
+                    <a class="req-auth-true" href="/CertificateOfGoodStanding/05422514">Order a certificate of good standing</a>
+                </div>
+                <div>
+                    <a class="req-auth-true" href="/05422514/PdfFiling">Submit a PDF for processing</a>
+                    (<a href="http://www.scc.virginia.gov/ecHelp.aspx#e7400" target="_blank">What can I submit?</a>)
+                </div>
+            <div>
+                <a class="req-auth-false" href="/Business/05422514/History">View eFile transaction history</a>
+            </div>
+            <div>
+<a href="/Business/05422514/Subscribe">Manage email notifications</a>            </div>
+        </fieldset>
+        <input id="newSearchButton" type="button" value="New Search" />
+        <input id="homeButton" type="button" value="Home" />
+    </div>
+    <div></div>
+    <div style="clear: both"></div>
+</div>
+
+                </div>
+                <div class="screenId" style="float: left;">
+                    <span>Screen ID:
+                        
+    <span>e1000 </span>
+
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+<div align="center">
+    Need additional information? Contact <a href="mailto:sccinfo@scc.virginia.gov">sccinfo@scc.virginia.gov</a>
+    Website questions? Contact: <a href="mailto:webmaster@scc.virginia.gov">webmaster@scc.virginia.gov</a><br />
+    We provide external links throughout our site.
+    <img src="/Images/footer_icons/external_links.gif" /><br />
+    <img src="/Images/footer_icons/icon_acrobat.png" alt="adobe icon" />
+    <a href="http://www.adobe.com/products/acrobat/readstep2.html">PDF(.pdf) Reader</a>
+    <img src="/Images/footer_icons/icon_excel.png" alt="excel icon" />
+    <a href="http://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=1cd6acf9-ce06-4e1c-8dcf-f33f669dbc3a">
+        Excel (.xls) Viewer</a>
+    <img src="/Images/footer_icons/icon_powerpoint.png" alt="powepoint icon" />
+    <a href="http://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=048dc840-14e1-467d-8dca-19d2a8fd7485">
+        PowerPoint (.ppt) Viewer</a>
+    <img src="/Images/footer_icons/icon_word.png" alt="word icon" />
+    <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=3657ce88-7cfa-457a-9aec-f4f827f20cac&displaylang=en">
+        Word (.doc) Viewer</a>
+</div>
+<div id="divVersion" align="center">Build #: 1.0.0.24682</div>        </div>
+<div id="quick-login-or-register" style="display: none">
+    <div id="quick-login-error-message" class="validation-summary-errors"></div>
+    <div id="quick-login">
+        <div>
+            <div><strong>Email Address</strong></div>
+            <input type="text" id="quick-login-user-name" />
+        </div>
+        <div>
+            <div><strong>Password</strong></div>
+            <input type="password" id="quick-login-password" style="font-family: Verdana" autocomplete="off" />
+        </div>
+        <div>
+            <a href="/ForgotPassword">Forgot Password?</a>
+        </div>
+        <br />
+        <div>
+            <a href="/Register">Create an Account</a>
+        </div>
+    </div>
+    
+</div>
+<div id="incompleteProfile-prompt" align='center'>
+    <p>SCC eFile requires updates to your account to continue.<br/> Once you have completed the updates, you will be returned to your transaction.</p> 
+</div>
+<script type="text/javascript">
+    var quicklogin = {};
+    var incompleteProfilePrompt = {};
+    var isProfileComplete = true;
+    $(document).ready(function () {
+
+        quicklogin = {
+            loginFailure: function (errorMessage) {
+                $("#quick-login-error-message").text(errorMessage);
+                $("#quick-login-error-message").show();
+            },
+            promptForLogin: function (form, onSuccess, onFailure) {
+                $('#quick-login-or-register').dialog({
+                    buttons: [
+                     {
+                         id: "quick-login-or-registered-submit",
+                         text: "Log In",
+                         click: function () {
+                             var username = $("#quick-login-user-name").val();
+                             var password = $("#quick-login-password").val();
+                             if (onFailure == false) {
+                                 onFailure = quicklogin.loginFailure();
+                             }
+                             efile_authentication.doLogin(username, password, function () {
+                                 $('#quick-login-or-register').dialog("close");
+                                 onSuccess();
+                             }, onFailure, incompleteProfilePrompt.promptForRedirection);
+                         }
+                     },
+                     {
+                         id: "quick-login-or-registered-cancel",
+                         text: "Cancel",
+                         click: function () { $(this).dialog("close"); }
+                     }
+                 ]
+                });
+                $('#quick-login-or-register').dialog("open");
+                $("#quick-login-user-name").focus();
+            }
+        };
+        incompleteProfilePrompt = {
+            promptForRedirection: function () {
+                if ($('#quick-login-or-register').dialog("isOpen")) {
+                    $('#quick-login-or-register').dialog("close");
+                }
+                //$("#incompleteProfile-prompt").dialog("open");
+                window.location = efile_authentication.efile_routes.manage_profile;
+            }
+        };
+
+        $("#incompleteProfile-prompt").dialog({
+            autoOpen: false,
+            height: "auto",
+            width: "500px",
+            title: "Account Update Required",
+            modal: true,
+            draggable: false,
+            overflow: "hidden",
+            zIndex: "2000",
+            dialogClass: "ui-dialog-centered",
+            resizable: false,
+            close: function () {
+                window.location = efile_authentication.efile_routes.manage_profile;
+            },
+            buttons: {
+                "Continue": function () {
+                    window.location = efile_authentication.efile_routes.manage_profile;
+                }
+            }
+
+        });
+
+        $('#quick-login-or-register').dialog({
+            autoOpen: false,
+            height: "auto",
+            width: "280px",
+            title: "This action requires a login.",
+            modal: true,
+            draggable: false,
+            overflow: "hidden",
+            zIndex: "1000",
+            dialogClass: "ui-dialog-centered",
+            resizable: false,
+            close: function () {
+                $("#quick-login-user-name").empty();
+                $("#quick-login-password").empty();
+                $("#quick-login-error-message").empty();
+            }
+        });
+
+        $('.req-profile-true').click(function () {
+            event.preventDefault();
+            window.location = efile_authentication.efile_routes.manage_profile;
+          //  $("#incompleteProfile-prompt").dialog("open");
+
+        });
+        $('.page-req-profile-complete').each(function () {
+            window.location = efile_authentication.efile_routes.manage_profile;
+           // $("#incompleteProfile-prompt").dialog("open");
+
+        });
+
+        $('.req-auth-true').click(function () {
+            var target = $(this).attr("href");
+
+            $('#quick-login-or-register').dialog({
+                buttons: [
+                     {
+                         id: "quick-login-or-registered-submit",
+                         text: "Log In",
+                         click: function () {
+                             var username = $("#quick-login-user-name").val();
+                             var password = $("#quick-login-password").val();
+                             efile_authentication.doLogin(username, password, function (profileCompleteMsg) {
+                                 isProfileComplete = profileCompleteMsg;
+                                 if (profileCompleteMsg == true) {
+                                     window.location = target;
+                                 } else {
+                                     $('#quick-login-or-register').dialog("close");
+                                     window.location = efile_authentication.efile_routes.manage_profile;
+                                     //$("#incompleteProfile-prompt").dialog("open");
+                                 }
+                                  
+                                  
+                             }, quicklogin.loginFailure, incompleteProfilePrompt.promptForRedirection);
+                         }
+                     },
+                     {
+                         id: "quick-login-or-registered-cancel",
+                         text: "Cancel",
+                         click: function () { $(this).dialog("close"); }
+                     }
+                 ]
+
+            });
+            $('#quick-login-or-register').dialog("open");
+            window.scrollTo(0, 0);
+            return false;
+        });
+        $('.page-req-auth').each(function () {
+            $('#quick-login-or-register').dialog({
+                buttons: [
+                     {
+                         id: "quick-login-or-registered-submit",
+                         text: "Log In",
+                         click: function () {
+                             var username = $("#quick-login-user-name").val();
+                             var password = $("#quick-login-password").val();
+                             efile_authentication.doLogin(username, password, function (profileCompleteMsg) {
+                                 isProfileComplete = profileCompleteMsg;
+                                 if (profileCompleteMsg == true) {
+                                     window.location = window.location.pathname;
+                                 } else {
+                                    
+                                     window.location = efile_authentication.efile_routes.manage_profile;
+                                  //   $("#incompleteProfile-prompt").dialog("open");
+                                 }
+                             },
+                                 quicklogin.loginFailure);
+                         }
+                     },
+                     {
+                         id: "quick-login-or-registered-cancel",
+                         text: "Cancel",
+                         click: function () {
+                             $("input").attr("disabled", "disabled");
+                             $(this).dialog("close");
+                             window.location = efile_authentication.efile_routes.home;
+                         }
+                     }
+                 ],
+                close: function () {
+                    $("input").attr("disabled", "disabled");
+                    if (isProfileComplete == true) {
+                        window.location = efile_authentication.efile_routes.home;
+                    }
+                },
+                open: function () {
+                    setTimeout(function () {
+                        $("#quick-login-user-name").focus();
+                    }, 10);
+                }
+            });
+            $('#quick-login-or-register').dialog("open");
+            window.scrollTo(0, 0);
+            return false;
+        });
+        $('#quick-login-or-register').keyup(function (e) {
+            if (e.keyCode == 13) {
+                $("#quick-login-or-registered-submit").trigger("click");
+            }
+        });
+    });
+</script>
+    </div>
+</body>
+</html>

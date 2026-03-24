@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+gem 'awesome_print'
+gem 'deep_sort'
+gem 'mechanize'
+gem 'nokogiri'
+gem 'openc_bot', git: 'https://github.com/openc/openc_bot.git', submodules: true
+gem 'openc_industry_codes', :git => 'git@github.com:openc/openc_industry_codes.git'
+gem 'httparty'
+gem 'rspec'
+gem 'byebug'

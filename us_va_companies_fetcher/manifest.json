@@ -1,0 +1,9 @@
+{
+ "bot_id": "us_va_companies_fetcher",
+ "source_descriptor": "http://datasources.opencorporates.com/path/to/source",
+ "data_type": "primary_source",
+ "unique_fields": ["company_number","jurisdiction_code"],
+ "executable": "lib/us_va_companies_fetcher.rb",
+ "version": "0.1",
+ "files": ["lib/us_va_companies_fetcher.rb", "README.md","config.yml","spec", "Gemfile", "Gemfile.lock"]
+}
